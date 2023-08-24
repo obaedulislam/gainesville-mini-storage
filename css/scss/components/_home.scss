@@ -1,0 +1,16 @@
+/** == Banner Section CSS Start == **/
+.banner-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.8)
+    ),
+    url("../images/home/banner/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+/** == Banner Section CSS End == **/

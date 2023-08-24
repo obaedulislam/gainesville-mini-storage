@@ -1,0 +1,131 @@
+/*=== Common CSS start Here ===*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 20px; }
+
+.heading-before {
+  position: relative;
+  text-transform: uppercase; }
+  .heading-before::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 60%;
+    top: 20%;
+    left: 0;
+    background-color: #0000ff; }
+
+p {
+  font-size: 20px; }
+
+a {
+  text-decoration: none; }
+
+ul.ul-list {
+  margin: 0;
+  padding: 0; }
+  ul.ul-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+
+/*Padding CSS*/
+.first-padding {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.second-padding {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.third-padding {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.fourth-padding {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/* Button CSS */
+.button {
+  padding: 13px 28px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  min-width: 150px;
+  text-align: center;
+  color: white;
+  transition: 0.4s; }
+  .button.primary-button {
+    background-color: #0000ff;
+    border: 2px solid #0000ff; }
+    .button.primary-button:hover {
+      background-color: white;
+      color: #0000ff; }
+  .button.secondary-button {
+    background-color: #0000ff;
+    border: 2px solid #0000ff; }
+    .button.secondary-button:hover {
+      background-color: white; }
+
+/* === Common CSS start Here ===*/
+header {
+  padding: 15px 0px; }
+  header a.logo {
+    display: inline-block; }
+    header a.logo img {
+      width: 100%; }
+  header .right-header {
+    display: flex;
+    align-items: center;
+    justify-content: end; }
+  header .navigation {
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 0; }
+    header .navigation li {
+      display: inline-block; }
+      header .navigation li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #202020;
+        padding: 0px 15px;
+        vertical-align: middle; }
+      header .navigation li:last-child {
+        padding-right: 0px; }
+
+/** == Banner Section CSS Start == **/
+.banner-section {
+  background-image: linear-gradient(180deg, rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.8)), url("../images/home/banner/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 450px;
+  display: flex;
+  align-items: center; }
+
+/** == Banner Section CSS End == **/
+
+/*# sourceMappingURL=style.css.map */

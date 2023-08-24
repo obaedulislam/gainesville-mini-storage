@@ -1,0 +1,39 @@
+header {
+  padding: 15px 0px;
+
+  a.logo {
+    display: inline-block;
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .navigation {
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: $dark-gray;
+        padding: 0px 15px;
+        vertical-align: middle;
+      }
+
+      &:last-child {
+        padding-right: 0px;
+      }
+    }
+  }
+}
+

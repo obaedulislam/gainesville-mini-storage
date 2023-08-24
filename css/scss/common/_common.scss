@@ -1,0 +1,102 @@
+/*=== Common CSS start Here ===*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+.heading-before {
+  position: relative;
+  text-transform: uppercase;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 60%;
+    top: 20%;
+    left: 0;
+    background-color: $blue;
+  }
+}
+p {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul.ul-list {
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+/*Padding CSS*/
+.first-padding {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.second-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.third-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fourth-padding {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Button CSS */
+.button {
+  padding: 13px 28px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  min-width: 150px;
+  text-align: center;
+  color: white;
+  transition: 0.4s;
+  &.primary-button {
+    background-color: $blue;
+    border: 2px solid $blue;
+    &:hover {
+      background-color: white;
+      color: $blue;
+    }
+  }
+  &.secondary-button {
+    background-color: $blue;
+    border: 2px solid $blue;
+    &:hover {
+      background-color: white;
+    }
+  }
+}
+
+/* === Common CSS start Here ===*/
