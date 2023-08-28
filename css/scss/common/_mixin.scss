@@ -1,0 +1,15 @@
+// Button
+@mixin btn($padding, $font-size, $min-width, $color, $bg-color) {
+  padding: $padding;
+  font-size: $font-size;
+  min-width: $min-width;
+  color: $color;
+  background-color: $bg-color;
+}
+
+// Flex
+@mixin flex-position($flex, $justify-content, $align-items) {
+  display: $flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

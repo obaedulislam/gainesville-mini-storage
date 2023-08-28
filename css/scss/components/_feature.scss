@@ -1,0 +1,50 @@
+/** == Feature Section CSS Start == **/
+.feature-section {
+
+  .single-feature {
+    position: relative;
+    padding: 60px 30px;
+    border-radius: 12px;
+    color: $yellow !important;
+    background-color: $yellow-normal;
+
+    &.alt {
+      background-color: $blue;
+      .feature-content {
+        i {
+          color: white;
+        }
+        h5 {
+          color: white;
+        }
+      }
+    }
+
+    .feature-content {
+      position: relative;
+      z-index: 1;
+      i {
+        font-size: 80px;
+      }
+      h5 {
+        margin-top: 60px;
+        font-size: 32px;
+        font-weight: 500;
+        color: $gray-normal;
+      }
+    }
+
+    .g-icon {
+      position: absolute;
+      bottom: 0;
+      right: -2px;
+      z-index: 0;
+      i {
+        font-size: 180px;
+        font-weight: 400;
+        color: #ffecb869;
+      }
+    }
+  }
+}
+/** == Feature Section CSS End == **/

@@ -5,43 +5,42 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+}
+.banner-container {
+  margin: 0 auto;
+  max-width: 1568px;
+}
+.container {
+  max-width: 1440px;
 }
 h1 {
-  font-size: 48px;
+  font-size: 96px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 80px;
 }
 h3 {
-  font-size: 28px;
+  font-size: 48px;
 }
 h4 {
-  font-size: 24px;
+  font-size: 36px;
 }
 h5 {
-  font-size: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: $blue;
 }
-.heading-before {
-  position: relative;
-  text-transform: uppercase;
-  &::before {
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 60%;
-    top: 20%;
-    left: 0;
-    background-color: $blue;
-  }
-}
+
 p {
+  margin: 0;
   font-size: 20px;
+  color: $dark-gray;
 }
 a {
   text-decoration: none;
 }
-ul.ul-list {
+ul {
   margin: 0;
   padding: 0;
   li {
@@ -53,49 +52,46 @@ ul.ul-list {
 
 /*Padding CSS*/
 .first-padding {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-.second-padding {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.third-padding {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-.fourth-padding {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 /* Button CSS */
 .button {
-  padding: 13px 28px;
-  border-radius: 100px;
-  text-transform: uppercase;
-  font-size: 16px;
+  @include btn(20px 60px, 16px, 150px, white, $blue);
+  text-transform: capitalize;
+  font-size: 20px;
   font-weight: 700;
   border: none;
+  border-radius: 5px;
   outline: none;
-  min-width: 150px;
   text-align: center;
-  color: white;
   transition: 0.4s;
-  &.primary-button {
-    background-color: $blue;
-    border: 2px solid $blue;
+  i {
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  &.secondary-button {
+    background-color: $yellow-gray;
     &:hover {
-      background-color: white;
-      color: $blue;
+      background-color: $blue;
     }
   }
-  &.secondary-button {
-    background-color: $blue;
-    border: 2px solid $blue;
-    &:hover {
-      background-color: white;
+}
+
+//Feature Heading
+.feature-head {
+  p {
+    &.feature-num {
+      font-size: 20px;
+      font-weight: 500;
+      color: $yellow;
     }
+  }
+  h3 {
+    font-weight: 700;
   }
 }
 
