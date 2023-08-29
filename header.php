@@ -7,7 +7,7 @@
         <div class="col-sm-12 col-md-9 col-lg-9 right-header">
           <ul class="navigation">
             <li><a href="unit-prices.php">Unit Prices</a></li>
-            <li><a href="">Size Guide</a></li>
+            <li><a href="size-guide.php">Size Guide</a></li>
             <li><a href="">Nearby</a></li>
             <li><a href="">FAQ</a></li>
             <li><a href="">Contact Us</a></li>

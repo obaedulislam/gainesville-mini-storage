@@ -192,6 +192,29 @@ Unit Prices Page CSS Start
 }
 /** == Location CSS End == **/
 
+/** == Driving Direction CSS Start == **/
+.driving-directions-section {
+  .driving-direction-content {
+    &.top-margin {
+      margin-top: 40px;
+    }
+  }
+
+  h6 {
+    color: $gray-semi;
+  }
+}
+/** == Driving Direction CSS End == **/
+
+/** == CTA CSS Start == **/
+.checkout-cta-section {
+  padding: 80px 0;
+  h4 {
+    font-weight: 700;
+  }
+}
+/** == CTA CSS End == **/
+
 /** ========================= 
 Unit Prices Page CSS End 
 ========================= **/

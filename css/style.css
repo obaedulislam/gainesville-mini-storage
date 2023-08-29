@@ -87,13 +87,16 @@ h1 {
   font-size: 96px; }
 
 h2 {
-  font-size: 80px; }
+  font-size: 80px;
+  font-weight: 700;
+  color: white; }
 
 h3 {
   font-size: 48px; }
 
 h4 {
-  font-size: 36px; }
+  font-size: 36px;
+  color: #0d0d0d; }
 
 h5 {
   font-size: 32px;
@@ -125,6 +128,9 @@ ul {
 .first-padding {
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.common-margin {
+  margin-top: 20px; }
 
 /* Button CSS */
 .button {
@@ -163,7 +169,7 @@ main {
 /* === Common CSS start Here ===*/
 header {
   padding: 15px 0px;
-  background: linear-gradient(90.25deg, rgba(252, 252, 252, 0.7) 5.68%, rgba(252, 252, 252, 0.6) 143.91%);
+  background: linear-gradient(90.25deg, rgba(252, 252, 252, 0.85) 5.68%, rgba(252, 252, 252, 0.85) 143.91%);
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
   height: 100px;
@@ -176,7 +182,7 @@ header {
   header a.logo {
     display: inline-block; }
     header a.logo img {
-      width: 100%; }
+      height: 58px; }
   header .right-header {
     display: flex;
     justify-content: end;
@@ -483,8 +489,54 @@ Unit Prices Page CSS Start
   background-image: none; }
 
 /** == Location CSS End == **/
+/** == Driving Direction CSS Start == **/
+.driving-directions-section .driving-direction-content.top-margin {
+  margin-top: 40px; }
+.driving-directions-section h6 {
+  color: #828282; }
+
+/** == Driving Direction CSS End == **/
+/** == CTA CSS Start == **/
+.checkout-cta-section {
+  padding: 80px 0; }
+  .checkout-cta-section h4 {
+    font-weight: 700; }
+
+/** == CTA CSS End == **/
 /** ========================= 
 Unit Prices Page CSS End 
+========================= **/
+/** ========================= 
+Size Guide Page CSS Start 
+========================= **/
+/** == Banner Section CSS Start == **/
+.banner-section.size-guide-banner .banner-container {
+  min-height: 450px;
+  background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.8), rgba(6, 6, 6, 0.8)), url("../images/size-guide/banner/size-guide-banner.webp"); }
+
+/** == Banner Section CSS End == **/
+/** == Storage Calculator Section CSS Start == **/
+.storage-calculator-section .category ul {
+  margin-top: 0; }
+.storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+  font-size: 24px;
+  color: #0601ff; }
+.storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+  border: none;
+  outline: none;
+  background-color: #bfbfbf;
+  color: #0d0d0d;
+  display: block;
+  width: 85px;
+  padding: 20px 10px;
+  border-radius: 4px; }
+.storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
+  font-size: 16px;
+  font-weight: 500; }
+
+/** == Storage Calculator Section CSS End == **/
+/** ========================= 
+Size Guide Page CSS End 
 ========================= **/
 
 /*# sourceMappingURL=style.css.map */

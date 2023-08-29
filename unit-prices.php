@@ -18,10 +18,10 @@
       <section class="banner-section unit-prices-banner">
         <div class="banner-container text-center ">
           <div class="row banner-content">
-              <h1>Gainesville Mini Storage</h1>
+              <h2>Gainesville Mini Storage</h2>
               <p>2537 FM 51</p>
               <p>Gainesville, TX 76240</p>
-              <p class="fw-build">(940) 400-2297</p>
+              <p class="fw-bold">(940) 400-2297</p>
               <div class="cta-btn">
                 <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Start Starting Today</button>
               </div>
@@ -441,7 +441,85 @@
     <!--|| Location Section End ||-->
 
     <!--|| Driving Direction Section Start ||-->
+    <section class="driving-directions-section ">
+      <div class="container">
+        <h5>Driving Directions</h5>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="driving-direction-content ">
+              <h6 class="common-margin">From downtown Gainesville, TX:</h6>
+              <p class="common-margin">Head south on N Grand Ave toward E Broadway St</p>
+              <p>Turn right onto California St</p>
+              <p>Pass by McDonald’s (on the left in 0.9 miles)</p>
+              <p>Pass by Frank Buck Zoo and NCTC College</p>
+              <p>Pass by Texaco Gas station, After flashing traffic light</p>
+              <p>Gainesville Mini Storage will be on the right</p>
+            </div>
+            <!--Driving direction 1st paragraph end-->
+            
+            <div class="driving-direction-content top-margin">
+              <h6>From Whitesboro, TX:</h6>
+              <p class="common-margin">Head south on N Union St toward E Main St</p>
+              <p>Turn right onto California St</p>
+              <p>Turn right at the 1st cross street onto TX-56 W/W Main St</p>
+              <p>In 1.8 miles, turn left</p>
+              <p>Slight right onto US-82 W</p>
+              <p>Pass by AutoZone Auto Parts (on the left in 10.9 miles)</p>
+              <p>In 1.7 miles, turn left onto I-35 Frontage Rd</p>
+              <p>In 1.2 miles, turn right onto FM 51 S/W California St</p>
+              <p>Continue to follow FM 51 S</p>
+              <p>In 1.6 miles, Gainesville Mini Storage will be on the right</p>
+            </div>
+             <!--Driving direction 1st paragraph end-->
+          </div>
+
+          <div class="col-md-6">
+            <div class="driving-direction-content">
+              <h6 class="common-margin">From Muenster, TX:</h6>
+              <p class="common-margin"> Head south on N Main St toward 3rd St</p>
+              <p>Turn left onto US-82 W/E Division St</p>
+              <p>Continue to follow US-82 W</p>
+              <p>Pass by Sonic Drive-In (on the right in 0.5 miles)</p>
+              <p>In 8.7 miles, turn right onto FM 3108 S/Hickory Dr</p>
+              <p>Continue to follow FM 3108 S</p>
+              <p>In 3.5 miles, turn left onto FM1630</p>
+              <p>In 1.9 miles, turn left onto FM 51 N</p>
+              <p>Gainesville Mini Storage will be on the left</p>
+            </div>
+            <!--Driving direction 1st paragraph end-->
+            
+            <div class="driving-direction-content top-margin">
+              <h6>From Thackerville, OK:</h6>
+              <p class="common-margin">Entering Texas</p>
+              <p>In 7.5 miles, take exit 497 to merge onto I-35 Frontage Rd</p>
+              <p>Turn right onto FM 51 S/W California St</p>
+              <p>Continue to follow FM 51 S</p>
+              <p>In 1.6 miles, Gainesville Mini Storage will be on the right</p>
+            </div>
+             <!--Driving direction 1st paragraph end-->
+
+          </div>
+        </div>
+      </div>
+    </section>
     <!--|| Driving Direction Section End ||-->
+
+    <!--|| CTA Section Start ||-->
+    <section class="checkout-cta-section ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 d-flex align-items-center">
+            <h4>Check Out What Our Customers Are Saying</h4>
+          </div>
+          <div class="col-md-3">
+            <div class="cta-btn text-end">
+                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Write A Review</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--|| CTA Section Start ||-->
   </main>
   <!--|| Main Section End ||-->
 
