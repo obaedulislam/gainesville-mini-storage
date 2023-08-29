@@ -1,6 +1,7 @@
-main {
-  background-color: $yellow-gray;
-}
+/** ========================= 
+Home Page CSS Start 
+========================= **/
+
 /** == Banner Section CSS Start == **/
 .banner-section {
   padding: 20px 0;
@@ -47,13 +48,16 @@ main {
   background-repeat: no-repeat;
 
   .storage-unit {
-    .map {
+    .map-one-img {
       margin-right: -200px;
       img {
         border-radius: 12px;
       }
-      &.two {
-        margin-left: -200px;
+    }
+    .map-two-img {
+      margin-left: -200px;
+      img {
+        border-radius: 12px;
       }
     }
     .map-wrapper {
@@ -93,8 +97,10 @@ main {
         box-shadow: 0px 20px 20px 0px rgba(164, 164, 164, 0.25);
       }
     }
-
-    
   }
 }
 /** == Location Section CSS End == **/
+
+/** ========================= 
+Home Page CSS End 
+========================= **/

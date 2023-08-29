@@ -1,5 +1,5 @@
 $route: "../fonts/";
-$fontCode: "qhpdwf";
+$fontCode: "4xxbf1";
 
 @font-face {
   font-family: "icomoon";
@@ -31,6 +31,15 @@ $fontCode: "qhpdwf";
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-right-arrow:before {
+  content: "\e90d";
+}
+.icon-search:before {
+  content: "\e90e";
+}
+.icon-left-arrow:before {
+  content: "\e90f";
+}
 .icon-g:before {
   content: "\e903";
 }

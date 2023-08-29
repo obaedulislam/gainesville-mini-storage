@@ -1,7 +1,7 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?qhpdwf");
-  src: url("../fonts/icomoon.eot?qhpdwf#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff2?qhpdwf") format("woff2"), url("../fonts/icomoon.ttf?qhpdwf") format("truetype"), url("../fonts/icomoon.woff?qhpdwf") format("woff"), url("../fonts/icomoon.svg?qhpdwf#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?4xxbf1");
+  src: url("../fonts/icomoon.eot?4xxbf1#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff2?4xxbf1") format("woff2"), url("../fonts/icomoon.ttf?4xxbf1") format("truetype"), url("../fonts/icomoon.woff?4xxbf1") format("woff"), url("../fonts/icomoon.svg?4xxbf1#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -18,6 +18,15 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-right-arrow:before {
+  content: "\e90d"; }
+
+.icon-search:before {
+  content: "\e90e"; }
+
+.icon-left-arrow:before {
+  content: "\e90f"; }
 
 .icon-g:before {
   content: "\e903"; }
@@ -91,6 +100,11 @@ h5 {
   font-weight: 700;
   color: #0601ff; }
 
+h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0d0d0d; }
+
 p {
   margin: 0;
   font-size: 20px;
@@ -135,6 +149,9 @@ ul {
     background-color: #f9f9f9; }
     .button.secondary-button:hover {
       background-color: #0601ff; }
+
+main {
+  background-color: #f9f9f9; }
 
 .feature-head p.feature-num {
   font-size: 20px;
@@ -194,9 +211,70 @@ header {
       header .navigation li:last-child {
         margin-right: 0px; }
 
-main {
-  background-color: #f9f9f9; }
+/** == Feature Section CSS Start == **/
+.feature-section .single-feature {
+  position: relative;
+  padding: 60px 30px;
+  border-radius: 12px;
+  color: #f8bd18 !important;
+  background-color: #fff7e2; }
+  .feature-section .single-feature:hover {
+    background-color: #0601ff; }
+    .feature-section .single-feature:hover .feature-content i {
+      color: white; }
+    .feature-section .single-feature:hover .feature-content h5 {
+      color: white; }
+    .feature-section .single-feature:hover .g-icon i.icon-g {
+      color: #5552ff; }
+  .feature-section .single-feature .feature-content {
+    position: relative;
+    z-index: 1; }
+    .feature-section .single-feature .feature-content i {
+      font-size: 80px; }
+    .feature-section .single-feature .feature-content h5 {
+      margin-top: 60px;
+      font-size: 32px;
+      font-weight: 500;
+      color: #9d9d9d; }
+  .feature-section .single-feature .g-icon {
+    position: absolute;
+    bottom: 0;
+    right: -2px;
+    z-index: 0; }
+    .feature-section .single-feature .g-icon i {
+      font-size: 180px;
+      font-weight: 400;
+      color: #ffecb869; }
+.feature-section .feature-two {
+  margin-top: 80px; }
 
+/** == Feature Section CSS End == **/
+.footer-section {
+  background-color: #f4f3ff;
+  padding: 64px 0; }
+  .footer-section .footer-menu {
+    text-align: right; }
+    .footer-section .footer-menu ul li {
+      display: inline-block;
+      margin: 0 20px;
+      position: relative; }
+      .footer-section .footer-menu ul li::after {
+        content: "";
+        position: absolute;
+        background-color: #545454;
+        width: 2px;
+        height: 25px;
+        right: -20px; }
+      .footer-section .footer-menu ul li a {
+        color: #545454; }
+      .footer-section .footer-menu ul li:last-child::after {
+        display: none; }
+      .footer-section .footer-menu ul li:last-child a {
+        font-weight: 700; }
+
+/** ========================= 
+Home Page CSS Start 
+========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section {
   padding: 20px 0; }
@@ -228,12 +306,14 @@ main {
   background-image: url(../images/home/locations/vector.png);
   background-size: cover;
   background-repeat: no-repeat; }
-  .location-section .storage-unit .map {
+  .location-section .storage-unit .map-one-img {
     margin-right: -200px; }
-    .location-section .storage-unit .map img {
+    .location-section .storage-unit .map-one-img img {
       border-radius: 12px; }
-    .location-section .storage-unit .map.two {
-      margin-left: -200px; }
+  .location-section .storage-unit .map-two-img {
+    margin-left: -200px; }
+    .location-section .storage-unit .map-two-img img {
+      border-radius: 12px; }
   .location-section .storage-unit .map-wrapper {
     position: relative; }
     .location-section .storage-unit .map-wrapper .one {
@@ -263,61 +343,148 @@ main {
       box-shadow: 0px 20px 20px 0px rgba(164, 164, 164, 0.25); }
 
 /** == Location Section CSS End == **/
-/** == Feature Section CSS Start == **/
-.feature-section .single-feature {
-  position: relative;
-  padding: 60px 30px;
-  border-radius: 12px;
-  color: #f8bd18 !important;
-  background-color: #fff7e2; }
-  .feature-section .single-feature.alt {
-    background-color: #0601ff; }
-    .feature-section .single-feature.alt .feature-content i {
-      color: white; }
-    .feature-section .single-feature.alt .feature-content h5 {
-      color: white; }
-  .feature-section .single-feature .feature-content {
-    position: relative;
-    z-index: 1; }
-    .feature-section .single-feature .feature-content i {
-      font-size: 80px; }
-    .feature-section .single-feature .feature-content h5 {
-      margin-top: 60px;
-      font-size: 32px;
-      font-weight: 500;
-      color: #9d9d9d; }
-  .feature-section .single-feature .g-icon {
-    position: absolute;
-    bottom: 0;
-    right: -2px;
-    z-index: 0; }
-    .feature-section .single-feature .g-icon i {
-      font-size: 180px;
-      font-weight: 400;
-      color: #ffecb869; }
+/** ========================= 
+Home Page CSS End 
+========================= **/
+/** ========================= 
+Unit Prices Page CSS Start 
+========================= **/
+/** == Banner Section CSS Start == **/
+.banner-section.unit-prices-banner {
+  min-height: 600px; }
+  .banner-section.unit-prices-banner .banner-container {
+    min-height: 600px;
+    background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
 
-/** == Feature Section CSS End == **/
-.footer-section {
+/** == Banner Section CSS End == **/
+/** == Office Access Times Section CSS Start == **/
+.office-time-section .office-time {
+  padding: 0 100px;
+  position: relative; }
+  .office-time-section .office-time::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #9d9d9d; }
+  .office-time-section .office-time.access-time::after {
+    display: none; }
+  .office-time-section .office-time i {
+    font-size: 60px;
+    color: #f8bd18; }
+  .office-time-section .office-time h6 {
+    margin-bottom: 12px; }
+  .office-time-section .office-time p {
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 5px; }
+    .office-time-section .office-time p.text-transparent {
+      color: transparent; }
+
+/** == Office Access Times Section CSS End == **/
+/** == Unit Filter CSS Start == **/
+.unit-filter-section .search-box form {
+  padding: 18px;
+  display: flex;
+  border: 1px solid #f8bd18;
+  border-radius: 8px; }
+  .unit-filter-section .search-box form input {
+    width: 100%; }
+  .unit-filter-section .search-box form input,
+  .unit-filter-section .search-box form button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inline-block;
+    display: #9d9d9d; }
+    .unit-filter-section .search-box form input i,
+    .unit-filter-section .search-box form button i {
+      font-size: 24px;
+      color: #9d9d9d; }
+.unit-filter-section .category ul {
+  margin-top: 20px;
   background-color: #f4f3ff;
-  padding: 64px 0; }
-  .footer-section .footer-menu {
-    text-align: right; }
-    .footer-section .footer-menu ul li {
-      display: inline-block;
-      margin: 0 20px;
+  border-radius: 8px; }
+  .unit-filter-section .category ul li a {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    color: #9d9d9d;
+    transition: all 0.3s ease-in; }
+    .unit-filter-section .category ul li a.active, .unit-filter-section .category ul li a:hover {
+      background-color: #0601ff;
+      color: white; }
+.unit-filter-section .category-details {
+  padding: 0 30px;
+  border: 1px solid #bfbfbf;
+  border-radius: 8px; }
+  .unit-filter-section .category-details .single-unit {
+    padding: 20px 0;
+    border-bottom: 1px solid #bfbfbf; }
+    .unit-filter-section .category-details .single-unit p {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      font-weight: 600;
+      color: #828282; }
+      .unit-filter-section .category-details .single-unit p.unit-details {
+        font-size: 15px;
+        font-weight: 400; }
+    .unit-filter-section .category-details .single-unit h5 {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 0;
+      font-weight: 600;
+      color: #828282; }
+      .unit-filter-section .category-details .single-unit h5.price {
+        color: #0601ff; }
+    .unit-filter-section .category-details .single-unit .call-btn a {
+      padding: 20px 60px;
+      font-size: 20px;
+      min-width: 190px;
+      color: white;
+      background-color: #9d9d9d; }
+    .unit-filter-section .category-details .single-unit .common-pl {
+      padding-left: 20px; }
+    .unit-filter-section .category-details .single-unit .store-size,
+    .unit-filter-section .category-details .single-unit .store-unit-details,
+    .unit-filter-section .category-details .single-unit .unit-price,
+    .unit-filter-section .category-details .single-unit .call-btn {
+      display: flex;
+      justify-content: start;
+      align-items: center;
       position: relative; }
-      .footer-section .footer-menu ul li::after {
-        content: "";
-        position: absolute;
-        background-color: #545454;
-        width: 2px;
-        height: 25px;
-        right: -20px; }
-      .footer-section .footer-menu ul li a {
-        color: #545454; }
-      .footer-section .footer-menu ul li:last-child::after {
-        display: none; }
-      .footer-section .footer-menu ul li:last-child a {
-        font-weight: 700; }
+    .unit-filter-section .category-details .single-unit .head-size,
+    .unit-filter-section .category-details .single-unit .head-unit {
+      position: relative; }
+    .unit-filter-section .category-details .single-unit .head-size::after,
+    .unit-filter-section .category-details .single-unit .head-unit::after,
+    .unit-filter-section .category-details .single-unit .store-size::after,
+    .unit-filter-section .category-details .single-unit .store-unit-details::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 100%;
+      background-color: #828282; }
+    .unit-filter-section .category-details .single-unit.last-unit {
+      border-bottom: 0; }
+
+/** == Unit Filter CSS End == **/
+/** == Location CSS Start == **/
+.location-bg-none {
+  background-image: none; }
+
+/** == Location CSS End == **/
+/** ========================= 
+Unit Prices Page CSS End 
+========================= **/
 
 /*# sourceMappingURL=style.css.map */

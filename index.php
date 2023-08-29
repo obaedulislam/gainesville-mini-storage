@@ -15,7 +15,7 @@
   <main>
     <!--|| Banner Section Start ||-->
       <section class="banner-section">
-        <div class="banner-container text-center banner-container">
+        <div class="banner-container text-center">
           <div class="row banner-content">
               <h1>Convenient App,<br> Easy Access</h1>
               <p>As one of our customers, you can manage your storage unit with a simple phone. When you need to use the unit, simply
@@ -99,7 +99,7 @@
         <div class="storage-unit first-padding">
           <div class="row">
             <div class="col-md-7">
-              <div class="map">
+              <div class="map-one-img">
                 <img src="images/home/locations/map-1.webp" class="img-fluid" alt="Location">
               </div>
             </div>
@@ -133,7 +133,7 @@
               </div>              
             </div>
             <div class="col-md-7">
-              <div class="map two">
+              <div class=" map-two-img">
                 <img src="images/home/locations/map-2.webp" class="img-fluid" alt="Location">
               </div>
             </div>

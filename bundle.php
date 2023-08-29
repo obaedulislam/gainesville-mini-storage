@@ -5,7 +5,7 @@
     <title>Gainesville, TX Climate-Controlled Storage Units | Gainesville Mini Storage</title>
 
     <!--|| All CSS Link Start Here ||-->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">

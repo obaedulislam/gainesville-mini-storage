@@ -1,6 +1,5 @@
 /** == Feature Section CSS Start == **/
 .feature-section {
-
   .single-feature {
     position: relative;
     padding: 60px 30px;
@@ -8,7 +7,7 @@
     color: $yellow !important;
     background-color: $yellow-normal;
 
-    &.alt {
+    &:hover {
       background-color: $blue;
       .feature-content {
         i {
@@ -16,6 +15,14 @@
         }
         h5 {
           color: white;
+        }
+      }
+
+      .g-icon {
+        i {
+          &.icon-g {
+            color: #5552ff;
+          }
         }
       }
     }
@@ -45,6 +52,10 @@
         color: #ffecb869;
       }
     }
+  }
+
+  .feature-two {
+    margin-top: 80px;
   }
 }
 /** == Feature Section CSS End == **/

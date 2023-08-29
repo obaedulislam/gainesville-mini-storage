@@ -13,3 +13,12 @@
   justify-content: $justify-content;
   align-items: $align-items;
 }
+
+// click Field
+@mixin click-focus($border, $outline, $bg-color, $color, $display) {
+  border: $border;
+  outline: $outline;
+  background-color: $bg-color;
+  color: $color;
+  display: $display;
+}

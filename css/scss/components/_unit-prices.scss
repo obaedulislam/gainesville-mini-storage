@@ -1,0 +1,197 @@
+/** ========================= 
+Unit Prices Page CSS Start 
+========================= **/
+
+/** == Banner Section CSS Start == **/
+.banner-section {
+  &.unit-prices-banner {
+    min-height: 600px;
+    .banner-container {
+      min-height: 600px;
+      background-image: linear-gradient(
+          180deg,
+          rgba(6, 6, 6, 0.5),
+          rgba(6, 6, 6, 0.5)
+        ),
+        url("../images/unit-prices/banner/unit-price-banner.webp");
+    }
+  }
+}
+/** == Banner Section CSS End == **/
+
+/** == Office Access Times Section CSS Start == **/
+.office-time-section {
+  .office-time {
+    padding: 0 100px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 2px;
+      height: 100%;
+      background-color: $gray-normal;
+    }
+    &.access-time {
+      &::after {
+        display: none;
+      }
+    }
+    i {
+      font-size: 60px;
+      color: $yellow;
+    }
+    h6 {
+      margin-bottom: 12px;
+    }
+    p {
+      font-weight: 500;
+      color: $black;
+      margin-bottom: 5px;
+      &.text-transparent {
+        color: transparent;
+      }
+    }
+  }
+}
+/** == Office Access Times Section CSS End == **/
+
+/** == Unit Filter CSS Start == **/
+.unit-filter-section {
+  .search-box {
+    form {
+      padding: 18px;
+      display: flex;
+      border: 1px solid $yellow;
+      border-radius: 8px;
+      input {
+        width: 100%;
+      }
+      input,
+      button {
+        @include click-focus(
+          none,
+          none,
+          transparent,
+          inline-block,
+          $gray-normal
+        );
+        i {
+          font-size: 24px;
+          color: $gray-normal;
+        }
+      }
+    }
+  }
+  //Search Box End
+
+  .category {
+    ul {
+      margin-top: 20px;
+      background-color: #f4f3ff;
+      border-radius: 8px;
+      li {
+        a {
+          display: block;
+          padding-top: 13px;
+          padding-bottom: 13px;
+          border-radius: 8px;
+          text-align: center;
+          font-size: 20px;
+          color: $gray-normal;
+          transition: all 0.3s ease-in;
+          &.active,
+          &:hover {
+            background-color: $blue;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  // Category End
+
+  .category-details {
+    padding: 0 30px;
+    border: 1px solid $gray-border;
+    border-radius: 8px;
+    .single-unit {
+      padding: 20px 0;
+      border-bottom: 1px solid $gray-border;
+
+      p {
+        @include flex-position(flex, start, center);
+        font-weight: 600;
+        color: $gray-semi;
+        &.unit-details {
+          font-size: 15px;
+          font-weight: 400;
+        }
+      }
+
+      h5 {
+        @include flex-position(flex, start, center);
+        margin-bottom: 0;
+        font-weight: 600;
+        color: $gray-semi;
+        &.price {
+          color: $blue;
+        }
+      }
+
+      .call-btn {
+        a {
+          @include btn(20px 60px, 20px, 190px, white, $gray-normal);
+        }
+      }
+
+      .common-pl {
+        padding-left: 20px;
+      }
+
+      .store-size,
+      .store-unit-details,
+      .unit-price,
+      .call-btn {
+        @include flex-position(flex, start, center);
+        position: relative;
+      }
+
+      .head-size,
+      .head-unit {
+        position: relative;
+      }
+
+      .head-size,
+      .head-unit,
+      .store-size,
+      .store-unit-details {
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 1px;
+          height: 100%;
+          background-color: $gray-semi;
+        }
+      }
+
+      &.last-unit {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+/** == Unit Filter CSS End == **/
+
+/** == Location CSS Start == **/
+.location-bg-none {
+  background-image: none;
+}
+/** == Location CSS End == **/
+
+/** ========================= 
+Unit Prices Page CSS End 
+========================= **/
