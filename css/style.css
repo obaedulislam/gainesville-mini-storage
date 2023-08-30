@@ -388,6 +388,8 @@ Unit Prices Page CSS Start
     margin-bottom: 5px; }
     .office-time-section .office-time p.text-transparent {
       color: transparent; }
+    .office-time-section .office-time p.fw-par {
+      font-weight: 600; }
 
 /** == Office Access Times Section CSS End == **/
 /** == Unit Filter CSS Start == **/
@@ -516,23 +518,36 @@ Size Guide Page CSS Start
 
 /** == Banner Section CSS End == **/
 /** == Storage Calculator Section CSS Start == **/
-.storage-calculator-section .category ul {
-  margin-top: 0; }
-.storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-  font-size: 24px;
-  color: #0601ff; }
-.storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-  border: none;
-  outline: none;
-  background-color: #bfbfbf;
-  color: #0d0d0d;
-  display: block;
-  width: 85px;
-  padding: 20px 10px;
-  border-radius: 4px; }
-.storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
-  font-size: 16px;
-  font-weight: 500; }
+.storage-calculator-section {
+  padding-bottom: 100px; }
+  .storage-calculator-section .category ul {
+    margin-top: 0; }
+  .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+    font-size: 24px;
+    color: #0601ff; }
+  .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+    border: none;
+    outline: none;
+    background-color: #bfbfbf;
+    color: #0d0d0d;
+    display: block;
+    width: 85px;
+    padding: 20px 10px;
+    border-radius: 4px; }
+  .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
+    font-size: 16px;
+    font-weight: 500; }
+  .storage-calculator-section .category-details .bed-room-content {
+    padding: 40px 80px 20px; }
+    .storage-calculator-section .category-details .bed-room-content h5 {
+      font-weight: 600;
+      color: #0601ff; }
+    .storage-calculator-section .category-details .bed-room-content .bed-room-img {
+      margin: 20px 0; }
+    .storage-calculator-section .category-details .bed-room-content .bed-dimension h4 {
+      color: #0601ff; }
+    .storage-calculator-section .category-details .bed-room-content .bed-description {
+      margin-top: 20px; }
 
 /** == Storage Calculator Section CSS End == **/
 /** ========================= 

@@ -20,6 +20,7 @@ Size Guide Page CSS Start
 
 /** == Storage Calculator Section CSS Start == **/
 .storage-calculator-section {
+  padding-bottom: 100px;
   .category {
     ul {
       margin-top: 0;
@@ -51,6 +52,25 @@ Size Guide Page CSS Start
           font-size: 16px;
           font-weight: 500;
         }
+      }
+    }
+    //Unit heading css end
+    .bed-room-content {
+      padding: 40px 80px 20px;
+      h5 {
+        font-weight: 600;
+        color: $blue;
+      }
+      .bed-room-img {
+        margin: 20px 0;
+      }
+      .bed-dimension {
+        h4 {
+          color: $blue;
+        }
+      }
+      .bed-description {
+        margin-top: 20px;
       }
     }
   }

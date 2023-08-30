@@ -71,7 +71,7 @@
                 
                 <div class="row">
                   <div class=" col-12">
-                    <p>Remote Office - Sunday By Appointment</p>
+                    <p class="fw-par">Remote Office - Sunday By Appointment</p>
                   </div>
                 </div>
               </div>

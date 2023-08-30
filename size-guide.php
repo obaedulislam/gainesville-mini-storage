@@ -100,6 +100,19 @@
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
+
+                  <div class="row bed-room-content">
+                    <h5>Size Suggestion</h5>
+                    <div class="bed-room-img">
+                      <img src="images/size-guide/calculator/bed-king-size.webp" alt="Bed, King Size" class="img-fluid">
+                    </div>
+                    <div class="bed-dimension d-flex align-items-center">
+                      <h4 class="fw-bold mb-0 ">5’x10’</h4>
+                      <p class="fw-bold ms-3">33% full</p>
+                    </div>
+                    <p class="fw-normal bed-description">Think of it like a standard closet. Approximately 25 square feet, this space is perfect for about a dozen boxes, a desk and chair, and a bicycle.</p>
+                  </div>
                 </div>
                 <!--Single Unit Heading End -->
 
@@ -145,6 +158,251 @@
                     </div>
                     <div class="col-md-4 store-unit-details">
                         <p class="unit-details common-pl">approximately 40 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Bed, Bunk (set of 2)</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 70 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Dresser, Chest of Drawers</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 30 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Cedar Chest</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 15 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Ironing Board</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 10 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Side Tables</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 10 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Wardrobe Boxes (30 hangers)</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 10 cubic feet</p>                
+                    </div>
+                     <div class="col-md-4 col-4 unit-price-count">
+                        <div class="row">
+                          <div class="col-md-8 col-12">
+                            <div class="price-count d-flex align-items-center justify-content-between">
+                              <div class="plus-minus d-flex common-pl">
+                                  <a href="#">
+                                    <i class="icon-plus"></i>
+                                  </a>
+                                  <a href="#">
+                                    <i class="icon-minus ms-3"></i>
+                                  </a>
+                              </div>
+                              <div class="input-count"> 
+                                <input type="text" id="count" name="count">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 col-12 d-flex align-items-center">
+                            <p class="refresh">Refresh</p>
+                          </div>
+                        </div>         
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit last-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-4 col-6 store-size">
+                        <p>Wardrobe Boxes (30 hangers)</p>                   
+                    </div>
+                    <div class="col-md-4 store-unit-details">
+                        <p class="unit-details common-pl">approximately 10 cubic feet</p>                
                     </div>
                      <div class="col-md-4 col-4 unit-price-count">
                         <div class="row">
