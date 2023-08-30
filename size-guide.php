@@ -54,7 +54,7 @@
           <div class="col-md-10 col-12">
             <div class="category-details">
                 <div class="single-unit heading">
-                  <div class="row">
+                  <div class="row wrapper">
                     <div class="col-md-4 col-6 head-size">
                       <p>Size</p>
                     </div>
@@ -102,16 +102,21 @@
                   </div>
                   <!--Bed room title end-->
 
-                  <div class="row bed-room-content">
-                    <h5>Size Suggestion</h5>
-                    <div class="bed-room-img">
-                      <img src="images/size-guide/calculator/bed-king-size.webp" alt="Bed, King Size" class="img-fluid">
+                  <div class="row ">
+                    <div class="col-12">
+                      <div class="bed-room-content">
+                      <h5>Size Suggestion</h5>
+                      <div class="bed-room-img">
+                        <img src="images/size-guide/calculator/bed-king-size.webp" alt="Bed, King Size" class="img-fluid">
+                      </div>
+                      <div class="bed-dimension d-flex align-items-center">
+                        <h4 class="fw-bold mb-0 ">5’x10’</h4>
+                        <p class="fw-bold ms-3">33% full</p>
+                      </div>
+                      <p class="fw-normal bed-description">Think of it like a standard closet. Approximately 25 square feet, this space is perfect for about a dozen boxes, a desk and chair, and a bicycle.</p>
                     </div>
-                    <div class="bed-dimension d-flex align-items-center">
-                      <h4 class="fw-bold mb-0 ">5’x10’</h4>
-                      <p class="fw-bold ms-3">33% full</p>
                     </div>
-                    <p class="fw-normal bed-description">Think of it like a standard closet. Approximately 25 square feet, this space is perfect for about a dozen boxes, a desk and chair, and a bicycle.</p>
+                    
                   </div>
                 </div>
                 <!--Single Unit Heading End -->

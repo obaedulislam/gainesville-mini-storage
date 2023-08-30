@@ -29,6 +29,10 @@ Size Guide Page CSS Start
 
   .category-details {
     .single-unit {
+      padding: 0;
+      .wrapper {
+        padding: 20px 0;
+      }
       .unit-price-count {
         .price-count {
           .plus-minus {
@@ -57,6 +61,9 @@ Size Guide Page CSS Start
     //Unit heading css end
     .bed-room-content {
       padding: 40px 80px 20px;
+      border-top: 1px solid $gray-border;
+      border-left: 1px solid $gray-border;
+      border-right: 1px solid $gray-border;
       h5 {
         font-weight: 600;
         color: $blue;
