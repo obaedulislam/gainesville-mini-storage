@@ -1,0 +1,72 @@
+/** ========================= 
+FAQs Page CSS Start 
+========================= **/
+/** == Banner Section CSS Start == **/
+.banner-section {
+  &.faqs-banner {
+    .banner-container {
+      min-height: 320px;
+      background-image: linear-gradient(
+          180deg,
+          rgba(6, 6, 6, 0.5),
+          rgba(6, 6, 6, 0.5)
+        ),
+        url("../images/faqs/banner/banner.webp");
+    }
+  }
+}
+/** == Banner Section CSS End == **/
+
+/** == Faqs Content Section CSS Start == **/
+.faqs-section {
+  .accordion-item {
+    margin-bottom: 20px;
+    background-color: transparent !important;
+    border: 0;
+    border-radius: 4px;
+  }
+  .accordion-flush .accordion-item .accordion-button {
+    box-shadow: none;
+    &::after {
+      background-image: url("../images/faqs/content/plus.svg");
+      background-size: 20px;
+    }
+  }
+  .accordion-flush .accordion-item .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    &::after {
+      background-image: url("../images/faqs/content/minus.svg");
+      background-size: 20px;
+    }
+  }
+  .accordion-button {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #fffbf2;
+    color: $black;
+  }
+  .accordion-button:not(.collapsed),
+  .accordion-header {
+    background-color: #fffbf2 !important;
+  }
+  .accordion-flush .accordion-collapse {
+    background-color: transparent !important;
+  }
+  .accordion-body {
+    background-color: transparent;
+    border: 1px solid $yellow-normal;
+    border-top: 0;
+    p {
+      color: $dark-light;
+      max-width: 80%;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    color: $black;
+  }
+}
+
+/** == Faqs Content Section CSS End == **/
+/** ========================= 
+FAQs Page CSS End 
+========================= **/

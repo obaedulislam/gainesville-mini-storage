@@ -9,9 +9,9 @@
             <li><a href="unit-prices.php">Unit Prices</a></li>
             <li><a href="size-guide.php">Size Guide</a></li>
             <li><a href="nearby.php">Nearby</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Pay Online</a></li>
+            <li><a href="faqs.php">FAQ</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="pay-online.php">Pay Online</a></li>
           </ul>
         </div>
       </div>

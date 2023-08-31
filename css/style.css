@@ -572,5 +572,96 @@ Nearby Page CSS Start
 /** ========================= 
 Nearby Page CSS End 
 ========================= **/
+/** ========================= 
+FAQs Page CSS Start 
+========================= **/
+/** == Banner Section CSS Start == **/
+.banner-section.faqs-banner .banner-container {
+  min-height: 320px;
+  background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/faqs/banner/banner.webp"); }
+
+/** == Banner Section CSS End == **/
+/** == Faqs Content Section CSS Start == **/
+.faqs-section .accordion-item {
+  margin-bottom: 20px;
+  background-color: transparent !important;
+  border: 0;
+  border-radius: 4px; }
+.faqs-section .accordion-flush .accordion-item .accordion-button {
+  box-shadow: none; }
+  .faqs-section .accordion-flush .accordion-item .accordion-button::after {
+    background-image: url("../images/faqs/content/plus.svg");
+    background-size: 20px; }
+.faqs-section .accordion-flush .accordion-item .accordion-button:not(.collapsed) {
+  box-shadow: none; }
+  .faqs-section .accordion-flush .accordion-item .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/faqs/content/minus.svg");
+    background-size: 20px; }
+.faqs-section .accordion-button {
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #fffbf2;
+  color: #0d0d0d; }
+.faqs-section .accordion-button:not(.collapsed),
+.faqs-section .accordion-header {
+  background-color: #fffbf2 !important; }
+.faqs-section .accordion-flush .accordion-collapse {
+  background-color: transparent !important; }
+.faqs-section .accordion-body {
+  background-color: transparent;
+  border: 1px solid #fff7e2;
+  border-top: 0; }
+  .faqs-section .accordion-body p {
+    color: #434343;
+    max-width: 80%; }
+.faqs-section .accordion-button:not(.collapsed) {
+  color: #0d0d0d; }
+
+/** == Faqs Content Section CSS End == **/
+/** ========================= 
+FAQs Page CSS End 
+========================= **/
+/** ========================= 
+Contact Us Page CSS Start 
+========================= **/
+/** == Banner Section CSS Start == **/
+.banner-section.contact-us-banner .banner-container {
+  min-height: 320px;
+  background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/contact-us/banner/banner.webp"); }
+
+/** == Banner Section CSS End == **/
+/** == Form Section CSS Start == **/
+.contact-form-section .contact-form {
+  padding: 80px 40px;
+  margin-right: -100px;
+  background-color: #fffbf2; }
+  .contact-form-section .contact-form .form-section {
+    margin-top: 40px; }
+    .contact-form-section .contact-form .form-section .input-field label {
+      margin-top: 20px;
+      font-weight: 600;
+      color: #0d0d0d; }
+    .contact-form-section .contact-form .form-section .input-field input {
+      margin-top: 15px;
+      border: 1px solid #d9d9d9;
+      outline: none;
+      background-color: transparent;
+      color: #0d0d0d;
+      display: "";
+      width: 90%;
+      padding: 12px; }
+    .contact-form-section .contact-form .form-section .submit-btn {
+      margin-top: 40px; }
+.contact-form-section .contact-info {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 20px 20px 0px rgba(164, 164, 164, 0.25); }
+
+/** == Form Section CSS End == **/
+/** ========================= 
+Contact Us Page CSS End 
+========================= **/
 
 /*# sourceMappingURL=style.css.map */

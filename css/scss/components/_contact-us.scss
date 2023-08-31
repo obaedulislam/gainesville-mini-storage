@@ -1,0 +1,70 @@
+/** ========================= 
+Contact Us Page CSS Start 
+========================= **/
+
+/** == Banner Section CSS Start == **/
+.banner-section {
+  &.contact-us-banner {
+    .banner-container {
+      min-height: 320px;
+      background-image: linear-gradient(
+          180deg,
+          rgba(6, 6, 6, 0.5),
+          rgba(6, 6, 6, 0.5)
+        ),
+        url("../images/contact-us/banner/banner.webp");
+    }
+  }
+}
+/** == Banner Section CSS End == **/
+
+/** == Form Section CSS Start == **/
+.contact-form-section {
+  .contact-form {
+    padding: 80px 40px;
+    margin-right: -100px;
+    background-color: #fffbf2;
+
+    .form-section {
+      margin-top: 40px;
+      .input-field {
+        label {
+          margin-top: 20px;
+          font-weight: 600;
+          color: $black;
+        }
+        input {
+          margin-top: 15px;
+          @include click-focus(
+            1px solid #d9d9d9,
+            none,
+            transparent,
+            $black,
+            ""
+          );
+
+          width: 90%;
+          padding: 12px;
+        }
+      }
+
+      .submit-btn {
+        margin-top: 40px;
+      }
+    }
+  }
+  // Form Part end
+
+  .contact-info {
+    width: 100%;
+    padding: 80px 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 20px 20px 0px rgba(164, 164, 164, 0.25);
+  }
+}
+/** == Form Section CSS End == **/
+
+/** ========================= 
+Contact Us Page CSS End 
+========================= **/
