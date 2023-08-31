@@ -457,7 +457,10 @@ Unit Prices Page CSS Start
       font-size: 20px;
       min-width: 190px;
       color: white;
-      background-color: #9d9d9d; }
+      background-color: #9d9d9d;
+      transition: all 0.3s ease-in; }
+      .unit-filter-section .category-details .single-unit .call-btn a:hover {
+        background-color: #0601ff; }
     .unit-filter-section .category-details .single-unit .common-pl {
       padding-left: 20px; }
     .unit-filter-section .category-details .single-unit .store-size,
@@ -662,6 +665,44 @@ Contact Us Page CSS Start
 /** == Form Section CSS End == **/
 /** ========================= 
 Contact Us Page CSS End 
+========================= **/
+/** ========================= 
+Pay Online Page CSS Start 
+========================= **/
+/** == Banner Section CSS Start == **/
+.banner-section.pay-online-banner .banner-container {
+  min-height: 320px;
+  background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/pay-online/banner/banner.webp"); }
+
+/** == Banner Section CSS End == **/
+/** == Online Item Section CSS Start == **/
+.online-item-section .category-details .single-unit .store-address,
+.online-item-section .category-details .single-unit .store-city,
+.online-item-section .category-details .single-unit .store-state {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative; }
+.online-item-section .category-details .single-unit .store-address,
+.online-item-section .category-details .single-unit .store-city,
+.online-item-section .category-details .single-unit .store-state {
+  position: relative; }
+.online-item-section .category-details .single-unit .store-address::after,
+.online-item-section .category-details .single-unit .store-city::after,
+.online-item-section .category-details .single-unit .store-state::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #828282; }
+.online-item-section .category-details .single-unit.last-unit {
+  border-bottom: 0; }
+
+/** == Online Item Section CSS End == **/
+/** ========================= 
+Pay Online Page CSS End 
 ========================= **/
 
 /*# sourceMappingURL=style.css.map */

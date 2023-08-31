@@ -1,0 +1,62 @@
+/** ========================= 
+Pay Online Page CSS Start 
+========================= **/
+
+/** == Banner Section CSS Start == **/
+.banner-section {
+  &.pay-online-banner {
+    .banner-container {
+      min-height: 320px;
+      background-image: linear-gradient(
+          180deg,
+          rgba(6, 6, 6, 0.5),
+          rgba(6, 6, 6, 0.5)
+        ),
+        url("../images/pay-online/banner/banner.webp");
+    }
+  }
+}
+/** == Banner Section CSS End == **/
+
+/** == Online Item Section CSS Start == **/
+.online-item-section {
+  .category-details {
+    .single-unit {
+      .store-address,
+      .store-city,
+      .store-state {
+        @include flex-position(flex, start, center);
+        position: relative;
+      }
+
+      .store-address,
+      .store-city,
+      .store-state {
+        position: relative;
+      }
+
+      .store-address,
+      .store-city,
+      .store-state {
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 1px;
+          height: 100%;
+          background-color: $gray-semi;
+        }
+      }
+
+      &.last-unit {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+/** == Online Item Section CSS End == **/
+
+/** ========================= 
+Pay Online Page CSS End 
+========================= **/
