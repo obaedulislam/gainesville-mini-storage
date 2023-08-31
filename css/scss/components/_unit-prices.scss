@@ -219,7 +219,73 @@ Unit Prices Page CSS Start
   h4 {
     font-weight: 700;
   }
+
+  .testimonial-modal {
+    .modal-dialog {
+      max-width: 570px;
+      .modal-content {
+        padding: 50px;
+        border-radius: 15px;
+        .modal-header {
+          padding: 0;
+          button {
+            @include click-focus(none, none, transparent, $gray-semi, "");
+            font-size: 26px;
+            cursor: pointer;
+            position: relative;
+            z-index: 10;
+          }
+        }
+        .modal-body {
+          padding: 0;
+          .rating {
+            margin-top: -25px;
+            p {
+              i {
+                font-size: 24px;
+                color: $yellow;
+              }
+            }
+          }
+          //Rating End
+
+          .contact-form {
+            .input-field {
+              label {
+                margin-top: 20px;
+                font-weight: 600;
+                color: $black;
+              }
+              input,
+              select {
+                margin-top: 10px;
+                padding: 10px 20px;
+                width: 100%;
+                border-radius: 4px;
+                box-shadow: none;
+                @include click-focus(
+                  1px solid #d9d9d9,
+                  none,
+                  transparent,
+                  $gray-semi,
+                  ""
+                );
+              }
+            }
+
+            .form-alert {
+              margin: 30px 0;
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
+
 /** == CTA CSS End == **/
 
 /** ========================= 

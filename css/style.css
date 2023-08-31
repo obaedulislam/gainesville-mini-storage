@@ -506,6 +506,50 @@ Unit Prices Page CSS Start
   padding: 80px 0; }
   .checkout-cta-section h4 {
     font-weight: 700; }
+  .checkout-cta-section .testimonial-modal .modal-dialog {
+    max-width: 570px; }
+    .checkout-cta-section .testimonial-modal .modal-dialog .modal-content {
+      padding: 50px;
+      border-radius: 15px; }
+      .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-header {
+        padding: 0; }
+        .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-header button {
+          border: none;
+          outline: none;
+          background-color: transparent;
+          color: #828282;
+          display: "";
+          font-size: 26px;
+          cursor: pointer;
+          position: relative;
+          z-index: 10; }
+      .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body {
+        padding: 0; }
+        .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .rating {
+          margin-top: -25px; }
+          .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .rating p i {
+            font-size: 24px;
+            color: #f8bd18; }
+        .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .contact-form .input-field label {
+          margin-top: 20px;
+          font-weight: 600;
+          color: #0d0d0d; }
+        .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .contact-form .input-field input,
+        .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .contact-form .input-field select {
+          margin-top: 10px;
+          padding: 10px 20px;
+          width: 100%;
+          border-radius: 4px;
+          box-shadow: none;
+          border: 1px solid #d9d9d9;
+          outline: none;
+          background-color: transparent;
+          color: #828282;
+          display: ""; }
+        .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .contact-form .form-alert {
+          margin: 30px 0; }
+          .checkout-cta-section .testimonial-modal .modal-dialog .modal-content .modal-body .contact-form .form-alert p {
+            font-size: 14px; }
 
 /** == CTA CSS End == **/
 /** ========================= 

@@ -38,7 +38,7 @@
                                     <input type="text" name="firstName" id="first-name">
                                 </div>
                                 <div class="input-field">
-                                    <label for="firstName">Last Name*</label><br>
+                                    <label for="lastName">Last Name*</label><br>
                                     <input type="text" name="lastName" id="last-name">
                                 </div>
                                 <div class="input-field">

@@ -513,11 +513,70 @@
           </div>
           <div class="col-md-3">
             <div class="cta-btn text-end">
-                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Write A Review</button>
+                <button class="button primary-button" data-bs-toggle="modal" data-bs-target="#reviewModal"><i class="icon-fluent-arrow-right"></i>Write A Review</button>
               </div>
           </div>
         </div>
       </div>
+
+      <!-- Modal Part Start Here -->
+      <div class="testimonial-modal modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header d-flex justify-content-end border-0">
+              <button type="button" class="icon-cross" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="rating">
+                <p class="text-center">
+                  <i class="icon-star"></i>
+                  <i class="icon-star"></i>
+                  <i class="icon-star"></i>
+                  <i class="icon-star"></i>
+                  <i class="icon-star"></i>
+                </p>
+                <p class="text-center mt-2">Not Rated</p>
+              </div>
+              <!--Rating Section End-->
+
+                <div class="contact-form mt-4">
+                        <div class="form-section">
+                            <form action="">
+                                <div class="input-field">
+                                    <label for="facility">Facility*</label><br>
+                                    <select  aria-label="Default select example">
+                                      <option selected class="py-4">Select facility</option>
+                                      <option value="1" class="py-4">Gainesville Mini Storage - 2537, Gainesville,<br>TX 76240</option>
+                                    </select>
+                                </div>                              
+                                <div class="input-field">
+                                    <label for="name">Name</label><br>
+                                    <input type="text" name="name" id="name" placeholder="Please enter your name...">
+                                </div>
+                                <div class="input-field">
+                                    <label for="email">Email</label><br>
+                                    <input type="email" name="email" id="email" placeholder="Please enter your email...">
+                                </div>
+                                <div class="input-field">
+                                    <label for="message">Describe Your Experience</label><br>
+                                    <input type="textarea" name="email" id="email" placeholder="Tell us what you think about us...">
+                                </div>
+                                <div class="form-alert">
+                                  <p class="text-center">Note: Your comments will be posted on this website with your first name & last initial</p>
+                                </div>
+                            </form>
+
+                            <div class="submit-btn text-center">
+                                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Part End Here -->
+
     </section>
     <!--|| CTA Section Start ||-->
   </main>
