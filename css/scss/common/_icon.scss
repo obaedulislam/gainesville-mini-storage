@@ -1,5 +1,5 @@
 $route: "../fonts/";
-$fontCode: "4xxbf1";
+$fontCode: "ymdvt8";
 
 @font-face {
   font-family: "icomoon";
@@ -31,6 +31,24 @@ $fontCode: "4xxbf1";
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-boxes:before {
+  content: "\e910";
+}
+.icon-fenced-gated:before {
+  content: "\e911";
+}
+.icon-security-camera:before {
+  content: "\e912";
+}
+.icon-ground-floor:before {
+  content: "\e913";
+}
+.icon-hours-24:before {
+  content: "\e914";
+}
+.icon-dollies:before {
+  content: "\e915";
+}
 .icon-right-arrow:before {
   content: "\e90d";
 }

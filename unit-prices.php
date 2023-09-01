@@ -23,7 +23,7 @@
               <p>Gainesville, TX 76240</p>
               <p class="fw-bold">(940) 400-2297</p>
               <div class="cta-btn">
-                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Start Starting Today</button>
+                <a href="contact.php" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Contact Us</a>
               </div>
           </div>
         </div>
@@ -312,7 +312,7 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-facility"></i>
+                <i class="icon-hours-24"></i>
                 <h5>Our Facility<br> Features</h5>
               </div>
               <div class="g-icon">
@@ -325,7 +325,7 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature alt">
               <div class="feature-content">
-                <i class="icon-unit-size"></i>
+                <i class="icon-boxes"></i>
                 <h5>What Size Unit<br> Do I Need?</h5>
               </div>
            
@@ -339,7 +339,7 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-online-pay"></i>
+                <i class="icon-security-camera"></i>
                 <h5>Pay Online | My <br> Account</h5>
               </div>
                <div class="g-icon">

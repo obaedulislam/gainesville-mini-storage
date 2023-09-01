@@ -8,8 +8,8 @@
                 <div class="footer-menu">
                     <ul >
                         <li><a href="#">&copy; Gainesville Mini Storage</a></li>
-                        <li><a href="#"> Terms</a></li>
-                        <li><a href="#"> Privacy</a></li>
+                        <li><a href="terms.php"> Terms</a></li>
+                        <li><a href="privacy-policy.php"> Privacy</a></li>
                         <li><a href="#"> All sizes are approximate</a></li>
                         <li><a href="#"> Some restrictions may apply</a></li>
                         <li><a href="#"> Admin</a></li>

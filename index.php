@@ -21,7 +21,7 @@
               <p>As one of our customers, you can manage your storage unit with a simple phone. When you need to use the unit, simply
               open the gates with your mobile phone – at any hour of the day.</p>
               <div class="cta-btn">
-                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Start Starting Today</button>
+                <a href="unit-prices.php" class="button "><i class="icon-fluent-arrow-right"></i>Start Starting Today</a>
               </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ Home Page CSS Start
 
 /** == Banner Section CSS Start == **/
 .banner-section {
-  padding: 20px 0;
+  padding: 20px 15px;
   .banner-container {
     background-image: linear-gradient(
         180deg,
@@ -19,6 +19,7 @@ Home Page CSS Start
     display: flex;
     align-items: center;
     border-radius: 15px;
+    padding: 0 30px;
 
     .banner-content {
       margin: 0 auto;
@@ -35,7 +36,7 @@ Home Page CSS Start
       color: white;
     }
     .cta-btn {
-      margin-top: 30px;
+      margin-top: 50px;
     }
   }
 }
@@ -104,3 +105,12 @@ Home Page CSS Start
 /** ========================= 
 Home Page CSS End 
 ========================= **/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  
+}
+
+/** ============================ Responsive CSS End ============================ **/

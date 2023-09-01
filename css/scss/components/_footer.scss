@@ -2,21 +2,23 @@
   background-color: #f4f3ff;
   padding: 64px 0;
   .footer-menu {
+    margin-top: 3px;
     text-align: right;
     ul {
       li {
         display: inline-block;
-        margin: 0 20px;
+        margin: 0 15px;
         position: relative;
         &::after {
           content: "";
           position: absolute;
-          background-color: $dark-gray;
+          background-color: $gray-border;
           width: 2px;
           height: 25px;
-          right: -20px;
+          right: -18px;
         }
         a {
+          font-size: 16px;
           color: $dark-gray;
         }
         &:last-child {

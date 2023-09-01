@@ -1,0 +1,36 @@
+/** ========================= 
+Terms Page CSS Start 
+========================= **/
+
+/** == Terms & Conditions Section CSS Start == **/
+.terms-and-conditions-section {
+  h6 {
+    color: $blue;
+
+    &.title-margin {
+      text-transform: capitalize;
+      margin-top: 50px;
+    }
+  }
+  p {
+    line-height: 34px;
+  }
+
+  .use-website {
+    ul {
+      &.list-item {
+        padding-left: 30px;
+      }
+      li {
+        &::marker {
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
+}
+/** == Terms & Conditions Section CSS End == **/
+
+/** ========================= 
+Terms Page CSS End 
+========================= **/

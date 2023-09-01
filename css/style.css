@@ -1,7 +1,7 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?4xxbf1");
-  src: url("../fonts/icomoon.eot?4xxbf1#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff2?4xxbf1") format("woff2"), url("../fonts/icomoon.ttf?4xxbf1") format("truetype"), url("../fonts/icomoon.woff?4xxbf1") format("woff"), url("../fonts/icomoon.svg?4xxbf1#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?ymdvt8");
+  src: url("../fonts/icomoon.eot?ymdvt8#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff2?ymdvt8") format("woff2"), url("../fonts/icomoon.ttf?ymdvt8") format("truetype"), url("../fonts/icomoon.woff?ymdvt8") format("woff"), url("../fonts/icomoon.svg?ymdvt8#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -18,6 +18,24 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-boxes:before {
+  content: "\e910"; }
+
+.icon-fenced-gated:before {
+  content: "\e911"; }
+
+.icon-security-camera:before {
+  content: "\e912"; }
+
+.icon-ground-floor:before {
+  content: "\e913"; }
+
+.icon-hours-24:before {
+  content: "\e914"; }
+
+.icon-dollies:before {
+  content: "\e915"; }
 
 .icon-right-arrow:before {
   content: "\e90d"; }
@@ -146,11 +164,15 @@ ul {
   border-radius: 5px;
   outline: none;
   text-align: center;
-  transition: 0.4s; }
+  transition: all 0.3s;
+  cursor: pointer; }
   .button i {
     margin-right: 15px;
     font-size: 20px;
     font-weight: 400; }
+  .button:hover {
+    background-color: #f8bd18;
+    color: #0d0d0d; }
   .button.secondary-button {
     background-color: #f9f9f9; }
     .button.secondary-button:hover {
@@ -167,6 +189,70 @@ main {
   font-weight: 700; }
 
 /* === Common CSS start Here ===*/
+/** ============================ Responsive CSS Start ============================ **/
+@media (min-width: 0px) and (max-width: 992px) {
+  h1 {
+    font-size: 64px; }
+
+  h2 {
+    font-size: 80px; }
+
+  h3 {
+    font-size: 48px; }
+
+  h4 {
+    font-size: 36px; }
+
+  h5 {
+    font-size: 32px; }
+
+  h6 {
+    font-size: 24px; }
+
+  p {
+    font-size: 18px; }
+
+  .common-margin {
+    margin-top: 20px; }
+
+  /* Button CSS */
+  .button {
+    padding: 20px 60px;
+    font-size: 16px;
+    min-width: 150px;
+    color: white;
+    background-color: #0601ff;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer; }
+    .button i {
+      margin-right: 15px;
+      font-size: 20px;
+      font-weight: 400; }
+    .button:hover {
+      background-color: #f8bd18;
+      color: #0d0d0d; }
+    .button.secondary-button {
+      background-color: #f9f9f9; }
+      .button.secondary-button:hover {
+        background-color: #0601ff; }
+
+  main {
+    background-color: #f9f9f9; }
+
+  .feature-head p.feature-num {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8bd18; }
+  .feature-head h3 {
+    font-weight: 700; } }
+/** ============================ Responsive CSS End ============================ **/
 header {
   padding: 15px 0px;
   background: linear-gradient(90.25deg, rgba(252, 252, 252, 0.85) 5.68%, rgba(252, 252, 252, 0.85) 143.91%);
@@ -259,19 +345,21 @@ header {
   background-color: #f4f3ff;
   padding: 64px 0; }
   .footer-section .footer-menu {
+    margin-top: 3px;
     text-align: right; }
     .footer-section .footer-menu ul li {
       display: inline-block;
-      margin: 0 20px;
+      margin: 0 15px;
       position: relative; }
       .footer-section .footer-menu ul li::after {
         content: "";
         position: absolute;
-        background-color: #545454;
+        background-color: #bfbfbf;
         width: 2px;
         height: 25px;
-        right: -20px; }
+        right: -18px; }
       .footer-section .footer-menu ul li a {
+        font-size: 16px;
         color: #545454; }
       .footer-section .footer-menu ul li:last-child::after {
         display: none; }
@@ -283,7 +371,7 @@ Home Page CSS Start
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section {
-  padding: 20px 0; }
+  padding: 20px 15px; }
   .banner-section .banner-container {
     background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/home/banner/banner.webp");
     background-size: cover;
@@ -292,7 +380,8 @@ Home Page CSS Start
     min-height: 700px;
     display: flex;
     align-items: center;
-    border-radius: 15px; }
+    border-radius: 15px;
+    padding: 0 30px; }
     .banner-section .banner-container .banner-content {
       margin: 0 auto;
       max-width: 1400px; }
@@ -304,7 +393,7 @@ Home Page CSS Start
       font-size: 24px;
       color: white; }
     .banner-section .banner-container .cta-btn {
-      margin-top: 30px; }
+      margin-top: 50px; }
 
 /** == Banner Section CSS End == **/
 /** == Location Section CSS Start == **/
@@ -352,6 +441,8 @@ Home Page CSS Start
 /** ========================= 
 Home Page CSS End 
 ========================= **/
+/** ============================ Responsive CSS Start ============================ **/
+/** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Unit Prices Page CSS Start 
 ========================= **/
@@ -460,7 +551,8 @@ Unit Prices Page CSS Start
       background-color: #9d9d9d;
       transition: all 0.3s ease-in; }
       .unit-filter-section .category-details .single-unit .call-btn a:hover {
-        background-color: #0601ff; }
+        background-color: #f8bd18;
+        color: #0d0d0d; }
     .unit-filter-section .category-details .single-unit .common-pl {
       padding-left: 20px; }
     .unit-filter-section .category-details .single-unit .store-size,
@@ -747,6 +839,39 @@ Pay Online Page CSS Start
 /** == Online Item Section CSS End == **/
 /** ========================= 
 Pay Online Page CSS End 
+========================= **/
+/** ========================= 
+Terms Page CSS Start 
+========================= **/
+/** == Terms & Conditions Section CSS Start == **/
+.terms-and-conditions-section h6 {
+  color: #0601ff; }
+  .terms-and-conditions-section h6.title-margin {
+    text-transform: capitalize;
+    margin-top: 50px; }
+.terms-and-conditions-section p {
+  line-height: 34px; }
+.terms-and-conditions-section .use-website ul.list-item {
+  padding-left: 30px; }
+.terms-and-conditions-section .use-website ul li::marker {
+  font-size: 20px !important; }
+
+/** == Terms & Conditions Section CSS End == **/
+/** ========================= 
+Terms Page CSS End 
+========================= **/
+/** ========================= 
+Privacy Policy Page CSS Start 
+========================= **/
+/** == Privacy Policy Section CSS Start == **/
+.privacy-policy-section .use-website ul.unordered {
+  padding-left: 50px; }
+  .privacy-policy-section .use-website ul.unordered li {
+    list-style: unset; }
+
+/** == Privacy Policy Section CSS End == **/
+/** ========================= 
+Privacy Policy Page CSS End 
 ========================= **/
 
 /*# sourceMappingURL=style.css.map */

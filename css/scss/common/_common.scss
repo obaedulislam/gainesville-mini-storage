@@ -79,11 +79,17 @@ ul {
   border-radius: 5px;
   outline: none;
   text-align: center;
-  transition: 0.4s;
+  transition: all 0.3s;
+  cursor: pointer;
   i {
     margin-right: 15px;
     font-size: 20px;
     font-weight: 400;
+  }
+
+  &:hover {
+    background-color: $yellow;
+    color: $black;
   }
 
   &.secondary-button {
@@ -114,3 +120,88 @@ main {
 }
 
 /* === Common CSS start Here ===*/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+  h3 {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 36px;
+  }
+  h5 {
+    font-size: 32px;
+  }
+  h6 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  //Common Margin
+  .common-margin {
+    margin-top: 20px;
+  }
+
+  /* Button CSS */
+  .button {
+    @include btn(20px 60px, 16px, 150px, white, $blue);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    i {
+      margin-right: 15px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    &:hover {
+      background-color: $yellow;
+      color: $black;
+    }
+
+    &.secondary-button {
+      background-color: $yellow-gray;
+      &:hover {
+        background-color: $blue;
+      }
+    }
+  }
+
+  // Main section BG
+  main {
+    background-color: $yellow-gray;
+  }
+
+  //Feature Heading
+  .feature-head {
+    p {
+      &.feature-num {
+        font-size: 20px;
+        font-weight: 500;
+        color: $yellow;
+      }
+    }
+    h3 {
+      font-weight: 700;
+    }
+  }
+}
+
+/** ============================ Responsive CSS End ============================ **/

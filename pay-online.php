@@ -66,7 +66,7 @@
                 </div>
                 <!--Single Unit Heading End -->
 
-                <div class="single-unit">
+                <div class="single-unit last-unit">
                   <div class="row wrapper">
                     <div class="col-md-3 col-6 store-size">
                         <p>Gainesville Mini Storage</p>                    

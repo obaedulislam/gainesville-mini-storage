@@ -148,7 +148,8 @@ Unit Prices Page CSS Start
           @include btn(20px 60px, 20px, 190px, white, $gray-normal);
           transition: all 0.3s ease-in;
           &:hover {
-            background-color: $blue;
+            background-color: $yellow;
+            color: $black;
           }
         }
       }

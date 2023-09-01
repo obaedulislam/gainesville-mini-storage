@@ -1,0 +1,22 @@
+/** ========================= 
+Privacy Policy Page CSS Start 
+========================= **/
+
+/** == Privacy Policy Section CSS Start == **/
+.privacy-policy-section {
+  .use-website {
+    ul {
+      &.unordered {
+        padding-left: 50px;
+        li {
+          list-style: unset;
+        }
+      }
+    }
+  }
+}
+/** == Privacy Policy Section CSS End == **/
+
+/** ========================= 
+Privacy Policy Page CSS End 
+========================= **/
