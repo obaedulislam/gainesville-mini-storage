@@ -108,9 +108,129 @@ Home Page CSS End
 
 /** ============================ Responsive CSS Start ============================ **/
 
+//Large Device CSS start
+@media (min-width: 0px) and (max-width: 1200px) {
+  .location-section {
+    .storage-unit {
+      .map-wrapper {
+        .map-content {
+          padding: 50px 30px;
+        }
+      }
+    }
+  }
+}
+
 //Medium Device CSS start
 @media (min-width: 0px) and (max-width: 992px) {
-  
+  .banner-section {
+    .banner-container {
+      min-height: 500px;
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .location-section {
+    .storage-unit {
+      .map-one-img {
+        margin-right: 0;
+      }
+      .map-two-img {
+        margin-left: 0;
+      }
+      .map-wrapper {
+        .one {
+          z-index: 10;
+          right: 20px;
+          i {
+            &.icon-one {
+              font-size: 100px;
+            }
+          }
+        }
+        .two {
+          z-index: 10;
+          left: 20px;
+          top: -70px;
+          i {
+            &.icon-two {
+              font-size: 100px;
+            }
+          }
+        }
+      }
+      .map-content {
+        margin-top: -15px;
+      }
+    }
+    .first-padding {
+      padding: 20px 0;
+    }
+  }
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section {
+    .banner-container {
+      min-height: 350px;
+      p {
+        margin-top: 5px;
+        font-size: 18px;
+      }
+      .cta-btn {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+//Extra Small or Mobile Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section {
+    padding: 15px 10px;
+    .banner-container {
+      padding: 0 20px;
+      min-height: 350px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .location-section {
+    .storage-unit {
+      .map-wrapper {
+        .one {
+          top: -40px;
+          i {
+            &.icon-one {
+              font-size: 60px;
+            }
+          }
+        }
+        .two {
+          top: -40px;
+          right: 20px;
+          left: unset;
+          i {
+            &.icon-two {
+              font-size: 60px;
+            }
+          }
+        }
+        .map-content {
+          padding: 30px 20px;
+          margin-top: -15px;
+        }
+      }
+    }
+    .first-padding {
+      padding: 20px 0;
+    }
+  }
 }
 
 /** ============================ Responsive CSS End ============================ **/

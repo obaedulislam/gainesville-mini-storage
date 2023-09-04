@@ -33,3 +33,65 @@
     }
   }
 }
+
+// Extra Large Device CSS start
+@media (min-width: 0px) and (max-width: 1440px) {
+  .footer-section {
+    padding: 50px 0;
+    p {
+      font-size: 17px;
+    }
+    .footer-menu {
+      ul {
+        li {
+          margin: 0 10px;
+          &::after {
+            height: 100%;
+            right: -13px;
+          }
+          a {
+            font-size: 14px;
+          }
+          &:last-child {
+            &::after {
+              display: none;
+            }
+            a {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large Device CSS start
+@media (min-width: 0px) and (max-width: 1200px) {
+  .footer-section {
+    p {
+      font-size: 17px;
+      text-align: center;
+    }
+    .footer-menu {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+}
+// Large Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .footer-section {
+    p {
+      font-size: 16px;
+    }
+    .footer-menu {
+      margin-top: 10px;
+      ul {
+        li {
+          margin: 7px 10px;
+        }
+      }
+    }
+  }
+}

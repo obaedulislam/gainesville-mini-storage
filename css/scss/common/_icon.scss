@@ -1,5 +1,5 @@
 $route: "../fonts/";
-$fontCode: "ymdvt8";
+$fontCode: "3euu6r";
 
 @font-face {
   font-family: "icomoon";
@@ -31,23 +31,64 @@ $fontCode: "ymdvt8";
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-unit-prices:before {
+  content: "\e918";
+}
+.icon-location:before {
+  content: "\e91e";
+}
 .icon-boxes:before {
   content: "\e910";
 }
-.icon-fenced-gated:before {
+.icon-hours-24:before {
   content: "\e911";
+}
+.icon-ground-floor:before {
+  content: "\e91b";
+}
+.icon-dollies-handcarts:before {
+  content: "\e915";
+}
+.icon-online-pay:before {
+  content: "\e917";
+}
+.icon-one:before {
+  content: "\e900";
+}
+.icon-hamburger .path1:before {
+  content: "\e913";
+  color: rgb(189, 188, 255);
+}
+.icon-hamburger .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(85, 82, 255);
+}
+.icon-hamburger .path3:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(189, 188, 255);
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-size-guide:before {
+  content: "\e919";
+}
+.icon-info:before {
+  content: "\e91f";
+}
+.icon-pay-card:before {
+  content: "\e920";
 }
 .icon-security-camera:before {
   content: "\e912";
 }
-.icon-ground-floor:before {
-  content: "\e913";
-}
-.icon-hours-24:before {
+.icon-fenced-gated:before {
   content: "\e914";
 }
-.icon-dollies:before {
-  content: "\e915";
+.icon-two:before {
+  content: "\e916";
 }
 .icon-right-arrow:before {
   content: "\e90d";
@@ -61,20 +102,11 @@ $fontCode: "ymdvt8";
 .icon-g:before {
   content: "\e903";
 }
-.icon-two:before {
-  content: "\e900";
-}
-.icon-one:before {
-  content: "\e901";
-}
 .icon-fluent-arrow-right:before {
   content: "\e902";
 }
 .icon-star:before {
   content: "\e904";
-}
-.icon-online-pay:before {
-  content: "\e905";
 }
 .icon-minus:before {
   content: "\e906";

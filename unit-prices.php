@@ -312,8 +312,8 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-hours-24"></i>
-                <h5>Our Facility<br> Features</h5>
+                <i class="icon-hamburger path1 path2 path3"></i>
+                <h5>24 Hours <br>Access</h5>
               </div>
               <div class="g-icon">
                 <i class="icon-g"></i>
@@ -326,7 +326,7 @@
             <div class="single-feature alt">
               <div class="feature-content">
                 <i class="icon-boxes"></i>
-                <h5>What Size Unit<br> Do I Need?</h5>
+                <h5>Boxes &<br>Supplies</h5>
               </div>
            
                <div class="g-icon">
@@ -339,8 +339,8 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-security-camera"></i>
-                <h5>Pay Online | My <br> Account</h5>
+                <i class="icon-dollies-handcarts"></i>
+                <h5>Dollies/<br>Handcarts</h5>
               </div>
                <div class="g-icon">
                 <i class="icon-g"></i>
@@ -361,8 +361,8 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-facility"></i>
-                <h5>Our Facility<br> Features</h5>
+                <i class="icon-fenced-gated"></i>
+                <h5>Fenced &<br> Gated</h5>
               </div>
               <div class="g-icon">
                 <i class="icon-g"></i>
@@ -374,8 +374,8 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature alt">
               <div class="feature-content">
-                <i class="icon-unit-size"></i>
-                <h5>What Size Unit<br> Do I Need?</h5>
+                <i class="icon-ground-floor"></i>
+                <h5>Ground <br>Floor</h5>
               </div>
            
                <div class="g-icon">
@@ -388,8 +388,8 @@
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-online-pay"></i>
-                <h5>Pay Online | My <br> Account</h5>
+                <i class="icon-security-camera"></i>
+                <h5>Security <br>Camera</h5>
               </div>
                <div class="g-icon">
                 <i class="icon-g"></i>
@@ -544,10 +544,18 @@
                             <form action="">
                                 <div class="input-field">
                                     <label for="facility">Facility*</label><br>
-                                    <select  aria-label="Default select example">
+                                    <!-- <select  aria-label="Default select example">
                                       <option selected class="py-4">Select facility</option>
                                       <option value="1" class="py-4">Gainesville Mini Storage - 2537, Gainesville,<br>TX 76240</option>
-                                    </select>
+                                    </select> -->
+                                    <div class="facility-option">
+                                      <span class="arrow"></span>
+                                      <input class="form-control custom-dropdown-value" value="Select Facility" type="text" readonly>
+                                      <ul class="custom-dropdown">
+                                          <li><a href="javascript:void(0)">Select Facility</a></li>
+                                          <li><a href="javascript:void(0)">Gainesville Mini Storage - 2537, Gainesville, TX 76240</a></li>
+                                      </ul>
+                                    </div>
                                 </div>                              
                                 <div class="input-field">
                                     <label for="name">Name</label><br>
@@ -559,7 +567,7 @@
                                 </div>
                                 <div class="input-field">
                                     <label for="message">Describe Your Experience</label><br>
-                                    <input type="textarea" name="email" id="email" placeholder="Tell us what you think about us...">
+                                    <textarea type="textarea" rows="3" name="email" id="email" placeholder="Tell us what you think about us..."></textarea>
                                 </div>
                                 <div class="form-alert">
                                   <p class="text-center">Note: Your comments will be posted on this website with your first name & last initial</p>

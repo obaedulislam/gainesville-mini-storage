@@ -258,7 +258,8 @@ Unit Prices Page CSS Start
                 color: $black;
               }
               input,
-              select {
+              select,
+              textarea {
                 margin-top: 10px;
                 padding: 10px 20px;
                 width: 100%;
@@ -271,6 +272,80 @@ Unit Prices Page CSS Start
                   $gray-semi,
                   ""
                 );
+                option {
+                  background-color: $blue;
+                  padding: 20px 0;
+                  color: white;
+                }
+              }
+            }
+
+            body {
+              font-family: verdana;
+            }
+            .facility-option {
+              position: relative;
+              width: 100%;
+              margin: 0px auto;
+              .arrow {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-right: 2px solid #d9d9d9;
+                border-top: 2px solid #d9d9d9;
+                transform: rotate(135deg);
+                position: absolute;
+                top: 17px;
+                z-index: 0;
+                right: 20px;
+                transition: all 0.5s ease;
+
+                &.rotate {
+                  position: absolute;
+                  top: 20px;
+                  transform: rotate(-45deg);
+                }
+              }
+              .custom-dropdown-value {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #d9d9d9;
+                border-radius: 5px;
+                box-sizing: border-box;
+                cursor: pointer;
+                position: relative;
+                z-index: 1;
+              }
+              .custom-dropdown {
+                position: absolute;
+                width: 100%;
+                background-color: white;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                border: 1px solid #d9d9d9;
+                border-radius: 5px;
+                opacity: 0;
+                visibility: hidden;
+                li {
+                  a {
+                    display: block;
+                    padding: 10px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    color: #444;
+                    transition: all 0.5s ease;
+                    &:hover {
+                      background-color: $blue;
+                      color: white;
+                    }
+                  }
+                }
+
+                &.open {
+                  opacity: 1;
+                  visibility: visible;
+                }
               }
             }
 

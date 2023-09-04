@@ -32,7 +32,8 @@
     <section class="feature-section first-padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-12">
+
+          <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
             <div class="feature-head ">
               <p class="feature-num">01</p>
               <h3 >Features</h3>
@@ -40,45 +41,52 @@
           </div>
           <!-- Single feature End -->
 
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-facility"></i>
-                <h5>Our Facility<br> Features</h5>
-              </div>
-              <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
+          <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-3">
+              <div class="featureSwiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="single-feature ">
+                      <div class="feature-content">
+                        <i class="icon-facility"></i>
+                        <h5>Our Facility<br> Features</h5>
+                      </div>
+                      <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 1 End-->
+                  
+                  <div class="swiper-slide">
+                    <div class="single-feature alt">
+                      <div class="feature-content">
+                        <i class="icon-unit-size"></i>
+                        <h5>What Size Unit<br> Do I Need?</h5>
+                      </div>
+                  
+                      <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 2 End-->
 
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature alt">
-              <div class="feature-content">
-                <i class="icon-unit-size"></i>
-                <h5>What Size Unit<br> Do I Need?</h5>
+                  <div class="swiper-slide">
+                    <div class="single-feature ">
+                      <div class="feature-content">
+                        <i class="icon-online-pay"></i>
+                        <h5>Pay Online | My <br> Account</h5>
+                      </div>
+                      <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 3 End-->
+                </div>
               </div>
-           
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
           </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-online-pay"></i>
-                <h5>Pay Online | My <br> Account</h5>
-              </div>
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single service End -->
+          <!-- Single feature End -->  
 
         </div>
       </div>
@@ -98,12 +106,12 @@
 
         <div class="storage-unit first-padding">
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-xl-7 col-lg-6 col-md-12">
               <div class="map-one-img">
                 <img src="images/home/locations/map-1.webp" class="img-fluid" alt="Location">
               </div>
             </div>
-            <div class="col-md-5 d-flex align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-12 d-flex align-items-center">
               <div class="map-wrapper">
                 <div class="one">
                   <i class="icon-one"></i>
@@ -120,7 +128,7 @@
 
         <div class="storage-unit first-padding">
           <div class="row">
-            <div class="col-md-5 d-flex align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-12  d-flex align-items-center order-lg-0 order-1">
               <div class="map-wrapper">
                 <div class="two">
                   <i class="icon-two"></i>
@@ -132,7 +140,7 @@
                 </div>
               </div>              
             </div>
-            <div class="col-md-7">
+            <div class="col-xl-7 col-lg-6 col-md-12 order-lg-1 order-0">
               <div class=" map-two-img">
                 <img src="images/home/locations/map-2.webp" class="img-fluid" alt="Location">
               </div>

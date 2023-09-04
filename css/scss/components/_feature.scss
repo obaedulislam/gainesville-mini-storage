@@ -6,6 +6,7 @@
     border-radius: 12px;
     color: $yellow !important;
     background-color: $yellow-normal;
+    transition: 0.2s;
 
     &:hover {
       background-color: $blue;
@@ -44,7 +45,7 @@
     .g-icon {
       position: absolute;
       bottom: 0;
-      right: -2px;
+      right: 0;
       z-index: 0;
       i {
         font-size: 180px;
@@ -59,3 +60,68 @@
   }
 }
 /** == Feature Section CSS End == **/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .feature-section {
+    .single-feature {
+      padding: 30px 15px;
+
+      .feature-content {
+        h5 {
+          font-size: 24px;
+        }
+      }
+      .g-icon {
+        i {
+          font-size: 100px;
+        }
+      }
+    }
+  }
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .feature-section {
+    .single-feature {
+      padding: 30px 15px;
+
+      .feature-content {
+        h5 {
+          font-size: 24px;
+        }
+      }
+      .g-icon {
+        i {
+          font-size: 150px;
+        }
+      }
+    }
+  }
+}
+
+//Extra Small Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .feature-section {
+    .single-feature {
+      .feature-content {
+        h5 {
+          font-size: 20px;
+        }
+        i {
+          font-size: 48px;
+        }
+      }
+      .g-icon {
+        i {
+          font-size: 130px;
+        }
+      }
+    }
+  }
+}
+
+/** ============================ Responsive CSS Start ============================ **/

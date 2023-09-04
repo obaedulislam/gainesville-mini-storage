@@ -1,10 +1,10 @@
 <footer class="footer-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-xl-3 col-12">
                 <p>Powered by: <span class="fw-bold">Redlime Solutions</span></p>
             </div>
-            <div class="col-md-9 ">
+            <div class="col-xl-9 col-12">
                 <div class="footer-menu">
                     <ul >
                         <li><a href="#">&copy; Gainesville Mini Storage</a></li>
