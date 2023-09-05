@@ -68,3 +68,114 @@ Contact Us Page CSS Start
 /** ========================= 
 Contact Us Page CSS End 
 ========================= **/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Large Device CSS start
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 450px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 400px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .contact-form-section {
+    .contact-form {
+      padding: 30px 15px;
+      margin-right: -50px;
+
+      .form-section {
+        margin-top: 10px;
+        .input-field {
+          label {
+            margin-top: 10px;
+          }
+          input {
+            margin-top: 10px;
+            width: 90%;
+            padding: 8px;
+          }
+        }
+
+        .submit-btn {
+          margin-top: 20px;
+        }
+      }
+    }
+    // Form Part end
+
+    .contact-info {
+      padding: 30px 15px;
+      border-radius: 8px;
+    }
+  }
+  // Form Section CSS End
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 350px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .contact-form-section {
+    .contact-form {
+      margin-top: 30px;
+      padding: 30px 15px;
+      margin-right: 0;
+      border-radius: 8px;
+      .form-section {
+        .input-field {
+          input {
+            width: 100%;
+          }
+        }
+
+        .submit-btn {
+          margin-top: 20px;
+        }
+      }
+    }
+    // Form Part end
+
+    .contact-info {
+      padding: 20px 15px;
+      border-radius: 8px;
+    }
+  }
+  // Form Section CSS End
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 300px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
+/** ============================ Responsive CSS End ============================ **/

@@ -28,7 +28,7 @@
     <section class="contact-form-section first-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 order-md-0 order-1">
                     <div class="contact-form">
                         <p>Our team at the office is amazing. No matter what doubts or questions you bring to us, your phone calls will always be answered quickly and with a great attitude. We will be sure to address your concerns in a timely manner, so feel free to send us a message. You can use the contact form on this page at any time. (Se habla español.)</p>
                         <div class="form-section">
@@ -67,11 +67,11 @@
                 </div>
                 <!--Form part end-->
 
-                <div class="col-md-4 d-flex align-items-center ">
+                <div class="col-md-4 d-flex align-items-center order-md-1 order-0">
                     <div class="contact-info">
-                        <h5 class="mb-4">Gainesville Mini Storage</h5>
-                        <p class="mb-3">2537 FM 51</p>
-                        <p class="mb-5">Gainesville, TX 76240</p>
+                        <h5 class="mb-md-4 mb-3">Gainesville Mini Storage</h5>
+                        <p class="mb-md-3">2537 FM 51</p>
+                        <p class="mb-md-5 mb-2">Gainesville, TX 76240</p>
                         <h6>(940) 400-2297</h6>
                     </div>
                 </div>
