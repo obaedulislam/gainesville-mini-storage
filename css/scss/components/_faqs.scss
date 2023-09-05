@@ -70,3 +70,97 @@ FAQs Page CSS Start
 /** ========================= 
 FAQs Page CSS End 
 ========================= **/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Large Device CSS start
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section {
+    &.faqs-banner {
+      .banner-container {
+        min-height: 450px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section {
+    &.faqs-banner {
+      .banner-container {
+        min-height: 400px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .faqs-section {
+    .accordion-item {
+      margin-bottom: 15px;
+    }
+
+    .accordion-button {
+      font-size: 20px;
+    }
+  }
+  //Faqs Content Section CSS End
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section {
+    &.faqs-banner {
+      .banner-container {
+        min-height: 350px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .faqs-section {
+    .accordion-button {
+      font-size: 18px;
+    }
+    .accordion-body {
+      p {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .accordion-flush .accordion-item .accordion-button {
+    box-shadow: none;
+    &::after {
+      background-size: 16px;
+    }
+  }
+  .accordion-flush .accordion-item .accordion-button:not(.collapsed) {
+    &::after {
+      background-size: 16px;
+    }
+  }
+  //Faqs Content Section CSS End
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section {
+    &.faqs-banner {
+      .banner-container {
+        min-height: 300px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .faqs-section {
+    .accordion-button {
+      font-size: 16px;
+    }
+  }
+  //Faqs Content Section CSS End
+}
+
+/** ============================ Responsive CSS End ============================ **/

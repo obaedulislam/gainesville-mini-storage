@@ -55,13 +55,13 @@
             <div class="category-details">
                 <div class="single-unit heading">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 head-size">
+                    <div class="col-lg-4 col-md-3  col-6 head-size">
                       <p>Size</p>
                     </div>
-                    <div class="col-md-4 head-unit">
+                    <div class="col-lg-4 col-md-4  head-unit d-md-block d-none">
                       <p class="common-pl">Unit Details</p>
                     </div>
-                     <div class="col-md-4 col-6 head">
+                     <div class="col-lg-4 col-md-5 col-6 head">
                        <p class="common-pl">Price</p>
                     </div>
                   </div>
@@ -70,22 +70,25 @@
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Bed, King Size</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Bed, King Size</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 70 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 70 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -94,7 +97,7 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
@@ -123,22 +126,25 @@
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Bed, Double Size</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Bed, Double Size</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 55 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 55 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -147,33 +153,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Bed, Single</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Bed, Single</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 40 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 40 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -182,33 +192,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Bed, Bunk (set of 2)</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Bed, Bunk (set of 2)</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 70 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 70 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -217,33 +231,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Dresser, Chest of Drawers</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Dresser, Chest of Drawers</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 30 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 30 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -252,33 +270,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Cedar Chest</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Cedar Chest</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 15 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 15 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -287,33 +309,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Ironing Board</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Ironing Board</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 10 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 10 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -322,33 +348,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Side Tables</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Side Tables</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 10 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 10 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -357,33 +387,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Wardrobe Boxes (30 hangers)</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Wardrobe Boxes (30 hangers)</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 10 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2  d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 10 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -392,33 +426,37 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
 
                 <div class="single-unit last-unit">
                   <div class="row wrapper">
-                    <div class="col-md-4 col-6 store-size">
-                        <p>Wardrobe Boxes (30 hangers)</p>                   
+                    <div class="col-lg-4 col-md-3 col-7 store-size order-md-0 order-0">
+                        <div class="size-title">
+                          <p >Wardrobe Boxes (30 hangers)</p>
+                        </div>
+                        <p class="unit-details common-pl d-md-none d-block">approximately 10 cubic feet</p>                      
                     </div>
-                    <div class="col-md-4 store-unit-details">
+                    <div class="col-lg-4 col-md-4 col-7 store-unit-details order-md-1 order-2 d-flex align-items-center">
                         <p class="unit-details common-pl">approximately 10 cubic feet</p>                
                     </div>
-                     <div class="col-md-4 col-4 unit-price-count">
+                     <div class="col-lg-4 col-md-5 col-5 order-md-2 order-1 unit-price-count ">
                         <div class="row">
-                          <div class="col-md-8 col-12">
+                          <div class="col-md-8 col-12 order-md-0 order-1">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               <div class="plus-minus d-flex common-pl">
                                   <a href="#">
                                     <i class="icon-plus"></i>
                                   </a>
                                   <a href="#">
-                                    <i class="icon-minus ms-3"></i>
+                                    <i class="icon-minus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               <div class="input-count"> 
@@ -427,14 +465,16 @@
                             </div>
                           </div>
 
-                          <div class="col-md-4 col-12 d-flex align-items-center">
+                          <div class="col-md-4 col-12 d-flex align-items-center order-md-1 order-0">
                             <p class="refresh">Refresh</p>
                           </div>
                         </div>         
                     </div>
                   </div>
+                  <!--Bed room title end-->
                 </div>
                 <!--Single Unit Heading End -->
+
 
             </div>
           </div>

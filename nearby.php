@@ -35,7 +35,7 @@
 
         <div class="storage-unit first-padding">
           <div class="row">
-            <div class="col-md-5 d-flex align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-12 d-flex align-items-center order-lg-0 order-1">
               <div class="map-wrapper">
                 <div class="map-content">
                   <h5>Driving directions from Sanger, TX:</h5>
@@ -46,7 +46,7 @@
                   <p>Merge onto I-35 N</p>
                   <p>In 14.6 miles, take exit 494 toward Farm to Market Rd 1306</p>
                   <p>Merge onto I-35 Frontage Rd</p>
-                  <p>Turn right toward Co Rd 218</p>
+                  <p>Turn right toward Co Rd 218</p >
                   <p>Turn left at the 1st cross street onto Co Rd 218</p>
                   <p>Turn left onto FM1306</p>
                   <p>In 1.7 miles, turn left onto FM 51 S</p>
@@ -54,7 +54,7 @@
                 </div>
               </div>              
             </div>
-            <div class="col-md-7">
+            <div class="col-xl-7 col-lg-6 col-md-12 order-lg-1 order-0">
               <div class=" map-two-img">
                 <img src="images/nearby/location/map.webp" class="img-fluid" alt="Location">
               </div>

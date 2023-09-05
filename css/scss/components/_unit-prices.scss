@@ -645,6 +645,10 @@ Unit Prices Page CSS End
           }
         }
         //CTA button css end
+
+        &.last-unit {
+          border-bottom: 1px solid $gray-border;
+        }
       }
     }
 

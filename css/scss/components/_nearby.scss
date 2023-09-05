@@ -36,4 +36,40 @@ Nearby Page CSS End
   //Banner Section CSS End
 }
 
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 400px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 350px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 300px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
 /** ============================ Responsive CSS End ============================ **/
