@@ -144,7 +144,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -166,7 +166,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -188,7 +188,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -210,7 +210,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -232,7 +232,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -254,7 +254,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -276,7 +276,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -298,13 +298,13 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit last-unit">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -320,7 +320,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
@@ -331,123 +331,173 @@
           </div>
         </div>
       </div>
+
+           <!-- Modal Part Start Here -->
+      <div class="modal fade call-modal " id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+
+          <div class="modal-content">
+
+            <div class="modal-header d-flex justify-content-between align-items-center ">
+              <h6 class="mb-0">Locations</h6>
+              <button type="button" class="icon-cross" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              <p>Due to limited availability, please call in order to reserve a similar unit.</p>
+              <p class="fw-bold">Selected Unit</p>
+
+              <div class="row selected-item ">
+                <div class="col-md-10 col-8">
+                    <div class="row">
+                      <div class="col-md-4 col-12 selected-content one order-md-0 order-0">
+                        <div class="heading-size">
+                          <h5 class="size common-pl">5’x10’</h5>
+                        </div>
+                      </div>
+                      <div class="col-md-8 col-12 selected-content two order-md-1 order-1">
+                        <p class="common-pl">Self storage, non climate,<br> drivethrough, roolup, drive up</p>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-2 col-4 selected-content order-md-2 order-1">
+                  <div class="price">
+                    <h5 class="common-pl ">$60</h5>
+                  </div>
+                </div>
+              </div>
+              <!--Selected Filter-->
+
+              <p class="fw-bold blue-color">Gainesville Mini Storage</p>
+              <p class="mt-2">2537 FM 51, Gainesville, TX 76240</p>
+              <div class="phone-number">
+                <p> <span class="fw-bold">New Rentals:</span> (940) 400-2297</p>
+                <p class="mt-sm-3 mt-2"><span class="fw-bold">Current Customers: </span>(940) 300-7610</p>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <div class="modal-cta call-btn">
+                 <button href="#" class="button primary-button close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="icon-fluent-arrow-right"></i>Close</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Modal Part End Here -->
     </section>
     <!--|| Unit Filter Section End ||-->
 
     
-    <!--|| Feature Section Start ||-->
+      <!--|| Feature Section Start ||-->
     <section class="feature-section first-padding d-lg-block d-none">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="feature-head ">
-              <p class="feature-num">01</p>
-              <h3 >Features</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-sm-6 col-12">
+                    <div class="feature-head ">
+                        <p class="feature-num">01</p>
+                        <h3>Features</h3>
+                    </div>
+                </div>
+                <!-- Single feature End -->
+    
+                <div class="col-lg-9 ">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-feature ">
+                                <div class="feature-content">
+                                    <i class="icon-hours-24"></i>
+                                    <h5>24 Hours <br>Access</h5>
+                                </div>
+                                <div class="g-icon">
+                                    <i class="icon-g"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single feature End -->
+    
+                        <div class="col-lg-4 col-md-6 ">
+                            <div class="single-feature">
+                                <div class="feature-content">
+                                    <i class="icon-boxes"></i>
+                                    <h5>Boxes &<br>Supplies</h5>
+                                </div>
+    
+                                <div class="g-icon">
+                                    <i class="icon-g"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single feature End -->
+    
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-feature ">
+                                <div class="feature-content">
+                                    <i class="icon-dollies-handcarts"></i>
+                                    <h5>Dollies/<br>Handcarts</h5>
+                                </div>
+                                <div class="g-icon">
+                                    <i class="icon-g"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single service End -->
+    
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="single-feature ">
+                                <div class="feature-content">
+                                    <i class="icon-fenced-gated"></i>
+                                    <h5>Fenced &<br> Gated</h5>
+                                </div>
+                                <div class="g-icon">
+                                    <i class="icon-g"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single feature End -->
+    
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="single-feature ">
+                                <div class="feature-content">
+                                    <i class="icon-ground-floor"></i>
+                                    <h5>Ground <br>Floor</h5>
+                                </div>
+    
+                                <div class="g-icon">
+                                    <i class="icon-g"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single feature End -->
+    
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="single-feature ">
+                                <div class="feature-content">
+                                    <i class="icon-security-camera"></i>
+                                    <h5>Security <br>Camera</h5>
+                                </div>
+                                <div class="g-icon">
+                                    <i class="icon-g"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single service End -->
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- Single feature End -->
-          
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-hours-24"></i>
-                <h5>24 Hours <br>Access</h5>
-              </div>
-              <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature alt">
-              <div class="feature-content">
-                <i class="icon-boxes"></i>
-                <h5>Boxes &<br>Supplies</h5>
-              </div>
-           
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-dollies-handcarts"></i>
-                <h5>Dollies/<br>Handcarts</h5>
-              </div>
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single service End -->
-
         </div>
-        <!--Feature 1st Row End-->
-        
-        <div class="row feature-two">
-          <div class="col-md-3 col-sm-6 col-12">
-            
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-fenced-gated"></i>
-                <h5>Fenced &<br> Gated</h5>
-              </div>
-              <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature alt">
-              <div class="feature-content">
-                <i class="icon-ground-floor"></i>
-                <h5>Ground <br>Floor</h5>
-              </div>
-           
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-security-camera"></i>
-                <h5>Security <br>Camera</h5>
-              </div>
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single service End -->
-
-        </div>
-        <!--Feature 1st Row End-->
-      </div>
     </section>
     <!--|| Feature Section End ||-->
     
     <!--|| Feature Section Mobile Start ||-->
-    <section class="feature-section first-padding ">
+    <section class="feature-section first-padding d-lg-none d-block">
       <div class="container">
+
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-12">
+
+          <div class="col-lg-3 col-md-12 col-sm-6 col-12">
             <div class="feature-head ">
               <p class="feature-num">01</p>
               <h3 >Features</h3>
@@ -455,97 +505,101 @@
           </div>
           <!-- Single feature End -->
           
+          <div class="col-lg-9 col-md-12">
+            <div class="row">
 
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-hours-24"></i>
-                <h5>24 Hours <br>Access</h5>
-              </div>
-              <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
+              <div class="col-md-12">
+                <div class=" swiper featureSwiperTwo">
 
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature alt">
-              <div class="feature-content">
-                <i class="icon-boxes"></i>
-                <h5>Boxes &<br>Supplies</h5>
-              </div>
-           
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="single-feature ">
+                      <div class="feature-content">
+                        <i class="icon-hours-24"></i>
+                        <h5>24 Hours <br>Access</h5>
+                      </div>
+                      <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 1 End-->
+                  
+                  <div class="swiper-slide">
+                    <div class="single-feature alt">
+                      <div class="feature-content">
+                        <i class="icon-boxes"></i>
+                        <h5>Boxes &<br>Supplies</h5>
+                      </div>
+                  
+                      <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 2 End-->
 
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-dollies-handcarts"></i>
-                <h5>Dollies/<br>Handcarts</h5>
-              </div>
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single service End -->
+                  <div class="swiper-slide">
+                    <div class="single-feature ">
+                      <div class="feature-content">
+                        <i class="icon-dollies-handcarts"></i>
+                        <h5>Dollies/<br>Handcarts</h5>
+                      </div>
+                        <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 3 End-->
 
-        </div>
-        <!--Feature 1st Row End-->
-        
-        <div class="row feature-two">
-          <div class="col-md-3 col-sm-6 col-12">
+                  <div class="swiper-slide">
+                       <div class="single-feature ">
+                          <div class="feature-content">
+                            <i class="icon-fenced-gated"></i>
+                            <h5>Fenced &<br> Gated</h5>
+                          </div>
+                          <div class="g-icon">
+                            <i class="icon-g"></i>
+                          </div>
+                        </div>
+                  </div>
+                  <!--Slide 4 End-->
+
+                  <div class="swiper-slide">
+                        <div class="single-feature alt">
+                          <div class="feature-content">
+                            <i class="icon-ground-floor"></i>
+                            <h5>Ground <br>Floor</h5>
+                          </div>
+                        
+                            <div class="g-icon">
+                            <i class="icon-g"></i>
+                          </div>
+                        </div>
+                  </div>
+                  <!--Slide 5 End-->
+
+                  <div class="swiper-slide">
+                       <div class="single-feature ">
+                      <div class="feature-content">
+                        <i class="icon-security-camera"></i>
+                        <h5>Security <br>Camera</h5>
+                      </div>
+                      <div class="g-icon">
+                        <i class="icon-g"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slide 6 End-->
+                </div>
             
+              </div>
+              </div>
           </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-fenced-gated"></i>
-                <h5>Fenced &<br> Gated</h5>
-              </div>
-              <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature alt">
-              <div class="feature-content">
-                <i class="icon-ground-floor"></i>
-                <h5>Ground <br>Floor</h5>
-              </div>
-           
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single feature End -->
-
-          <div class="col-md-3 col-sm-6 col-12">
-            <div class="single-feature ">
-              <div class="feature-content">
-                <i class="icon-security-camera"></i>
-                <h5>Security <br>Camera</h5>
-              </div>
-               <div class="g-icon">
-                <i class="icon-g"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Single service End -->
-
         </div>
+          <!-- Single feature End -->  
+        </div>
+
         <!--Feature 1st Row End-->
       </div>
     </section>
@@ -564,12 +618,12 @@
 
         <div class="storage-unit first-padding">
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-xl-7 col-lg-6 col-md-12">
               <div class="map-one-img">
                 <img src="images/unit-prices/location/map1.webp" class="img-fluid" alt="Location">
               </div>
             </div>
-            <div class="col-md-5 d-flex align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-12  d-flex align-items-center">
               <div class="map-wrapper">
                 <div class="map-content">
                   <h5>Storage Units Near Gainesville, TX</h5>
@@ -658,7 +712,7 @@
             <h4>Check Out What Our Customers Are Saying</h4>
           </div>
           <div class="col-lg-3">
-            <div class="cta-btn text-end">
+            <div class="cta-btn text-lg-end text-start mt-lg-0 mt-3">
                 <button class="button primary-button" data-bs-toggle="modal" data-bs-target="#reviewModal"><i class="icon-fluent-arrow-right"></i>Write A Review</button>
               </div>
           </div>
@@ -685,7 +739,7 @@
               </div>
               <!--Rating Section End-->
 
-                <div class="contact-form mt-4">
+                <div class="contact-form mt-sm-4 mt-3">
                         <div class="form-section">
                             <form action="">
                                 <div class="input-field">

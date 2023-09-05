@@ -63,21 +63,19 @@ ul {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
+.common-pl {
+  padding-left: 20px;
+}
 //Common padding
 .common-margin {
   margin-top: 20px;
 }
-// @media screen and (max-width: 992px) {
-//   .featureSwiperTwo .swiper-slide {
-//     display: grid;
-//     gap: 4%;
-//     grid-template-columns: 48% 48%;
-//   }
-//   .featureSwiperTwo .swiper-slide .single-feature.mb-4 {
-//     margin-bottom: 0 !important;
-//   }
-// }
+
+//Blue color
+.blue-color {
+  color: $blue;
+}
+
 /* Button CSS */
 .button {
   @include btn(20px 60px, 16px, 150px, white, $blue);
@@ -157,6 +155,11 @@ main {
     font-size: 18px;
   }
 
+  //Common Padding
+  .common-pl {
+    padding-left: 15px;
+  }
+
   //Common Margin
   .common-margin {
     margin-top: 15px;
@@ -222,7 +225,7 @@ main {
     font-size: 32px;
   }
   h4 {
-    font-size: 36px;
+    font-size: 26px;
   }
   h5 {
     font-size: 22px;
@@ -264,6 +267,9 @@ main {
     font-size: 14px;
   }
   h3 {
+    font-size: 20px;
+  }
+  h4 {
     font-size: 20px;
   }
   h6 {

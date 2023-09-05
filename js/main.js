@@ -55,12 +55,12 @@ document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".featureSwiperTwo", {
     slidesPerView: 1.4,
     spaceBetween: 20,
-    grid: {
-      col: 2,
-    },
     breakpoints: {
       576: {
-        slidesPerView: 1,
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2,
       },
       992: {
         slidesPerView: 3,
