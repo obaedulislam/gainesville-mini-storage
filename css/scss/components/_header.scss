@@ -1,5 +1,7 @@
 header {
-  
+  .menu-mob {
+    display: none;
+  }
   padding: 15px 0px;
   background: linear-gradient(
     90.25deg,
@@ -67,3 +69,88 @@ header {
     }
   }
 }
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  header {
+    a {
+      &.logo {
+        img {
+          height: unset;
+          max-width: 150px;
+        }
+      }
+    }
+
+    .navigation {
+      li {
+        margin: 0px 10px;
+        a {
+          font-size: 14px;
+        }
+
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  header {
+    a {
+      &.logo {
+        height: unset;
+        width: 100px;
+      }
+    }
+    .menu-md {
+      display: none;
+    }
+    .menu-mob {
+      display: block;
+    }
+  }
+
+  .menu-text {
+    ul {
+      &.navigation-menu {
+        text-align: right;
+        li {
+          a {
+            position: relative;
+            z-index: 99;
+          }
+        }
+        ul {
+          &#toggleMenuItem {
+            position: fixed;
+            background-color: $dark-gray;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+
+            padding-left: 200px;
+            opacity: 0;
+            display: none;
+            visibility: hidden;
+            transition: all 0.5s ease;
+
+            &.active {
+              display: block;
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/** ============================ Responsive CSS End ============================ **/

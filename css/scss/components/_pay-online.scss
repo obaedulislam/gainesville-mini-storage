@@ -75,4 +75,162 @@ Pay Online Page CSS End
   //Banner Section CSS End
 }
 
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section {
+    &.pay-online-banner {
+      .banner-container {
+        min-height: 400px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .online-item-section {
+    padding-top: 0;
+    .category-details {
+      .single-unit {
+        .common-pl {
+          padding-left: 0;
+        }
+        .store-address,
+        .store-city,
+        .store-state {
+          @include flex-position(flex, start, center);
+          position: relative;
+        }
+
+        .store-address,
+        .store-city,
+        .store-state {
+          position: relative;
+        }
+
+        .store-address,
+        .store-city,
+        .store-state {
+          &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 100%;
+            background-color: $gray-semi;
+          }
+        }
+
+        &.last-unit {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  /** == Online Item Section CSS End == **/
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section {
+    &.pay-online-banner {
+      .banner-container {
+        min-height: 350px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .online-item-section {
+    padding-top: 0;
+    .category-details {
+      .single-unit {
+        padding: 0;
+        border: 0;
+
+        margin-top: 0;
+        border-radius: 0;
+
+        &.heading {
+          border-top: 1px solid $gray-border;
+          padding-top: 20px;
+        }
+
+        p {
+          &.facility {
+            font-size: 20px;
+          }
+          &.mini-storage {
+            margin: 15px 0;
+            font-size: 20px;
+            color: $dark-gray;
+          }
+        }
+
+        .hide-sm {
+          display: none;
+        }
+
+        .store-address,
+        .store-city,
+        .store-state {
+          @include flex-position(flex, start, center);
+          position: relative;
+        }
+
+        .store-address,
+        .store-city,
+        .store-state {
+          position: relative;
+        }
+
+        .store-address,
+        .store-city,
+        .store-state {
+          &::after {
+            display: none;
+          }
+        }
+
+        &.last-unit {
+          border-bottom: 0;
+        }
+
+        .head-size,
+        .store-size {
+          &::after {
+            display: none;
+          }
+        }
+        .call-btn {
+          padding-top: 10px;
+          display: block;
+          p {
+            display: block;
+            width: 100%;
+            font-weight: 400;
+          }
+          a {
+            margin-top: 20px;
+            display: block;
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+  /** == Online Item Section CSS End == **/
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section {
+    &.pay-online-banner {
+      .banner-container {
+        min-height: 300px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
 /** ============================ Responsive CSS End ============================ **/

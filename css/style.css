@@ -364,6 +364,8 @@ header {
   z-index: 99;
   top: 0;
   left: 0; }
+  header .menu-mob {
+    display: none; }
   header a.logo {
     display: inline-block; }
     header a.logo img {
@@ -402,6 +404,48 @@ header {
       header .navigation li:last-child {
         margin-right: 0px; }
 
+/** ============================ Responsive CSS Start ============================ **/
+@media (min-width: 0px) and (max-width: 992px) {
+  header a.logo img {
+    height: unset;
+    max-width: 150px; }
+  header .navigation li {
+    margin: 0px 10px; }
+    header .navigation li a {
+      font-size: 14px; }
+    header .navigation li:last-child {
+      margin-right: 0px; } }
+@media (min-width: 0px) and (max-width: 768px) {
+  header a.logo {
+    height: unset;
+    width: 100px; }
+  header .menu-md {
+    display: none; }
+  header .menu-mob {
+    display: block; }
+
+  .menu-text ul.navigation-menu {
+    text-align: right; }
+    .menu-text ul.navigation-menu li a {
+      position: relative;
+      z-index: 99; }
+    .menu-text ul.navigation-menu ul#toggleMenuItem {
+      position: fixed;
+      background-color: #545454;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      padding-left: 200px;
+      opacity: 0;
+      display: none;
+      visibility: hidden;
+      transition: all 0.5s ease; }
+      .menu-text ul.navigation-menu ul#toggleMenuItem.active {
+        display: block;
+        opacity: 1;
+        visibility: visible; } }
+/** ============================ Responsive CSS End ============================ **/
 /** == Feature Section CSS Start == **/
 .feature-section .single-feature {
   position: relative;
@@ -1626,6 +1670,97 @@ Pay Online Page CSS End
 @media (min-width: 0px) and (max-width: 1200px) {
   .banner-section.pay-online-banner .banner-container {
     min-height: 450px; } }
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section.pay-online-banner .banner-container {
+    min-height: 400px; }
+
+  .online-item-section {
+    padding-top: 0; }
+    .online-item-section .category-details .single-unit .common-pl {
+      padding-left: 0; }
+    .online-item-section .category-details .single-unit .store-address,
+    .online-item-section .category-details .single-unit .store-city,
+    .online-item-section .category-details .single-unit .store-state {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      position: relative; }
+    .online-item-section .category-details .single-unit .store-address,
+    .online-item-section .category-details .single-unit .store-city,
+    .online-item-section .category-details .single-unit .store-state {
+      position: relative; }
+    .online-item-section .category-details .single-unit .store-address::after,
+    .online-item-section .category-details .single-unit .store-city::after,
+    .online-item-section .category-details .single-unit .store-state::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 100%;
+      background-color: #828282; }
+    .online-item-section .category-details .single-unit.last-unit {
+      border-bottom: 0; }
+
+  /** == Online Item Section CSS End == **/ }
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section.pay-online-banner .banner-container {
+    min-height: 350px; }
+
+  .online-item-section {
+    padding-top: 0; }
+    .online-item-section .category-details .single-unit {
+      padding: 0;
+      border: 0;
+      margin-top: 0;
+      border-radius: 0; }
+      .online-item-section .category-details .single-unit.heading {
+        border-top: 1px solid #bfbfbf;
+        padding-top: 20px; }
+      .online-item-section .category-details .single-unit p.facility {
+        font-size: 20px; }
+      .online-item-section .category-details .single-unit p.mini-storage {
+        margin: 15px 0;
+        font-size: 20px;
+        color: #545454; }
+      .online-item-section .category-details .single-unit .hide-sm {
+        display: none; }
+      .online-item-section .category-details .single-unit .store-address,
+      .online-item-section .category-details .single-unit .store-city,
+      .online-item-section .category-details .single-unit .store-state {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: relative; }
+      .online-item-section .category-details .single-unit .store-address,
+      .online-item-section .category-details .single-unit .store-city,
+      .online-item-section .category-details .single-unit .store-state {
+        position: relative; }
+      .online-item-section .category-details .single-unit .store-address::after,
+      .online-item-section .category-details .single-unit .store-city::after,
+      .online-item-section .category-details .single-unit .store-state::after {
+        display: none; }
+      .online-item-section .category-details .single-unit.last-unit {
+        border-bottom: 0; }
+      .online-item-section .category-details .single-unit .head-size::after,
+      .online-item-section .category-details .single-unit .store-size::after {
+        display: none; }
+      .online-item-section .category-details .single-unit .call-btn {
+        padding-top: 10px;
+        display: block; }
+        .online-item-section .category-details .single-unit .call-btn p {
+          display: block;
+          width: 100%;
+          font-weight: 400; }
+        .online-item-section .category-details .single-unit .call-btn a {
+          margin-top: 20px;
+          display: block;
+          width: 70px; }
+
+  /** == Online Item Section CSS End == **/ }
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section.pay-online-banner .banner-container {
+    min-height: 300px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Terms Page CSS Start 
