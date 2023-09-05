@@ -52,4 +52,19 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
+  var swiper = new Swiper(".featureSwiperTwo", {
+    slidesPerView: 1.4,
+    spaceBetween: 20,
+    grid: {
+      col: 2,
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 1,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+  });
 });

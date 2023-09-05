@@ -318,13 +318,17 @@ main {
     font-weight: 400;
     padding: 15px 30px; }
     .button i {
-      font-size: 16px; } }
+      font-size: 16px;
+      margin-right: 5px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   p {
     font-size: 14px; }
 
   h3 {
     font-size: 20px; }
+
+  h6 {
+    font-size: 18px; }
 
   /* Button CSS */
   .button {
@@ -644,11 +648,9 @@ Home Page CSS End
 Unit Prices Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.unit-prices-banner {
-  min-height: 600px; }
-  .banner-section.unit-prices-banner .banner-container {
-    min-height: 600px;
-    background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
+.banner-section.unit-prices-banner .banner-container {
+  min-height: 600px;
+  background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
 
 /** == Banner Section CSS End == **/
 /** == Office Access Times Section CSS Start == **/
@@ -906,6 +908,186 @@ Unit Prices Page CSS Start
 /** ========================= 
 Unit Prices Page CSS End 
 ========================= **/
+/** ============================ Responsive CSS Start ============================ **/
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section.unit-prices-banner .banner-container {
+    min-height: 450px; }
+
+  .office-time-section .office-time {
+    padding: 0 40px; }
+
+  .unit-filter-section .category-details {
+    padding: 0 30px; }
+    .unit-filter-section .category-details .single-unit .call-btn a {
+      padding: 10px 30px;
+      font-size: 16px;
+      min-width: 130px;
+      color: white;
+      background-color: #9d9d9d; }
+      .unit-filter-section .category-details .single-unit .call-btn a i {
+        font-size: 16px; }
+    .unit-filter-section .category-details .single-unit .common-pl {
+      padding-left: 15px; } }
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section.unit-prices-banner .banner-container {
+    min-height: 400px; }
+
+  .office-time-section .office-time {
+    padding: 0px; }
+
+  .unit-filter-section .search-box form {
+    padding: 8px;
+    border-radius: 5px; }
+    .unit-filter-section .search-box form button i {
+      font-size: 16px; }
+  .unit-filter-section .category-details {
+    padding: 0 10px; }
+    .unit-filter-section .category-details .single-unit {
+      padding: 10px 0; }
+      .unit-filter-section .category-details .single-unit .call-btn a {
+        padding: 7px 20px;
+        font-size: 14px;
+        min-width: 100px;
+        color: white;
+        background-color: #9d9d9d; }
+        .unit-filter-section .category-details .single-unit .call-btn a i {
+          font-size: 14px; }
+      .unit-filter-section .category-details .single-unit .common-pl {
+        padding-left: 15px; }
+  .unit-filter-section .category ul li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-size: 16px; } }
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section.unit-prices-banner .banner-container {
+    min-height: 350px; }
+
+  .office-time-section .office-time {
+    padding: 0px; }
+    .office-time-section .office-time::after {
+      right: -12px; }
+    .office-time-section .office-time p.text-transparent {
+      display: none; }
+
+  .unit-filter-section .category-details {
+    padding: 0;
+    border: 0; }
+    .unit-filter-section .category-details .single-unit {
+      border-bottom: 1px solid #bfbfbf;
+      border-top: 1px solid #bfbfbf;
+      border-right: 1px solid #bfbfbf;
+      border-left: 1px solid #bfbfbf;
+      margin-top: 20px;
+      padding: 15px 20px;
+      border-radius: 5px; }
+      .unit-filter-section .category-details .single-unit .store-size .store-div {
+        position: relative;
+        width: 100%;
+        display: block; }
+        .unit-filter-section .category-details .single-unit .store-size .store-div h5 {
+          text-align: center;
+          width: 100%;
+          display: block; }
+          .unit-filter-section .category-details .single-unit .store-size .store-div h5::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            bottom: -10px;
+            background-color: #bfbfbf; }
+      .unit-filter-section .category-details .single-unit .unit-price .price-div {
+        position: relative;
+        width: 100%; }
+        .unit-filter-section .category-details .single-unit .unit-price .price-div h5 {
+          text-align: center;
+          width: 100%;
+          display: block; }
+          .unit-filter-section .category-details .single-unit .unit-price .price-div h5::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            bottom: -10px;
+            background-color: #bfbfbf; }
+      .unit-filter-section .category-details .single-unit .store-unit-details {
+        display: flex;
+        justify-content: center; }
+        .unit-filter-section .category-details .single-unit .store-unit-details p.unit-details {
+          padding-top: 20px; }
+      .unit-filter-section .category-details .single-unit .call-btn {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center; }
+        .unit-filter-section .category-details .single-unit .call-btn a {
+          padding: 10px 20px;
+          font-size: 16px;
+          min-width: 85px;
+          color: white;
+          background-color: #9d9d9d; }
+          .unit-filter-section .category-details .single-unit .call-btn a i {
+            font-size: 16px; }
+      .unit-filter-section .category-details .single-unit .common-pl {
+        padding-left: 0; }
+  .unit-filter-section .category ul {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: transparent; }
+    .unit-filter-section .category ul li {
+      padding: 0px 10px; }
+      .unit-filter-section .category ul li a {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f4f3ff; } }
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section.unit-prices-banner .banner-container {
+    min-height: 300px; }
+
+  .office-time-section .office-time {
+    padding: 0px;
+    padding-bottom: 30px; }
+    .office-time-section .office-time i {
+      font-size: 45px; }
+    .office-time-section .office-time p.text-transparent {
+      display: none; }
+    .office-time-section .office-time::after {
+      right: unset;
+      top: unset;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px; }
+    .office-time-section .office-time.access-time {
+      padding-top: 30px; }
+
+  .unit-filter-section {
+    padding-top: 0; }
+    .unit-filter-section .category-details {
+      padding: 0; }
+      .unit-filter-section .category-details .single-unit {
+        padding: 15px; }
+        .unit-filter-section .category-details .single-unit .call-btn a {
+          padding: 7px 15px;
+          font-size: 14px;
+          min-width: 80px;
+          color: white;
+          background-color: #9d9d9d; }
+          .unit-filter-section .category-details .single-unit .call-btn a i {
+            font-size: 14px; }
+        .unit-filter-section .category-details .single-unit .common-pl {
+          padding-left: 15px; }
+
+  .unit-filter-section .category ul li {
+    padding: 0px 5px; } }
+/** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Size Guide Page CSS Start 
 ========================= **/
@@ -970,6 +1152,11 @@ Nearby Page CSS Start
 /** ========================= 
 Nearby Page CSS End 
 ========================= **/
+/** ============================ Responsive CSS Start ============================ **/
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section.nearby-banner .banner-container {
+    min-height: 450px; } }
+/** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 FAQs Page CSS Start 
 ========================= **/
@@ -1007,7 +1194,7 @@ FAQs Page CSS Start
   background-color: transparent !important; }
 .faqs-section .accordion-body {
   background-color: transparent;
-  border: 1px solid #fff7e2;
+  border: 2px solid #f5ecd4e0;
   border-top: 0; }
   .faqs-section .accordion-body p {
     color: #434343;
@@ -1099,6 +1286,11 @@ Pay Online Page CSS Start
 /** ========================= 
 Pay Online Page CSS End 
 ========================= **/
+/** ============================ Responsive CSS Start ============================ **/
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section.nearby-banner .banner-container {
+    min-height: 450px; } }
+/** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Terms Page CSS Start 
 ========================= **/

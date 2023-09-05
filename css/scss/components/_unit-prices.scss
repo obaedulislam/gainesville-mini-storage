@@ -5,7 +5,6 @@ Unit Prices Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.unit-prices-banner {
-    min-height: 600px;
     .banner-container {
       min-height: 600px;
       background-image: linear-gradient(
@@ -367,3 +366,319 @@ Unit Prices Page CSS Start
 /** ========================= 
 Unit Prices Page CSS End 
 ========================= **/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Large Device CSS start
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section {
+    &.unit-prices-banner {
+      .banner-container {
+        min-height: 450px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .office-time-section {
+    .office-time {
+      padding: 0 40px;
+    }
+  }
+  // Office Access Times Section CSS Start
+  .unit-filter-section {
+    .category-details {
+      padding: 0 30px;
+      .single-unit {
+        .call-btn {
+          a {
+            @include btn(10px 30px, 16px, 130px, white, $gray-normal);
+            i {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .common-pl {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
+  //Unit filter css end
+}
+
+//Medium Device CSS start
+@media (min-width: 0px) and (max-width: 992px) {
+  .banner-section {
+    &.unit-prices-banner {
+      .banner-container {
+        min-height: 400px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .office-time-section {
+    .office-time {
+      padding: 0px;
+    }
+  }
+  // Office Access Times Section CSS Start
+
+  .unit-filter-section {
+    .search-box {
+      form {
+        padding: 8px;
+        border-radius: 5px;
+        button {
+          i {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .category-details {
+      padding: 0 10px;
+      .single-unit {
+        padding: 10px 0;
+        .call-btn {
+          a {
+            @include btn(7px 20px, 14px, 100px, white, $gray-normal);
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .common-pl {
+          padding-left: 15px;
+        }
+      }
+    }
+
+    .category {
+      ul {
+        li {
+          a {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 5px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  //Unit filter css end
+}
+
+//Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner-section {
+    &.unit-prices-banner {
+      .banner-container {
+        min-height: 350px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .office-time-section {
+    .office-time {
+      padding: 0px;
+      &::after {
+        right: -12px;
+      }
+      p {
+        &.text-transparent {
+          display: none;
+        }
+      }
+    }
+  }
+  // Office Access Times Section CSS Start
+
+  .unit-filter-section {
+    .category-details {
+      padding: 0;
+      border: 0;
+      .single-unit {
+        border-bottom: 1px solid #bfbfbf;
+        border-top: 1px solid #bfbfbf;
+        border-right: 1px solid #bfbfbf;
+        border-left: 1px solid #bfbfbf;
+        margin-top: 20px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        .store-size {
+          .store-div {
+            position: relative;
+            width: 100%;
+            display: block;
+            h5 {
+              text-align: center;
+              width: 100%;
+              display: block;
+              &::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                left: 0;
+                bottom: -10px;
+                background-color: $gray-border;
+              }
+            }
+          }
+        }
+
+        .unit-price {
+          .price-div {
+            position: relative;
+            width: 100%;
+            h5 {
+              text-align: center;
+              width: 100%;
+              display: block;
+              &::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                left: 0;
+                bottom: -10px;
+                background-color: $gray-border;
+              }
+            }
+          }
+        }
+        //Price information css end
+
+        .store-unit-details {
+          display: flex;
+          justify-content: center;
+          p {
+            &.unit-details {
+              padding-top: 20px;
+            }
+          }
+        }
+        //Store unit details end
+
+        .call-btn {
+          padding-top: 20px;
+          display: flex;
+          justify-content: center;
+          a {
+            @include btn(10px 20px, 16px, 85px, white, $gray-normal);
+            i {
+              font-size: 16px;
+            }
+          }
+        }
+        //CTA button css end
+
+        .common-pl {
+          padding-left: 0;
+        }
+      }
+    }
+
+    .category {
+      ul {
+        display: flex;
+        overflow-x: auto;
+        justify-content: center;
+        padding: 10px 0;
+        background-color: transparent;
+        li {
+          padding: 0px 10px;
+          a {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #f4f3ff;
+          }
+        }
+      }
+    }
+  }
+  //Unit filter css end
+}
+
+//Extra Small Device CSS start
+@media (min-width: 0px) and (max-width: 576px) {
+  .banner-section {
+    &.unit-prices-banner {
+      .banner-container {
+        min-height: 300px;
+      }
+    }
+  }
+  //Banner Section CSS End
+
+  .office-time-section {
+    .office-time {
+      padding: 0px;
+      padding-bottom: 30px;
+      i {
+        font-size: 45px;
+      }
+      p {
+        &.text-transparent {
+          display: none;
+        }
+      }
+      &::after {
+        right: unset;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+      }
+
+      &.access-time {
+        padding-top: 30px;
+      }
+    }
+  }
+  // Office Access Times Section CSS Start
+
+  .unit-filter-section {
+    padding-top: 0;
+    .category-details {
+      padding: 0;
+      .single-unit {
+        padding: 15px;
+        .call-btn {
+          a {
+            @include btn(7px 15px, 14px, 80px, white, $gray-normal);
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .common-pl {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
+  .unit-filter-section .category ul li {
+    padding: 0px 5px;
+  }
+
+  //Unit filter css end
+}
+
+/** ============================ Responsive CSS End ============================ **/

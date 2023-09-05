@@ -1,6 +1,6 @@
   <header>
-    <div class="container">
-      <div class="row">
+    <div class="container ">
+      <div class="row overflow-hidden">
         <div class="col-sm-12 col-md-3 col-lg-3">
           <a class="logo" href="index.php"><img src="images/logo.svg" alt = "Gainesville Mini Storage Logo"></a>
         </div>

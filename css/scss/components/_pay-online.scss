@@ -60,3 +60,19 @@ Pay Online Page CSS Start
 /** ========================= 
 Pay Online Page CSS End 
 ========================= **/
+
+/** ============================ Responsive CSS Start ============================ **/
+
+//Large Device CSS start
+@media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section {
+    &.nearby-banner {
+      .banner-container {
+        min-height: 450px;
+      }
+    }
+  }
+  //Banner Section CSS End
+}
+
+/** ============================ Responsive CSS End ============================ **/

@@ -68,7 +68,16 @@ ul {
 .common-margin {
   margin-top: 20px;
 }
-
+// @media screen and (max-width: 992px) {
+//   .featureSwiperTwo .swiper-slide {
+//     display: grid;
+//     gap: 4%;
+//     grid-template-columns: 48% 48%;
+//   }
+//   .featureSwiperTwo .swiper-slide .single-feature.mb-4 {
+//     margin-bottom: 0 !important;
+//   }
+// }
 /* Button CSS */
 .button {
   @include btn(20px 60px, 16px, 150px, white, $blue);
@@ -244,6 +253,7 @@ main {
     padding: 15px 30px;
     i {
       font-size: 16px;
+      margin-right: 5px;
     }
   }
 }
@@ -255,6 +265,9 @@ main {
   }
   h3 {
     font-size: 20px;
+  }
+  h6 {
+    font-size: 18px;
   }
   /* Button CSS */
   .button {

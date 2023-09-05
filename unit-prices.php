@@ -39,12 +39,12 @@
                 <i class="icon-office-hours"></i>
                 <h6 class="mt-3">Office Hours</h6>
                 <div class="row">
-                  <div class="col-md-6 col-12">
+                  <div class="col-md-6 col-sm-6 col-6">
                     <p>Sunday</p>
                     <p>Monday - Friday</p>
                     <p>Saturday</p>
                   </div>
-                  <div class="col-md-6 col-12">
+                  <div class="col-md-6 col-sm-6 col-6">
                     <p>Closed</p>
                     <p>9:00 AM - 5:00 PM</p>
                     <p>9:00 AM - 2:00 PM</p>
@@ -88,7 +88,7 @@
     <section class="unit-filter-section first-padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-2 col-12">
+          <div class="col-lg-2 col-md-3 col-12">
             <div class="search-box">
                <form>
                 <input type="text" id="search" name="search" placeholder="Search">
@@ -111,14 +111,14 @@
             <!--Category Item End-->
           </div>
 
-          <div class="col-md-10 col-12">
+          <div class="col-lg-10 col-md-9 col-12">
             <div class="category-details">
                 <div class="single-unit heading">
                   <div class="row">
                     <div class="col-md-2 col-6 head-size">
                       <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
                     </div>
-                    <div class="col-md-5 head-unit">
+                    <div class="col-md-5 head-unit d-md-block d-none">
                       <p class="common-pl">Unit Details</p>
                     </div>
                      <div class="col-md-5 col-6 head">
@@ -130,165 +130,203 @@
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">5’x10’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">5’x10’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self storage, non climate, drivethrough, roolup, drive up</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$60</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$60</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
+                <!--Single Unit End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">5’x10’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">5’x10’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$80</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$80</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
+                <!--Single Unit End -->
 
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">5’x15’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">5’x15’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$60</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$60</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
-                
+                <!--Single Unit End -->
+
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">10’x10’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10’x10’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$120</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$120</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit Heading End -->
-                
-                <div class="single-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">10’x10’</h5>                    
-                    </div>
-                    <div class="col-md-5 store-unit-details">
-                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$95</h5>             
-                    </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
-                
+                <!--Single Unit End -->
+
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">10’x15’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10’x10’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self storage, non climate, drivethrough, roolup, drive up</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$95</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10’x15’</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$160</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$160</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
-                
+                <!--Single Unit End -->
+
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">10’x15’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10’x15’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$105</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$105</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
-                
+                <!--Single Unit End -->
+
                 <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">10’x20’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10’x20’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$140</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$140</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
-                
-                <div class="single-unit last-unit">
+                <!--Single Unit End -->
+
+                <div class="single-unit">
                   <div class="row wrapper">
-                    <div class="col-md-2 col-6 store-size">
-                        <h5 class="size">12’x45’</h5>                    
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">12’x45’</h5> 
+                        </div>                   
                     </div>
-                    <div class="col-md-5 store-unit-details">
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
                         <p class="unit-details common-pl">Parking, covered, rv/boat/vehicle/parking, lower level</p>                
                     </div>
-                     <div class="col-md-2 col-4 unit-price">
-                        <h5 class="price common-pl">$120</h5>             
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$120</h5>      
+                        </div>       
                     </div>
-                    <div class="col-md-3 col-4 call-btn">
-                        <a href="#" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Call</a>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn"><i class="icon-fluent-arrow-right"></i>Call</a>
                     </div>
                   </div>
                 </div>
-                <!--Single Unit Heading End -->
+                <!--Single Unit End -->
+
+
             </div>
           </div>
         </div>
@@ -298,7 +336,7 @@
 
     
     <!--|| Feature Section Start ||-->
-    <section class="feature-section first-padding">
+    <section class="feature-section first-padding d-lg-block d-none">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6 col-12">
@@ -308,11 +346,12 @@
             </div>
           </div>
           <!-- Single feature End -->
+          
 
           <div class="col-md-3 col-sm-6 col-12">
             <div class="single-feature ">
               <div class="feature-content">
-                <i class="icon-hamburger path1 path2 path3"></i>
+                <i class="icon-hours-24"></i>
                 <h5>24 Hours <br>Access</h5>
               </div>
               <div class="g-icon">
@@ -400,10 +439,117 @@
 
         </div>
         <!--Feature 1st Row End-->
-
       </div>
     </section>
     <!--|| Feature Section End ||-->
+    
+    <!--|| Feature Section Mobile Start ||-->
+    <section class="feature-section first-padding ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="feature-head ">
+              <p class="feature-num">01</p>
+              <h3 >Features</h3>
+            </div>
+          </div>
+          <!-- Single feature End -->
+          
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="single-feature ">
+              <div class="feature-content">
+                <i class="icon-hours-24"></i>
+                <h5>24 Hours <br>Access</h5>
+              </div>
+              <div class="g-icon">
+                <i class="icon-g"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Single feature End -->
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="single-feature alt">
+              <div class="feature-content">
+                <i class="icon-boxes"></i>
+                <h5>Boxes &<br>Supplies</h5>
+              </div>
+           
+               <div class="g-icon">
+                <i class="icon-g"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Single feature End -->
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="single-feature ">
+              <div class="feature-content">
+                <i class="icon-dollies-handcarts"></i>
+                <h5>Dollies/<br>Handcarts</h5>
+              </div>
+               <div class="g-icon">
+                <i class="icon-g"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Single service End -->
+
+        </div>
+        <!--Feature 1st Row End-->
+        
+        <div class="row feature-two">
+          <div class="col-md-3 col-sm-6 col-12">
+            
+          </div>
+          <!-- Single feature End -->
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="single-feature ">
+              <div class="feature-content">
+                <i class="icon-fenced-gated"></i>
+                <h5>Fenced &<br> Gated</h5>
+              </div>
+              <div class="g-icon">
+                <i class="icon-g"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Single feature End -->
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="single-feature alt">
+              <div class="feature-content">
+                <i class="icon-ground-floor"></i>
+                <h5>Ground <br>Floor</h5>
+              </div>
+           
+               <div class="g-icon">
+                <i class="icon-g"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Single feature End -->
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="single-feature ">
+              <div class="feature-content">
+                <i class="icon-security-camera"></i>
+                <h5>Security <br>Camera</h5>
+              </div>
+               <div class="g-icon">
+                <i class="icon-g"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Single service End -->
+
+        </div>
+        <!--Feature 1st Row End-->
+      </div>
+    </section>
+    <!--|| Feature Section Mobile End ||-->
 
     <!--|| Location Section Start ||-->
     <section class="location-section location-bg-none first-padding overflow-hidden">
@@ -508,10 +654,10 @@
     <section class="checkout-cta-section ">
       <div class="container">
         <div class="row">
-          <div class="col-md-9 d-flex align-items-center">
+          <div class="col-lg-9 d-flex align-items-center">
             <h4>Check Out What Our Customers Are Saying</h4>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <div class="cta-btn text-end">
                 <button class="button primary-button" data-bs-toggle="modal" data-bs-target="#reviewModal"><i class="icon-fluent-arrow-right"></i>Write A Review</button>
               </div>

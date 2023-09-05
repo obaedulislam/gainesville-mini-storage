@@ -34,27 +34,27 @@
                         <div class="form-section">
                             <form action="">
                                 <div class="input-field">
-                                    <label for="firstName">First Name*</label><br>
+                                    <label for="firstName">First Name<span style="color: red;">*</span></label><br>
                                     <input type="text" name="firstName" id="first-name">
                                 </div>
                                 <div class="input-field">
-                                    <label for="lastName">Last Name*</label><br>
+                                    <label for="lastName">Last Name<span style="color: red;">*</span></label><br>
                                     <input type="text" name="lastName" id="last-name">
                                 </div>
                                 <div class="input-field">
-                                    <label for="email">Email*</label><br>
+                                    <label for="email">Email<span style="color: red;">*</span></label><br>
                                     <input type="email" name="email" id="email">
                                 </div>
                                 <div class="input-field">
-                                    <label for="phone">Phone*</label><br>
+                                    <label for="phone">Phone<span style="color: red;">*</span></label><br>
                                     <input type="text" name="phone" id="phone">
                                 </div>
                                 <div class="input-field">
-                                    <label for="facility">Facility*</label><br>
+                                    <label for="facility">Facility<span style="color: red;">*</span></label><br>
                                     <input type="text" name="facility" id="facility">
                                 </div>
                                 <div class="input-field">
-                                    <label for="questions">Questions or comments*</label><br>
+                                    <label for="questions">Questions or comments<span style="color: red;">*</span></label><br>
                                     <input type="text" name="questions" id="questions">
                                 </div>
                             </form>
