@@ -37,14 +37,15 @@
           
           <ul class="navigation-menu ul-list">
              <li><a id="toggleMenuMobile" class="hamburger-menu"><span><img src="images/header/hamburger.svg" alt=""></span></a>
-                    <ul id="toggleMenuItem" class="ul-list d-flex align-items-center">
+                    <ul id="toggleMenuItem" class="ul-list ">
                         <div>
-                          <li><a href="unit-prices.php">Unit Prices</a></li>
-                          <li><a href="size-guide.php">Size Guide</a></li>
-                          <li><a href="nearby.php">Nearby</a></li>
-                          <li><a href="faqs.php">FAQ</a></li>
-                          <li><a href="contact.php">Contact Us</a></li>
-                          <li><a href="pay-online.php">Pay Online</a></li>  
+                          <li><a href="index.php" class="active"><i class="icon-home"></i> <span> Home</span></a></li>
+                          <li><a href="unit-prices.php"><i class="icon-unit-prices"></i> <span> Unit Prices</span></a></li>
+                          <li><a href="size-guide.php"><i class="icon-size-guide"></i> <span>Size Guide</span></a></li>
+                          <li><a href="nearby.php"><i class="icon-location"></i> <span>Nearby</span></a></li>
+                          <li><a href="faqs.php"><i class="icon-info"></i> <span>FAQ</span></a></li>
+                          <li><a href="contact.php"><i class="icon-home"></i> <span>Contact Us</span></a></li>
+                          <li><a href="pay-online.php"><i class="icon-pay-card"></i> <span>Pay Online</span></a></li>  
                         </div>
                     </ul>
           
