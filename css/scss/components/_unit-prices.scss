@@ -5,7 +5,7 @@ Unit Prices Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.unit-prices-banner {
-    .banner-container {
+    .container {
       min-height: 600px;
       background-image: linear-gradient(
           180deg,
@@ -144,7 +144,7 @@ Unit Prices Page CSS Start
 
       .call-btn {
         a {
-          @include btn(20px 60px, 20px, 190px, white, $gray-normal);
+          @include btn(20px 50px, 20px, 190px, white, $gray-normal);
           transition: all 0.3s ease-in;
           &:hover {
             background-color: $yellow;
@@ -445,7 +445,7 @@ Unit Prices Page CSS End
 @media (min-width: 0px) and (max-width: 1200px) {
   .banner-section {
     &.unit-prices-banner {
-      .banner-container {
+      .container {
         min-height: 450px;
       }
     }
@@ -481,7 +481,7 @@ Unit Prices Page CSS End
 @media (min-width: 0px) and (max-width: 992px) {
   .banner-section {
     &.unit-prices-banner {
-      .banner-container {
+      .container {
         min-height: 400px;
       }
     }
@@ -544,7 +544,7 @@ Unit Prices Page CSS End
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section {
     &.unit-prices-banner {
-      .banner-container {
+      .container {
         min-height: 350px;
       }
     }
@@ -814,7 +814,7 @@ Unit Prices Page CSS End
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section {
     &.unit-prices-banner {
-      .banner-container {
+      .container {
         min-height: 300px;
       }
     }

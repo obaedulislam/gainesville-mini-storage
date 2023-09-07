@@ -16,7 +16,7 @@
   <main>
     <!--|| Banner Section Start ||-->
       <section class="banner-section pay-online-banner">
-        <div class="banner-container text-center ">
+        <div class="container text-center ">
           <div class="row banner-content">
               <h2>Pay Online | My Account</h2>           
           </div>

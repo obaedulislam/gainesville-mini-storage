@@ -7,12 +7,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
-.banner-container {
-  margin: 0 auto;
-  max-width: 1568px;
-}
+
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
 }
 h1 {
   font-size: 96px;
@@ -42,7 +39,7 @@ h6 {
 
 p {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
   color: $dark-gray;
 }
 a {
@@ -152,7 +149,7 @@ main {
   }
 
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   //Common Padding
@@ -196,7 +193,7 @@ main {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   //Common Margin
@@ -235,7 +232,7 @@ main {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*Padding CSS*/

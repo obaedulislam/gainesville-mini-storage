@@ -16,7 +16,7 @@
   <main>
     <!--|| Banner Section Start ||-->
       <section class="banner-section size-guide-banner">
-        <div class="banner-container text-center ">
+        <div class="container text-center ">
           <div class="row banner-content">
               <h2>Size Guide</h2>
               <p>Do you need help finding the perfect unit size? All you need is an idea of everything you intend to store and a few moments to spare. Simply enter the items into the calculator and be sure to include the quantity of each item. If you have additional questions, don’t hesitate to get in touch with a storage expert!</p>

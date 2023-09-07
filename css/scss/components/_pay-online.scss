@@ -5,7 +5,7 @@ Pay Online Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.pay-online-banner {
-    .banner-container {
+    .container {
       min-height: 320px;
       background-image: linear-gradient(
           180deg,
@@ -67,7 +67,7 @@ Pay Online Page CSS End
 @media (min-width: 0px) and (max-width: 1200px) {
   .banner-section {
     &.pay-online-banner {
-      .banner-container {
+      .container {
         min-height: 450px;
       }
     }
@@ -79,7 +79,7 @@ Pay Online Page CSS End
 @media (min-width: 0px) and (max-width: 992px) {
   .banner-section {
     &.pay-online-banner {
-      .banner-container {
+      .container {
         min-height: 400px;
       }
     }
@@ -133,7 +133,7 @@ Pay Online Page CSS End
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section {
     &.pay-online-banner {
-      .banner-container {
+      .container {
         min-height: 350px;
       }
     }
@@ -225,7 +225,7 @@ Pay Online Page CSS End
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section {
     &.pay-online-banner {
-      .banner-container {
+      .container {
         min-height: 300px;
       }
     }

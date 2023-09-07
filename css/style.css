@@ -129,12 +129,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px; }
 
-.banner-container {
-  margin: 0 auto;
-  max-width: 1568px; }
-
 .container {
-  max-width: 1440px; }
+  max-width: 1280px; }
 
 h1 {
   font-size: 96px; }
@@ -163,7 +159,7 @@ h6 {
 
 p {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
   color: #545454; }
 
 a {
@@ -251,7 +247,7 @@ main {
     font-size: 18px; }
 
   p {
-    font-size: 18px; }
+    font-size: 16px; }
 
   .common-pl {
     padding-left: 15px; }
@@ -284,7 +280,7 @@ main {
     font-size: 18px; }
 
   p {
-    font-size: 16px; }
+    font-size: 14px; }
 
   .common-margin {
     margin-top: 15px; }
@@ -314,7 +310,7 @@ main {
     font-size: 24px; }
 
   p {
-    font-size: 16px; }
+    font-size: 14px; }
 
   /*Padding CSS*/
   .first-padding {
@@ -433,12 +429,12 @@ header {
       position: relative;
       z-index: 99; }
     .menu-text ul.navigation-menu ul#toggleMenuItem {
-      position: absolute;
+      position: fixed;
       text-align: left;
-      width: 100%;
-      height: 100%;
+      width: 0;
+      height: 100vh;
       top: 100px;
-      left: 0;
+      left: -500px;
       opacity: 0;
       display: none;
       visibility: hidden;
@@ -449,8 +445,10 @@ header {
         opacity: 1;
         visibility: visible;
         width: 100%;
+        left: 0;
         background-color: white;
-        height: 100vh; }
+        height: 100vh;
+        transition: 0.5s; }
       .menu-text ul.navigation-menu ul#toggleMenuItem li {
         margin: 20px 0; }
         .menu-text ul.navigation-menu ul#toggleMenuItem li a {
@@ -534,7 +532,7 @@ header {
       font-size: 80px; }
     .feature-section .single-feature .feature-content h5 {
       margin-top: 60px;
-      font-size: 32px;
+      font-size: 28px;
       font-weight: 500;
       color: #9d9d9d; }
   .feature-section .single-feature .g-icon {
@@ -591,7 +589,7 @@ header {
         height: 25px;
         right: -18px; }
       .footer-section .footer-menu ul li a {
-        font-size: 16px;
+        font-size: 14px;
         color: #545454; }
       .footer-section .footer-menu ul li:last-child::after {
         display: none; }
@@ -634,7 +632,7 @@ Home Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   padding: 20px 15px; }
-  .banner-section .banner-container {
+  .banner-section .container {
     background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/home/banner/banner.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -644,17 +642,17 @@ Home Page CSS Start
     align-items: center;
     border-radius: 15px;
     padding: 0 30px; }
-    .banner-section .banner-container .banner-content {
+    .banner-section .container .banner-content {
       margin: 0 auto;
       max-width: 1400px; }
-    .banner-section .banner-container h1 {
+    .banner-section .container h1 {
       font-weight: 700;
       color: white; }
-    .banner-section .banner-container p {
+    .banner-section .container p {
       margin-top: 20px;
-      font-size: 24px;
+      font-size: 20px;
       color: white; }
-    .banner-section .banner-container .cta-btn {
+    .banner-section .container .cta-btn {
       margin-top: 50px; }
 
 /** == Banner Section CSS End == **/
@@ -709,9 +707,9 @@ Home Page CSS End
   .location-section .storage-unit .map-wrapper .map-content {
     padding: 50px 30px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section .banner-container {
+  .banner-section .container {
     min-height: 500px; }
-    .banner-section .banner-container p {
+    .banner-section .container p {
       font-size: 20px; }
 
   .location-section .storage-unit .map-one-img {
@@ -734,20 +732,20 @@ Home Page CSS End
   .location-section .first-padding {
     padding: 20px 0; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section .banner-container {
+  .banner-section .container {
     min-height: 350px; }
-    .banner-section .banner-container p {
+    .banner-section .container p {
       margin-top: 5px;
       font-size: 18px; }
-    .banner-section .banner-container .cta-btn {
+    .banner-section .container .cta-btn {
       margin-top: 30px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section {
     padding: 15px 10px; }
-    .banner-section .banner-container {
+    .banner-section .container {
       padding: 0 20px;
       min-height: 350px; }
-      .banner-section .banner-container p {
+      .banner-section .container p {
         font-size: 14px; }
 
   .location-section .storage-unit .map-wrapper .one {
@@ -770,7 +768,7 @@ Home Page CSS End
 Unit Prices Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.unit-prices-banner .banner-container {
+.banner-section.unit-prices-banner .container {
   min-height: 600px;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
 
@@ -865,7 +863,7 @@ Unit Prices Page CSS Start
       .unit-filter-section .category-details .single-unit h5.price {
         color: #0601ff; }
     .unit-filter-section .category-details .single-unit .call-btn a {
-      padding: 20px 60px;
+      padding: 20px 50px;
       font-size: 20px;
       min-width: 190px;
       color: white;
@@ -1084,7 +1082,7 @@ Unit Prices Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section.unit-prices-banner .banner-container {
+  .banner-section.unit-prices-banner .container {
     min-height: 450px; }
 
   .office-time-section .office-time {
@@ -1101,7 +1099,7 @@ Unit Prices Page CSS End
       .unit-filter-section .category-details .single-unit .call-btn a i {
         font-size: 16px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section.unit-prices-banner .banner-container {
+  .banner-section.unit-prices-banner .container {
     min-height: 400px; }
 
   .office-time-section .office-time {
@@ -1130,7 +1128,7 @@ Unit Prices Page CSS End
     border-radius: 5px;
     font-size: 16px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section.unit-prices-banner .banner-container {
+  .banner-section.unit-prices-banner .container {
     min-height: 350px; }
 
   .office-time-section .office-time {
@@ -1298,7 +1296,7 @@ Unit Prices Page CSS End
   .checkout-cta-section {
     padding: 50px 0; } }
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section.unit-prices-banner .banner-container {
+  .banner-section.unit-prices-banner .container {
     min-height: 300px; }
 
   .office-time-section .office-time {
@@ -1342,7 +1340,7 @@ Unit Prices Page CSS End
 Size Guide Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.size-guide-banner .banner-container {
+.banner-section.size-guide-banner .container {
   min-height: 450px;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.8), rgba(6, 6, 6, 0.8)), url("../images/size-guide/banner/size-guide-banner.webp"); }
 
@@ -1392,10 +1390,10 @@ Size Guide Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section.size-guide-banner .banner-container {
+  .banner-section.size-guide-banner .container {
     min-height: 450px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section.size-guide-banner .banner-container {
+  .banner-section.size-guide-banner .container {
     min-height: 400px; }
 
   .storage-calculator-section {
@@ -1427,7 +1425,7 @@ Size Guide Page CSS End
       .storage-calculator-section .category-details .bed-room-content .bed-description {
         margin-top: 20px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section.size-guide-banner .banner-container {
+  .banner-section.size-guide-banner .container {
     min-height: 350px; }
 
   .storage-calculator-section {
@@ -1494,14 +1492,14 @@ Size Guide Page CSS End
       .storage-calculator-section .category-details .bed-room-content .bed-description {
         margin-top: 20px; } }
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section.size-guide-banner .banner-container {
+  .banner-section.size-guide-banner .container {
     min-height: 300px; } }
 /** ============================ Responsive CSS Start ============================ **/
 /** ========================= 
 Nearby Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.nearby-banner .banner-container {
+.banner-section.nearby-banner .container {
   min-height: 450px;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/nearby/banner/banner.webp"); }
 
@@ -1511,23 +1509,23 @@ Nearby Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 450px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 400px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 350px; } }
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 300px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 FAQs Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.faqs-banner .banner-container {
+.banner-section.faqs-banner .container {
   min-height: 320px;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/faqs/banner/banner.webp"); }
 
@@ -1574,10 +1572,10 @@ FAQs Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section.faqs-banner .banner-container {
+  .banner-section.faqs-banner .container {
     min-height: 450px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section.faqs-banner .banner-container {
+  .banner-section.faqs-banner .container {
     min-height: 400px; }
 
   .faqs-section .accordion-item {
@@ -1585,7 +1583,7 @@ FAQs Page CSS End
   .faqs-section .accordion-button {
     font-size: 20px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section.faqs-banner .banner-container {
+  .banner-section.faqs-banner .container {
     min-height: 350px; }
 
   .faqs-section .accordion-button {
@@ -1601,7 +1599,7 @@ FAQs Page CSS End
   .accordion-flush .accordion-item .accordion-button:not(.collapsed)::after {
     background-size: 16px; } }
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section.faqs-banner .banner-container {
+  .banner-section.faqs-banner .container {
     min-height: 300px; }
 
   .faqs-section .accordion-button {
@@ -1611,7 +1609,7 @@ FAQs Page CSS End
 Contact Us Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.contact-us-banner .banner-container {
+.banner-section.contact-us-banner .container {
   min-height: 320px;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/contact-us/banner/banner.webp"); }
 
@@ -1651,10 +1649,10 @@ Contact Us Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 450px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 400px; }
 
   .contact-form-section .contact-form {
@@ -1674,7 +1672,7 @@ Contact Us Page CSS End
     padding: 30px 15px;
     border-radius: 8px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 350px; }
 
   .contact-form-section .contact-form {
@@ -1690,14 +1688,14 @@ Contact Us Page CSS End
     padding: 20px 15px;
     border-radius: 8px; } }
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section.nearby-banner .banner-container {
+  .banner-section.nearby-banner .container {
     min-height: 300px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Pay Online Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
-.banner-section.pay-online-banner .banner-container {
+.banner-section.pay-online-banner .container {
   min-height: 320px;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/pay-online/banner/banner.webp"); }
 
@@ -1733,10 +1731,10 @@ Pay Online Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section.pay-online-banner .banner-container {
+  .banner-section.pay-online-banner .container {
     min-height: 450px; } }
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section.pay-online-banner .banner-container {
+  .banner-section.pay-online-banner .container {
     min-height: 400px; }
 
   .online-item-section {
@@ -1769,7 +1767,7 @@ Pay Online Page CSS End
 
   /** == Online Item Section CSS End == **/ }
 @media (min-width: 0px) and (max-width: 768px) {
-  .banner-section.pay-online-banner .banner-container {
+  .banner-section.pay-online-banner .container {
     min-height: 350px; }
 
   .online-item-section {
@@ -1824,7 +1822,7 @@ Pay Online Page CSS End
 
   /** == Online Item Section CSS End == **/ }
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section.pay-online-banner .banner-container {
+  .banner-section.pay-online-banner .container {
     min-height: 300px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 

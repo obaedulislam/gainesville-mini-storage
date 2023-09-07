@@ -6,6 +6,7 @@
   <!--|| Bundle File End ||-->
 
 
+
 <body>
   <!--|| Header Section Start ||-->
   <?php include "header.php" ?>
@@ -16,7 +17,7 @@
   <main>
     <!--|| Banner Section Start ||-->
       <section class="banner-section unit-prices-banner">
-        <div class="banner-container text-center ">
+        <div class="container text-center ">
           <div class="row banner-content">
               <h2>Gainesville Mini Storage</h2>
               <p>2537 FM 51</p>
@@ -88,6 +89,7 @@
     <section class="unit-filter-section first-padding">
       <div class="container">
         <div class="row">
+
           <div class="col-lg-2 col-md-3 col-12">
             <div class="search-box">
                <form>
@@ -100,19 +102,21 @@
             <!--Search Box End -->
 
             <div class="category">
-              <ul>
-                <li><a href="#view-all" class="active">View All</a></li>
-                <li><a href="#small">Small</a></li>
-                <li><a href="#medium">Medium</a></li>
-                <li><a href="#large">Large</a></li>
-                <li><a href="#vehicle">Vehicle</a></li>
+              <ul class="nav flex-column nav-pills"" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <li><a href="#view-all" class="active" id="tab1-tab" data-bs-toggle="pill" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">View All</a></li>
+                <li><a href="#small" id="tab2-tab" data-bs-toggle="pill" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Small</a></li>
+                <li><a href="#medium" id="tab3-tab" data-bs-toggle="pill" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Medium</a></li>
+                <li><a href="#large" id="tab4-tab" data-bs-toggle="pill" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Large</a></li>
+                <li><a href="#vehicle" id="tab5-tab" data-bs-toggle="pill" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Vehicle</a></li>
               </ul>
             </div>
             <!--Category Item End-->
           </div>
 
           <div class="col-lg-10 col-md-9 col-12">
-            <div class="category-details">
+            <div class="tab-content" id="v-pills-tabContent">
+
+              <div class="category-details tab-pane fade show active"  id="view-all" role="tabpanel" aria-labelledby="tab1-tab">
                 <div class="single-unit heading">
                   <div class="row">
                     <div class="col-md-2 col-6 head-size">
@@ -144,7 +148,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -166,7 +170,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -188,7 +192,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -210,7 +214,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -232,7 +236,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -254,7 +258,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -276,7 +280,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -298,7 +302,7 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
@@ -320,14 +324,285 @@
                         </div>       
                     </div>
                     <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Call</a>
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+              </div>
+              <!--=======Tab1 Data End=======-->
+
+               <div class="category-details tab-pane fade"   id="small" role="tabpanel" aria-labelledby="tab2-tab">
+                <div class="single-unit heading">
+                  <div class="row">
+                    <div class="col-md-2 col-6 head-size">
+                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                    <div class="col-md-5 head-unit d-md-block d-none">
+                      <p class="common-pl">Unit Details</p>
+                    </div>
+                     <div class="col-md-5 col-6 head">
+                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">5’x10’</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self storage, non climate, drivethrough, roolup, drive up</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$60</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                     </div>
                   </div>
                 </div>
                 <!--Single Unit End -->
 
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">5’x10’</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$80</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
 
-            </div>
+                <div class="single-unit last-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">5'x15'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$60</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+              </div>
+              <!--=======Tab2 Data End=======-->
+
+               <div class="category-details tab-pane fade"   id="medium" role="tabpanel" aria-labelledby="tab3-tab">
+                <div class="single-unit heading">
+                  <div class="row">
+                    <div class="col-md-2 col-6 head-size">
+                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                    <div class="col-md-5 head-unit d-md-block d-none">
+                      <p class="common-pl">Unit Details</p>
+                    </div>
+                     <div class="col-md-5 col-6 head">
+                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10'x10'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$120</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+
+                <div class="single-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10'x10'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$95</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+
+                <div class="single-unit ">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10'x15'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$160</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+
+                <div class="single-unit last-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10'x15'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$105</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+              </div>
+              <!--=======Tab3 Data End=======-->
+
+               <div class="category-details tab-pane fade"   id="large" role="tabpanel" aria-labelledby="tab4-tab">
+                <div class="single-unit heading">
+                  <div class="row">
+                    <div class="col-md-2 col-6 head-size">
+                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                    <div class="col-md-5 head-unit d-md-block d-none">
+                      <p class="common-pl">Unit Details</p>
+                    </div>
+                     <div class="col-md-5 col-6 head">
+                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit last-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">10'x20'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$140</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+              </div>
+              <!--=======Tab4 Data End=======-->
+
+               <div class="category-details tab-pane fade"   id="vehicle" role="tabpanel" aria-labelledby="tab5-tab">
+                <div class="single-unit heading">
+                  <div class="row">
+                    <div class="col-md-2 col-6 head-size">
+                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                    <div class="col-md-5 head-unit d-md-block d-none">
+                      <p class="common-pl">Unit Details</p>
+                    </div>
+                     <div class="col-md-5 col-6 head">
+                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit Heading End -->
+
+                <div class="single-unit last-unit">
+                  <div class="row wrapper">
+                    <div class="col-md-2 col-8 store-size order-0">
+                        <div class="store-div">
+                          <h5 class="size">12'x45'</h5> 
+                        </div>                   
+                    </div>
+                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
+                        <p class="unit-details common-pl">Parking, covered, rv/boat/vehicle/parking, lower level</p>                
+                    </div>
+                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
+                        <div class="price-div">
+                          <h5 class="price common-pl">$120</h5>      
+                        </div>       
+                    </div>
+                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
+                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                    </div>
+                  </div>
+                </div>
+                <!--Single Unit End -->
+              </div>
+              <!--=======Tab5 Data End=======-->
+          </div>
+         
           </div>
         </div>
       </div>

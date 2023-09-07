@@ -15,7 +15,7 @@
   <main>
     <!--|| Banner Section Start ||-->
       <section class="banner-section">
-        <div class="banner-container text-center">
+        <div class="container text-center">
           <div class="row banner-content">
               <h1>Convenient App,<br> Easy Access</h1>
               <p>As one of our customers, you can manage your storage unit with a simple phone. When you need to use the unit, simply

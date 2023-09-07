@@ -16,7 +16,7 @@
   <main>
     <!--|| Banner Section Start ||-->
       <section class="banner-section nearby-banner">
-        <div class="banner-container text-center ">
+        <div class="container text-center ">
           <div class="row banner-content">
               <h2>Climate-Controlled<br> Storage Units near<br> Sanger, TX</h2>           
           </div>
