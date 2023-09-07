@@ -24,31 +24,57 @@ Size Guide Page CSS Start
   .category {
     ul {
       margin-top: 0;
+      margin-bottom: 30px;
+      background-color: transparent;
+      li {
+        display: inline-block;
+        margin-right: 20px;
+        a {
+          display: inline-block;
+          padding-left: 30px;
+          padding-right: 30px;
+          background-color: #f4f3ff;
+        }
+      }
     }
   }
 
   .category-details {
     .single-unit {
       padding: 0;
+      p {
+        &.common-pl {
+          padding-left: 0;
+        }
+      }
       .wrapper {
         padding: 20px 0;
       }
       .unit-price-count {
         .price-count {
           .plus-minus {
+            margin-top: 8px;
             a {
               i {
                 font-size: 24px;
+                line-height: 0;
                 color: $blue;
               }
             }
           }
           .input-count {
             input {
-              @include click-focus(none, none, $gray-border, $black, block);
-              width: 85px;
-              padding: 20px 10px;
+              @include click-focus(
+                1px solid $dark-gray,
+                none,
+                transparent,
+                $black,
+                block
+              );
+              max-width: 70px;
+              padding: 10px 10px;
               border-radius: 4px;
+              text-align: center;
             }
           }
         }
@@ -58,27 +84,34 @@ Size Guide Page CSS Start
         }
       }
     }
-    //Unit heading css end
-    .bed-room-content {
-      padding: 40px 80px 20px;
-      border-top: 1px solid $gray-border;
-      border-left: 1px solid $gray-border;
-      border-right: 1px solid $gray-border;
-      h5 {
-        font-weight: 600;
+  }
+  //Category details end
+
+  //Unit heading css end
+  .bed-room-content {
+    padding: 20px;
+    border-top: 1px solid $gray-border;
+    border-left: 1px solid $gray-border;
+    border-right: 1px solid $gray-border;
+    border-bottom: 1px solid $gray-border;
+    border-radius: 8px;
+    h5 {
+      font-weight: 600;
+      color: $blue;
+    }
+    .bed-room-img {
+      margin: 20px 0;
+      img {
+        max-width: 300px;
+      }
+    }
+    .bed-dimension {
+      h4 {
         color: $blue;
       }
-      .bed-room-img {
-        margin: 20px 0;
-      }
-      .bed-dimension {
-        h4 {
-          color: $blue;
-        }
-      }
-      .bed-description {
-        margin-top: 20px;
-      }
+    }
+    .bed-description {
+      margin-top: 20px;
     }
   }
 }
@@ -121,6 +154,7 @@ Size Guide Page CSS End
           padding: 15px 0;
         }
         .unit-price-count {
+          display: grid;
           .price-count {
             .plus-minus {
               a {
@@ -130,7 +164,7 @@ Size Guide Page CSS End
               }
             }
             .input-count {
-              margin-left: 15px;
+              margin-left: 0;
               input {
                 width: 60px;
                 padding: 5px 10px;
@@ -144,26 +178,42 @@ Size Guide Page CSS End
         }
       }
       //Unit heading css end
-      .bed-room-content {
-        padding: 40px 80px 20px;
-        border-top: 1px solid $gray-border;
-        border-left: 1px solid $gray-border;
-        border-right: 1px solid $gray-border;
-        h5 {
-          font-weight: 600;
-          color: $blue;
-        }
-        .bed-room-img {
-          margin: 20px 0;
-        }
-        .bed-dimension {
-          h4 {
-            color: $blue;
+    }
+
+    .category {
+      ul {
+        li {
+          margin-right: 10px;
+          a {
+            padding-left: 15px;
+            padding-right: 15px;
           }
         }
-        .bed-description {
-          margin-top: 20px;
+      }
+    }
+
+    .bed-room-content {
+      padding: 20px;
+      border-top: 1px solid $gray-border;
+      border-left: 1px solid $gray-border;
+      border-right: 1px solid $gray-border;
+      h5 {
+        font-weight: 600;
+        color: $blue;
+      }
+      .bed-room-img {
+        margin: 20px 0;
+        img {
+          max-width: 200px;
         }
+      }
+      .bed-dimension {
+        h4 {
+          color: $blue;
+        }
+      }
+      .bed-description {
+        margin-top: 20px;
       }
     }
   }
@@ -219,6 +269,7 @@ Size Guide Page CSS End
         }
 
         .unit-price-count {
+          display: grid;
           .price-count {
             .plus-minus {
               padding-left: 0;
@@ -229,7 +280,7 @@ Size Guide Page CSS End
               }
             }
             .input-count {
-              margin-left: 15px;
+              margin-left: 0;
               input {
                 width: 70px;
                 padding: 8px 10px;
@@ -262,28 +313,29 @@ Size Guide Page CSS End
         }
       }
       //Unit heading css end
-      .bed-room-content {
-        margin: 0 15px;
-        padding: 30px 20px 30px;
-        border-top: 1px solid $gray-border;
-        border-left: 0;
-        border-right: 0;
-        border-bottom: 0;
-        h5 {
-          font-weight: 600;
+    }
+
+    .bed-room-content {
+      margin: 20px 0;
+      padding: 20px;
+      border-top: 1px solid $gray-border;
+      border-left: 1px solid $gray-border;
+      border-right: 1px solid $gray-border;
+      border-bottom: 1px solid $gray-border;
+      h5 {
+        font-weight: 600;
+        color: $blue;
+      }
+      .bed-room-img {
+        margin: 20px 0;
+      }
+      .bed-dimension {
+        h4 {
           color: $blue;
         }
-        .bed-room-img {
-          margin: 20px 0;
-        }
-        .bed-dimension {
-          h4 {
-            color: $blue;
-          }
-        }
-        .bed-description {
-          margin-top: 20px;
-        }
+      }
+      .bed-description {
+        margin-top: 20px;
       }
     }
   }
@@ -300,5 +352,41 @@ Size Guide Page CSS End
     }
   }
   //Banner Section CSS End
+
+  .storage-calculator-section {
+    .category-details {
+      .single-unit {
+        .unit-price-count {
+          .price-count {
+            .plus-minus {
+              padding-left: 0;
+              a {
+                i {
+                  font-size: 18px;
+                }
+              }
+            }
+            .input-count {
+              margin-left: 0;
+              input {
+                width: 60px;
+                padding: 8px 10px;
+              }
+            }
+          }
+        }
+        //Unit heading css end
+      }
+
+      .bed-room-content {
+        margin: 20px 0;
+        padding: 20px;
+        .bed-room-img {
+          margin: 10px 0;
+        }
+      }
+    }
+    // Storage Calculator Section CSS End
+  }
 }
 /** ============================ Responsive CSS Start ============================ **/
