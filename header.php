@@ -44,7 +44,7 @@
                           <li><a href="size-guide.php"><i class="icon-size-guide"></i> <span>Size Guide</span></a></li>
                           <li><a href="nearby.php"><i class="icon-location"></i> <span>Nearby</span></a></li>
                           <li><a href="faqs.php"><i class="icon-info"></i> <span>FAQ</span></a></li>
-                          <li><a href="contact.php"><i class="icon-home"></i> <span>Contact Us</span></a></li>
+                          <li><a href="contact.php"><i class="icon-contact-msg"></i> <span>Contact Us</span></a></li>
                           <li><a href="pay-online.php"><i class="icon-pay-card"></i> <span>Pay Online</span></a></li>  
                         </div>
                     </ul>

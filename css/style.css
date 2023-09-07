@@ -1,7 +1,7 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?3euu6r");
-  src: url("../fonts/icomoon.eot?3euu6r#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff2?3euu6r") format("woff2"), url("../fonts/icomoon.ttf?3euu6r") format("truetype"), url("../fonts/icomoon.woff?3euu6r") format("woff"), url("../fonts/icomoon.svg?3euu6r#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?mrghzi");
+  src: url("../fonts/icomoon.eot?mrghzi#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff2?mrghzi") format("woff2"), url("../fonts/icomoon.ttf?mrghzi") format("truetype"), url("../fonts/icomoon.woff?mrghzi") format("woff"), url("../fonts/icomoon.svg?mrghzi#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -19,6 +19,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-ground-floor:before {
+  content: "\e91b"; }
+
 .icon-unit-prices:before {
   content: "\e918"; }
 
@@ -31,14 +34,14 @@
 .icon-hours-24:before {
   content: "\e911"; }
 
-.icon-ground-floor:before {
-  content: "\e91b"; }
-
 .icon-dollies-handcarts:before {
   content: "\e915"; }
 
 .icon-online-pay:before {
   content: "\e917"; }
+
+.icon-contact-msg:before {
+  content: "\e901"; }
 
 .icon-one:before {
   content: "\e900"; }
@@ -473,6 +476,12 @@ header {
             background: rgba(85, 82, 255, 0.06); }
           .menu-text ul.navigation-menu ul#toggleMenuItem li a.active span {
             color: #0601ff;
+            background: rgba(85, 82, 255, 0.06); }
+          .menu-text ul.navigation-menu ul#toggleMenuItem li a:hover i {
+            color: #0601ff;
+            background: rgba(85, 82, 255, 0.06); }
+          .menu-text ul.navigation-menu ul#toggleMenuItem li a:hover span {
+            color: #0601ff;
             background: rgba(85, 82, 255, 0.06); } }
 @media (min-width: 0px) and (max-width: 576px) {
   header a.logo {
@@ -500,19 +509,7 @@ header {
           line-height: 39px;
           display: inline-block;
           width: 90%;
-          border-radius: 30px; }
-        .menu-text ul.navigation-menu ul#toggleMenuItem li a.active i {
-          color: #0601ff;
-          background: rgba(85, 82, 255, 0.06); }
-        .menu-text ul.navigation-menu ul#toggleMenuItem li a.active span {
-          color: #0601ff;
-          background: rgba(85, 82, 255, 0.06); }
-        .menu-text ul.navigation-menu ul#toggleMenuItem li a:hover i {
-          color: #0601ff;
-          background: rgba(85, 82, 255, 0.06); }
-        .menu-text ul.navigation-menu ul#toggleMenuItem li a:hover span {
-          color: #0601ff;
-          background: rgba(85, 82, 255, 0.06); } }
+          border-radius: 30px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** == Feature Section CSS Start == **/
 .feature-section .single-feature {

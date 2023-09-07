@@ -175,8 +175,18 @@ header {
                   width: 90%;
                   border-radius: 50px;
                 }
-
                 &.active {
+                  i {
+                    color: $blue;
+                    background: rgba(85, 82, 255, 0.06);
+                  }
+                  span {
+                    color: $blue;
+                    background: rgba(85, 82, 255, 0.06);
+                  }
+                }
+
+                &:hover {
                   i {
                     color: $blue;
                     background: rgba(85, 82, 255, 0.06);
@@ -235,28 +245,6 @@ header {
                   display: inline-block;
                   width: 90%;
                   border-radius: 30px;
-                }
-
-                &.active {
-                  i {
-                    color: $blue;
-                    background: rgba(85, 82, 255, 0.06);
-                  }
-                  span {
-                    color: $blue;
-                    background: rgba(85, 82, 255, 0.06);
-                  }
-                }
-
-                &:hover {
-                  i {
-                    color: $blue;
-                    background: rgba(85, 82, 255, 0.06);
-                  }
-                  span {
-                    color: $blue;
-                    background: rgba(85, 82, 255, 0.06);
-                  }
                 }
               }
             }
