@@ -114,6 +114,27 @@ Size Guide Page CSS Start
       margin-top: 20px;
     }
   }
+  // Content for bedroom end
+
+  .clean-selection {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid $gray-border;
+    border-radius: 8px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      font-weight: 500;
+      color: $gray-semi;
+      i {
+        color: $yellow;
+        margin-right: 10px;
+      }
+    }
+  }
+  //Clean selection end
 }
 /** == Storage Calculator Section CSS End == **/
 
@@ -234,6 +255,16 @@ Size Guide Page CSS End
   .storage-calculator-section {
     padding-bottom: 50px;
 
+    .category {
+      ul {
+        &.nav {
+          display: flex;
+          flex-wrap: unset;
+          overflow-x: auto;
+        }
+      }
+    }
+
     .category-details {
       .single-unit {
         .store-size {
@@ -314,6 +345,7 @@ Size Guide Page CSS End
       }
       //Unit heading css end
     }
+    // Category Details end
 
     .bed-room-content {
       margin: 20px 0;
@@ -377,6 +409,7 @@ Size Guide Page CSS End
         }
         //Unit heading css end
       }
+      // Single unit css end
 
       .bed-room-content {
         margin: 20px 0;
@@ -385,7 +418,9 @@ Size Guide Page CSS End
           margin: 10px 0;
         }
       }
+      // Selected bed room end
     }
+
     // Storage Calculator Section CSS End
   }
 }

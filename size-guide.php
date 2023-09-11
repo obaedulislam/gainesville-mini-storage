@@ -3692,8 +3692,6 @@
                     <!--Single Unit Heading End -->
                   </div>
                   <!--=======Tab5 Data End=======-->
-
-
                 </div>
               </div>
 
@@ -3715,7 +3713,15 @@
                     
                   </div>
               </div>
+            </div>
+            <!--== Category Information End===-->
 
+            <div class="row">
+              <div class="col-md-7">
+                <div class="clean-selection">
+                  <a href="#" class="text-end"><i class="icon-delete"></i><span>Clean Selection</span></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
