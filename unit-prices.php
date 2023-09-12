@@ -120,19 +120,19 @@
                 <div class="single-unit heading">
                   <div class="row">
                     <div class="col-md-2 col-6 head-size">
-                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow " id="sort-last-to-first"></i><i class="icon-right-arrow " id="sort-last-to-first"></i></span></p>
                     </div>
                     <div class="col-md-5 head-unit d-md-block d-none">
                       <p class="common-pl">Unit Details</p>
                     </div>
                      <div class="col-md-5 col-6 head">
-                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
+                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow" id="sort-last-to-first"></i><i class="icon-right-arrow" ></i></span></p>
                     </div>
                   </div>
                 </div>
                 <!--Single Unit Heading End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -154,7 +154,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -176,7 +176,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -198,7 +198,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -220,7 +220,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -242,7 +242,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -264,7 +264,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -286,7 +286,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit">
+                <div class="single-unit unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -308,7 +308,7 @@
                 </div>
                 <!--Single Unit End -->
 
-                <div class="single-unit last-unit">
+                <div class="single-unit last-unit  unit-order">
                   <div class="row wrapper">
                     <div class="col-md-2 col-8 store-size order-0">
                         <div class="store-div">
@@ -1019,13 +1019,9 @@
                             <form action="">
                                 <div class="input-field">
                                     <label for="facility">Facility*</label><br>
-                                    <!-- <select  aria-label="Default select example">
-                                      <option selected class="py-4">Select facility</option>
-                                      <option value="1" class="py-4">Gainesville Mini Storage - 2537, Gainesville,<br>TX 76240</option>
-                                    </select> -->
                                     <div class="facility-option">
                                       <span class="arrow"></span>
-                                      <input class="form-control custom-dropdown-value" value="Select Facility" type="text" readonly>
+                                      <input class="form-control custom-dropdown-value" value="Select Facility" type="text" >
                                       <ul class="custom-dropdown">
                                           <li><a href="javascript:void(0)">Select Facility</a></li>
                                           <li><a href="javascript:void(0)">Gainesville Mini Storage - 2537, Gainesville, TX 76240</a></li>

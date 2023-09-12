@@ -1,11 +1,5 @@
   <!DOCTYPE html>
 <html lang="en">
-
-
-  <!--|| Bundle File Start ||-->
-  <?php include "bundle.php" ?>
-  <!--|| Bundle File End ||-->
-
   <?php
     $pageName = basename($_SERVER['PHP_SELF']);
   ?>
@@ -45,7 +39,7 @@
              <li><a id="toggleMenuMobile" class="hamburger-menu"><span><img src="images/header/hamburger.svg" alt=""></span></a>
                     <ul id="toggleMenuItem" class="ul-list ">
                         <div>
-                          <li><a <?php if($pageName == "index.php"){ echo 'class="active"'; } ?> href="index.php" class="active"><i class="icon-home"></i> <span> Home</span></a></li>
+                          <li><a <?php if($pageName == "index.php"){ echo 'class="active"'; } ?> href="index.php" ><i class="icon-home"></i> <span> Home</span></a></li>
                           <li><a <?php if($pageName == "unit-prices.php"){ echo 'class="active"'; } ?> href="unit-prices.php"><i class="icon-unit-prices"></i> <span> Unit Prices</span></a></li>
                           <!-- <li><a href="size-guide.php" ><i class="icon-size-guide"></i> <span>Size Guide</span></a></li> -->
                           <li><a <?php if($pageName == "nearby.php"){ echo 'class="active"'; } ?> href="nearby.php"><i class="icon-location"></i> <span>Nearby</span></a></li>

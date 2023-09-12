@@ -79,6 +79,7 @@
     }
   }
 }
+
 // Large Device CSS start
 @media (min-width: 0px) and (max-width: 992px) {
   .footer-section {
@@ -90,6 +91,57 @@
       ul {
         li {
           margin: 7px 10px;
+        }
+      }
+    }
+  }
+}
+
+// Small Device CSS start
+@media (min-width: 0px) and (max-width: 768px) {
+  .footer-section {
+    p {
+      font-size: 16px;
+      &.copyright-text {
+        text-align: left;
+      }
+    }
+    .footer-menu {
+      margin-top: 20px;
+      ul {
+        li {
+          display: block;
+          text-align: left;
+          margin: 7px 0;
+          &::after {
+            display: none;
+          }
+          a {
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              background-color: $gray-border;
+              width: 2px;
+              height: 14px;
+              top: 4px;
+              right: -18px;
+            }
+            &.home,
+            &.admin {
+              &::after {
+                display: none;
+              }
+            }
+          }
+          &:last-child {
+            &::after {
+              display: none;
+            }
+            a {
+              font-weight: 700;
+            }
+          }
         }
       }
     }
