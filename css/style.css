@@ -890,6 +890,11 @@ Unit Prices Page CSS Start
       .unit-filter-section .category-details .single-unit p.unit-details {
         font-size: 15px;
         font-weight: 400; }
+      .unit-filter-section .category-details .single-unit p i.icon-left-arrow, .unit-filter-section .category-details .single-unit p i.icon-right-arrow {
+        transform: rotate(270deg);
+        cursor: pointer; }
+      .unit-filter-section .category-details .single-unit p i.icon-right-arrow {
+        margin-left: 5px; }
     .unit-filter-section .category-details .single-unit h5 {
       display: flex;
       justify-content: start;
@@ -913,9 +918,6 @@ Unit Prices Page CSS Start
     .unit-filter-section .category-details .single-unit .store-unit-details,
     .unit-filter-section .category-details .single-unit .unit-price,
     .unit-filter-section .category-details .single-unit .call-btn {
-      display: flex;
-      justify-content: start;
-      align-items: center;
       position: relative; }
     .unit-filter-section .category-details .single-unit .head-size,
     .unit-filter-section .category-details .single-unit .head-unit {

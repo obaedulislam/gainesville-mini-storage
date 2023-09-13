@@ -53,7 +53,7 @@
 
           <div class="col-md-12 col-12">
             <div class="row">
-              <div class="col-md-7">
+              <div class="col-md-7 order-md-0 order-1">
                 <div class="tab-content" id="v-pills-tabContent">
 
                   <div class="category-details tab-pane fade show active"  id="bedroom" role="tabpanel" aria-labelledby="tab1-tab">
@@ -3635,8 +3635,8 @@
                 </div>
               </div>
 
-              <div class="col-md-5">           
-                <div class="bed-room-content d-md-block d-none">
+              <div class="col-md-5 order-md-1 order-0">           
+                <div class="bed-room-content">
                   <h5>Size Suggestion</h5>
                   <div id="containerImg" class="container-img" style="background-image:url(images/size-guide/storage-calculator/no-dimension.webp)"></div>
                   <div class="bed-dimension d-flex align-items-center">

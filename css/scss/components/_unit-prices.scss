@@ -130,6 +130,16 @@ Unit Prices Page CSS Start
           font-size: 15px;
           font-weight: 400;
         }
+        i {
+          &.icon-left-arrow,
+          &.icon-right-arrow {
+            transform: rotate(270deg);
+            cursor: pointer;
+          }
+          &.icon-right-arrow {
+            margin-left: 5px;
+          }
+        }
       }
 
       h5 {
@@ -157,7 +167,6 @@ Unit Prices Page CSS Start
       .store-unit-details,
       .unit-price,
       .call-btn {
-        @include flex-position(flex, start, center);
         position: relative;
       }
 
