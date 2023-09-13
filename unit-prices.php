@@ -5,7 +5,43 @@
   <?php include "bundle.php" ?>
   <!--|| Bundle File End ||-->
 
+<script>
+   
 
+
+  $(document).ready(function() {
+    // Initialize a variable to track the current sorting direction
+    var ascending = true;
+
+    // Function to perform the sorting
+    function performSorting() {
+      // Get all .unit-order elements and convert them to an array
+      var units = $(".unit-order").toArray();
+
+      // Reverse the array if descending (last to first) sorting is requested
+      if (!ascending) {
+        units.reverse();
+      }
+      
+
+      // Remove all .unit-order elements from the parent container
+      $(".unit").remove();
+
+      // Append the sorted units back to the parent container
+      for (var i = 0; i < units.length; i++) {
+        $("#view-all").append(units[i]);
+      }
+    }
+
+    // Handle the "Sort Last to First" button click
+    $("#sort-last-to-first").click(function() {
+      ascending = false; // Set sorting direction to descending
+      performSorting();
+    });
+
+    
+  });
+</script>
 
 <body>
   <!--|| Header Section Start ||-->
@@ -126,7 +162,7 @@
                       <p class="common-pl">Unit Details</p>
                     </div>
                      <div class="col-md-5 col-6 head">
-                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow" id="sort-last-to-first"></i><i class="icon-right-arrow" ></i></span></p>
+                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow" ></i><i class="icon-right-arrow" ></i></span></p>
                     </div>
                   </div>
                 </div>
@@ -1021,33 +1057,38 @@
                                     <label for="facility">Facility*</label><br>
                                     <div class="facility-option">
                                       <span class="arrow"></span>
-                                      <input class="form-control custom-dropdown-value" value="Select Facility" type="text" >
+                                      <input class="form-control custom-dropdown-value" value="Select Facility" type="text" readonly  >
                                       <ul class="custom-dropdown">
                                           <li><a href="javascript:void(0)">Select Facility</a></li>
                                           <li><a href="javascript:void(0)">Gainesville Mini Storage - 2537, Gainesville, TX 76240</a></li>
                                       </ul>
                                     </div>
+                                    <p  id="select-error" class="error-message"></p>
                                 </div>                              
                                 <div class="input-field">
                                     <label for="name">Name</label><br>
-                                    <input type="text" name="name" id="name" placeholder="Please enter your name...">
+                                    <input type="text" name="name" id="name" placeholder="Please enter your name..." required>
+                                     <p  id="name-error" class="error-message"></p>
                                 </div>
                                 <div class="input-field">
                                     <label for="email">Email</label><br>
-                                    <input type="email" name="email" id="email" placeholder="Please enter your email...">
+                                    <input type="email" name="email" id="email" placeholder="Please enter your email..." required>
+                                    <p  id="email-error" class="error-message"></p>
                                 </div>
                                 <div class="input-field">
                                     <label for="message">Describe Your Experience</label><br>
-                                    <textarea type="textarea" rows="3" name="email" id="email" placeholder="Tell us what you think about us..."></textarea>
+                                    <textarea type="textarea" rows="3" name="experience" id="experience" placeholder="Tell us what you think about us..." required></textarea>
+                                    <p  id="experience-error" class="error-message"></p>
                                 </div>
                                 <div class="form-alert">
                                   <p class="text-center">Note: Your comments will be posted on this website with your first name & last initial</p>
                                 </div>
+                                <div class="submit-btn text-center">
+                                  <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Submit</button>
+                                </div>
                             </form>
 
-                            <div class="submit-btn text-center">
-                                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Submit</button>
-                            </div>
+                            
                         </div>
                     </div>
             </div>

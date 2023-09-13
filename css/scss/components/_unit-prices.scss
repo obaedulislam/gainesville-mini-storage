@@ -221,6 +221,11 @@ Unit Prices Page CSS Start
 .testimonial-modal {
   .modal-dialog {
     max-width: 570px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
     .modal-content {
       padding: 50px;
       border-radius: 15px;
@@ -362,6 +367,10 @@ Unit Prices Page CSS Start
 .call-modal {
   .modal-dialog {
     max-width: 744px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     .modal-content {
       padding: 30px;
       border-radius: 15px;
@@ -678,6 +687,7 @@ Unit Prices Page CSS End
 
   .testimonial-modal {
     .modal-dialog {
+      padding: 20px;
       .modal-content {
         padding: 20px;
         .modal-body {
@@ -725,8 +735,9 @@ Unit Prices Page CSS End
 
   .call-modal {
     .modal-dialog {
+      padding: 20px;
       .modal-content {
-        padding: 20px;
+        padding: 15px;
         .modal-header {
           padding: 0 10px 15px;
         }
