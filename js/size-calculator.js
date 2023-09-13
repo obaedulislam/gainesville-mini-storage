@@ -11,6 +11,7 @@ $(document).ready(function () {
     $(".count").each(function () {
       var qty = $(this).val();
       if (qty > 0) {
+        $("#storage-description").removeClass("d-none");
         var size = $(this)
           .parent()
           .next()
@@ -61,9 +62,6 @@ $(document).ready(function () {
         var imgFIleUrl =
           "images/size-guide/storage-calculator/" + imgFileName + ".webp";
         $("#containerImg").css("background-image", "url(" + imgFIleUrl + ")");
-        $("#storage-description").html(
-          "Think of it like a standard closet. Approximately 25 square feet, this space is perfect for about a dozen boxes, a desk and chair, and a bicycle."
-        );
       } else {
         var info = sizeSuggestion(furniture_dim);
         $("#sizeSuggestion").html("");
@@ -73,6 +71,7 @@ $(document).ready(function () {
           "url(images/size-guide/storage-calculator/no-dimension.webp)"
         );
         $("#storage-description").html("");
+        $("#storage-description").addClass("d-none");
       }
     }
   });
