@@ -3701,7 +3701,7 @@
                       <div class="bed-room-content">
                         <h5>Size Suggestion</h5>
                         <div class="bed-room-img">
-                          <img src="images/size-guide/calculator/bed-king-size.webp" alt="Bed, King Size" >
+                          <img src="images/size-guide/storage-calculator/bedroom/bed-king-size.webp" alt="Bed, King Size" >
                         </div>
                         <div class="bed-dimension d-flex align-items-center">
                           <h4 class="fw-bold mb-0 ">5’x10’</h4>
