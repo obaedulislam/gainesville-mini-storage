@@ -1444,10 +1444,12 @@ Size Guide Page CSS Start
     .storage-calculator-section .bed-room-content h5 {
       font-weight: 600;
       color: #0601ff; }
-    .storage-calculator-section .bed-room-content .bed-room-img {
-      margin: 20px 0; }
-      .storage-calculator-section .bed-room-content .bed-room-img img {
-        max-width: 300px; }
+    .storage-calculator-section .bed-room-content .container-img {
+      margin: 20px 0;
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 268px; }
     .storage-calculator-section .bed-room-content .bed-dimension h4 {
       color: #0601ff; }
     .storage-calculator-section .bed-room-content .bed-description {

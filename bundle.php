@@ -17,5 +17,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/size-calculator.js"></script>
     <!--|| All JS Link End Here ||-->
 </head>

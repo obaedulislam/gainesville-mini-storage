@@ -99,11 +99,12 @@ Size Guide Page CSS Start
       font-weight: 600;
       color: $blue;
     }
-    .bed-room-img {
+    .container-img {
       margin: 20px 0;
-      img {
-        max-width: 300px;
-      }
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 268px;
     }
     .bed-dimension {
       h4 {
