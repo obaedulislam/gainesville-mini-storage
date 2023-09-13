@@ -140,21 +140,49 @@
                       </tr>
                   </thead>
                   <tbody>
-                      <tr class="single-unit">
-                          <td class="size">5’x10’ <span class="border-right"></span></td>
-                          <td class="unit-details">
-                            Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
-                          </td>
-                          <td class="price">
-                            $60
-                          </td>
-                          <td class="button-cell">
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                          </td>
-                      </tr>
-                      <!--Single Unit End-->
-                      
-
+                    
+                    <tr class="single-unit">
+                        <td class="size">5’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $60
+                        </td>
+                        <td class="button-cell">
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">5’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $60
+                        </td>
+                        <td class="button-cell">
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">5’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $60
+                        </td>
+                        <td class="button-cell">
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
                   </tbody>
                 </table>
               </div>
