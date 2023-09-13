@@ -3638,12 +3638,12 @@
               <div class="col-md-5">           
                 <div class="bed-room-content d-md-block d-none">
                   <h5>Size Suggestion</h5>
-                  <div id="containerImg" class="container-img"></div>
+                  <div id="containerImg" class="container-img" style="background-image:url(images/size-guide/storage-calculator/no-dimension.webp)"></div>
                   <div class="bed-dimension d-flex align-items-center">
                     <h4 class="fw-bold mb-0 "><span id="sizeSuggestion"></span></h4>
                     <p class="fw-bold ms-3"><span id="percentageFullVal"></span></p>
                   </div>
-                  <p class="fw-normal bed-description">Think of it like a standard closet. Approximately 25 square feet, this space is perfect for about a dozen boxes, a desk and chair, and a bicycle.</p>
+                  <p class="fw-normal bed-description" id="storage-description"></p>
                 </div>
               </div>
             </div>
