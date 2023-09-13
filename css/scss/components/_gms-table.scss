@@ -1,0 +1,87 @@
+.gms-table {
+    tr {
+        th {
+            color: #828282;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 1px solid #BFBFBF !important;
+            position: relative;
+
+            &:last-child {
+                border-right: none;
+            }
+
+            .border-right {
+                position: absolute;
+                display: inline-block;
+                width: 1px;
+                height: 30px;
+                background: #BFBFBF;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &.unit-details-header{
+                padding-left: 20px;
+            }
+
+            &.price-header{
+                padding-left: 20px;
+            }
+
+        }
+
+        td {
+            vertical-align: middle;
+            position: relative;
+
+            .border-right {
+                position: absolute;
+                display: inline-block;
+                width: 1px;
+                height: 50px;
+                background: #BFBFBF;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &.size {
+                color: #828282;
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            &.unit-details {
+                color: #545454;
+                font-size: 16px;
+                font-weight: 400;
+                padding-left: 20px;
+            }
+
+            &.price {
+                color: #0601FF;
+                font-size: 32px;
+                font-weight: 600;
+                padding-left: 20px;
+            }
+
+            &.button-cell {
+                .btn {
+                    border-radius: 4px;
+                    padding: 20px 60px;
+                    display: inline-block;
+                    font-size: 20px;
+                    font-weight: 700;
+
+                    &.btn-primary {
+                        background-color: #9D9D9D;
+                        color: #fff;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
