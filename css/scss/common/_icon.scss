@@ -1,5 +1,5 @@
 $route: "../fonts/";
-$fontCode: "8papbk";
+$fontCode: "nwk0u6";
 
 @font-face {
   font-family: "icomoon";
@@ -52,10 +52,13 @@ $fontCode: "8papbk";
 .icon-online-pay:before {
   content: "\e917";
 }
-.icon-top-arrow:before {
-  content: "\e922";
+.icon-sorting:before {
+  content: "\e90d";
 }
-.icon-down-arrow:before {
+.icon-descending:before {
+  content: "\e90f";
+}
+.icon-ascending:before {
   content: "\e91d";
 }
 .icon-delete:before {
@@ -102,14 +105,8 @@ $fontCode: "8papbk";
 .icon-two:before {
   content: "\e916";
 }
-.icon-right-arrow:before {
-  content: "\e90d";
-}
 .icon-search:before {
   content: "\e90e";
-}
-.icon-left-arrow:before {
-  content: "\e90f";
 }
 .icon-g:before {
   content: "\e903";
