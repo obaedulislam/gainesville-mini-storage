@@ -173,7 +173,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">5’x15’ <span class="border-right"></span></td>
+                        <td data-order="3" class="size">5’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -187,7 +187,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="4" class="size">10’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self Storage, rollup, climate, interior   <span class="border-right"></span>
                         </td>
@@ -201,7 +201,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="5" class="size">10’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -215,7 +215,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="6" class="size">10’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self Storage, rollup, climate, interior   <span class="border-right"></span>
                         </td>
@@ -229,7 +229,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="7" class="size">10’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -243,7 +243,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x20’ <span class="border-right"></span></td>
+                        <td data-order="8" class="size">10’x20’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -257,7 +257,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">12’x45’ <span class="border-right"></span></td>
+                        <td data-order="9" class="size">12’x45’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Parking, covered, rv/boat/vehicle/parking, lower level  <span class="border-right"></span>
                         </td>
@@ -294,7 +294,7 @@
 
                     <tbody>
                       <tr class="single-unit">
-                          <td class="size">5’x10’ <span class="border-right"></span></td>
+                          <td data-order="1" class="size">5’x10’ <span class="border-right"></span></td>
                           <td class="unit-details">
                             Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                           </td>
@@ -308,7 +308,7 @@
                       <!--Single Unit End-->
                       
                       <tr class="single-unit">
-                          <td class="size">5’x10’ <span class="border-right"></span></td>
+                          <td data-order="2" class="size">5’x10’ <span class="border-right"></span></td>
                           <td class="unit-details">
                             Self Storage, rollup, climate, interior  <span class="border-right"></span>
                           </td>
@@ -322,7 +322,7 @@
                       <!--Single Unit End-->
                       
                       <tr class="single-unit">
-                          <td class="size">5’x15’ <span class="border-right"></span></td>
+                          <td data-order="3" class="size">5’x15’ <span class="border-right"></span></td>
                           <td class="unit-details">
                             Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                           </td>
@@ -358,7 +358,7 @@
 
                   <tbody>       
                     <tr class="single-unit">
-                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="1" class="size">10’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self Storage, rollup, climate, interior   <span class="border-right"></span>
                         </td>
@@ -372,7 +372,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="2" class="size">10’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -386,7 +386,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="3" class="size">10’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self Storage, rollup, climate, interior   <span class="border-right"></span>
                         </td>
@@ -400,7 +400,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="4" class="size">10’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -436,7 +436,7 @@
 
                   <tbody>       
                     <tr class="single-unit">
-                        <td class="size">10’x20’ <span class="border-right"></span></td>
+                        <td data-order="1" class="size">10’x20’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self Storage, non climate, drivethrough, rollup, drive up   <span class="border-right"></span>
                         </td>
@@ -472,7 +472,7 @@
 
                   <tbody>       
                     <tr class="single-unit">
-                        <td class="size">12'x45'<span class="border-right"></span></td>
+                        <td data-order="1" class="size">12'x45'<span class="border-right"></span></td>
                         <td class="unit-details">
                           Parking, covered, rv/boat/vehicle/parking, lower level   <span class="border-right"></span>
                         </td>
