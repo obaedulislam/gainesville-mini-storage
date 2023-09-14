@@ -116,3 +116,16 @@
     }
   }
 }
+
+
+.dataTable {
+    tr{
+        th{
+            width:unset !important;
+        }
+    }
+}
+
+.dataTables_info{
+    display: none !important;
+}

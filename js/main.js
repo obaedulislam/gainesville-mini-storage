@@ -56,4 +56,12 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
+
+  $("#storageListing").dataTable({
+    paging: false,
+    searching: false,
+    ordering: true,
+    order: [[1, 'desc']],
+    order: [[3, 'desc']]
+  });
 });

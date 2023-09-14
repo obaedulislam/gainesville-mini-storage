@@ -124,17 +124,20 @@
             <div class="tab-content" id="v-pills-tabContent">
 
               <div class="category-details tab-pane fade show active"  id="view-all" role="tabpanel" aria-labelledby="tab1-tab">
-                <table id="lcListing" class="table gms-table" style="width:100%">
+                <table id="storageListing" class="table gms-table" style="width:100%">
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                            Size 
+                            <span><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                            <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                            Price 
+                            <span><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
@@ -142,7 +145,7 @@
 
                   <tbody>
                     <tr class="single-unit">
-                        <td class="size">5’x10’ <span class="border-right"></span></td>
+                        <td data-order="1" class="size">5’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
@@ -156,7 +159,7 @@
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">5’x10’ <span class="border-right"></span></td>
+                        <td data-order="2" class="size">5’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self Storage, rollup, climate, interior  <span class="border-right"></span>
                         </td>

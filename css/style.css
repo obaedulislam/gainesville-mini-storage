@@ -2058,6 +2058,12 @@ Privacy Policy Page CSS End
       cursor: pointer;
       display: block; }
 
+.dataTable tr th {
+  width: unset !important; }
+
+.dataTables_info {
+  display: none !important; }
+
 /** ========================= 
 U-Haul Page CSS Start 
 ========================= **/
