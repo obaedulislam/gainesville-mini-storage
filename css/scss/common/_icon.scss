@@ -1,5 +1,5 @@
 $route: "../fonts/";
-$fontCode: "x9vuvh";
+$fontCode: "8papbk";
 
 @font-face {
   font-family: "icomoon";
@@ -51,6 +51,12 @@ $fontCode: "x9vuvh";
 }
 .icon-online-pay:before {
   content: "\e917";
+}
+.icon-top-arrow:before {
+  content: "\e922";
+}
+.icon-down-arrow:before {
+  content: "\e91d";
 }
 .icon-delete:before {
   content: "\e91c";
