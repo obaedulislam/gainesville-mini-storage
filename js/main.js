@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
     order: [[1, 'desc']],
     order: [[3, 'desc']],
     language: {
-      sorting: '<i class="fa fa-sort"></i>',
-      sortingAsc: '<i class="fa fa-sort-asc"></i>',
-      sortingDesc: '<i class="fa fa-sort-desc"></i>'
+      sorting: '<span class="icon-sorting"></span>',
+      sortingAsc: '<span class="icon-ascending"></span>',
+      sortingDesc: '<span class="icon-descending"></span>'
     }
   });
 });
