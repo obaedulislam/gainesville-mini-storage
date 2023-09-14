@@ -151,7 +151,7 @@
                           $60
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -165,7 +165,7 @@
                           $80
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -179,7 +179,7 @@
                           $60
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -193,7 +193,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -207,7 +207,7 @@
                           $95
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -221,7 +221,7 @@
                           $160
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -235,7 +235,7 @@
                           $105
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -249,7 +249,7 @@
                           $140
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -263,7 +263,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -300,7 +300,7 @@
                             $60
                           </td>
                           <td class="button-cell call-btn text-end">
-                              <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                              <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                           </td>
                       </tr>
                       <!--Single Unit End-->
@@ -314,7 +314,7 @@
                             $80
                           </td>
                           <td class="button-cell call-btn text-end">
-                              <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                              <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                           </td>
                       </tr>
                       <!--Single Unit End-->
@@ -328,7 +328,7 @@
                             $60
                           </td>
                         <td class="button-cell call-btn text-end">
-                              <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                              <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                           </td>
                       </tr>
                       <!--Single Unit End-->       
@@ -364,7 +364,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -378,7 +378,7 @@
                           $95
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -392,7 +392,7 @@
                           $160
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -406,7 +406,7 @@
                           $105
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -442,7 +442,7 @@
                           $140
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -478,7 +478,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->

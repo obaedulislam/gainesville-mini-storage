@@ -85,17 +85,19 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                  <a data-size="70" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
-                                  <a data-size="70" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
-                                  </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
                               </div>
+
+                              <div class="plus-minus d-flex common-pl">
+                                  <a data-size="70" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="70" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus  ms-lg-3 ms-2"></i>
+                                  </a>                                  
+                              </div>
+                              
                             </div>      
                         </div>
                       </div>
@@ -117,16 +119,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a  data-size="55" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a  data-size="55" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  <a  data-size="55" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a  data-size="55" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
+                                  
                               </div>
                             </div>       
                         </div>
@@ -148,16 +151,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="40" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="40" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="40" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="40" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus  ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>     
                         </div>
@@ -179,16 +183,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="70" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="70" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  <a data-size="70" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="70" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
+                                  
                               </div>
                             </div>         
                         </div>
@@ -210,16 +215,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5  order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="30" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="30" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="30" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>       
                         </div>
@@ -241,16 +247,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="15" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="15" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  <a data-size="15" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="15" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
+                                  
                               </div>
                             </div>        
                         </div>
@@ -272,16 +279,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -303,16 +311,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>        
                         </div>
@@ -334,16 +343,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="10" class="increase " href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>     
                         </div>
@@ -365,16 +375,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -396,16 +407,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                 
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                   <a data-size="10" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -445,19 +457,19 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
-                                  <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
-                                  </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
                               </div>
 
-                              
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="5" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
+                              </div>
                               
                             </div>      
                         </div>
@@ -480,16 +492,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>       
                         </div>
@@ -511,16 +524,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="5" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="5" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="5" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>     
                         </div>
@@ -543,16 +557,17 @@
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
                               
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="30" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="30" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="30" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
 
                             </div>         
@@ -575,16 +590,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5  order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="15" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="15" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="15" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="15" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>       
                         </div>
@@ -606,16 +622,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>        
                         </div>
@@ -637,16 +654,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="40" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="40" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                 
+                                  <a data-size="40" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="40" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -668,16 +686,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="45" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="45" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="45" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="45" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>        
                         </div>
@@ -699,16 +718,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="55" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="55" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="55" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="55" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>     
                         </div>
@@ -730,16 +750,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="45" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="45" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="45" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus "></i>
+                                  </a>
+                                  <a data-size="45" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -761,16 +782,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="50" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="50" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="50" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="50" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -792,16 +814,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="60" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="60" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="60" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="60" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -823,16 +846,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="35" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="35" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="35" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="35" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -854,16 +878,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="25" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="25" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="25" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="25" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -885,16 +910,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="30" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="30" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="30" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                    <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -916,16 +942,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="35" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="35" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="35" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="35" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -947,16 +974,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count ">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="10" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="10" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="10" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                             </div>      
                         </div>
@@ -996,17 +1024,18 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-5 order-md-2 order-1 unit-price-count">
                             <div class="price-count d-flex align-items-center justify-content-between">
-                              
-                              <div class="plus-minus d-flex common-pl">
-                                <a data-size="55" class="increase" href="javascript:void(0)">
-                                  <i class="icon-plus"></i>
-                                </a>
-                                <a data-size="55" class="decrease" href="javascript:void(0)">
-                                  <i class="icon-minus ms-lg-3 ms-2"></i>
-                                </a>
-                              </div>
                               <div class="input-count"> 
                                 <input type="text" class="count" name="count" value="0">
+                              </div>
+
+                              <div class="plus-minus d-flex common-pl">
+                                  
+                                  <a data-size="55" class="decrease" href="javascript:void(0)">
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="55" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
+                                  </a>
                               </div>
                               
                             </div>      
@@ -1034,11 +1063,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="50" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="50" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="50" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>       
@@ -1065,11 +1095,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="35" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="35" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="35" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>     
@@ -1096,11 +1127,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="50" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="50" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="50" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>         
@@ -1127,11 +1159,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="30" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="30" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>       
@@ -1158,11 +1191,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>        
@@ -1189,11 +1223,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="15" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="15" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="15" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1220,11 +1255,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="25" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="25" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="25" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>        
@@ -1251,11 +1287,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>     
@@ -1282,11 +1319,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1313,11 +1351,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1344,11 +1383,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1375,11 +1415,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="15" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="15" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="15" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1406,11 +1447,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1437,11 +1479,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                    <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1468,11 +1511,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="15" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="15" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="15" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1499,11 +1543,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1530,11 +1575,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="25" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="25" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="25" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1561,11 +1607,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1592,11 +1639,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1623,11 +1671,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a  data-size="15" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="15" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a  data-size="15" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1654,11 +1703,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1685,11 +1735,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="3" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="3" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="3" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1716,11 +1767,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1747,11 +1799,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="60" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="60" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="60" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1778,11 +1831,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="70" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="70" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="70" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1809,11 +1863,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="80" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="80" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="80" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1840,11 +1895,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1871,11 +1927,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1902,11 +1959,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="2" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="2" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="2" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1933,11 +1991,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="30" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="30" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1964,11 +2023,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -1995,11 +2055,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="25" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="25" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="25" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2026,11 +2087,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="30" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="30" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2057,11 +2119,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2088,11 +2151,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="25" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="25" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="25" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2119,11 +2183,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2150,11 +2215,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2200,11 +2266,12 @@
                               </div>
 
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="25" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="25" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="25" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               
@@ -2233,11 +2300,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>       
@@ -2264,11 +2332,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="12" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="12" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="12" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>     
@@ -2295,11 +2364,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="15" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="15" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="15" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>         
@@ -2326,11 +2396,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="25" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="25" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="25" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>       
@@ -2357,11 +2428,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>        
@@ -2388,11 +2460,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2419,11 +2492,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="15" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="15" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="15" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>        
@@ -2450,11 +2524,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>     
@@ -2481,11 +2556,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="3" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="3" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="3" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2512,11 +2588,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="2" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="2" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="2" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2543,11 +2620,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="50" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="50" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="50" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2574,11 +2652,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2605,11 +2684,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="8" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="8" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="8" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2636,11 +2716,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="3" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="3" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="3" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2667,11 +2748,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="30" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="30" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2698,11 +2780,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="2" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="2" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="2" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2729,11 +2812,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="2" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="2" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="2" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2760,11 +2844,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2791,11 +2876,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="2" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="2" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="2" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2822,11 +2908,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a  data-size="50" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="50" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a  data-size="50" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2853,11 +2940,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="40" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="40" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="40" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2884,11 +2972,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="35" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="35" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="35" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2915,11 +3004,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="22" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="22" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="22" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2946,11 +3036,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -2977,11 +3068,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="23" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="23" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="23" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3008,11 +3100,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="26" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="26" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="26" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3039,11 +3132,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="29" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="29" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="29" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3070,11 +3164,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="35" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="35" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="35" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3101,11 +3196,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3132,11 +3228,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="50" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                               
                                   <a data-size="50" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="50" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3163,11 +3260,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="3" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="3" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="3" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3194,11 +3292,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="12" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="12" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="12" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3225,11 +3324,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a  data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a  data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3256,11 +3356,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="50" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="50" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="50" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3287,11 +3388,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3318,11 +3420,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3349,11 +3452,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3380,11 +3484,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
@@ -3430,11 +3535,12 @@
                               </div>
 
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                               
@@ -3463,11 +3569,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="5" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="5" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="5" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>       
@@ -3494,11 +3601,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>     
@@ -3525,11 +3633,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="10" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                 
                                   <a data-size="10" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                   <a data-size="10" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>         
@@ -3556,11 +3665,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="35" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="35" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="35" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>       
@@ -3587,11 +3697,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="30" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="30" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="30" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>        
@@ -3618,11 +3729,12 @@
                                 <input type="text" class="count" name="count" value="0">
                               </div>
                               <div class="plus-minus d-flex common-pl">
-                                  <a data-size="20" class="increase" href="javascript:void(0)">
-                                    <i class="icon-plus"></i>
-                                  </a>
+                                  
                                   <a data-size="20" class="decrease" href="javascript:void(0)">
-                                    <i class="icon-minus ms-lg-3 ms-2"></i>
+                                    <i class="icon-minus"></i>
+                                  </a>
+                                  <a data-size="20" class="increase" href="javascript:void(0)">
+                                     <i class="icon-plus ms-lg-3 ms-2"></i>
                                   </a>
                               </div>
                             </div>      
