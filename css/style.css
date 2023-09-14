@@ -1459,15 +1459,16 @@ Size Guide Page CSS Start
       margin-top: 20px; }
   .storage-calculator-section .clean-selection {
     margin-top: 20px;
-    padding: 20px;
     border: 1px solid #bfbfbf;
     border-radius: 8px; }
     .storage-calculator-section .clean-selection a {
+      padding: 20px;
       display: flex;
       align-items: center;
       justify-content: end;
       font-weight: 500;
-      color: #828282; }
+      color: #828282;
+      cursor: pointer; }
       .storage-calculator-section .clean-selection a i {
         color: #f3b300;
         margin-right: 10px; }

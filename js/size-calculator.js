@@ -134,3 +134,21 @@ function roundNumber(number) {
     return Math.floor(number);
   }
 }
+
+function clearInputFields() {
+  var inputs = document.getElementsByClassName("count");
+  for (var i = 0; i < inputs.length; i++) {
+    inputs[i].value = 0;
+    if (inputs[i].value == 0) {
+      $("#storage-description").addClass("d-none");
+    } else {
+      $("#storage-description").removeClass("d-none");
+    }
+  }
+  $("#sizeSuggestion").html("");
+  $("#percentageFullVal").html("");
+  $("#containerImg").css(
+    "background-image",
+    "url(images/size-guide/storage-calculator/no-dimension.webp)"
+  );
+}

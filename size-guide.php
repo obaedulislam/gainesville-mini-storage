@@ -3765,7 +3765,7 @@
             <div class="row">
               <div class="col-md-7">
                 <div class="clean-selection">
-                  <a href="#" class="text-end"><i class="icon-delete"></i><span>Clean Selection</span></a>
+                  <a  class="text-end"  onclick="clearInputFields()"><i class="icon-delete"></i><span>Clean Selection</span></a>
                 </div>
               </div>
             </div>

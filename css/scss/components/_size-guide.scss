@@ -119,16 +119,17 @@ Size Guide Page CSS Start
 
   .clean-selection {
     margin-top: 20px;
-    padding: 20px;
     border: 1px solid $gray-border;
     border-radius: 8px;
 
     a {
+      padding: 20px;
       display: flex;
       align-items: center;
       justify-content: end;
       font-weight: 500;
       color: $gray-semi;
+      cursor: pointer;
       i {
         color: $yellow;
         margin-right: 10px;

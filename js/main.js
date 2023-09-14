@@ -56,17 +56,21 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
+  //SLider integration config end
 
   $("#storageListing").dataTable({
     paging: false,
     searching: false,
     ordering: true,
-    order: [[1, 'desc']],
-    order: [[3, 'desc']],
+    order: [[1, "desc"]],
+    order: [[3, "desc"]],
     language: {
       sorting: '<span class="icon-sorting"></span>',
       sortingAsc: '<span class="icon-ascending"></span>',
-      sortingDesc: '<span class="icon-descending"></span>'
-    }
+      sortingDesc: '<span class="icon-descending"></span>',
+    },
   });
+  // Filter option end
+
+
 });
