@@ -127,20 +127,20 @@
                 <table id="lcListing" class="table gms-table" style="width:100%">
                   <thead>
                       <tr class="single-unit heading">
-                          <th>
-                            Size <span class="border-right"></span>
+                          <th class="size">
+                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price
+                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
                   </thead>
+
                   <tbody>
-                    
                     <tr class="single-unit">
                         <td class="size">5’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -149,8 +149,8 @@
                         <td class="price">
                           $60
                         </td>
-                        <td class="button-cell">
-                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                        <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -158,27 +158,111 @@
                     <tr class="single-unit">
                         <td class="size">5’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          Self Storage, rollup, climate, interior  <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $60
+                          $80
                         </td>
-                        <td class="button-cell">
-                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                        <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
                     
                     <tr class="single-unit">
-                        <td class="size">5’x10’ <span class="border-right"></span></td>
+                        <td class="size">5’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
                           Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $60
                         </td>
-                        <td class="button-cell">
-                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $120
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $95
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $160
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $105
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x20’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $140
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">12’x45’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Parking, covered, rv/boat/vehicle/parking, lower level  <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $120
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -189,272 +273,216 @@
               <!--=======Tab1 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="small" role="tabpanel" aria-labelledby="tab2-tab">
-                <div class="single-unit heading">
-                  <div class="row">
-                    <div class="col-md-2 col-6 head-size">
-                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                    <div class="col-md-5 head-unit d-md-block d-none">
-                      <p class="common-pl">Unit Details</p>
-                    </div>
-                     <div class="col-md-5 col-6 head">
-                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit Heading End -->
+                  <table id="lcListing" class="table gms-table" style="width:100%">
+                    <thead>
+                        <tr class="single-unit heading">
+                            <th class="size">
+                              Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                            </th>
+                            <th class="unit-details-header">
+                              Unit Details <span class="border-right"></span>
+                            </th>
+                            <th class="price-header">
+                              Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                            </th>
+                            <th class="button-cell-header"></th>
+                        </tr>
+                    </thead>
 
-                <div class="single-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">5’x10’</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self storage, non climate, drivethrough, roolup, drive up</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$60</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
+                    <tbody>
+                      <tr class="single-unit">
+                          <td class="size">5’x10’ <span class="border-right"></span></td>
+                          <td class="unit-details">
+                            Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          </td>
+                          <td class="price">
+                            $60
+                          </td>
+                          <td class="button-cell call-btn text-end">
+                              <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                          </td>
+                      </tr>
+                      <!--Single Unit End-->
+                      
+                      <tr class="single-unit">
+                          <td class="size">5’x10’ <span class="border-right"></span></td>
+                          <td class="unit-details">
+                            Self Storage, rollup, climate, interior  <span class="border-right"></span>
+                          </td>
+                          <td class="price">
+                            $80
+                          </td>
+                          <td class="button-cell call-btn text-end">
+                              <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                          </td>
+                      </tr>
+                      <!--Single Unit End-->
+                      
+                      <tr class="single-unit">
+                          <td class="size">5’x15’ <span class="border-right"></span></td>
+                          <td class="unit-details">
+                            Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          </td>
+                          <td class="price">
+                            $60
+                          </td>
+                        <td class="button-cell call-btn text-end">
+                              <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                          </td>
+                      </tr>
+                      <!--Single Unit End-->       
+                    </tbody>
+                  </table>
                 </div>
-                <!--Single Unit End -->
-
-                <div class="single-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">5’x10’</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$80</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
-
-                <div class="single-unit last-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">5'x15'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$60</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
-              </div>
               <!--=======Tab2 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="medium" role="tabpanel" aria-labelledby="tab3-tab">
-                <div class="single-unit heading">
-                  <div class="row">
-                    <div class="col-md-2 col-6 head-size">
-                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                    <div class="col-md-5 head-unit d-md-block d-none">
-                      <p class="common-pl">Unit Details</p>
-                    </div>
-                     <div class="col-md-5 col-6 head">
-                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit Heading End -->
+                <table id="lcListing" class="table gms-table" style="width:100%">
+                  <thead>
+                      <tr class="single-unit heading">
+                          <th class="size">
+                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                          </th>
+                          <th class="unit-details-header">
+                            Unit Details <span class="border-right"></span>
+                          </th>
+                          <th class="price-header">
+                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                          </th>
+                          <th class="button-cell-header"></th>
+                      </tr>
+                  </thead>
 
-                <div class="single-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">10'x10'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$120</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
-
-                <div class="single-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">10'x10'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$95</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
-
-                <div class="single-unit ">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">10'x15'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, rollup, climate, interior</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$160</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
-
-                <div class="single-unit last-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">10'x15'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$105</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
+                  <tbody>       
+                    <tr class="single-unit">
+                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $120
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x10’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $95
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $160
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                    
+                    <tr class="single-unit">
+                        <td class="size">10’x15’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $105
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                  </tbody>
+                </table>
               </div>
               <!--=======Tab3 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="large" role="tabpanel" aria-labelledby="tab4-tab">
-                <div class="single-unit heading">
-                  <div class="row">
-                    <div class="col-md-2 col-6 head-size">
-                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                    <div class="col-md-5 head-unit d-md-block d-none">
-                      <p class="common-pl">Unit Details</p>
-                    </div>
-                     <div class="col-md-5 col-6 head">
-                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit Heading End -->
+                <table id="lcListing" class="table gms-table" style="width:100%">
+                  <thead>
+                      <tr class="single-unit heading">
+                          <th class="size">
+                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                          </th>
+                          <th class="unit-details-header">
+                            Unit Details <span class="border-right"></span>
+                          </th>
+                          <th class="price-header">
+                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                          </th>
+                          <th class="button-cell-header"></th>
+                      </tr>
+                  </thead>
 
-                <div class="single-unit last-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">10'x20'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Self Storage, non climate, drivethrough, rollup, drive up</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$140</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
+                  <tbody>       
+                    <tr class="single-unit">
+                        <td class="size">10’x20’ <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Self Storage, non climate, drivethrough, rollup, drive up   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $140
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                  </tbody>
+                </table>
               </div>
               <!--=======Tab4 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="vehicle" role="tabpanel" aria-labelledby="tab5-tab">
-                <div class="single-unit heading">
-                  <div class="row">
-                    <div class="col-md-2 col-6 head-size">
-                      <p >Size <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                    <div class="col-md-5 head-unit d-md-block d-none">
-                      <p class="common-pl">Unit Details</p>
-                    </div>
-                     <div class="col-md-5 col-6 head">
-                       <p class="common-pl">Price <span class="d-flex align-items-center ms-2"><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span></p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit Heading End -->
+                 <table id="lcListing" class="table gms-table" style="width:100%">
+                  <thead>
+                      <tr class="single-unit heading">
+                          <th class="size">
+                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                          </th>
+                          <th class="unit-details-header">
+                            Unit Details <span class="border-right"></span>
+                          </th>
+                          <th class="price-header">
+                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                          </th>
+                          <th class="button-cell-header"></th>
+                      </tr>
+                  </thead>
 
-                <div class="single-unit last-unit">
-                  <div class="row wrapper">
-                    <div class="col-md-2 col-8 store-size order-0">
-                        <div class="store-div">
-                          <h5 class="size">12'x45'</h5> 
-                        </div>                   
-                    </div>
-                    <div class="col-md-5 col-8 store-unit-details order-md-1 order-2  ">
-                        <p class="unit-details common-pl">Parking, covered, rv/boat/vehicle/parking, lower level</p>                
-                    </div>
-                     <div class="col-md-2 col-4 unit-price order-md-2 order-1">
-                        <div class="price-div">
-                          <h5 class="price common-pl">$120</h5>      
-                        </div>       
-                    </div>
-                    <div class="col-md-3 col-4 call-btn order-md-3 order-3">
-                        <a href="#" class="button primary-button call-btn" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
-                    </div>
-                  </div>
-                </div>
-                <!--Single Unit End -->
+                  <tbody>       
+                    <tr class="single-unit">
+                        <td class="size">12'x45'<span class="border-right"></span></td>
+                        <td class="unit-details">
+                          Parking, covered, rv/boat/vehicle/parking, lower level   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          $120
+                        </td>
+                       <td class="button-cell call-btn text-end">
+                            <a href="#" class="button primary-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+                  </tbody>
+                </table>
               </div>
               <!--=======Tab5 Data End=======-->
           </div>
