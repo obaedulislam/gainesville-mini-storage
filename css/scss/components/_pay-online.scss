@@ -22,6 +22,20 @@ Pay Online Page CSS Start
 .online-item-section {
   .category-details {
     .single-unit {
+      .call-btn {
+        display: flex;
+        a {
+          background-color: $gray-normal;
+          &:hover {
+            background-color: $yellow;
+          }
+        }
+      }
+      .store-size {
+        display: flex;
+        align-items: center;
+      }
+
       .store-address,
       .store-city,
       .store-state {

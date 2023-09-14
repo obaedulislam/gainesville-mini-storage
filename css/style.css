@@ -1163,7 +1163,8 @@ Unit Prices Page CSS End
         font-size: 14px;
         min-width: 100px;
         color: white;
-        background-color: #9d9d9d; }
+        background-color: #9d9d9d;
+        line-height: 26px; }
         .unit-filter-section .category-details .single-unit .call-btn a i {
           font-size: 14px; }
   .unit-filter-section .category ul li a {
@@ -1815,6 +1816,15 @@ Pay Online Page CSS Start
 
 /** == Banner Section CSS End == **/
 /** == Online Item Section CSS Start == **/
+.online-item-section .category-details .single-unit .call-btn {
+  display: flex; }
+  .online-item-section .category-details .single-unit .call-btn a {
+    background-color: #9d9d9d; }
+    .online-item-section .category-details .single-unit .call-btn a:hover {
+      background-color: #f3b300; }
+.online-item-section .category-details .single-unit .store-size {
+  display: flex;
+  align-items: center; }
 .online-item-section .category-details .single-unit .store-address,
 .online-item-section .category-details .single-unit .store-city,
 .online-item-section .category-details .single-unit .store-state {
