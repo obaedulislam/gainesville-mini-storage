@@ -280,13 +280,13 @@
                     <thead>
                         <tr class="single-unit heading">
                             <th class="size">
-                              Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                              Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
                             </th>
                             <th class="unit-details-header">
                               Unit Details <span class="border-right"></span>
                             </th>
                             <th class="price-header">
-                              Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                              Price <span ><i class="icon-sorting"></i></span> 
                             </th>
                             <th class="button-cell-header"></th>
                         </tr>
@@ -344,13 +344,13 @@
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                            Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                            Price <span ><i class="icon-sorting"></i></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
@@ -422,13 +422,13 @@
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                            Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                            Price <span ><i class="icon-sorting"></i></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
@@ -458,13 +458,13 @@
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> <span class="border-right"></span>
+                            Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-left-arrow"></i><i class="icon-right-arrow"></i></span> 
+                            Price <span ><i class="icon-sorting"></i></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
