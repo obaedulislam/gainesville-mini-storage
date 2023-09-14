@@ -2057,7 +2057,6 @@ Privacy Policy Page CSS End
     align-items: center;
     gap: 4px; }
     .gms-table tr.single-unit th.size span i, .gms-table tr.single-unit th.price-header span i {
-      transform: rotate(270deg);
       cursor: pointer;
       display: block; }
 

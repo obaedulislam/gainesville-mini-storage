@@ -106,7 +106,6 @@
             align-items: center;
             gap: 4px;
             i {
-              transform: rotate(270deg);
               cursor: pointer;
               display: block;
             }
@@ -117,15 +116,14 @@
   }
 }
 
-
 .dataTable {
-    tr{
-        th{
-            width:unset !important;
-        }
+  tr {
+    th {
+      width: unset !important;
     }
+  }
 }
 
-.dataTables_info{
-    display: none !important;
+.dataTables_info {
+  display: none !important;
 }
