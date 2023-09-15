@@ -69,10 +69,10 @@
 
                 <div class="col-md-4 d-flex align-items-center order-md-1 order-0">
                     <div class="contact-info">
-                        <h5 class="mb-md-4 mb-3">Gainesville Mini Storage</h5>
-                        <p class="mb-md-3">2537 FM 51</p>
-                        <p class="mb-md-5 mb-2">Gainesville, TX 76240</p>
-                        <h6>(940) 400-2297</h6>
+                        <h5 class="mb-xl-4 mb-lg-2 mb-3">Gainesville Mini Storage</h5>
+                        <p class="mb-xl-3 mb-lg-2">2537 FM 51</p>
+                        <p class="mb-xl-5 mb-lg-3 mb-2">Gainesville, TX 76240</p>
+                        <a href="tel:+(940) 400-2297"><h6>(940) 400-2297</h6></a>
                     </div>
                 </div>
             </div>

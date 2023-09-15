@@ -2,6 +2,7 @@
   tr {
     &:last-child {
       border: 0;
+      border-width: 0;
       td {
         border: 0;
       }
@@ -11,7 +12,6 @@
     }
     th {
       color: #828282;
-      font-size: 20px;
       font-weight: 600;
       border-bottom: 1px solid #bfbfbf !important;
       position: relative;
@@ -58,7 +58,6 @@
 
       &.size {
         color: #828282;
-        font-size: 32px;
         font-weight: 600;
       }
 
@@ -71,7 +70,6 @@
 
       &.price {
         color: #0601ff;
-        font-size: 32px;
         font-weight: 600;
         padding-left: 20px;
       }
@@ -126,4 +124,163 @@
 
 .dataTables_info {
   display: none !important;
+}
+
+table {
+  &.dataTable {
+    thead {
+      tr {
+        th {
+          font-family: "icomoon" !important;
+          &.sorting {
+            &::before {
+              content: "\e90d" !important;
+              opacity: 1;
+              top: 50%;
+              right: 0;
+            }
+            &::after {
+              display: none;
+            }
+          }
+          &.sorting_asc {
+            &::before {
+              content: "\e91d" !important;
+              opacity: 1;
+              top: 50%;
+              right: 0;
+            }
+          }
+          &.sorting_desc {
+            &::before {
+              content: "\e90f" !important;
+              opacity: 1;
+              top: 50%;
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.gms-table {
+    &.dataTable {
+      thead {
+        tr {
+          th {
+            &.unit-details-header,
+            &.button-cell-header {
+              &.sorting {
+                &::before {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+  .gms-table {
+    tr {
+      &:last-child {
+        border: 0;
+        border-width: 0;
+        td {
+          border: 0;
+        }
+        &.single-unit {
+          border-bottom: 0;
+        }
+      }
+      th {
+        color: #828282;
+        font-weight: 600;
+        border-bottom: 1px solid #bfbfbf !important;
+        position: relative;
+
+        &:last-child {
+          border-right: none;
+        }
+
+        .border-right {
+          position: absolute;
+          display: inline-block;
+          width: 1px;
+          height: 30px;
+          background: #bfbfbf;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &.unit-details-header {
+          padding-left: 7px;
+        }
+
+        &.price-header {
+          padding-left: 7px;
+        }
+      }
+      //Table Header CSS end
+
+      td {
+        vertical-align: middle;
+        position: relative;
+
+        .border-right {
+          position: absolute;
+          display: inline-block;
+          width: 1px;
+          height: 50px;
+          background: #bfbfbf;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &.size {
+          color: #828282;
+          font-weight: 600;
+        }
+
+        &.unit-details {
+          color: #545454;
+          font-size: 16px;
+          font-weight: 400;
+          padding-left: 10px;
+        }
+
+        &.price {
+          color: #0601ff;
+          font-weight: 600;
+          padding-left: 10px;
+        }
+
+        &.button-cell {
+          .btn {
+            border-radius: 4px;
+            padding: 20px 60px;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 700;
+
+            &.btn-primary {
+              background-color: #9d9d9d;
+              color: #fff;
+              border: none;
+            }
+          }
+        }
+      }
+      //Table data CSS end
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
 }

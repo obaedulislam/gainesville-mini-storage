@@ -65,7 +65,8 @@ Nearby Page CSS End
   .banner-section {
     &.nearby-banner {
       .container {
-        min-height: 300px;
+        min-height: unset;
+        padding: 40px 20px;
       }
     }
   }

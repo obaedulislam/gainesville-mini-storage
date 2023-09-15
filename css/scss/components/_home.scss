@@ -33,7 +33,7 @@ Home Page CSS Start
     p {
       margin-top: 20px;
       font-size: 20px;
-      color: white;
+      color: white !important;
     }
     .cta-btn {
       margin-top: 50px;
@@ -111,6 +111,12 @@ Home Page CSS End
 
 //Large Device CSS start
 @media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section {
+    padding: 20px 15px;
+    .container {
+      min-height: 600px;
+    }
+  }
   .location-section {
     .storage-unit {
       .map-wrapper {
@@ -197,8 +203,8 @@ Home Page CSS End
   .banner-section {
     padding: 15px 10px;
     .container {
-      padding: 0 20px;
-      min-height: 350px;
+      padding: 40px 20px;
+      min-height: unset;
       p {
         font-size: 14px;
       }

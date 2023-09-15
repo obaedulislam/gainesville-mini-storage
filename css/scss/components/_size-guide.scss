@@ -49,8 +49,15 @@ Size Guide Page CSS Start
       }
       .wrapper {
         padding: 20px 0;
+        .store-size {
+          display: flex;
+          align-items: center;
+        }
       }
       .unit-price-count {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         .price-count {
           .plus-minus {
             margin-top: 8px;
@@ -269,41 +276,44 @@ Size Guide Page CSS End
 
     .category-details {
       .single-unit {
-        .store-size {
-          display: block;
-          p {
-            &.common-pl {
-              padding-left: 0;
-            }
-
-            &.unit-details {
-              margin-top: 30px;
-            }
-          }
-
-          .size-title {
-            position: relative;
+        .wrapper {
+          padding: 15px;
+          .store-size {
+            display: block;
             p {
-              &::after {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 1px;
-                left: 0;
-                bottom: -15px;
-                background-color: $gray-border;
+              &.common-pl {
+                padding-left: 0;
+              }
+
+              &.unit-details {
+                margin-top: 30px;
+              }
+            }
+
+            .size-title {
+              position: relative;
+
+              p {
+                &::after {
+                  content: "";
+                  position: absolute;
+                  width: 100%;
+                  height: 1px;
+                  left: 0;
+                  bottom: -15px;
+                  background-color: $gray-border;
+                }
               }
             }
           }
         }
 
-        .wrapper {
-          padding: 15px;
-        }
-
         .unit-price-count {
-          display: grid;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
           .price-count {
+            width: 100%;
             .plus-minus {
               padding-left: 0;
               a {
@@ -381,7 +391,8 @@ Size Guide Page CSS End
   .banner-section {
     &.size-guide-banner {
       .container {
-        min-height: 300px;
+        min-height: unset;
+        padding: 40px 20px;
       }
     }
   }

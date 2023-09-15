@@ -691,7 +691,7 @@ Home Page CSS Start
     .banner-section .container p {
       margin-top: 20px;
       font-size: 20px;
-      color: white; }
+      color: white !important; }
     .banner-section .container .cta-btn {
       margin-top: 50px; }
 
@@ -744,6 +744,11 @@ Home Page CSS End
 ========================= **/
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
+  .banner-section {
+    padding: 20px 15px; }
+    .banner-section .container {
+      min-height: 600px; }
+
   .location-section .storage-unit .map-wrapper .map-content {
     padding: 50px 30px; } }
 @media (min-width: 0px) and (max-width: 992px) {
@@ -783,8 +788,8 @@ Home Page CSS End
   .banner-section {
     padding: 15px 10px; }
     .banner-section .container {
-      padding: 0 20px;
-      min-height: 350px; }
+      padding: 40px 20px;
+      min-height: unset; }
       .banner-section .container p {
         font-size: 14px; }
 
@@ -1144,7 +1149,8 @@ Unit Prices Page CSS End
       color: white;
       background-color: #9d9d9d; }
       .unit-filter-section .category-details .single-unit .call-btn a i {
-        font-size: 16px; } }
+        font-size: 16px;
+        line-height: 28px; } }
 @media (min-width: 0px) and (max-width: 992px) {
   .banner-section.unit-prices-banner .container {
     min-height: 400px; }
@@ -1161,14 +1167,14 @@ Unit Prices Page CSS End
     padding: 0 10px; }
     .unit-filter-section .category-details .single-unit {
       padding: 10px 0; }
-      .unit-filter-section .category-details .single-unit .call-btn a {
+      .unit-filter-section .category-details .single-unit .button-cell.call-btn a {
         padding: 7px 20px;
         font-size: 14px;
         min-width: 100px;
         color: white;
         background-color: #9d9d9d;
         line-height: 26px; }
-        .unit-filter-section .category-details .single-unit .call-btn a i {
+        .unit-filter-section .category-details .single-unit .button-cell.call-btn a i {
           font-size: 14px; }
   .unit-filter-section .category ul li a {
     padding-top: 8px;
@@ -1349,7 +1355,8 @@ Unit Prices Page CSS End
     padding: 50px 0; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.unit-prices-banner .container {
-    min-height: 300px; }
+    min-height: unset;
+    padding: 40px 20px; }
 
   .office-time-section .office-time {
     padding: 0px;
@@ -1418,25 +1425,32 @@ Size Guide Page CSS Start
       padding-left: 0; }
     .storage-calculator-section .category-details .single-unit .wrapper {
       padding: 20px 0; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
-      margin-top: 8px; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-        font-size: 24px;
-        line-height: 0;
-        color: #0601ff; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-      border: 1px solid #545454;
-      outline: none;
-      background-color: transparent;
-      color: #0d0d0d;
-      display: block;
-      max-width: 70px;
-      padding: 10px 10px;
-      border-radius: 4px;
-      text-align: center; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
-      font-size: 16px;
-      font-weight: 500; }
+      .storage-calculator-section .category-details .single-unit .wrapper .store-size {
+        display: flex;
+        align-items: center; }
+    .storage-calculator-section .category-details .single-unit .unit-price-count {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
+        margin-top: 8px; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+          font-size: 24px;
+          line-height: 0;
+          color: #0601ff; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+        border: 1px solid #545454;
+        outline: none;
+        background-color: transparent;
+        color: #0d0d0d;
+        display: block;
+        max-width: 70px;
+        padding: 10px 10px;
+        border-radius: 4px;
+        text-align: center; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
+        font-size: 16px;
+        font-weight: 500; }
   .storage-calculator-section .bed-room-content {
     padding: 20px;
     border-top: 1px solid #bfbfbf;
@@ -1532,35 +1546,39 @@ Size Guide Page CSS End
       display: flex;
       flex-wrap: unset;
       overflow-x: auto; }
-    .storage-calculator-section .category-details .single-unit .store-size {
-      display: block; }
-      .storage-calculator-section .category-details .single-unit .store-size p.common-pl {
-        padding-left: 0; }
-      .storage-calculator-section .category-details .single-unit .store-size p.unit-details {
-        margin-top: 30px; }
-      .storage-calculator-section .category-details .single-unit .store-size .size-title {
-        position: relative; }
-        .storage-calculator-section .category-details .single-unit .store-size .size-title p::after {
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 1px;
-          left: 0;
-          bottom: -15px;
-          background-color: #bfbfbf; }
     .storage-calculator-section .category-details .single-unit .wrapper {
       padding: 15px; }
+      .storage-calculator-section .category-details .single-unit .wrapper .store-size {
+        display: block; }
+        .storage-calculator-section .category-details .single-unit .wrapper .store-size p.common-pl {
+          padding-left: 0; }
+        .storage-calculator-section .category-details .single-unit .wrapper .store-size p.unit-details {
+          margin-top: 30px; }
+        .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title {
+          position: relative; }
+          .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title p::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            bottom: -15px;
+            background-color: #bfbfbf; }
     .storage-calculator-section .category-details .single-unit .unit-price-count {
-      display: grid; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
-        padding-left: 0; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-          font-size: 20px; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
-        margin-left: 0; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-          width: 70px;
-          padding: 8px 10px; }
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count {
+        width: 100%; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
+          padding-left: 0; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+            font-size: 20px; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
+          margin-left: 0; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+            width: 70px;
+            padding: 8px 10px; }
       .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
         margin-bottom: 30px;
         font-size: 16px;
@@ -1597,7 +1615,8 @@ Size Guide Page CSS End
         margin-top: 20px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.size-guide-banner .container {
-    min-height: 300px; }
+    min-height: unset;
+    padding: 40px 20px; }
 
   .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
     padding-left: 0; }
@@ -1638,7 +1657,8 @@ Nearby Page CSS End
     min-height: 350px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.nearby-banner .container {
-    min-height: 300px; } }
+    min-height: unset;
+    padding: 40px 20px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 FAQs Page CSS Start 
@@ -1719,7 +1739,8 @@ FAQs Page CSS End
     background-size: 16px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.faqs-banner .container {
-    min-height: 300px; }
+    min-height: unset;
+    padding: 40px 20px; }
 
   .faqs-section .accordion-button {
     font-size: 16px; } }
@@ -1769,7 +1790,19 @@ Contact Us Page CSS End
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 1200px) {
   .banner-section.nearby-banner .container {
-    min-height: 450px; } }
+    min-height: 450px; }
+
+  .contact-form-section .contact-form {
+    padding: 30px; }
+    .contact-form-section .contact-form .form-section {
+      margin-top: 0; }
+      .contact-form-section .contact-form .form-section .input-field input {
+        margin-top: 7px;
+        padding: 7px 0; }
+      .contact-form-section .contact-form .form-section .submit-btn {
+        margin-top: 20px; }
+  .contact-form-section .contact-info {
+    padding: 60px 30px; } }
 @media (min-width: 0px) and (max-width: 992px) {
   .banner-section.nearby-banner .container {
     min-height: 400px; }
@@ -1808,7 +1841,8 @@ Contact Us Page CSS End
     border-radius: 8px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.nearby-banner .container {
-    min-height: 300px; } }
+    min-height: unset;
+    padding: 40px 20px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Pay Online Page CSS Start 
@@ -1951,7 +1985,8 @@ Pay Online Page CSS End
   /** == Online Item Section CSS End == **/ }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.pay-online-banner .container {
-    min-height: 300px; } }
+    min-height: unset;
+    padding: 40px 20px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Terms Page CSS Start 
@@ -1987,14 +2022,14 @@ Privacy Policy Page CSS Start
 Privacy Policy Page CSS End 
 ========================= **/
 .gms-table tr:last-child {
-  border: 0; }
+  border: 0;
+  border-width: 0; }
   .gms-table tr:last-child td {
     border: 0; }
   .gms-table tr:last-child.single-unit {
     border-bottom: 0; }
 .gms-table tr th {
   color: #828282;
-  font-size: 20px;
   font-weight: 600;
   border-bottom: 1px solid #bfbfbf !important;
   position: relative; }
@@ -2027,7 +2062,6 @@ Privacy Policy Page CSS End
     transform: translateY(-50%); }
   .gms-table tr td.size {
     color: #828282;
-    font-size: 32px;
     font-weight: 600; }
   .gms-table tr td.unit-details {
     color: #545454;
@@ -2036,7 +2070,6 @@ Privacy Policy Page CSS End
     padding-left: 20px; }
   .gms-table tr td.price {
     color: #0601ff;
-    font-size: 32px;
     font-weight: 600;
     padding-left: 20px; }
   .gms-table tr td.button-cell .btn {
@@ -2067,6 +2100,90 @@ Privacy Policy Page CSS End
 .dataTables_info {
   display: none !important; }
 
+table.dataTable thead tr th {
+  font-family: "icomoon" !important; }
+  table.dataTable thead tr th.sorting::before {
+    content: "\e90d" !important;
+    opacity: 1;
+    top: 50%;
+    right: 0; }
+  table.dataTable thead tr th.sorting::after {
+    display: none; }
+  table.dataTable thead tr th.sorting_asc::before {
+    content: "\e91d" !important;
+    opacity: 1;
+    top: 50%;
+    right: 0; }
+  table.dataTable thead tr th.sorting_desc::before {
+    content: "\e90f" !important;
+    opacity: 1;
+    top: 50%;
+    right: 0; }
+table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table.gms-table.dataTable thead tr th.button-cell-header.sorting::before {
+  display: none; }
+
+@media (min-width: 0px) and (max-width: 992px) {
+  .gms-table tr:last-child {
+    border: 0;
+    border-width: 0; }
+    .gms-table tr:last-child td {
+      border: 0; }
+    .gms-table tr:last-child.single-unit {
+      border-bottom: 0; }
+  .gms-table tr th {
+    color: #828282;
+    font-weight: 600;
+    border-bottom: 1px solid #bfbfbf !important;
+    position: relative; }
+    .gms-table tr th:last-child {
+      border-right: none; }
+    .gms-table tr th .border-right {
+      position: absolute;
+      display: inline-block;
+      width: 1px;
+      height: 30px;
+      background: #bfbfbf;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%); }
+    .gms-table tr th.unit-details-header {
+      padding-left: 7px; }
+    .gms-table tr th.price-header {
+      padding-left: 7px; }
+  .gms-table tr td {
+    vertical-align: middle;
+    position: relative; }
+    .gms-table tr td .border-right {
+      position: absolute;
+      display: inline-block;
+      width: 1px;
+      height: 50px;
+      background: #bfbfbf;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%); }
+    .gms-table tr td.size {
+      color: #828282;
+      font-weight: 600; }
+    .gms-table tr td.unit-details {
+      color: #545454;
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 10px; }
+    .gms-table tr td.price {
+      color: #0601ff;
+      font-weight: 600;
+      padding-left: 10px; }
+    .gms-table tr td.button-cell .btn {
+      border-radius: 4px;
+      padding: 20px 60px;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 700; }
+      .gms-table tr td.button-cell .btn.btn-primary {
+        background-color: #9d9d9d;
+        color: #fff;
+        border: none; } }
 /** ========================= 
 U-Haul Page CSS Start 
 ========================= **/

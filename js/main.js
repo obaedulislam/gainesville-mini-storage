@@ -72,5 +72,59 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   // Filter option end
 
+  $("#storageListingTwo").dataTable({
+    paging: false,
+    searching: false,
+    ordering: true,
+    order: [[1, "desc"]],
+    order: [[3, "desc"]],
+    language: {
+      sorting: '<span class="icon-sorting"></span>',
+      sortingAsc: '<span class="icon-ascending"></span>',
+      sortingDesc: '<span class="icon-descending"></span>',
+    },
+  });
+  // Filter option end
 
+  $("#storageListingThree").dataTable({
+    paging: false,
+    searching: false,
+    ordering: true,
+    order: [[1, "desc"]],
+    order: [[3, "desc"]],
+    language: {
+      sorting: '<span class="icon-sorting"></span>',
+      sortingAsc: '<span class="icon-ascending"></span>',
+      sortingDesc: '<span class="icon-descending"></span>',
+    },
+  });
+  // Filter option end
+
+  $("#storageListingFour").dataTable({
+    paging: false,
+    searching: false,
+    ordering: true,
+    order: [[1, "desc"]],
+    order: [[3, "desc"]],
+    language: {
+      sorting: '<span class="icon-sorting"></span>',
+      sortingAsc: '<span class="icon-ascending"></span>',
+      sortingDesc: '<span class="icon-descending"></span>',
+    },
+  });
+  // Filter option end
+
+  $("#storageListingFive").dataTable({
+    paging: false,
+    searching: false,
+    ordering: true,
+    order: [[1, "desc"]],
+    order: [[3, "desc"]],
+    language: {
+      sorting: "",
+      sortingAsc: "",
+      sortingDesc: "",
+    },
+  });
+  // Filter option end
 });

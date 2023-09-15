@@ -109,7 +109,7 @@
             <!--Search Box End -->
 
             <div class="category">
-              <ul class="nav flex-column nav-pills"" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <ul class="nav flex-md-column flex-row nav-pills"" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <li><a href="#view-all" class="active" id="tab1-tab" data-bs-toggle="pill" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">View All</a></li>
                 <li><a href="#small" id="tab2-tab" data-bs-toggle="pill" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Small</a></li>
                 <li><a href="#medium" id="tab3-tab" data-bs-toggle="pill" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Medium</a></li>
@@ -274,17 +274,17 @@
               <!--=======Tab1 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="small" role="tabpanel" aria-labelledby="tab2-tab">
-                  <table id="lcListing" class="table gms-table" style="width:100%">
+                  <table id="storageListingTwo" class="table gms-table" style="width:100%">
                     <thead>
                         <tr class="single-unit heading">
                             <th class="size">
-                              Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
+                              Size <span ></span> <span class="border-right"></span>
                             </th>
                             <th class="unit-details-header">
                               Unit Details <span class="border-right"></span>
                             </th>
                             <th class="price-header">
-                              Price <span ><i class="icon-sorting"></i></span> 
+                              Price <span ></span> 
                             </th>
                             <th class="button-cell-header"></th>
                         </tr>
@@ -338,17 +338,17 @@
               <!--=======Tab2 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="medium" role="tabpanel" aria-labelledby="tab3-tab">
-                <table id="lcListing" class="table gms-table" style="width:100%">
+                <table id="storageListingThree" class="table gms-table" style="width:100%">
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
+                            Size <span ></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-sorting"></i></span> 
+                            Price <span ></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
@@ -416,17 +416,17 @@
               <!--=======Tab3 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="large" role="tabpanel" aria-labelledby="tab4-tab">
-                <table id="lcListing" class="table gms-table" style="width:100%">
+                <table id="storageListingFour" class="table gms-table" style="width:100%">
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
+                            Size <span ></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-sorting"></i></span> 
+                            Price <span ></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
@@ -452,17 +452,17 @@
               <!--=======Tab4 Data End=======-->
 
                <div class="category-details tab-pane fade"   id="vehicle" role="tabpanel" aria-labelledby="tab5-tab">
-                 <table id="lcListing" class="table gms-table" style="width:100%">
+                 <table id="storageListingFive" class="table gms-table" style="width:100%">
                   <thead>
                       <tr class="single-unit heading">
                           <th class="size">
-                            Size <span ><i class="icon-sorting"></i></span> <span class="border-right"></span>
+                            Size <span ></span> <span class="border-right"></span>
                           </th>
                           <th class="unit-details-header">
                             Unit Details <span class="border-right"></span>
                           </th>
                           <th class="price-header">
-                            Price <span ><i class="icon-sorting"></i></span> 
+                            Price <span ></span> 
                           </th>
                           <th class="button-cell-header"></th>
                       </tr>
@@ -868,10 +868,10 @@
     <section class="checkout-cta-section ">
       <div class="container">
         <div class="row">
-          <div class="col-lg-9 d-flex align-items-center">
+          <div class="col-xl-9 col-lg-8 d-flex align-items-center">
             <h4>Check Out What Our Customers Are Saying</h4>
           </div>
-          <div class="col-lg-3">
+          <div class="col-xl-3 col-lg-4">
             <div class="cta-btn text-lg-end text-start mt-lg-0 mt-3">
                 <button class="button primary-button" data-bs-toggle="modal" data-bs-target="#reviewModal"><i class="icon-fluent-arrow-right"></i>Write A Review</button>
               </div>

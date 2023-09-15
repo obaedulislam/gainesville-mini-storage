@@ -478,6 +478,7 @@ Unit Prices Page CSS End
             @include btn(10px 30px, 16px, 130px, white, $gray-normal);
             i {
               font-size: 16px;
+              line-height: 28px;
             }
           }
         }
@@ -523,13 +524,15 @@ Unit Prices Page CSS End
       padding: 0 10px;
       .single-unit {
         padding: 10px 0;
-        .call-btn {
-          a {
-            @include btn(7px 20px, 14px, 100px, white, $gray-normal);
-            i {
-              font-size: 14px;
+        .button-cell {
+          &.call-btn {
+            a {
+              @include btn(7px 20px, 14px, 100px, white, $gray-normal);
+              i {
+                font-size: 14px;
+              }
+              line-height: 26px;
             }
-            line-height: 26px;
           }
         }
       }
@@ -829,7 +832,8 @@ Unit Prices Page CSS End
   .banner-section {
     &.unit-prices-banner {
       .container {
-        min-height: 300px;
+        min-height: unset;
+        padding: 40px 20px;
       }
     }
   }

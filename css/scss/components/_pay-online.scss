@@ -240,7 +240,8 @@ Pay Online Page CSS End
   .banner-section {
     &.pay-online-banner {
       .container {
-        min-height: 300px;
+        min-height: unset;
+        padding: 40px 20px;
       }
     }
   }
