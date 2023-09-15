@@ -2062,6 +2062,7 @@ Privacy Policy Page CSS End
     transform: translateY(-50%); }
   .gms-table tr td.size {
     color: #828282;
+    font-size: 32px;
     font-weight: 600; }
   .gms-table tr td.unit-details {
     color: #545454;
@@ -2070,6 +2071,7 @@ Privacy Policy Page CSS End
     padding-left: 20px; }
   .gms-table tr td.price {
     color: #0601ff;
+    font-size: 32px;
     font-weight: 600;
     padding-left: 20px; }
   .gms-table tr td.button-cell .btn {
