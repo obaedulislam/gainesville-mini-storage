@@ -29,11 +29,19 @@ Size Guide Page CSS Start
       li {
         display: inline-block;
         margin-right: 20px;
+
+        @media screen and (max-width: 768px) {
+          display: inherit;
+        }
         a {
           display: inline-block;
           padding-left: 30px;
           padding-right: 30px;
           background-color: #f4f3ff;
+
+          @media screen and (max-width: 768px) {
+            display: inherit;
+          }
         }
       }
     }
@@ -267,9 +275,10 @@ Size Guide Page CSS End
     .category {
       ul {
         &.nav {
-          display: flex;
-          flex-wrap: unset;
-          overflow-x: auto;
+          display: -webkit-box;
+          flex-wrap: initial;
+          align-items: center;
+          overflow-x: scroll;
         }
       }
     }

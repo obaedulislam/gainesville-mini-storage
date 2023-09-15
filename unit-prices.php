@@ -143,15 +143,19 @@
 
                   <tbody>
                     <tr class="single-unit">
-                        <td data-order="1" class="size">5’x10’ <span class="border-right"></span></td>
+                        <td data-order="1" class="size">
+                          <span >5’x10’</span>
+                           <span class="d-md-none d-block">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $60
+                           <a href="u-haul.php" class="button primary-button d-md-none d-block" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button primary-button d-md-block d-none" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -173,7 +177,7 @@
                     <tr class="single-unit">
                         <td data-order="3" class="size">5’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $60
@@ -201,7 +205,7 @@
                     <tr class="single-unit">
                         <td data-order="5" class="size">10’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $95
@@ -229,7 +233,7 @@
                     <tr class="single-unit">
                         <td data-order="7" class="size">10’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $105
@@ -243,7 +247,7 @@
                     <tr class="single-unit">
                         <td data-order="8" class="size">10’x20’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $140
@@ -294,7 +298,7 @@
                       <tr class="single-unit">
                           <td data-order="1" class="size">5’x10’ <span class="border-right"></span></td>
                           <td class="unit-details">
-                            Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                            <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                           </td>
                           <td class="price">
                             $60
@@ -322,7 +326,7 @@
                       <tr class="single-unit">
                           <td data-order="3" class="size">5’x15’ <span class="border-right"></span></td>
                           <td class="unit-details">
-                            Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                            <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                           </td>
                           <td class="price">
                             $60
@@ -372,7 +376,7 @@
                     <tr class="single-unit">
                         <td data-order="2" class="size">10’x10’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $95
@@ -400,7 +404,7 @@
                     <tr class="single-unit">
                         <td data-order="4" class="size">10’x15’ <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self storage, non climate, drivethrough, roolup, drive up   <span class="border-right"></span>
+                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $105

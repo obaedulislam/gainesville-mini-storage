@@ -1415,11 +1415,17 @@ Size Guide Page CSS Start
     .storage-calculator-section .category ul li {
       display: inline-block;
       margin-right: 20px; }
+      @media screen and (max-width: 768px) {
+        .storage-calculator-section .category ul li {
+          display: inherit; } }
       .storage-calculator-section .category ul li a {
         display: inline-block;
         padding-left: 30px;
         padding-right: 30px;
         background-color: #f4f3ff; }
+        @media screen and (max-width: 768px) {
+          .storage-calculator-section .category ul li a {
+            display: inherit; } }
   .storage-calculator-section .category-details .single-unit {
     padding: 0; }
     .storage-calculator-section .category-details .single-unit p.common-pl {
@@ -1544,9 +1550,10 @@ Size Guide Page CSS End
   .storage-calculator-section {
     padding-bottom: 50px; }
     .storage-calculator-section .category ul.nav {
-      display: flex;
-      flex-wrap: unset;
-      overflow-x: auto; }
+      display: -webkit-box;
+      flex-wrap: initial;
+      align-items: center;
+      overflow-x: scroll; }
     .storage-calculator-section .category-details .single-unit .wrapper {
       padding: 15px; }
       .storage-calculator-section .category-details .single-unit .wrapper .store-size {
