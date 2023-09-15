@@ -523,13 +523,14 @@ Unit Prices Page CSS End
     .category-details {
       padding: 0 10px;
       .single-unit {
-        padding: 10px 0;
+        padding: 7px 0;
         .button-cell {
           &.call-btn {
             a {
               @include btn(7px 20px, 14px, 100px, white, $gray-normal);
               i {
                 font-size: 14px;
+                margin-right: 7px;
               }
               line-height: 26px;
             }

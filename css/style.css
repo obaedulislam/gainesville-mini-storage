@@ -1166,7 +1166,7 @@ Unit Prices Page CSS End
   .unit-filter-section .category-details {
     padding: 0 10px; }
     .unit-filter-section .category-details .single-unit {
-      padding: 10px 0; }
+      padding: 7px 0; }
       .unit-filter-section .category-details .single-unit .button-cell.call-btn a {
         padding: 7px 20px;
         font-size: 14px;
@@ -1175,7 +1175,8 @@ Unit Prices Page CSS End
         background-color: #9d9d9d;
         line-height: 26px; }
         .unit-filter-section .category-details .single-unit .button-cell.call-btn a i {
-          font-size: 14px; }
+          font-size: 14px;
+          margin-right: 7px; }
   .unit-filter-section .category ul li a {
     padding-top: 8px;
     padding-bottom: 8px;
