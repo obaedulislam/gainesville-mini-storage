@@ -151,7 +151,7 @@
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $60
+                          <span class="price-money">$60</span>
                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
                         <td class="button-cell call-btn text-end">
@@ -160,119 +160,150 @@
                     </tr>
                     <!--Single Unit End-->
          
-                    
                     <tr class="single-unit">
-                        <td data-order="2" class="size">5’x10’ <span class="border-right"></span></td>
+                        <td data-order="2" class="size">
+                          <span >5’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self Storage, rollup, climate, interior  <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $80
+                          <span class="price-money">$80</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
                         <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="3" class="size">5’x15’ <span class="border-right"></span></td>
+                        <td data-order="3" class="size">
+                          <span >5’x15’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $60
+                          <span class="price-money">$60</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="4" class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="4" class="size">
+                          <span >10’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $120
+                          <span class="price-money">$120</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="5" class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="5" class="size">
+                          <span >10’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $95
+                          <span class="price-money">$95</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="6" class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="6" class="size">
+                          <span >10’x15’</span>
+                           <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $160
+                          <span class="price-money">$160</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="7" class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="7" class="size">
+                          <span >10’x15’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $105
+                          <span class="price-money">$105</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="8" class="size">10’x20’ <span class="border-right"></span></td>
+                        <td data-order="8" class="size">
+                          <span >10’x20’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $140
+                          <span class="price-money">$140</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="9" class="size">12’x45’ <span class="border-right"></span></td>
+                        <td data-order="9" class="size">
+                          <span >12’x45’</span>
+                           <span class="d-md-none d-block size-desc">Parking, covered, rv/boat/vehicle/parking, lower level</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Parking, covered, rv/boat/vehicle/parking, lower level  <span class="border-right"></span>
+                          <span class="d-md-block d-none">Parking, covered, rv/boat/vehicle/parking, lower level</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $120
+                          <span class="price-money">$120</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                   </tbody>
                 </table>
               </div>
@@ -297,46 +328,58 @@
 
                     <tbody>
                       <tr class="single-unit">
-                          <td data-order="1" class="size">5’x10’ <span class="border-right"></span></td>
-                          <td class="unit-details">
-                            <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
-                          </td>
-                          <td class="price">
-                            $60
-                          </td>
-                          <td class="button-cell call-btn text-end">
-                              <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
-                          </td>
-                      </tr>
-                      <!--Single Unit End-->
-                      
-                      <tr class="single-unit">
-                          <td data-order="2" class="size">5’x10’ <span class="border-right"></span></td>
-                          <td class="unit-details">
-                            Self Storage, rollup, climate, interior  <span class="border-right"></span>
-                          </td>
-                          <td class="price">
-                            $80
-                          </td>
-                          <td class="button-cell call-btn text-end">
-                              <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
-                          </td>
-                      </tr>
-                      <!--Single Unit End-->
-                      
-                      <tr class="single-unit">
-                          <td data-order="3" class="size">5’x15’ <span class="border-right"></span></td>
-                          <td class="unit-details">
-                            <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
-                          </td>
-                          <td class="price">
-                            $60
-                          </td>
+                        <td data-order="1" class="size">
+                          <span >5’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          <span class="price-money">$60</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                        </td>
                         <td class="button-cell call-btn text-end">
-                              <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
-                          </td>
-                      </tr>
-                      <!--Single Unit End-->       
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+         
+                    <tr class="single-unit">
+                        <td data-order="2" class="size">
+                          <span >5’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
+                          <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          <span class="price-money">$80</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                        </td>
+                        <td class="button-cell call-btn text-end">
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->
+         
+                    <tr class="single-unit">
+                        <td data-order="3" class="size">
+                          <span >5’x15’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
+                        <td class="unit-details">
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                        </td>
+                        <td class="price">
+                          <span class="price-money">$60</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                        </td>
+                        <td class="button-cell call-btn text-end">
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                        </td>
+                    </tr>
+                    <!--Single Unit End-->      
                     </tbody>
                   </table>
                 </div>
@@ -360,57 +403,73 @@
                   </thead>
 
                   <tbody>       
-                    <tr class="single-unit">
-                        <td data-order="1" class="size">10’x10’ <span class="border-right"></span></td>
+                      <tr class="single-unit">
+                        <td data-order="1" class="size">
+                          <span >10’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $120
+                          <span class="price-money">$120</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="2" class="size">10’x10’ <span class="border-right"></span></td>
+                        <td data-order="2" class="size">
+                          <span >10’x10’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $95
+                          <span class="price-money">$95</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="3" class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="3" class="size">
+                          <span >10’x15’</span>
+                           <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self Storage, rollup, climate, interior   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $160
+                          <span class="price-money">$160</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
-                    
+         
                     <tr class="single-unit">
-                        <td data-order="4" class="size">10’x15’ <span class="border-right"></span></td>
+                        <td data-order="4" class="size">
+                          <span >10’x15’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          <span>Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $105
+                          <span class="price-money">$105</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
@@ -438,19 +497,25 @@
                   </thead>
 
                   <tbody>       
+                             
                     <tr class="single-unit">
-                        <td data-order="1" class="size">10’x20’ <span class="border-right"></span></td>
+                        <td data-order="1" class="size">
+                          <span >10’x20’</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Self Storage, non climate, drivethrough, rollup, drive up   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $140
+                          <span class="price-money">$140</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
+        
                   </tbody>
                 </table>
               </div>
@@ -474,15 +539,19 @@
                   </thead>
 
                   <tbody>       
-                    <tr class="single-unit">
-                        <td data-order="1" class="size">12'x45'<span class="border-right"></span></td>
+                      <tr class="single-unit">
+                        <td data-order="1" class="size">
+                          <span >12’x45’</span>
+                           <span class="d-md-none d-block size-desc">Parking, covered, rv/boat/vehicle/parking, lower level</span>
+                          <span class="border-right"></span></td>
                         <td class="unit-details">
-                          Parking, covered, rv/boat/vehicle/parking, lower level   <span class="border-right"></span>
+                          <span class="d-md-block d-none">Parking, covered, rv/boat/vehicle/parking, lower level</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
-                          $120
+                          <span class="price-money">$120</span>
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
-                       <td class="button-cell call-btn text-end">
+                        <td class="button-cell call-btn text-end">
                             <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
@@ -528,7 +597,7 @@
                 
                 <div class="col-md-2 col-4 selected-content order-md-2 order-1">
                   <div class="price">
-                    <h5 class="common-pl ">$60</h5>
+                    <h5 class="common-pl "><span class="price-money">$60</span></h5>
                   </div>
                 </div>
               </div>

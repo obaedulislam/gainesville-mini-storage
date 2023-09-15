@@ -364,6 +364,8 @@ main {
     font-size: 14px; }
     .button i {
       font-size: 14px; }
+    .button.outline-button {
+      min-width: unset; }
 
   .feature-head p.feature-num {
     font-size: 12px; } }
@@ -1176,8 +1178,7 @@ Unit Prices Page CSS End
       display: none; }
 
   .unit-filter-section .category-details {
-    padding: 0;
-    border: 0; }
+    padding: 0; }
     .unit-filter-section .category-details .single-unit {
       border-bottom: 1px solid #bfbfbf;
       border-top: 1px solid #bfbfbf;
@@ -1195,21 +1196,6 @@ Unit Prices Page CSS End
           width: 100%;
           display: block; }
           .unit-filter-section .category-details .single-unit .store-size .store-div h5::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 1px;
-            left: 0;
-            bottom: -10px;
-            background-color: #bfbfbf; }
-      .unit-filter-section .category-details .single-unit .unit-price .price-div {
-        position: relative;
-        width: 100%; }
-        .unit-filter-section .category-details .single-unit .unit-price .price-div h5 {
-          text-align: center;
-          width: 100%;
-          display: block; }
-          .unit-filter-section .category-details .single-unit .unit-price .price-div h5::before {
             content: "";
             position: absolute;
             width: 100%;
@@ -1242,16 +1228,23 @@ Unit Prices Page CSS End
     justify-content: center;
     padding: 10px 0;
     background-color: transparent; }
+    .unit-filter-section .category ul.nav {
+      display: -webkit-box;
+      flex-wrap: initial;
+      align-items: center;
+      overflow-x: scroll; }
     .unit-filter-section .category ul li {
-      padding: 0px 10px; }
+      padding: 0px 10px;
+      display: inherit; }
       .unit-filter-section .category ul li a {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 5px;
-        font-size: 16px;
-        background-color: #f4f3ff; }
+        font-size: 14px;
+        background-color: #f4f3ff;
+        display: inherit; }
 
   .testimonial-modal .modal-dialog {
     padding: 20px; }
@@ -1924,53 +1917,55 @@ Pay Online Page CSS End
 
   .online-item-section {
     padding-top: 0; }
-    .online-item-section .category-details .single-unit {
-      padding: 0;
-      border: 0;
-      margin-top: 0;
-      border-radius: 0; }
-      .online-item-section .category-details .single-unit.heading {
-        border-top: 1px solid #bfbfbf;
-        padding-top: 20px; }
-      .online-item-section .category-details .single-unit p.facility {
-        font-size: 20px; }
-      .online-item-section .category-details .single-unit p.mini-storage {
-        margin: 15px 0;
-        font-size: 20px;
-        color: #545454; }
-      .online-item-section .category-details .single-unit .hide-sm {
-        display: none; }
-      .online-item-section .category-details .single-unit .store-address,
-      .online-item-section .category-details .single-unit .store-city,
-      .online-item-section .category-details .single-unit .store-state {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        position: relative; }
-      .online-item-section .category-details .single-unit .store-address,
-      .online-item-section .category-details .single-unit .store-city,
-      .online-item-section .category-details .single-unit .store-state {
-        position: relative; }
-      .online-item-section .category-details .single-unit .store-address::after,
-      .online-item-section .category-details .single-unit .store-city::after,
-      .online-item-section .category-details .single-unit .store-state::after {
-        display: none; }
-      .online-item-section .category-details .single-unit.last-unit {
-        border-bottom: 0; }
-      .online-item-section .category-details .single-unit .head-size::after,
-      .online-item-section .category-details .single-unit .store-size::after {
-        display: none; }
-      .online-item-section .category-details .single-unit .call-btn {
-        padding-top: 10px;
-        display: block; }
-        .online-item-section .category-details .single-unit .call-btn p {
-          display: block;
-          width: 100%;
-          font-weight: 400; }
-        .online-item-section .category-details .single-unit .call-btn a {
-          margin-top: 20px;
-          display: block;
-          width: 70px; }
+    .online-item-section .category-details {
+      border: 0; }
+      .online-item-section .category-details .single-unit {
+        padding: 0;
+        border: 0;
+        margin-top: 0;
+        border-radius: 0; }
+        .online-item-section .category-details .single-unit.heading {
+          border-top: 1px solid #bfbfbf;
+          padding-top: 20px; }
+        .online-item-section .category-details .single-unit p.facility {
+          font-size: 20px; }
+        .online-item-section .category-details .single-unit p.mini-storage {
+          margin: 15px 0;
+          font-size: 20px;
+          color: #545454; }
+        .online-item-section .category-details .single-unit .hide-sm {
+          display: none; }
+        .online-item-section .category-details .single-unit .store-address,
+        .online-item-section .category-details .single-unit .store-city,
+        .online-item-section .category-details .single-unit .store-state {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          position: relative; }
+        .online-item-section .category-details .single-unit .store-address,
+        .online-item-section .category-details .single-unit .store-city,
+        .online-item-section .category-details .single-unit .store-state {
+          position: relative; }
+        .online-item-section .category-details .single-unit .store-address::after,
+        .online-item-section .category-details .single-unit .store-city::after,
+        .online-item-section .category-details .single-unit .store-state::after {
+          display: none; }
+        .online-item-section .category-details .single-unit.last-unit {
+          border-bottom: 0; }
+        .online-item-section .category-details .single-unit .head-size::after,
+        .online-item-section .category-details .single-unit .store-size::after {
+          display: none; }
+        .online-item-section .category-details .single-unit .call-btn {
+          padding-top: 10px;
+          display: block; }
+          .online-item-section .category-details .single-unit .call-btn p {
+            display: block;
+            width: 100%;
+            font-weight: 400; }
+          .online-item-section .category-details .single-unit .call-btn a {
+            margin-top: 20px;
+            display: block;
+            width: 70px; }
 
   /** == Online Item Section CSS End == **/ }
 @media (min-width: 0px) and (max-width: 576px) {
@@ -2149,22 +2144,27 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
   .gms-table tr.single-unit td.price {
     font-size: 24px;
     padding-left: 10px; }
+    .gms-table tr.single-unit td.price span {
+      position: relative;
+      display: block; }
+      .gms-table tr.single-unit td.price span::before {
+        position: absolute;
+        content: "";
+        bottom: -12px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #bfbfbf; }
     .gms-table tr.single-unit td.price a {
       display: block;
+      font-size: 13px;
       font-weight: 600; }
+      .gms-table tr.single-unit td.price a i {
+        font-size: 13px; }
       .gms-table tr.single-unit td.price a.outline-button {
         margin-top: 20px;
         padding: 5px 10px;
-        max-width: 100px;
-        position: relative; }
-        .gms-table tr.single-unit td.price a.outline-button::before {
-          position: absolute;
-          content: "";
-          top: -10px;
-          left: 0;
-          width: 100%;
-          height: 1px;
-          background-color: #bfbfbf; }
+        max-width: unset; }
   .gms-table tr.single-unit td.call-btn {
     display: none; } }
 /** ========================= 

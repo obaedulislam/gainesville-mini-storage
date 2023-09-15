@@ -289,6 +289,9 @@ main {
     i {
       font-size: 14px;
     }
+    &.outline-button {
+      min-width: unset;
+    }
   }
 
   //Feature Heading

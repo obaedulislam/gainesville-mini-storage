@@ -207,6 +207,11 @@ table {
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
+  table {
+    &.dataTable {
+      //border-spacing: 20px 0!important;
+    }
+  }
   .gms-table {
     tr {
       &.single-unit {
@@ -254,23 +259,30 @@ table {
           &.price {
             font-size: 24px;
             padding-left: 10px;
+            span {
+              position: relative;
+              display: block;
+              &::before {
+                position: absolute;
+                content: "";
+                bottom: -12px;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: $gray-border;
+              }
+            }
             a {
               display: block;
+              font-size: 13px;
+              i {
+                font-size: 13px;
+              }
               font-weight: 600;
               &.outline-button {
                 margin-top: 20px;
                 padding: 5px 10px;
-                max-width: 100px;
-                position: relative;
-                &::before {
-                  position: absolute;
-                  content: "";
-                  top: -10px;
-                  left: 0;
-                  width: 100%;
-                  height: 1px;
-                  background-color: $gray-border;
-                }
+                max-width: unset;
               }
             }
           }
