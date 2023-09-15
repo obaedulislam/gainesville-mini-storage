@@ -2125,67 +2125,17 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
   display: none; }
 
 @media (min-width: 0px) and (max-width: 992px) {
-  .gms-table tr:last-child {
-    border: 0;
-    border-width: 0; }
-    .gms-table tr:last-child td {
-      border: 0; }
-    .gms-table tr:last-child.single-unit {
-      border-bottom: 0; }
-  .gms-table tr th {
-    color: #828282;
-    font-weight: 600;
-    border-bottom: 1px solid #bfbfbf !important;
-    position: relative; }
-    .gms-table tr th:last-child {
-      border-right: none; }
-    .gms-table tr th .border-right {
-      position: absolute;
-      display: inline-block;
-      width: 1px;
-      height: 30px;
-      background: #bfbfbf;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%); }
-    .gms-table tr th.unit-details-header {
-      padding-left: 7px; }
-    .gms-table tr th.price-header {
-      padding-left: 7px; }
-  .gms-table tr td {
-    vertical-align: middle;
-    position: relative; }
-    .gms-table tr td .border-right {
-      position: absolute;
-      display: inline-block;
-      width: 1px;
-      height: 50px;
-      background: #bfbfbf;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%); }
-    .gms-table tr td.size {
-      color: #828282;
-      font-weight: 600; }
-    .gms-table tr td.unit-details {
-      color: #545454;
-      font-size: 16px;
-      font-weight: 400;
-      padding-left: 10px; }
-    .gms-table tr td.price {
-      color: #0601ff;
-      font-weight: 600;
-      padding-left: 10px; }
-    .gms-table tr td.button-cell .btn {
-      border-radius: 4px;
-      padding: 20px 60px;
-      display: inline-block;
-      font-size: 20px;
-      font-weight: 700; }
-      .gms-table tr td.button-cell .btn.btn-primary {
-        background-color: #9d9d9d;
-        color: #fff;
-        border: none; } }
+  .gms-table tr th.unit-details-header {
+    padding-left: 7px; }
+  .gms-table tr th.price-header {
+    padding-left: 7px; }
+  .gms-table tr td.size {
+    font-size: 24px; }
+  .gms-table tr td.unit-details {
+    padding-left: 10px; }
+  .gms-table tr td.price {
+    font-size: 24px;
+    padding-left: 10px; } }
 /** ========================= 
 U-Haul Page CSS Start 
 ========================= **/
