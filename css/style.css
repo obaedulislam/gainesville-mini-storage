@@ -1242,7 +1242,7 @@ Unit Prices Page CSS End
           padding-top: 20px; }
       .unit-filter-section .category-details .single-unit .call-btn {
         padding-top: 20px;
-        display: flex;
+        display: none;
         justify-content: center; }
         .unit-filter-section .category-details .single-unit .call-btn a {
           padding: 10px 20px;
@@ -2144,6 +2144,23 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
   .gms-table tr td.price {
     font-size: 24px;
     padding-left: 10px; } }
+@media (min-width: 0px) and (max-width: 768px) {
+  .gms-table tr th.unit-details-header {
+    padding-left: 7px;
+    display: none; }
+  .gms-table tr th.price-header {
+    padding-left: 7px; }
+  .gms-table tr th.button-cell-header {
+    display: none; }
+  .gms-table tr td.size {
+    font-size: 24px; }
+  .gms-table tr td.unit-details {
+    display: none; }
+  .gms-table tr td.price {
+    font-size: 24px;
+    padding-left: 10px; }
+  .gms-table tr td.call-btn {
+    display: none; } }
 /** ========================= 
 U-Haul Page CSS Start 
 ========================= **/

@@ -220,4 +220,41 @@ table {
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
+  .gms-table {
+    tr {
+      th {
+        &.unit-details-header {
+          padding-left: 7px;
+          display: none;
+        }
+
+        &.price-header {
+          padding-left: 7px;
+        }
+        &.button-cell-header {
+          display: none;
+        }
+      }
+      //Table Header CSS end
+
+      td {
+        &.size {
+          font-size: 24px;
+        }
+
+        &.unit-details {
+          display: none;
+        }
+
+        &.price {
+          font-size: 24px;
+          padding-left: 10px;
+        }
+        &.call-btn {
+          display: none;
+        }
+      }
+      //Table data CSS end
+    }
+  }
 }

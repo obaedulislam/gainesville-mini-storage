@@ -651,7 +651,7 @@ Unit Prices Page CSS End
 
         .call-btn {
           padding-top: 20px;
-          display: flex;
+          display: none;
           justify-content: center;
           a {
             @include btn(10px 20px, 16px, 85px, white, $gray-normal);
