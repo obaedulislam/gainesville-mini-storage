@@ -74,21 +74,8 @@
         font-size: 32px;
         font-weight: 600;
         padding-left: 20px;
-      }
-
-      &.button-cell {
-        .btn {
-          border-radius: 4px;
-          padding: 20px 60px;
-          display: inline-block;
-          font-size: 20px;
-          font-weight: 700;
-
-          &.btn-primary {
-            background-color: #9d9d9d;
-            color: #fff;
-            border: none;
-          }
+        a {
+          display: none;
         }
       }
     }
@@ -222,39 +209,78 @@ table {
 @media (min-width: 0px) and (max-width: 768px) {
   .gms-table {
     tr {
-      th {
-        &.unit-details-header {
-          padding-left: 7px;
-          display: none;
+      &.single-unit {
+        th {
+          &.unit-details-header {
+            padding-left: 7px;
+            display: none;
+          }
+          &.size {
+            display: table-cell;
+          }
+          &.price-header {
+            padding-left: 7px;
+            display: table-cell;
+          }
+          &.button-cell-header {
+            display: none;
+          }
         }
 
-        &.price-header {
-          padding-left: 7px;
+        td {
+          &.size {
+            font-size: 24px;
+            .size-desc {
+              font-size: 14px;
+              font-weight: 400;
+              position: relative;
+              margin-top: 15px;
+              &::after {
+                position: absolute;
+                content: "";
+                top: -15px;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: $gray-border;
+              }
+            }
+          }
+
+          &.unit-details {
+            display: none;
+          }
+
+          &.price {
+            font-size: 24px;
+            padding-left: 10px;
+            a {
+              display: block;
+              font-weight: 600;
+              &.outline-button {
+                margin-top: 20px;
+                padding: 5px 10px;
+                max-width: 100px;
+                position: relative;
+                &::before {
+                  position: absolute;
+                  content: "";
+                  top: -10px;
+                  left: 0;
+                  width: 100%;
+                  height: 1px;
+                  background-color: $gray-border;
+                }
+              }
+            }
+          }
+          &.call-btn {
+            display: none;
+          }
         }
-        &.button-cell-header {
-          display: none;
-        }
+        //Table data CSS end
       }
       //Table Header CSS end
-
-      td {
-        &.size {
-          font-size: 24px;
-        }
-
-        &.unit-details {
-          display: none;
-        }
-
-        &.price {
-          font-size: 24px;
-          padding-left: 10px;
-        }
-        &.call-btn {
-          display: none;
-        }
-      }
-      //Table data CSS end
     }
   }
 }

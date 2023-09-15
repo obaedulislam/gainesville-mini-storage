@@ -102,6 +102,16 @@ ul {
       background-color: $blue;
     }
   }
+
+  &.outline-button {
+    border: 2px solid $gray-semi;
+    @include btn(15px 30px, 16px, 120px, $gray-semi, transparent);
+    &:hover {
+      background-color: $blue;
+      color: white;
+      border: 2px solid $blue;
+    }
+  }
 }
 
 // Main section BG
@@ -292,5 +302,3 @@ main {
 }
 
 /** ============================ Responsive CSS End ============================ **/
-
-

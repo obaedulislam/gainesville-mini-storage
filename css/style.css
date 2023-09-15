@@ -220,6 +220,17 @@ ul {
     background-color: #f9f9f9; }
     .button.secondary-button:hover {
       background-color: #0601ff; }
+  .button.outline-button {
+    border: 2px solid #828282;
+    padding: 15px 30px;
+    font-size: 16px;
+    min-width: 120px;
+    color: #828282;
+    background-color: transparent; }
+    .button.outline-button:hover {
+      background-color: #0601ff;
+      color: white;
+      border: 2px solid #0601ff; }
 
 main {
   background-color: #f9f9f9; }
@@ -909,16 +920,6 @@ Unit Prices Page CSS Start
         color: #0601ff; }
     .unit-filter-section .category-details .single-unit .button-cell {
       padding: 30px 0; }
-      .unit-filter-section .category-details .single-unit .button-cell.call-btn a {
-        padding: 20px 50px;
-        font-size: 20px;
-        min-width: 190px;
-        color: white;
-        background-color: #9d9d9d;
-        transition: all 0.3s ease-in; }
-        .unit-filter-section .category-details .single-unit .button-cell.call-btn a:hover {
-          background-color: #f3b300;
-          color: #0d0d0d; }
     .unit-filter-section .category-details .single-unit .store-size,
     .unit-filter-section .category-details .single-unit .store-unit-details,
     .unit-filter-section .category-details .single-unit .unit-price,
@@ -1141,16 +1142,7 @@ Unit Prices Page CSS End
     padding: 0 40px; }
 
   .unit-filter-section .category-details {
-    padding: 0 30px; }
-    .unit-filter-section .category-details .single-unit .call-btn a {
-      padding: 10px 30px;
-      font-size: 16px;
-      min-width: 130px;
-      color: white;
-      background-color: #9d9d9d; }
-      .unit-filter-section .category-details .single-unit .call-btn a i {
-        font-size: 16px;
-        line-height: 28px; } }
+    padding: 0 30px; } }
 @media (min-width: 0px) and (max-width: 992px) {
   .banner-section.unit-prices-banner .container {
     min-height: 400px; }
@@ -1167,16 +1159,6 @@ Unit Prices Page CSS End
     padding: 0 10px; }
     .unit-filter-section .category-details .single-unit {
       padding: 7px 0; }
-      .unit-filter-section .category-details .single-unit .button-cell.call-btn a {
-        padding: 7px 20px;
-        font-size: 14px;
-        min-width: 100px;
-        color: white;
-        background-color: #9d9d9d;
-        line-height: 26px; }
-        .unit-filter-section .category-details .single-unit .button-cell.call-btn a i {
-          font-size: 14px;
-          margin-right: 7px; }
   .unit-filter-section .category ul li a {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -2082,16 +2064,8 @@ Privacy Policy Page CSS End
     font-size: 32px;
     font-weight: 600;
     padding-left: 20px; }
-  .gms-table tr td.button-cell .btn {
-    border-radius: 4px;
-    padding: 20px 60px;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 700; }
-    .gms-table tr td.button-cell .btn.btn-primary {
-      background-color: #9d9d9d;
-      color: #fff;
-      border: none; }
+    .gms-table tr td.price a {
+      display: none; }
 .gms-table tr.single-unit th.size, .gms-table tr.single-unit th.price-header {
   display: flex;
   align-items: center; }
@@ -2145,21 +2119,53 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
     font-size: 24px;
     padding-left: 10px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .gms-table tr th.unit-details-header {
+  .gms-table tr.single-unit th.unit-details-header {
     padding-left: 7px;
     display: none; }
-  .gms-table tr th.price-header {
-    padding-left: 7px; }
-  .gms-table tr th.button-cell-header {
+  .gms-table tr.single-unit th.size {
+    display: table-cell; }
+  .gms-table tr.single-unit th.price-header {
+    padding-left: 7px;
+    display: table-cell; }
+  .gms-table tr.single-unit th.button-cell-header {
     display: none; }
-  .gms-table tr td.size {
+  .gms-table tr.single-unit td.size {
     font-size: 24px; }
-  .gms-table tr td.unit-details {
+    .gms-table tr.single-unit td.size .size-desc {
+      font-size: 14px;
+      font-weight: 400;
+      position: relative;
+      margin-top: 15px; }
+      .gms-table tr.single-unit td.size .size-desc::after {
+        position: absolute;
+        content: "";
+        top: -15px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #bfbfbf; }
+  .gms-table tr.single-unit td.unit-details {
     display: none; }
-  .gms-table tr td.price {
+  .gms-table tr.single-unit td.price {
     font-size: 24px;
     padding-left: 10px; }
-  .gms-table tr td.call-btn {
+    .gms-table tr.single-unit td.price a {
+      display: block;
+      font-weight: 600; }
+      .gms-table tr.single-unit td.price a.outline-button {
+        margin-top: 20px;
+        padding: 5px 10px;
+        max-width: 100px;
+        position: relative; }
+        .gms-table tr.single-unit td.price a.outline-button::before {
+          position: absolute;
+          content: "";
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #bfbfbf; }
+  .gms-table tr.single-unit td.call-btn {
     display: none; } }
 /** ========================= 
 U-Haul Page CSS Start 

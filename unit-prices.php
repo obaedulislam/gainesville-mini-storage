@@ -145,20 +145,21 @@
                     <tr class="single-unit">
                         <td data-order="1" class="size">
                           <span >5’x10’</span>
-                           <span class="d-md-none d-block">Self storage, non climate, drivethrough, roolup, drive up</span>
+                           <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
                         <td class="price">
                           $60
-                           <a href="u-haul.php" class="button primary-button d-md-none d-block" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button d-md-block d-none" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
+         
                     
                     <tr class="single-unit">
                         <td data-order="2" class="size">5’x10’ <span class="border-right"></span></td>
@@ -169,7 +170,7 @@
                           $80
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -183,7 +184,7 @@
                           $60
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -197,7 +198,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -211,7 +212,7 @@
                           $95
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -225,7 +226,7 @@
                           $160
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -239,7 +240,7 @@
                           $105
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -253,7 +254,7 @@
                           $140
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -267,7 +268,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -304,7 +305,7 @@
                             $60
                           </td>
                           <td class="button-cell call-btn text-end">
-                              <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                              <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                           </td>
                       </tr>
                       <!--Single Unit End-->
@@ -318,7 +319,7 @@
                             $80
                           </td>
                           <td class="button-cell call-btn text-end">
-                              <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                              <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                           </td>
                       </tr>
                       <!--Single Unit End-->
@@ -332,7 +333,7 @@
                             $60
                           </td>
                         <td class="button-cell call-btn text-end">
-                              <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                              <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                           </td>
                       </tr>
                       <!--Single Unit End-->       
@@ -368,7 +369,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -382,7 +383,7 @@
                           $95
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -396,7 +397,7 @@
                           $160
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -410,7 +411,7 @@
                           $105
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -446,7 +447,7 @@
                           $140
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -482,7 +483,7 @@
                           $120
                         </td>
                        <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button primary-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
