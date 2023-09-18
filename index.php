@@ -31,7 +31,7 @@
     <!--|| Banner Section End ||-->
 
     <!--|| Feature Section Start ||-->
-    <section class="feature-section first-padding">
+    <section class="feature-section first-padding home-feature">
       <div class="container">
         <div class="row">
 
@@ -91,6 +91,9 @@
           <!-- Single feature End -->  
 
         </div>
+      </div>
+      <div class="mouse">
+        <p class="text-center"><i class="icon-mouse"></i> </p>
       </div>
     </section>
     <!--|| Feature Section End ||-->

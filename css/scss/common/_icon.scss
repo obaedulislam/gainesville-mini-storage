@@ -1,5 +1,5 @@
 $route: "../fonts/";
-$fontCode: "nwk0u6";
+$fontCode: "gi6dmh";
 
 @font-face {
   font-family: "icomoon";
@@ -51,6 +51,9 @@ $fontCode: "nwk0u6";
 }
 .icon-online-pay:before {
   content: "\e917";
+}
+.icon-mouse:before {
+  content: "\e922";
 }
 .icon-sorting:before {
   content: "\e90d";

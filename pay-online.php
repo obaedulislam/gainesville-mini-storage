@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-4 col-12 call-btn">
                         <p class="common-pl">(940) 400-2297</p>
-                        <a href="#" class="button primary-button ms-md-5 ms-0"><i class="icon-fluent-arrow-right"></i>Pay</a>
+                        <a href="https://www.uhaul.com/Auth/OrderLookUp/" class="button primary-button ms-md-5 ms-0"><i class="icon-fluent-arrow-right"></i>Pay</a>
                     </div>
                   </div>
                 </div> 

@@ -48,6 +48,33 @@ Size Guide Page CSS Start
   }
 
   .category-details {
+    overflow-y: auto;
+    height: 500px;
+    scrollbar-color: $blue $gray-normal !important; /* track thumb */
+    scrollbar-width: 10px !important; /* none, thin, or auto */
+
+    &::-webkit-scrollbar {
+      width: 5px !important;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      padding: 2px;
+      box-shadow: inset 0 0 5px $gray-normal !important;
+      border-radius: 10px !important;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $blue !important;
+      border-radius: 10px !important;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: $blue !important;
+    }
+
     .single-unit {
       padding: 0;
       p {
