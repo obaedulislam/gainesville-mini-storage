@@ -1,11 +1,8 @@
 <footer class="footer-section">
     <div class="container">
         <div class="row">
-            <div class="col-xl-3 col-12">
-                <p class="copyright-text">Powered by: <span class="fw-bold">Redlime Solutions</span></p>
-            </div>
-            <div class="col-xl-9 col-12">
-                <div class="footer-menu">
+            <div class=" col-12">
+                <div class="footer-menu text-center">
                     <ul >
                         <li><a href="index.php" class="home">&copy; Gainesville Mini Storage</a></li>
                         <li><a href="terms.php"> Terms</a></li>

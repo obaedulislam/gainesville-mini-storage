@@ -5,7 +5,7 @@ Size Guide Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.size-guide-banner {
-    padding: 60px 0;
+    padding: 40px 0;
     background-image: linear-gradient(
         180deg,
         rgba(6, 6, 6, 0.63),
@@ -22,7 +22,7 @@ Size Guide Page CSS Start
   .category {
     ul {
       margin-top: 0;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       background-color: transparent;
       li {
         display: inline-block;
@@ -33,8 +33,8 @@ Size Guide Page CSS Start
         }
         a {
           display: inline-block;
-          padding-left: 30px;
-          padding-right: 30px;
+          padding-left: 20px;
+          padding-right: 20px;
           background-color: #f4f3ff;
 
           @media screen and (max-width: 768px) {
@@ -47,7 +47,8 @@ Size Guide Page CSS Start
 
   .category-details {
     overflow-y: auto;
-    height: 500px;
+    overflow-x: hidden;
+    height: 400px;
     scrollbar-color: $blue $gray-normal !important; /* track thumb */
     scrollbar-width: 10px !important; /* none, thin, or auto */
 
@@ -81,7 +82,7 @@ Size Guide Page CSS Start
         }
       }
       .wrapper {
-        padding: 20px 0;
+        padding: 10px 0;
         .store-size {
           display: flex;
           align-items: center;
@@ -112,7 +113,7 @@ Size Guide Page CSS Start
                 block
               );
               max-width: 70px;
-              padding: 10px 10px;
+              padding: 5px 10px;
               border-radius: 4px;
               text-align: center;
             }
@@ -208,7 +209,7 @@ Size Guide Page CSS End
             .plus-minus {
               a {
                 i {
-                  font-size: 20px;
+                  font-size: 25px;
                 }
               }
             }
@@ -293,6 +294,10 @@ Size Guide Page CSS End
     }
 
     .category-details {
+      border-bottom: 1px solid #bfbfbf;
+      border-top: 1px solid #bfbfbf;
+      border-right: 1px solid #bfbfbf;
+      border-left: 1px solid #bfbfbf;
       .single-unit {
         .wrapper {
           padding: 15px;
@@ -336,7 +341,7 @@ Size Guide Page CSS End
               padding-left: 0;
               a {
                 i {
-                  font-size: 20px;
+                  font-size: 25px;
                 }
               }
             }
@@ -417,7 +422,7 @@ Size Guide Page CSS End
               padding-left: 0;
               a {
                 i {
-                  font-size: 18px;
+                  font-size: 23px;
                 }
               }
             }

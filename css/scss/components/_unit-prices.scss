@@ -5,7 +5,7 @@ Unit Prices Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.unit-prices-banner {
-    padding: 60px 0;
+    padding: 40px 0;
     background-image: linear-gradient(
         180deg,
         rgba(6, 6, 6, 0.5),
@@ -94,11 +94,11 @@ Unit Prices Page CSS Start
       li {
         a {
           display: block;
-          padding-top: 13px;
-          padding-bottom: 13px;
+          padding-top: 5px;
+          padding-bottom: 5px;
           border-radius: 8px;
           text-align: center;
-          font-size: 20px;
+          font-size: 16px;
           color: $gray-normal;
           transition: all 0.3s ease-in;
           &.active,
@@ -123,10 +123,11 @@ Unit Prices Page CSS Start
 
       p {
         @include flex-position(flex, start, center);
+        font-size: 14px;
         font-weight: 600;
         color: $gray-semi;
         &.unit-details {
-          font-size: 15px;
+          font-size: 12px;
           font-weight: 400;
         }
       }
@@ -373,54 +374,38 @@ Unit Prices Page CSS Start
           position: relative;
           z-index: 10;
         }
+        a {
+          img {
+            width: 200px;
+          }
+        }
       }
       //Modal Header End
 
       .modal-body {
         padding: 20px 10px;
-        .selected-item {
-          margin: 30px 0;
-          padding: 10px 15px;
-          background-color: #ececec;
-          p {
-            font-size: 16px;
+        a {
+          &.u-haul {
+            color: $blue;
           }
-          .selected-content {
-            display: flex;
-            align-items: center;
-            h5 {
-              padding-top: 15px;
-              padding-bottom: 15px;
-              margin-bottom: 0;
-              &.size {
-                color: $gray-semi;
-              }
-            }
-            &.one,
-            &.two {
-              position: relative;
-              &::after {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 1px;
-                height: 100%;
-                background-color: $gray-semi;
-              }
-            }
-          }
-        }
-        .phone-number {
-          margin-top: 40px;
         }
       }
       //Modal Body End
 
       .modal-footer {
+        .affiliate {
+          .u-haul {
+            a {
+              img {
+                width: 150px;
+              }
+            }
+          }
+        }
         .modal-cta {
           button {
-            background-color: $gray-normal;
+            background-color: $blue;
+            color: white;
             &:hover {
               background-color: $yellow;
               color: $black;
@@ -698,56 +683,6 @@ Unit Prices Page CSS End
                 padding-left: 0;
               }
             }
-            .selected-content {
-              h5 {
-                padding-top: 15px;
-                padding-bottom: 15px;
-                margin-bottom: 0;
-                &.common-pl {
-                  padding-left: 0;
-                }
-              }
-              .heading-size {
-                position: relative;
-                width: 100%;
-                display: block;
-                h5 {
-                  &.size {
-                    &::after {
-                      content: "";
-                      position: absolute;
-                      top: unset;
-                      right: unset;
-                      bottom: 10px;
-                      left: 0;
-                      width: 100%;
-                      height: 1px;
-                      background-color: $gray-border;
-                    }
-                  }
-                }
-              }
-
-              .price {
-                display: block;
-                width: 100%;
-                text-align: center;
-              }
-
-              &.one,
-              &.two {
-                position: relative;
-                &::after {
-                  content: "";
-                  position: absolute;
-                  top: 0;
-                  right: 0;
-                  width: 1px;
-                  height: 100%;
-                  background-color: $gray-semi;
-                }
-              }
-            }
           }
           .phone-number {
             margin-top: 20px;
@@ -827,8 +762,35 @@ Unit Prices Page CSS End
   .unit-filter-section .category ul li {
     padding: 0px 5px;
   }
-
   //Unit filter css end
+
+  .call-modal {
+    .modal-dialog {
+      .modal-content {
+        .modal-header {
+          a {
+            img {
+              width: 130px;
+            }
+          }
+        }
+        //Modal Header End
+
+        .modal-footer {
+          .affiliate {
+            .u-haul {
+              a {
+                img {
+                  width: 100px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //Call Modal End
 }
 
 /** ============================ Responsive CSS End ============================ **/

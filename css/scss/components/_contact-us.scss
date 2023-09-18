@@ -5,7 +5,7 @@ Contact Us Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.contact-us-banner {
-    padding: 60px 0;
+    padding: 40px 0;
     background-image: linear-gradient(
         180deg,
         rgba(6, 6, 6, 0.5),
@@ -19,12 +19,12 @@ Contact Us Page CSS Start
 /** == Form Section CSS Start == **/
 .contact-form-section {
   .contact-form {
-    padding: 80px 40px;
+    padding: 40px;
     margin-right: -100px;
     background-color: #fffbf2;
 
     .form-section {
-      margin-top: 40px;
+      margin-top: 0px;
       .input-field {
         label {
           margin-top: 20px;
@@ -32,7 +32,7 @@ Contact Us Page CSS Start
           color: $black;
         }
         input {
-          margin-top: 15px;
+          margin-top: 7px;
           @include click-focus(
             1px solid #d9d9d9,
             none,
@@ -42,12 +42,12 @@ Contact Us Page CSS Start
           );
 
           width: 90%;
-          padding: 12px;
+          padding: 5px 10px;
         }
       }
 
       .submit-btn {
-        margin-top: 40px;
+        margin-top: 20px;
       }
     }
   }

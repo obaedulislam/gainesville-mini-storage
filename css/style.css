@@ -145,24 +145,24 @@ h1 {
   font-size: 64px; }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   color: white; }
 
 h3 {
-  font-size: 36px; }
+  font-size: 28px; }
 
 h4 {
-  font-size: 28px;
+  font-size: 24px;
   color: #0d0d0d; }
 
 h5 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   color: #0601ff; }
 
 h6 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #0d0d0d; }
 
@@ -252,21 +252,6 @@ main {
   h1 {
     font-size: 48px; }
 
-  h2 {
-    font-size: 42px; }
-
-  h3 {
-    font-size: 36px; }
-
-  h4 {
-    font-size: 30px; }
-
-  h5 {
-    font-size: 20px; }
-
-  h6 {
-    font-size: 18px; }
-
   p {
     font-size: 16px; }
 
@@ -278,9 +263,9 @@ main {
 
   /* Button CSS */
   .button {
-    font-size: 18px; }
+    font-size: 16px; }
     .button i {
-      font-size: 18px; } }
+      font-size: 16px; } }
 @media (min-width: 0px) and (max-width: 992px) {
   h1 {
     font-size: 42px; }
@@ -316,19 +301,19 @@ main {
     font-size: 32px; }
 
   h2 {
-    font-size: 32px; }
+    font-size: 28px; }
 
   h3 {
-    font-size: 32px; }
+    font-size: 24px; }
 
   h4 {
-    font-size: 26px; }
-
-  h5 {
     font-size: 22px; }
 
+  h5 {
+    font-size: 18px; }
+
   h6 {
-    font-size: 24px; }
+    font-size: 16px; }
 
   p {
     font-size: 14px; }
@@ -352,15 +337,6 @@ main {
 @media (min-width: 0px) and (max-width: 576px) {
   p {
     font-size: 14px; }
-
-  h3 {
-    font-size: 20px; }
-
-  h4 {
-    font-size: 20px; }
-
-  h6 {
-    font-size: 18px; }
 
   /* Button CSS */
   .button {
@@ -508,7 +484,16 @@ header {
             background: rgba(85, 82, 255, 0.06); }
           .menu-text ul.navigation-menu ul#toggleMenuItem li a:hover span {
             color: #0601ff;
-            background: rgba(85, 82, 255, 0.06); } }
+            background: rgba(85, 82, 255, 0.06); }
+
+  .affiliate {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start; }
+    .affiliate p {
+      color: #0d0d0d;
+      font-weight: 500; } }
 @media (min-width: 0px) and (max-width: 576px) {
   header a.logo {
     height: unset;
@@ -535,7 +520,10 @@ header {
           line-height: 39px;
           display: inline-block;
           width: 90%;
-          border-radius: 30px; } }
+          border-radius: 30px; }
+
+  .affiliate {
+    margin-top: 20px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** == Feature Section CSS Start == **/
 .feature-section.home-feature {
@@ -610,7 +598,9 @@ header {
     .feature-section .single-feature .feature-content h5 {
       font-size: 24px; }
     .feature-section .single-feature .g-icon i {
-      font-size: 150px; } }
+      font-size: 150px; }
+  .feature-section.home-feature .mouse {
+    display: none; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .feature-section .single-feature .feature-content h5 {
     font-size: 20px; }
@@ -715,18 +705,28 @@ Home Page CSS Start
   background-position: center center;
   display: flex;
   align-items: center; }
-  .banner-section .container .banner-content {
-    margin: 0 auto;
-    max-width: 1400px; }
-  .banner-section .container h1 {
-    font-weight: 700;
-    color: white; }
-  .banner-section .container p {
-    margin-top: 20px;
-    font-size: 20px;
-    color: white !important; }
-  .banner-section .container .cta-btn {
-    margin-top: 20px; }
+  .banner-section .container {
+    position: relative; }
+    .banner-section .container .banner-content {
+      margin: 0 auto;
+      max-width: 1400px; }
+    .banner-section .container h1 {
+      font-weight: 700;
+      color: white; }
+    .banner-section .container p {
+      font-size: 16px;
+      color: white !important; }
+    .banner-section .container .cta-btn {
+      margin-top: 20px; }
+    .banner-section .container .affiliate {
+      position: absolute;
+      top: -60px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: end; }
+      .banner-section .container .affiliate.other {
+        top: -20px; }
 
 /** == Banner Section CSS End == **/
 /** == Location Section CSS Start == **/
@@ -766,7 +766,7 @@ Home Page CSS Start
     .location-section .storage-unit .map-wrapper .map-content {
       position: relative;
       z-index: 9;
-      padding: 80px 40px;
+      padding: 40px;
       background-color: white;
       border-radius: 12px;
       box-shadow: 0px 20px 20px 0px rgba(164, 164, 164, 0.25); }
@@ -781,12 +781,16 @@ Home Page CSS End
     padding: 80px 0; }
 
   .location-section .storage-unit .map-wrapper .map-content {
-    padding: 50px 30px; } }
+    padding: 30px; } }
 @media (min-width: 0px) and (max-width: 992px) {
   .banner-section {
     padding: 60px 0; }
     .banner-section .container p {
-      font-size: 20px; }
+      font-size: 14px; }
+    .banner-section .container .affiliate {
+      top: -40px; }
+      .banner-section .container .affiliate.other {
+        top: -40px; }
 
   .location-section .storage-unit .map-one-img {
     margin-right: 0; }
@@ -812,14 +816,14 @@ Home Page CSS End
     padding: 40px 0; }
     .banner-section .container p {
       margin-top: 5px;
-      font-size: 18px; }
+      font-size: 14px; }
     .banner-section .container .cta-btn {
-      margin-top: 30px; } }
+      margin-top: 30px; }
+    .banner-section .container .affiliate {
+      display: none; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section .container {
     min-height: unset; }
-    .banner-section .container p {
-      font-size: 14px; }
 
   .location-section .storage-unit .map-wrapper .one {
     top: -40px; }
@@ -842,7 +846,7 @@ Unit Prices Page CSS Start
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section.unit-prices-banner {
-  padding: 60px 0;
+  padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
 
 /** == Banner Section CSS End == **/
@@ -900,11 +904,11 @@ Unit Prices Page CSS Start
   border-radius: 8px; }
   .unit-filter-section .category ul li a {
     display: block;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 8px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #9d9d9d;
     transition: all 0.3s ease-in; }
     .unit-filter-section .category ul li a.active, .unit-filter-section .category ul li a:hover {
@@ -921,10 +925,11 @@ Unit Prices Page CSS Start
       display: flex;
       justify-content: start;
       align-items: center;
+      font-size: 14px;
       font-weight: 600;
       color: #828282; }
       .unit-filter-section .category-details .single-unit p.unit-details {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 400; }
     .unit-filter-section .category-details .single-unit h5 {
       display: flex;
@@ -1111,37 +1116,17 @@ Unit Prices Page CSS Start
         cursor: pointer;
         position: relative;
         z-index: 10; }
+      .call-modal .modal-dialog .modal-content .modal-header a img {
+        width: 200px; }
     .call-modal .modal-dialog .modal-content .modal-body {
       padding: 20px 10px; }
-      .call-modal .modal-dialog .modal-content .modal-body .selected-item {
-        margin: 30px 0;
-        padding: 10px 15px;
-        background-color: #ececec; }
-        .call-modal .modal-dialog .modal-content .modal-body .selected-item p {
-          font-size: 16px; }
-        .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content {
-          display: flex;
-          align-items: center; }
-          .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content h5 {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            margin-bottom: 0; }
-            .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content h5.size {
-              color: #828282; }
-          .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.one, .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.two {
-            position: relative; }
-            .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.one::after, .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.two::after {
-              content: "";
-              position: absolute;
-              top: 0;
-              right: 0;
-              width: 1px;
-              height: 100%;
-              background-color: #828282; }
-      .call-modal .modal-dialog .modal-content .modal-body .phone-number {
-        margin-top: 40px; }
+      .call-modal .modal-dialog .modal-content .modal-body a.u-haul {
+        color: #0601ff; }
+    .call-modal .modal-dialog .modal-content .modal-footer .affiliate .u-haul a img {
+      width: 150px; }
     .call-modal .modal-dialog .modal-content .modal-footer .modal-cta button {
-      background-color: #9d9d9d; }
+      background-color: #0601ff;
+      color: white; }
       .call-modal .modal-dialog .modal-content .modal-footer .modal-cta button:hover {
         background-color: #f3b300;
         color: #0d0d0d; }
@@ -1299,40 +1284,6 @@ Unit Prices Page CSS End
             font-size: 14px; }
             .call-modal .modal-dialog .modal-content .modal-body .selected-item p.common-pl {
               padding-left: 0; }
-          .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content h5 {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            margin-bottom: 0; }
-            .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content h5.common-pl {
-              padding-left: 0; }
-          .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content .heading-size {
-            position: relative;
-            width: 100%;
-            display: block; }
-            .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content .heading-size h5.size::after {
-              content: "";
-              position: absolute;
-              top: unset;
-              right: unset;
-              bottom: 10px;
-              left: 0;
-              width: 100%;
-              height: 1px;
-              background-color: #bfbfbf; }
-          .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content .price {
-            display: block;
-            width: 100%;
-            text-align: center; }
-          .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.one, .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.two {
-            position: relative; }
-            .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.one::after, .call-modal .modal-dialog .modal-content .modal-body .selected-item .selected-content.two::after {
-              content: "";
-              position: absolute;
-              top: 0;
-              right: 0;
-              width: 1px;
-              height: 100%;
-              background-color: #828282; }
         .call-modal .modal-dialog .modal-content .modal-body .phone-number {
           margin-top: 20px; }
 
@@ -1377,14 +1328,19 @@ Unit Prices Page CSS End
           padding-left: 15px; }
 
   .unit-filter-section .category ul li {
-    padding: 0px 5px; } }
+    padding: 0px 5px; }
+
+  .call-modal .modal-dialog .modal-content .modal-header a img {
+    width: 130px; }
+  .call-modal .modal-dialog .modal-content .modal-footer .affiliate .u-haul a img {
+    width: 100px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Size Guide Page CSS Start 
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section.size-guide-banner {
-  padding: 60px 0;
+  padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.63), rgba(6, 6, 6, 0.63)), url("../images/size-guide/banner/size-guide-banner.webp"); }
 
 /** == Banner Section CSS End == **/
@@ -1393,7 +1349,7 @@ Size Guide Page CSS Start
   padding-bottom: 100px; }
   .storage-calculator-section .category ul {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background-color: transparent; }
     .storage-calculator-section .category ul li {
       display: inline-block;
@@ -1403,15 +1359,16 @@ Size Guide Page CSS Start
           display: inherit; } }
       .storage-calculator-section .category ul li a {
         display: inline-block;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         background-color: #f4f3ff; }
         @media screen and (max-width: 768px) {
           .storage-calculator-section .category ul li a {
             display: inherit; } }
   .storage-calculator-section .category-details {
     overflow-y: auto;
-    height: 500px;
+    overflow-x: hidden;
+    height: 400px;
     scrollbar-color: #0601ff #9d9d9d !important;
     /* track thumb */
     scrollbar-width: 10px !important;
@@ -1435,7 +1392,7 @@ Size Guide Page CSS Start
       .storage-calculator-section .category-details .single-unit p.common-pl {
         padding-left: 0; }
       .storage-calculator-section .category-details .single-unit .wrapper {
-        padding: 20px 0; }
+        padding: 10px 0; }
         .storage-calculator-section .category-details .single-unit .wrapper .store-size {
           display: flex;
           align-items: center; }
@@ -1456,7 +1413,7 @@ Size Guide Page CSS Start
           color: #0d0d0d;
           display: block;
           max-width: 70px;
-          padding: 10px 10px;
+          padding: 5px 10px;
           border-radius: 4px;
           text-align: center; }
         .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
@@ -1511,7 +1468,7 @@ Size Guide Page CSS End
     .storage-calculator-section .category-details .single-unit .unit-price-count {
       display: grid; }
       .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-        font-size: 20px; }
+        font-size: 25px; }
       .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
         margin-left: 0; }
         .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
@@ -1552,17 +1509,51 @@ Size Guide Page CSS End
       flex-wrap: initial;
       align-items: center;
       overflow-x: scroll; }
-    .storage-calculator-section .category-details .single-unit .wrapper {
-      padding: 15px; }
-      .storage-calculator-section .category-details .single-unit .wrapper .store-size {
-        display: block; }
-        .storage-calculator-section .category-details .single-unit .wrapper .store-size p.common-pl {
-          padding-left: 0; }
-        .storage-calculator-section .category-details .single-unit .wrapper .store-size p.unit-details {
-          margin-top: 30px; }
-        .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title {
+    .storage-calculator-section .category-details {
+      border-bottom: 1px solid #bfbfbf;
+      border-top: 1px solid #bfbfbf;
+      border-right: 1px solid #bfbfbf;
+      border-left: 1px solid #bfbfbf; }
+      .storage-calculator-section .category-details .single-unit .wrapper {
+        padding: 15px; }
+        .storage-calculator-section .category-details .single-unit .wrapper .store-size {
+          display: block; }
+          .storage-calculator-section .category-details .single-unit .wrapper .store-size p.common-pl {
+            padding-left: 0; }
+          .storage-calculator-section .category-details .single-unit .wrapper .store-size p.unit-details {
+            margin-top: 30px; }
+          .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title {
+            position: relative; }
+            .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title p::after {
+              content: "";
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              left: 0;
+              bottom: -15px;
+              background-color: #bfbfbf; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count {
+          width: 100%; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
+            padding-left: 0; }
+            .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+              font-size: 25px; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
+            margin-left: 0; }
+            .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+              width: 70px;
+              padding: 8px 10px; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
+          margin-bottom: 30px;
+          font-size: 16px;
+          width: 100%;
+          display: block;
           position: relative; }
-          .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title p::after {
+          .storage-calculator-section .category-details .single-unit .unit-price-count .refresh::after {
             content: "";
             position: absolute;
             width: 100%;
@@ -1570,39 +1561,10 @@ Size Guide Page CSS End
             left: 0;
             bottom: -15px;
             background-color: #bfbfbf; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count {
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count {
-        width: 100%; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
-          padding-left: 0; }
-          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-            font-size: 20px; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
-          margin-left: 0; }
-          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-            width: 70px;
-            padding: 8px 10px; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
-        margin-bottom: 30px;
-        font-size: 16px;
-        width: 100%;
-        display: block;
-        position: relative; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .refresh::after {
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 1px;
-          left: 0;
-          bottom: -15px;
-          background-color: #bfbfbf; }
-    .storage-calculator-section .category-details .single-unit .store-unit-details {
-      display: none !important; }
-    .storage-calculator-section .category-details .single-unit.last-unit {
-      border-bottom: 1px solid #bfbfbf; }
+      .storage-calculator-section .category-details .single-unit .store-unit-details {
+        display: none !important; }
+      .storage-calculator-section .category-details .single-unit.last-unit {
+        border-bottom: 1px solid #bfbfbf; }
     .storage-calculator-section .bed-room-content {
       margin: 20px 0;
       padding: 20px;
@@ -1623,7 +1585,7 @@ Size Guide Page CSS End
   .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
     padding-left: 0; }
     .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-      font-size: 18px; }
+      font-size: 23px; }
   .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
     margin-left: 0; }
     .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
@@ -1640,7 +1602,7 @@ Nearby Page CSS Start
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section.nearby-banner {
-  padding: 60px 0;
+  padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/nearby/banner/banner.webp"); }
 
 /** == Banner Section CSS End == **/
@@ -1657,7 +1619,7 @@ FAQs Page CSS Start
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section.faqs-banner {
-  padding: 60px 0;
+  padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/faqs/banner/banner.webp"); }
 
 /** == Banner Section CSS End == **/
@@ -1733,32 +1695,32 @@ Contact Us Page CSS Start
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section.contact-us-banner {
-  padding: 60px 0;
+  padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/contact-us/banner/banner.webp"); }
 
 /** == Banner Section CSS End == **/
 /** == Form Section CSS Start == **/
 .contact-form-section .contact-form {
-  padding: 80px 40px;
+  padding: 40px;
   margin-right: -100px;
   background-color: #fffbf2; }
   .contact-form-section .contact-form .form-section {
-    margin-top: 40px; }
+    margin-top: 0px; }
     .contact-form-section .contact-form .form-section .input-field label {
       margin-top: 20px;
       font-weight: 600;
       color: #0d0d0d; }
     .contact-form-section .contact-form .form-section .input-field input {
-      margin-top: 15px;
+      margin-top: 7px;
       border: 1px solid #d9d9d9;
       outline: none;
       background-color: transparent;
       color: #0d0d0d;
       display: "";
       width: 90%;
-      padding: 12px; }
+      padding: 5px 10px; }
     .contact-form-section .contact-form .form-section .submit-btn {
-      margin-top: 40px; }
+      margin-top: 20px; }
 .contact-form-section .contact-info {
   width: 100%;
   padding: 80px 40px;
@@ -1822,7 +1784,7 @@ Pay Online Page CSS Start
 ========================= **/
 /** == Banner Section CSS Start == **/
 .banner-section.pay-online-banner {
-  padding: 60px;
+  padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/pay-online/banner/banner.webp"); }
 
 /** == Banner Section CSS End == **/
@@ -2065,19 +2027,25 @@ table.dataTable thead tr th {
     content: "\e90d" !important;
     opacity: 1;
     top: 50%;
-    right: 0; }
+    left: 60px; }
   table.dataTable thead tr th.sorting::after {
     display: none; }
   table.dataTable thead tr th.sorting_asc::before {
     content: "\e91d" !important;
     opacity: 1;
     top: 50%;
-    right: 0; }
+    left: 60px; }
   table.dataTable thead tr th.sorting_desc::before {
     content: "\e90f" !important;
     opacity: 1;
     top: 50%;
-    right: 0; }
+    left: 60px; }
+  table.dataTable thead tr th:first-child.sorting::before {
+    left: 50px; }
+  table.dataTable thead tr th:first-child.sorting_asc::before {
+    left: 50px; }
+  table.dataTable thead tr th:first-child.sorting_desc::before {
+    left: 50px; }
 table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table.gms-table.dataTable thead tr th.button-cell-header.sorting::before {
   display: none; }
 
@@ -2094,6 +2062,9 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
     font-size: 24px;
     padding-left: 10px; } }
 @media (min-width: 0px) and (max-width: 768px) {
+  table.dataTable {
+    border-spacing: 20px !important; }
+
   .gms-table tr.single-unit th.unit-details-header {
     padding-left: 7px;
     display: none; }

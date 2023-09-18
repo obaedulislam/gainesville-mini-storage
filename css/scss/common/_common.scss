@@ -15,24 +15,24 @@ h1 {
   font-size: 64px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   color: white;
 }
 h3 {
-  font-size: 36px;
+  font-size: 28px;
 }
 h4 {
-  font-size: 28px;
+  font-size: 24px;
   color: $black;
 }
 h5 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   color: $blue;
 }
 h6 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: $black;
 }
@@ -143,21 +143,6 @@ main {
   h1 {
     font-size: 48px;
   }
-  h2 {
-    font-size: 42px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  h4 {
-    font-size: 30px;
-  }
-  h5 {
-    font-size: 20px;
-  }
-  h6 {
-    font-size: 18px;
-  }
 
   p {
     font-size: 16px;
@@ -175,9 +160,9 @@ main {
 
   /* Button CSS */
   .button {
-    font-size: 18px;
+    font-size: 16px;
     i {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 }
@@ -227,19 +212,19 @@ main {
     font-size: 32px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   h3 {
-    font-size: 32px;
+    font-size: 24px;
   }
   h4 {
-    font-size: 26px;
-  }
-  h5 {
     font-size: 22px;
   }
+  h5 {
+    font-size: 18px;
+  }
   h6 {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   p {
@@ -274,15 +259,7 @@ main {
   p {
     font-size: 14px;
   }
-  h3 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 20px;
-  }
-  h6 {
-    font-size: 18px;
-  }
+
   /* Button CSS */
   .button {
     padding: 10px 30px;

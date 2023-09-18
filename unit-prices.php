@@ -34,6 +34,19 @@
                 <a href="contact.php" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Contact Us</a>
               </div>
           </div>
+          <!--Banner content End -->
+
+          <div class="row">
+            <div class="affiliate other">
+              <div class="affiliate-text">
+                <p class="mt-0">Affiliate by: </p>
+              </div>
+              <div class="u-haul ms-2">
+                <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+              </div>
+            </div>
+          </div>
+          <!--U-Haul Logo End-->
         </div>
       </section>
     <!--|| Banner Section End ||-->
@@ -150,12 +163,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="1" class="price">
+                        <td  class="price" data-order="9">
                           <span class="price-money">$60</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -168,12 +181,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="2" class="price">
+                        <td class="price" data-order="7">
                           <span class="price-money">$80</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -186,12 +199,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="3" class="price">
+                        <td  class="price" data-order="8">
                           <span class="price-money">$60</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -204,12 +217,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="4" class="price">
+                        <td  class="price" data-order="4">
                           <span class="price-money">$120</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -222,12 +235,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="5" class="price">
+                        <td  class="price" data-order="6">
                           <span class="price-money">$95</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -240,12 +253,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="6" class="price">
+                        <td  class="price" data-order="1">
                           <span class="price-money">$160</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -258,12 +271,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="7" class="price">
+                        <td  class="price" data-order="5">
                           <span class="price-money">$105</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -276,12 +289,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="8" class="price">
+                        <td  class="price" data-order="2">
                           <span class="price-money">$140</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -294,12 +307,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Parking, covered, rv/boat/vehicle/parking, lower level</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="9" class="price">
+                        <td  class="price" data-order="3">
                           <span class="price-money">$120</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -335,12 +348,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="1" class="price">
+                        <td  class="price" data-order="3">
                           <span class="price-money">$60</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -353,12 +366,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="2" class="price">
+                        <td data-order="1" class="price">
                           <span class="price-money">$80</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -373,10 +386,10 @@
                         </td>
                         <td data-order="3" class="price">
                           <span class="price-money">$60</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->      
@@ -411,12 +424,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="1" class="price">
+                        <td data-order="2" class="price">
                           <span class="price-money">$120</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -429,12 +442,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="2" class="price">
+                        <td data-order="4" class="price">
                           <span class="price-money">$95</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -447,12 +460,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self Storage, rollup, climate, interior</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="3" class="price">
-                          <span class="price-money">$160</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                        <td data-order="1" class="price">
+                          <span class="price-money" >$160</span>
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -465,12 +478,12 @@
                         <td class="unit-details">
                           <span class="d-md-block d-none">Self storage, non climate, drivethrough, roolup, drive up</span>   <span class="border-right"></span>
                         </td>
-                        <td data-order="4" class="price">
+                        <td data-order="3" class="price">
                           <span class="price-money">$105</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -508,10 +521,10 @@
                         </td>
                         <td data-order="1" class="price">
                           <span class="price-money">$140</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -549,10 +562,10 @@
                         </td>
                         <td data-order="1" class="price">
                           <span class="price-money">$120</span>
-                           <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>  
+                           <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a> 
                         </td>
                         <td class="button-cell call-btn text-end">
-                            <a href="u-haul.php" class="button outline-button" ><i class="icon-fluent-arrow-right"></i>Reserve </a>                    
+                            <a  class="button outline-button" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Reserve </a>                   
                         </td>
                     </tr>
                     <!--Single Unit End-->
@@ -571,49 +584,30 @@
         <div class="modal-dialog">
 
           <div class="modal-content">
-
             <div class="modal-header d-flex justify-content-between align-items-center ">
-              <h6 class="mb-0">Locations</h6>
+              <a href="index.php"><img src="images/logo.svg" alt="Gainesville Logo"></a>
               <button type="button" class="icon-cross" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
             <div class="modal-body">
-              <p>Due to limited availability, please call in order to reserve a similar unit.</p>
-              <p class="fw-bold">Selected Unit</p>
+              <p>You are about to be redirected to our affiliate website, </p>
+              <a href="uhaul.php" target="_blank" class="u-haul fw-bold">uhaul.com.</a>
+            </div> 
 
-              <div class="row selected-item ">
-                <div class="col-md-10 col-8">
-                    <div class="row">
-                      <div class="col-md-4 col-12 selected-content one order-md-0 order-0">
-                        <div class="heading-size">
-                          <h5 class="size common-pl">5’x10’</h5>
-                        </div>
-                      </div>
-                      <div class="col-md-8 col-12 selected-content two order-md-1 order-1">
-                        <p class="common-pl">Self storage, non climate,<br> drivethrough, roolup, drive up</p>
-                      </div>
+            <div class="modal-footer d-block px-0 border-0">
+              <div class="row mx-0 px-0">
+                <div class="col-md-6 col-6 px-0 d-flex align-items-center">
+                  <div class="affiliate mt-0">
+                    <div class="u-haul ms-2">
+                      <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
                     </div>
-                </div>
-                
-                <div class="col-md-2 col-4 selected-content order-md-2 order-1">
-                  <div class="price">
-                    <h5 class="common-pl "><span class="price-money">$60</span></h5>
                   </div>
                 </div>
-              </div>
-              <!--Selected Filter-->
-
-              <p class="fw-bold blue-color">Gainesville Mini Storage</p>
-              <p class="mt-2">2537 FM 51, Gainesville, TX 76240</p>
-              <div class="phone-number">
-                <p> <span class="fw-bold">New Rentals:</span> (940) 400-2297</p>
-                <p class="mt-sm-3 mt-2"><span class="fw-bold">Current Customers: </span>(940) 300-7610</p>
-              </div>
-            </div>
-
-            <div class="modal-footer">
-              <div class="modal-cta call-btn">
-                 <button href="#" class="button primary-button close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="icon-fluent-arrow-right"></i>Close</button>
+                <div class="col-md-6 col-6 px-0 ">
+                  <div class="modal-cta call-btn text-end">
+                    <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank" class="button primary-button close-btn"><i class="icon-fluent-arrow-right"></i>Proceed</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -631,7 +625,6 @@
             <div class="row">
                 <div class="col-lg-3  col-sm-6 col-12">
                     <div class="feature-head ">
-                        <p class="feature-num">01</p>
                         <h3>Features</h3>
                     </div>
                 </div>
@@ -726,14 +719,13 @@
     <!--|| Feature Section End ||-->
     
     <!--|| Feature Section Mobile Start ||-->
-    <section class="feature-section first-padding d-lg-none d-block">
+    <section class="feature-section first-padding d-lg-none d-block"> 
       <div class="container">
 
         <div class="row">
 
           <div class="col-lg-3 col-md-12 col-sm-6 col-12">
-            <div class="feature-head ">
-              <p class="feature-num">01</p>
+            <div class="feature-head "> 
               <h3 >Features</h3>
             </div>
           </div>
@@ -860,8 +852,9 @@
             <div class="col-xl-5 col-lg-6 col-md-12  d-flex align-items-center">
               <div class="map-wrapper">
                 <div class="map-content">
-                  <h5>Storage Units Near Gainesville, TX</h5>
-                  <p>Our climate-controlled storage units are only a few minutes from Gainesville High School, Frank Buck Zoo, and other well-known places just west of downtown Gainesville, Texas. You can feel free to reserve one of our units if you live near Sanger, Thackerville, Muenster, Whitesboro, Valley View, Saint Jo, Lindsay, Oak Ridge, Pilot Point, or anywhere in the Texoma region.</p>
+                  <h5>Climate-Controlled Storage in Gainesville, Texas</h5>
+                  <p>We offer many climate-controlled storage units with interior access for extra security and cleanliness. There is also the option of drive-up access, which allows you to park directly in front of the unit and enter from the outside. Our units have good lighting, which is an essential feature in any storage facility that wants to make the customer experience as easy as possible.</p>
+                  <p class="mt-3">Here are some of the amenities we offer: electronic gate access, video surveillance, 24-hour access, U-Haul truck rentals, outdoor RV parking, and a huge driveway for great comfort during your visits. Explore our website and see if you can find any specials now (e.g., the first month free). We’re always just a phone call away, so never hesitate to contact us. Se habla español!</p>
                 </div>
               </div>              
             </div>

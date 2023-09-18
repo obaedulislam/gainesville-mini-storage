@@ -26,6 +26,17 @@
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="affiliate">
+              <div class="affiliate-text">
+                <p class="mt-0">Affiliate by: </p>
+              </div>
+              <div class="u-haul ms-2">
+                <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     <!--|| Banner Section End ||-->
@@ -37,7 +48,6 @@
 
           <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
             <div class="feature-head ">
-              <p class="feature-num">01</p>
               <h3 >Features</h3>
             </div>
           </div>
@@ -103,7 +113,6 @@
       <div class="container">
         <div class="row">
             <div class="feature-head text-center">
-              <p class="feature-num">01</p>
               <h3 >Locations</h3>
             </div>
         </div>
@@ -141,7 +150,7 @@
                 <div class="map-content">
                   <h5>Climate-Controlled Storage in Gainesville, Texas</h5>
                   <p>We offer many climate-controlled storage units with interior access for extra security and cleanliness. There is also the option of drive-up access, which allows you to park directly in front of the unit and enter from the outside. Our units have good lighting, which is an essential feature in any storage facility that wants to make the customer experience as easy as possible.</p>
-                  <p>Here are some of the amenities we offer: electronic gate access, video surveillance, 24-hour access, U-Haul truck rentals, outdoor RV parking, and a huge driveway for great comfort during your visits. Explore our website and see if you can find any specials now (e.g., the first month free). We’re always just a phone call away, so never hesitate to contact us. Se habla español!</p>
+                  <p class="mt-3">Here are some of the amenities we offer: electronic gate access, video surveillance, 24-hour access, U-Haul truck rentals, outdoor RV parking, and a huge driveway for great comfort during your visits. Explore our website and see if you can find any specials now (e.g., the first month free). We’re always just a phone call away, so never hesitate to contact us. Se habla español!</p>
                 </div>
               </div>              
             </div>

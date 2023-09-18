@@ -20,6 +20,19 @@
           <div class="row banner-content">
               <h2>Contact Us</h2>           
           </div>
+            <!--Banner content End -->
+
+          <div class="row">
+            <div class="affiliate other">
+              <div class="affiliate-text">
+                <p class="mt-0">Affiliate by: </p>
+              </div>
+              <div class="u-haul ms-2">
+                <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+              </div>
+            </div>
+          </div>
+          <!--U-Haul Logo End-->
         </div>
       </section>
     <!--|| Banner Section End ||-->

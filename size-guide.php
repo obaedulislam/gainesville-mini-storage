@@ -21,6 +21,19 @@
               <h2>Size Guide</h2>
               <p>Do you need help finding the perfect unit size? All you need is an idea of everything you intend to store and a few moments to spare. Simply enter the items into the calculator and be sure to include the quantity of each item. If you have additional questions, don’t hesitate to get in touch with a storage expert!</p>
           </div>
+          <!--Banner content End -->
+
+          <div class="row">
+            <div class="affiliate other">
+              <div class="affiliate-text">
+                <p class="mt-0">Affiliate by: </p>
+              </div>
+              <div class="u-haul ms-2">
+                <a  href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+              </div>
+            </div>
+          </div>
+          <!--U-Haul Logo End-->
         </div>
       </section>
     <!--|| Banner Section End ||-->
@@ -28,9 +41,8 @@
      <!--|| Storage Calculator Section Start ||-->
      <section class="storage-calculator-section  unit-filter-section">
       <div class="container">
-        <div class="row first-padding">
+        <div class="row first-padding pb-2">
             <div class="feature-head ">
-              <p class="feature-num">01</p>
               <h3 >Storage Calculator</h3>
             </div>
         </div>

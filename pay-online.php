@@ -20,6 +20,19 @@
           <div class="row banner-content">
               <h2>Pay Online | My Account</h2>           
           </div>
+          <!--Banner content End -->
+
+          <div class="row">
+            <div class="affiliate other">
+              <div class="affiliate-text">
+                <p class="mt-0">Affiliate by: </p>
+              </div>
+              <div class="u-haul ms-2">
+                <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+              </div>
+            </div>
+          </div>
+          <!--U-Haul Logo End-->
         </div>
       </section>
     <!--|| Banner Section End ||-->
@@ -82,7 +95,7 @@
                     </div>
                     <div class="col-md-4 col-12 call-btn">
                         <p class="common-pl">(940) 400-2297</p>
-                        <a href="https://www.uhaul.com/Auth/OrderLookUp/" class="button primary-button ms-md-5 ms-0"><i class="icon-fluent-arrow-right"></i>Pay</a>
+                        <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank" class="button primary-button ms-md-5 ms-0"><i class="icon-fluent-arrow-right"></i>Pay</a>
                     </div>
                   </div>
                 </div> 

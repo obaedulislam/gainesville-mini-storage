@@ -212,6 +212,17 @@ header {
       }
     }
   }
+
+  .affiliate {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    p {
+      color: $black;
+      font-weight: 500;
+    }
+  }
 }
 
 //Extra Small Device CSS start
@@ -261,6 +272,10 @@ header {
         }
       }
     }
+  }
+
+  .affiliate {
+    margin-top: 20px;
   }
 }
 

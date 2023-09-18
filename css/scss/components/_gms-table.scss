@@ -126,7 +126,7 @@ table {
               content: "\e90d" !important;
               opacity: 1;
               top: 50%;
-              right: 0;
+              left: 60px;
             }
             &::after {
               display: none;
@@ -137,7 +137,7 @@ table {
               content: "\e91d" !important;
               opacity: 1;
               top: 50%;
-              right: 0;
+              left: 60px;
             }
           }
           &.sorting_desc {
@@ -145,7 +145,25 @@ table {
               content: "\e90f" !important;
               opacity: 1;
               top: 50%;
-              right: 0;
+              left: 60px;
+            }
+          }
+
+          &:first-child {
+            &.sorting {
+              &::before {
+                left: 50px;
+              }
+            }
+            &.sorting_asc {
+              &::before {
+                left: 50px;
+              }
+            }
+            &.sorting_desc {
+              &::before {
+                left: 50px;
+              }
             }
           }
         }
@@ -209,7 +227,7 @@ table {
 @media (min-width: 0px) and (max-width: 768px) {
   table {
     &.dataTable {
-      //border-spacing: 20px 0!important;
+      border-spacing: 20px !important;
     }
   }
   .gms-table {

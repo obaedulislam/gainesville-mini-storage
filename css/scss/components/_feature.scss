@@ -131,6 +131,12 @@
         }
       }
     }
+
+    &.home-feature {
+      .mouse {
+        display: none;
+      }
+    }
   }
 }
 
