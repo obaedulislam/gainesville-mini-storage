@@ -5,15 +5,13 @@ Size Guide Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.size-guide-banner {
-    .container {
-      min-height: 450px;
-      background-image: linear-gradient(
-          180deg,
-          rgba(6, 6, 6, 0.8),
-          rgba(6, 6, 6, 0.8)
-        ),
-        url("../images/size-guide/banner/size-guide-banner.webp");
-    }
+    padding: 60px 0;
+    background-image: linear-gradient(
+        180deg,
+        rgba(6, 6, 6, 0.63),
+        rgba(6, 6, 6, 0.63)
+      ),
+      url("../images/size-guide/banner/size-guide-banner.webp");
   }
 }
 /** == Banner Section CSS End == **/
@@ -189,25 +187,11 @@ Size Guide Page CSS End
 /** ============================ Responsive CSS Start ============================ **/
 //Large Device CSS start
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section {
-    &.size-guide-banner {
-      .container {
-        min-height: 450px;
-      }
-    }
-  }
   //Banner Section CSS End
 }
 
 //Medium Device CSS start
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section {
-    &.size-guide-banner {
-      .container {
-        min-height: 400px;
-      }
-    }
-  }
   //Banner Section CSS End
 
   .storage-calculator-section {
@@ -289,9 +273,7 @@ Size Guide Page CSS End
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section {
     &.size-guide-banner {
-      .container {
-        min-height: 350px;
-      }
+      padding: 40px 0;
     }
   }
   //Banner Section CSS End
@@ -424,14 +406,6 @@ Size Guide Page CSS End
 
 //Extra Small Device CSS start
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section {
-    &.size-guide-banner {
-      .container {
-        min-height: unset;
-        padding: 40px 20px;
-      }
-    }
-  }
   //Banner Section CSS End
 
   .storage-calculator-section {

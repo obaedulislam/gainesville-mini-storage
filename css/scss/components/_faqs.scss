@@ -4,15 +4,13 @@ FAQs Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.faqs-banner {
-    .container {
-      min-height: 320px;
-      background-image: linear-gradient(
-          180deg,
-          rgba(6, 6, 6, 0.5),
-          rgba(6, 6, 6, 0.5)
-        ),
-        url("../images/faqs/banner/banner.webp");
-    }
+    padding: 60px 0;
+    background-image: linear-gradient(
+        180deg,
+        rgba(6, 6, 6, 0.5),
+        rgba(6, 6, 6, 0.5)
+      ),
+      url("../images/faqs/banner/banner.webp");
   }
 }
 /** == Banner Section CSS End == **/
@@ -76,27 +74,10 @@ FAQs Page CSS End
 
 //Large Device CSS start
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section {
-    &.faqs-banner {
-      .container {
-        min-height: 450px;
-      }
-    }
-  }
-  //Banner Section CSS End
 }
 
 //Medium Device CSS start
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section {
-    &.faqs-banner {
-      .container {
-        min-height: 400px;
-      }
-    }
-  }
-  //Banner Section CSS End
-
   .faqs-section {
     .accordion-item {
       margin-bottom: 15px;
@@ -113,9 +94,7 @@ FAQs Page CSS End
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section {
     &.faqs-banner {
-      .container {
-        min-height: 350px;
-      }
+      padding: 40px 0;
     }
   }
   //Banner Section CSS End
@@ -147,16 +126,6 @@ FAQs Page CSS End
 
 //Small Device CSS start
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section {
-    &.faqs-banner {
-      .container {
-        min-height: unset;
-        padding: 40px 20px;
-      }
-    }
-  }
-  //Banner Section CSS End
-
   .faqs-section {
     .accordion-button {
       font-size: 16px;

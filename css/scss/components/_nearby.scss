@@ -5,15 +5,13 @@ Nearby Page CSS Start
 /** == Banner Section CSS Start == **/
 .banner-section {
   &.nearby-banner {
-    .container {
-      min-height: 450px;
-      background-image: linear-gradient(
-          180deg,
-          rgba(6, 6, 6, 0.5),
-          rgba(6, 6, 6, 0.5)
-        ),
-        url("../images/nearby/banner/banner.webp");
-    }
+    padding: 60px 0;
+    background-image: linear-gradient(
+        180deg,
+        rgba(6, 6, 6, 0.5),
+        rgba(6, 6, 6, 0.5)
+      ),
+      url("../images/nearby/banner/banner.webp");
   }
 }
 /** == Banner Section CSS End == **/
@@ -26,35 +24,17 @@ Nearby Page CSS End
 
 //Large Device CSS start
 @media (min-width: 0px) and (max-width: 1200px) {
-  .banner-section {
-    &.nearby-banner {
-      .container {
-        min-height: 450px;
-      }
-    }
-  }
-  //Banner Section CSS End
 }
 
 //Medium Device CSS start
 @media (min-width: 0px) and (max-width: 992px) {
-  .banner-section {
-    &.nearby-banner {
-      .container {
-        min-height: 400px;
-      }
-    }
-  }
-  //Banner Section CSS End
 }
 
 //Small Device CSS start
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section {
     &.nearby-banner {
-      .container {
-        min-height: 350px;
-      }
+      padding: 40px 0;
     }
   }
   //Banner Section CSS End
@@ -62,15 +42,6 @@ Nearby Page CSS End
 
 //Small Device CSS start
 @media (min-width: 0px) and (max-width: 576px) {
-  .banner-section {
-    &.nearby-banner {
-      .container {
-        min-height: unset;
-        padding: 40px 20px;
-      }
-    }
-  }
-  //Banner Section CSS End
 }
 
 /** ============================ Responsive CSS End ============================ **/
