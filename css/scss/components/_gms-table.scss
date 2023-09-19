@@ -58,7 +58,7 @@
 
       &.size {
         color: #828282;
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 600;
       }
 
@@ -71,7 +71,7 @@
 
       &.price {
         color: #0601ff;
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 600;
         padding-left: 20px;
         a {
@@ -120,13 +120,15 @@ table {
     thead {
       tr {
         th {
-          font-family: "icomoon" !important;
+          font-size: 18px;
+          font-weight: 500;
           &.sorting {
             &::before {
+              font-family: "icomoon" !important;
               content: "\e90d" !important;
               opacity: 1;
-              top: 50%;
-              left: 60px;
+              top: 42%;
+              left: 70px;
             }
             &::after {
               display: none;
@@ -134,18 +136,20 @@ table {
           }
           &.sorting_asc {
             &::before {
+              font-family: "icomoon" !important;
               content: "\e91d" !important;
               opacity: 1;
-              top: 50%;
-              left: 60px;
+              top: 42%;
+              left: 70px;
             }
           }
           &.sorting_desc {
             &::before {
+              font-family: "icomoon" !important;
               content: "\e90f" !important;
               opacity: 1;
-              top: 50%;
-              left: 60px;
+              top: 42%;
+              left: 70px;
             }
           }
 
@@ -227,12 +231,15 @@ table {
 @media (min-width: 0px) and (max-width: 768px) {
   table {
     &.dataTable {
-      border-spacing: 20px !important;
+      // border-spacing: 20px !important;
     }
   }
   .gms-table {
     tr {
       &.single-unit {
+        &:last-child {
+          border-bottom: 0;
+        }
         th {
           &.unit-details-header {
             padding-left: 7px;
@@ -247,6 +254,21 @@ table {
           }
           &.button-cell-header {
             display: none;
+          }
+          &.sorting {
+            &::before {
+              left: 60px;
+            }
+          }
+          &.sorting_asc {
+            &::before {
+              left: 60px;
+            }
+          }
+          &.sorting_desc {
+            &::before {
+              left: 60px;
+            }
           }
         }
 
@@ -291,7 +313,7 @@ table {
               }
             }
             a {
-              display: block;
+              display: inline-block;
               font-size: 13px;
               i {
                 font-size: 13px;

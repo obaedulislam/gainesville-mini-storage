@@ -142,27 +142,27 @@ body {
   max-width: 1280px; }
 
 h1 {
-  font-size: 64px; }
+  font-size: 56px; }
 
 h2 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 700;
   color: white; }
 
 h3 {
-  font-size: 28px; }
+  font-size: 36px; }
 
 h4 {
-  font-size: 24px;
+  font-size: 28px;
   color: #0d0d0d; }
 
 h5 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   color: #0601ff; }
 
 h6 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   color: #0d0d0d; }
 
@@ -565,10 +565,10 @@ header {
     position: relative;
     z-index: 1; }
     .feature-section .single-feature .feature-content i {
-      font-size: 80px; }
+      font-size: 65px; }
     .feature-section .single-feature .feature-content h5 {
       margin-top: 40px;
-      font-size: 28px;
+      font-size: 22px;
       font-weight: 500;
       color: #9d9d9d; }
   .feature-section .single-feature .g-icon {
@@ -714,7 +714,7 @@ Home Page CSS Start
       font-weight: 700;
       color: white; }
     .banner-section .container p {
-      font-size: 16px;
+      font-size: 30px;
       color: white !important; }
     .banner-section .container .cta-btn {
       margin-top: 20px; }
@@ -786,7 +786,7 @@ Home Page CSS End
   .banner-section {
     padding: 60px 0; }
     .banner-section .container p {
-      font-size: 14px; }
+      font-size: 24px; }
     .banner-section .container .affiliate {
       top: -40px; }
       .banner-section .container .affiliate.other {
@@ -816,9 +816,7 @@ Home Page CSS End
     padding: 40px 0; }
     .banner-section .container p {
       margin-top: 5px;
-      font-size: 14px; }
-    .banner-section .container .cta-btn {
-      margin-top: 30px; }
+      font-size: 20px; }
     .banner-section .container .affiliate {
       display: none; } }
 @media (min-width: 0px) and (max-width: 576px) {
@@ -1989,7 +1987,7 @@ Privacy Policy Page CSS End
     transform: translateY(-50%); }
   .gms-table tr td.size {
     color: #828282;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600; }
   .gms-table tr td.unit-details {
     color: #545454;
@@ -1998,7 +1996,7 @@ Privacy Policy Page CSS End
     padding-left: 20px; }
   .gms-table tr td.price {
     color: #0601ff;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     padding-left: 20px; }
     .gms-table tr td.price a {
@@ -2022,24 +2020,28 @@ Privacy Policy Page CSS End
   display: none !important; }
 
 table.dataTable thead tr th {
-  font-family: "icomoon" !important; }
+  font-size: 18px;
+  font-weight: 500; }
   table.dataTable thead tr th.sorting::before {
+    font-family: "icomoon" !important;
     content: "\e90d" !important;
     opacity: 1;
-    top: 50%;
-    left: 60px; }
+    top: 42%;
+    left: 70px; }
   table.dataTable thead tr th.sorting::after {
     display: none; }
   table.dataTable thead tr th.sorting_asc::before {
+    font-family: "icomoon" !important;
     content: "\e91d" !important;
     opacity: 1;
-    top: 50%;
-    left: 60px; }
+    top: 42%;
+    left: 70px; }
   table.dataTable thead tr th.sorting_desc::before {
+    font-family: "icomoon" !important;
     content: "\e90f" !important;
     opacity: 1;
-    top: 50%;
-    left: 60px; }
+    top: 42%;
+    left: 70px; }
   table.dataTable thead tr th:first-child.sorting::before {
     left: 50px; }
   table.dataTable thead tr th:first-child.sorting_asc::before {
@@ -2062,9 +2064,8 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
     font-size: 24px;
     padding-left: 10px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  table.dataTable {
-    border-spacing: 20px !important; }
-
+  .gms-table tr.single-unit:last-child {
+    border-bottom: 0; }
   .gms-table tr.single-unit th.unit-details-header {
     padding-left: 7px;
     display: none; }
@@ -2075,6 +2076,12 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
     display: table-cell; }
   .gms-table tr.single-unit th.button-cell-header {
     display: none; }
+  .gms-table tr.single-unit th.sorting::before {
+    left: 60px; }
+  .gms-table tr.single-unit th.sorting_asc::before {
+    left: 60px; }
+  .gms-table tr.single-unit th.sorting_desc::before {
+    left: 60px; }
   .gms-table tr.single-unit td.size {
     font-size: 24px; }
     .gms-table tr.single-unit td.size .size-desc {
@@ -2107,7 +2114,7 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
         height: 1px;
         background-color: #bfbfbf; }
     .gms-table tr.single-unit td.price a {
-      display: block;
+      display: inline-block;
       font-size: 13px;
       font-weight: 600; }
       .gms-table tr.single-unit td.price a i {
