@@ -52,7 +52,7 @@
           <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-3">
               <div class="featureSwiper swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+                  <a class="swiper-slide" href ="unit-prices.php">
                     <div class="single-feature ">
                       <div class="feature-content">
                         <i class="icon-facility"></i>
@@ -62,10 +62,10 @@
                         <i class="icon-g"></i>
                       </div>
                     </div>
-                  </div>
+                  </a>
                   <!--Slide 1 End-->
                   
-                  <div class="swiper-slide">
+                  <a class="swiper-slide" href ="size-guide.php">
                     <div class="single-feature alt">
                       <div class="feature-content">
                         <i class="icon-unit-size"></i>
@@ -76,10 +76,10 @@
                         <i class="icon-g"></i>
                       </div>
                     </div>
-                  </div>
+                  </a>
                   <!--Slide 2 End-->
 
-                  <div class="swiper-slide">
+                  <a class="swiper-slide" href="pay-online.php">
                     <div class="single-feature ">
                       <div class="feature-content">
                         <i class="icon-online-pay"></i>
@@ -89,7 +89,7 @@
                         <i class="icon-g"></i>
                       </div>
                     </div>
-                  </div>
+                  </a>
                   <!--Slide 3 End-->
                 </div>
               </div>

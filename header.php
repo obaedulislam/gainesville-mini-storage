@@ -49,9 +49,6 @@
                     </div>
                     
                     <div class="affiliate other">
-                      <div class="affiliate-text">
-                        <p class="mt-0">Affiliate by: </p>
-                      </div>
                       <div class="u-haul ms-2">
                         <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
                       </div>

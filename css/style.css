@@ -446,13 +446,16 @@ header {
     header .navigation li:last-child {
       margin-right: 0px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  header a.logo {
-    height: unset;
-    width: 100px; }
-  header .menu-md {
-    display: none; }
-  header .menu-mob {
-    display: block; }
+  header {
+    padding: 10px 0;
+    height: 80px; }
+    header a.logo {
+      height: unset;
+      width: 100px; }
+    header .menu-md {
+      display: none; }
+    header .menu-mob {
+      display: block; }
 
   .menu-text ul.navigation-menu {
     text-align: right; }
@@ -464,7 +467,7 @@ header {
       text-align: left;
       width: 0;
       height: 100vh;
-      top: 100px;
+      top: 78px;
       left: -500px;
       opacity: 0;
       display: none;
@@ -489,13 +492,13 @@ header {
           display: flex; }
           .menu-text ul.navigation-menu ul#toggleMenuItem li a i {
             margin-right: 10px;
-            padding: 20px 10px;
+            padding: 12px 10px;
             vertical-align: middle;
             font-size: 20px;
             line-height: 27px;
-            border-radius: 50px; }
+            border-radius: 25px; }
           .menu-text ul.navigation-menu ul#toggleMenuItem li a span {
-            padding: 15px 30px;
+            padding: 8px 25px;
             line-height: 34px;
             display: inline-block;
             width: 90%;
@@ -514,7 +517,7 @@ header {
             background: rgba(85, 82, 255, 0.06); }
 
   .affiliate {
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
     align-items: center;
     justify-content: start; }
@@ -531,19 +534,19 @@ header {
     display: block; }
 
   .menu-text ul.navigation-menu ul#toggleMenuItem {
-    padding: 30px 15px; }
+    padding: 15px 15px; }
     .menu-text ul.navigation-menu ul#toggleMenuItem li {
       margin: 10px 0; }
       .menu-text ul.navigation-menu ul#toggleMenuItem li a {
         font-size: 16px; }
         .menu-text ul.navigation-menu ul#toggleMenuItem li a i {
           margin-right: 7px;
-          padding: 20px 10px;
+          padding: 10px 10px;
           font-size: 16px;
-          line-height: 24px;
+          line-height: 30px;
           border-radius: 30px; }
         .menu-text ul.navigation-menu ul#toggleMenuItem li a span {
-          padding: 12px 20px;
+          padding: 7px 20px;
           line-height: 39px;
           display: inline-block;
           width: 90%;
@@ -616,14 +619,14 @@ header {
   .feature-section .single-feature {
     padding: 30px 15px; }
     .feature-section .single-feature .feature-content h5 {
-      font-size: 24px; }
+      font-size: 20px; }
     .feature-section .single-feature .g-icon i {
       font-size: 100px; } }
 @media (min-width: 0px) and (max-width: 768px) {
   .feature-section .single-feature {
     padding: 30px 15px; }
     .feature-section .single-feature .feature-content h5 {
-      font-size: 24px; }
+      font-size: 18px; }
     .feature-section .single-feature .g-icon i {
       font-size: 150px; }
   .feature-section.home-feature .mouse {
@@ -831,13 +834,13 @@ Home Page CSS End
     z-index: 10;
     right: 20px; }
     .location-section .storage-unit .map-wrapper .one i.icon-one {
-      font-size: 100px; }
+      font-size: 80px; }
   .location-section .storage-unit .map-wrapper .two {
     z-index: 10;
     left: 20px;
     top: -70px; }
     .location-section .storage-unit .map-wrapper .two i.icon-two {
-      font-size: 100px; }
+      font-size: 80px; }
   .location-section .storage-unit .map-content {
     margin-top: -15px; }
   .location-section .first-padding {
