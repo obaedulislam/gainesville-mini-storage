@@ -12,6 +12,11 @@ Unit Prices Page CSS Start
         rgba(6, 6, 6, 0.5)
       ),
       url("../images/unit-prices/banner/unit-price-banner.webp");
+    .container {
+      p {
+        font-size: 20px;
+      }
+    }
   }
 }
 /** == Banner Section CSS End == **/
@@ -94,11 +99,12 @@ Unit Prices Page CSS Start
       li {
         a {
           display: block;
-          padding-top: 5px;
-          padding-bottom: 5px;
+          padding-top: 8px;
+          padding-bottom: 8px;
           border-radius: 8px;
           text-align: center;
-          font-size: 16px;
+          font-size: 18px;
+          font-weight: 500;
           color: $gray-normal;
           transition: all 0.3s ease-in;
           &.active,
@@ -383,16 +389,15 @@ Unit Prices Page CSS Start
       //Modal Header End
 
       .modal-body {
+        p {
+          font-size: 18px;
+        }
         padding: 20px 10px;
         a {
           &.u-haul {
             color: $blue;
           }
         }
-      }
-      //Modal Body End
-
-      .modal-footer {
         .affiliate {
           .u-haul {
             a {
@@ -402,6 +407,10 @@ Unit Prices Page CSS Start
             }
           }
         }
+      }
+      //Modal Body End
+
+      .modal-footer {
         .modal-cta {
           button {
             background-color: $blue;
@@ -501,6 +510,12 @@ Unit Prices Page CSS End
   .banner-section {
     &.unit-prices-banner {
       padding: 40px 0;
+
+      .container {
+        p {
+          font-size: 16px;
+        }
+      }
     }
   }
   //Banner Section CSS End
@@ -568,7 +583,7 @@ Unit Prices Page CSS End
           display: none;
           justify-content: center;
           a {
-            @include btn(10px 20px, 16px, 85px, white, $gray-normal);
+            @include btn(10px 20px, 16px, 85px, unset, unset);
             i {
               font-size: 16px;
             }
@@ -698,6 +713,10 @@ Unit Prices Page CSS End
     padding: 50px 0;
   }
   // CTA CSS End
+
+  .call-modal .modal-dialog .modal-content .modal-body p {
+    font-size: 16px;
+  }
 }
 
 //Extra Small Device CSS start
@@ -745,7 +764,7 @@ Unit Prices Page CSS End
         padding: 15px;
         .call-btn {
           a {
-            @include btn(7px 15px, 14px, 80px, white, $gray-normal);
+            @include btn(7px 15px, 14px, 80px, unset, unset);
             i {
               font-size: 14px;
             }
@@ -776,12 +795,12 @@ Unit Prices Page CSS End
         }
         //Modal Header End
 
-        .modal-footer {
+        .modal-body {
           .affiliate {
             .u-haul {
               a {
                 img {
-                  width: 100px;
+                  width: 80px;
                 }
               }
             }
@@ -791,6 +810,10 @@ Unit Prices Page CSS End
     }
   }
   //Call Modal End
+
+  .call-modal .modal-dialog .modal-content .modal-header a img {
+    width: 100px;
+  }
 }
 
 /** ============================ Responsive CSS End ============================ **/

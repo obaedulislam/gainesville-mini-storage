@@ -22,12 +22,6 @@ Pay Online Page CSS Start
     .single-unit {
       .call-btn {
         display: flex;
-        a {
-          background-color: $gray-normal;
-          &:hover {
-            background-color: $yellow;
-          }
-        }
       }
       .store-size {
         display: flex;
@@ -198,15 +192,8 @@ Pay Online Page CSS End
         .call-btn {
           padding-top: 10px;
           display: block;
-          p {
-            display: block;
-            width: 100%;
-            font-weight: 400;
-          }
           a {
             margin-top: 20px;
-            display: block;
-            width: 70px;
           }
         }
       }

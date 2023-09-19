@@ -103,6 +103,12 @@
   }
 }
 
+.unit-filter-section {
+  table.dataTable.no-footer {
+    border-bottom: none;
+  }
+}
+
 .dataTable {
   tr {
     th {
@@ -273,17 +279,24 @@ table {
         }
 
         td {
+          vertical-align: unset;
           &.size {
             font-size: 24px;
+            span {
+              &.dim {
+                display: block;
+                text-align: center;
+              }
+            }
             .size-desc {
               font-size: 14px;
               font-weight: 400;
               position: relative;
-              margin-top: 15px;
+              margin-top: 20px;
               &::after {
                 position: absolute;
                 content: "";
-                top: -15px;
+                top: -16px;
                 left: 0;
                 width: 100%;
                 height: 1px;
@@ -302,10 +315,11 @@ table {
             span {
               position: relative;
               display: block;
+              text-align: center;
               &::before {
                 position: absolute;
                 content: "";
-                bottom: -12px;
+                bottom: -5px;
                 left: 0;
                 width: 100%;
                 height: 1px;
@@ -315,15 +329,11 @@ table {
             a {
               display: inline-block;
               font-size: 13px;
+              margin-top: 20px;
               i {
                 font-size: 13px;
               }
               font-weight: 600;
-              &.outline-button {
-                margin-top: 20px;
-                padding: 5px 10px;
-                max-width: unset;
-              }
             }
           }
           &.call-btn {

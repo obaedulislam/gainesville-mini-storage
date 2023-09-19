@@ -25,7 +25,7 @@
         <div class="col-sm-12 col-md-9 col-lg-9 right-header menu-md">
           <ul class="navigation">
             <li><a <?php if($pageName == "unit-prices.php"){ echo 'class="active"'; } ?> href="unit-prices.php" >Unit Prices</a></li>
-            <!-- <li><a  href="size-guide.php" >Size Guide</a></li> -->
+            <li><a <?php if($pageName == "size-guide.php"){ echo 'class="active"'; } ?> href="size-guide.php" >Size Guide</a></li>
             <li><a <?php if($pageName == "nearby.php"){ echo 'class="active"'; } ?> href="nearby.php">Nearby</a></li>
             <li><a <?php if($pageName == "faqs.php"){ echo 'class="active"'; } ?> href="faqs.php">FAQ</a></li>
             <li><a <?php if($pageName == "contact.php"){ echo 'class="active"'; } ?> href="contact.php">Contact Us</a></li>
@@ -41,7 +41,7 @@
                     <div>
                       <li><a <?php if($pageName == "index.php" || $pageName == ""){ echo 'class="active"'; } ?> href="index.php" ><i class="icon-home"></i> <span> Home</span></a></li>
                       <li><a <?php if($pageName == "unit-prices.php"){ echo 'class="active"'; } ?> href="unit-prices.php"><i class="icon-unit-prices"></i> <span> Unit Prices</span></a></li>
-                      <!-- <li><a href="size-guide.php" ><i class="icon-size-guide"></i> <span>Size Guide</span></a></li> -->
+                      <li><a <?php if($pageName == "size-guide.php"){ echo 'class="active"'; } ?> href="size-guide.php" ><i class="icon-size-guide"></i> <span>Size Guide</span></a></li>
                       <li><a <?php if($pageName == "nearby.php"){ echo 'class="active"'; } ?> href="nearby.php"><i class="icon-location"></i> <span>Nearby</span></a></li>
                       <li><a <?php if($pageName == "faqs.php"){ echo 'class="active"'; } ?> href="faqs.php"><i class="icon-info"></i> <span>FAQ</span></a></li>
                       <li><a <?php if($pageName == "contact.php"){ echo 'class="active"'; } ?> href="contact.php"><i class="icon-contact-msg"></i> <span>Contact Us</span></a></li>
@@ -53,7 +53,7 @@
                         <p class="mt-0">Affiliate by: </p>
                       </div>
                       <div class="u-haul ms-2">
-                        <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+                        <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
                       </div>
                     </div>
                 </ul>

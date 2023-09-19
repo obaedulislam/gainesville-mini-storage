@@ -33,6 +33,11 @@ Size Guide Page CSS Start
         }
         a {
           display: inline-block;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          border-radius: 8px;
+          text-align: center;
+          font-size: 16px;
           padding-left: 20px;
           padding-right: 20px;
           background-color: #f4f3ff;
@@ -48,7 +53,7 @@ Size Guide Page CSS Start
   .category-details {
     overflow-y: auto;
     overflow-x: hidden;
-    height: 400px;
+    height: 380px;
     scrollbar-color: $blue $gray-normal !important; /* track thumb */
     scrollbar-width: 10px !important; /* none, thin, or auto */
 

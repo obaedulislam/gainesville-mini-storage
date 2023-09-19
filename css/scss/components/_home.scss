@@ -45,6 +45,11 @@ Home Page CSS Start
       &.other {
         top: -20px;
       }
+      a {
+        img {
+          width: 150px;
+        }
+      }
     }
   }
 }
@@ -147,6 +152,11 @@ Home Page CSS End
         top: -40px;
         &.other {
           top: -40px;
+        }
+        a {
+          img {
+            width: 120px;
+          }
         }
       }
     }

@@ -203,6 +203,18 @@ main {
     i {
       font-size: 18px;
     }
+    &.outline-button {
+      border: 2px solid $gray-semi;
+      @include btn(10px 20px, 14px, 100px, $gray-semi, transparent);
+      &:hover {
+        background-color: $blue;
+        color: white;
+        border: 1px solid $blue;
+      }
+      i {
+        font-size: 14px;
+      }
+    }
   }
 }
 
@@ -251,6 +263,18 @@ main {
       font-size: 16px;
       margin-right: 5px;
     }
+    &.outline-button {
+      border: 2px solid $gray-semi;
+      @include btn(8px 20px, 14px, 100px, $gray-semi, transparent);
+      &:hover {
+        background-color: $blue;
+        color: white;
+        border: 1px solid $blue;
+      }
+      i {
+        font-size: 14px;
+      }
+    }
   }
 }
 
@@ -269,6 +293,7 @@ main {
     }
     &.outline-button {
       min-width: unset;
+      border: 1px solid $gray-semi;
     }
   }
 

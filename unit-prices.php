@@ -38,11 +38,8 @@
 
           <div class="row">
             <div class="affiliate other">
-              <div class="affiliate-text">
-                <p class="mt-0">Affiliate by: </p>
-              </div>
               <div class="u-haul ms-2">
-                <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+                <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
               </div>
             </div>
           </div>
@@ -157,7 +154,7 @@
                   <tbody>
                     <tr class="single-unit">
                         <td data-order="1" class="size">
-                          <span >5’x10’</span>
+                          <span class="dim">5’x10’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -175,7 +172,7 @@
          
                     <tr class="single-unit">
                         <td data-order="2" class="size">
-                          <span >5’x10’</span>
+                          <span class="dim">5’x10’</span>
                            <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -193,7 +190,7 @@
          
                     <tr class="single-unit">
                         <td data-order="3" class="size">
-                          <span >5’x15’</span>
+                          <span class="dim">5’x15’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -211,7 +208,7 @@
          
                     <tr class="single-unit">
                         <td data-order="4" class="size">
-                          <span >10’x10’</span>
+                          <span class="dim">10’x10’</span>
                            <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -229,7 +226,7 @@
          
                     <tr class="single-unit">
                         <td data-order="5" class="size">
-                          <span >10’x10’</span>
+                          <span class="dim">10’x10’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -247,7 +244,7 @@
          
                     <tr class="single-unit">
                         <td data-order="6" class="size">
-                          <span >10’x15’</span>
+                          <span class="dim">10’x15’</span>
                            <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -265,7 +262,7 @@
          
                     <tr class="single-unit">
                         <td data-order="7" class="size">
-                          <span >10’x15’</span>
+                          <span class="dim">10’x15’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -283,7 +280,7 @@
          
                     <tr class="single-unit">
                         <td data-order="8" class="size">
-                          <span >10’x20’</span>
+                          <span class="dim">10’x20’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -301,7 +298,7 @@
          
                     <tr class="single-unit">
                         <td data-order="9" class="size">
-                          <span >12’x45’</span>
+                          <span class="dim">12’x45’</span>
                            <span class="d-md-none d-block size-desc">Parking, covered, rv/boat/vehicle/parking, lower level</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -342,7 +339,7 @@
                     <tbody>
                       <tr class="single-unit">
                         <td data-order="1" class="size">
-                          <span >5’x10’</span>
+                          <span class="dim" >5’x10’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -360,7 +357,7 @@
          
                     <tr class="single-unit">
                         <td data-order="2" class="size">
-                          <span >5’x10’</span>
+                          <span class="dim">5’x10’</span>
                            <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -378,7 +375,7 @@
          
                     <tr class="single-unit">
                         <td data-order="3" class="size">
-                          <span >5’x15’</span>
+                          <span class="dim">5’x15’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -418,7 +415,7 @@
                   <tbody>       
                       <tr class="single-unit">
                         <td data-order="1" class="size">
-                          <span >10’x10’</span>
+                          <span class="dim">10’x10’</span>
                            <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -436,7 +433,7 @@
          
                     <tr class="single-unit">
                         <td data-order="2" class="size">
-                          <span >10’x10’</span>
+                          <span class="dim">10’x10’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -454,7 +451,7 @@
          
                     <tr class="single-unit">
                         <td data-order="3" class="size">
-                          <span >10’x15’</span>
+                          <span class="dim">10’x15’</span>
                            <span class="d-md-none d-block size-desc">Self Storage, rollup, climate, interior</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -472,7 +469,7 @@
          
                     <tr class="single-unit">
                         <td data-order="4" class="size">
-                          <span >10’x15’</span>
+                          <span class="dim">10’x15’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -513,7 +510,7 @@
                              
                     <tr class="single-unit">
                         <td data-order="1" class="size">
-                          <span >10’x20’</span>
+                          <span class="dim">10’x20’</span>
                            <span class="d-md-none d-block size-desc">Self storage, non climate, drivethrough, roolup, drive up</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -554,7 +551,7 @@
                   <tbody>       
                       <tr class="single-unit">
                         <td data-order="1" class="size">
-                          <span >12’x45’</span>
+                          <span class="dim">12’x45’</span>
                            <span class="d-md-none d-block size-desc">Parking, covered, rv/boat/vehicle/parking, lower level</span>
                           <span class="border-right"></span></td>
                         <td class="unit-details">
@@ -579,41 +576,39 @@
         </div>
       </div>
 
-           <!-- Modal Part Start Here -->
-      <div class="modal fade call-modal " id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+      <!-- Modal Part Start Here -->
+        <div class="modal fade call-modal " id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
 
-          <div class="modal-content">
-            <div class="modal-header d-flex justify-content-between align-items-center ">
-              <a href="index.php"><img src="images/logo.svg" alt="Gainesville Logo"></a>
-              <button type="button" class="icon-cross" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
+            <div class="modal-content">
+              <div class="modal-header d-flex justify-content-between align-items-center ">
+                <a href="index.php"><img src="images/logo.svg" alt="Gainesville Logo"></a>
+                <button type="button" class="icon-cross" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
 
-            <div class="modal-body">
-              <p>You are about to be redirected to our affiliate website, </p>
-              <a href="uhaul.php" target="_blank" class="u-haul fw-bold">uhaul.com.</a>
-            </div> 
-
-            <div class="modal-footer d-block px-0 border-0">
-              <div class="row mx-0 px-0">
-                <div class="col-md-6 col-6 px-0 d-flex align-items-center">
-                  <div class="affiliate mt-0">
-                    <div class="u-haul ms-2">
-                      <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
-                    </div>
+              <div class="modal-body">
+                <p class="text-center">You are about to be redirected to our affiliate website,<a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank" class="u-haul fw-bold"> uhaul.com.</a> </p>
+                <div class="affiliate mt-4 text-center">
+                  <div class="u-haul ms-2">
+                    <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
                   </div>
                 </div>
-                <div class="col-md-6 col-6 px-0 ">
-                  <div class="modal-cta call-btn text-end">
-                    <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank" class="button primary-button close-btn"><i class="icon-fluent-arrow-right"></i>Proceed</a>
+                
+              </div> 
+
+              <div class="modal-footer d-block px-0 border-0">
+                <div class="row mx-0 px-0">
+                  <div class=" col-12 px-0 ">
+                    <div class="modal-cta call-btn text-center">
+                      <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank" class="button primary-button close-btn"><i class="icon-fluent-arrow-right"></i>Proceed</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
-      </div>
       <!-- Modal Part End Here -->
     </section>
     <!--|| Unit Filter Section End ||-->

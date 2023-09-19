@@ -295,7 +295,20 @@ main {
   .button {
     font-size: 18px; }
     .button i {
-      font-size: 18px; } }
+      font-size: 18px; }
+    .button.outline-button {
+      border: 2px solid #828282;
+      padding: 10px 20px;
+      font-size: 14px;
+      min-width: 100px;
+      color: #828282;
+      background-color: transparent; }
+      .button.outline-button:hover {
+        background-color: #0601ff;
+        color: white;
+        border: 1px solid #0601ff; }
+      .button.outline-button i {
+        font-size: 14px; } }
 @media (min-width: 0px) and (max-width: 768px) {
   h1 {
     font-size: 32px; }
@@ -333,7 +346,20 @@ main {
     padding: 15px 30px; }
     .button i {
       font-size: 16px;
-      margin-right: 5px; } }
+      margin-right: 5px; }
+    .button.outline-button {
+      border: 2px solid #828282;
+      padding: 8px 20px;
+      font-size: 14px;
+      min-width: 100px;
+      color: #828282;
+      background-color: transparent; }
+      .button.outline-button:hover {
+        background-color: #0601ff;
+        color: white;
+        border: 1px solid #0601ff; }
+      .button.outline-button i {
+        font-size: 14px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   p {
     font-size: 14px; }
@@ -345,7 +371,8 @@ main {
     .button i {
       font-size: 14px; }
     .button.outline-button {
-      min-width: unset; }
+      min-width: unset;
+      border: 1px solid #828282; }
 
   .feature-head p.feature-num {
     font-size: 12px; } }
@@ -488,7 +515,7 @@ header {
 
   .affiliate {
     margin-top: 50px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: start; }
     .affiliate p {
@@ -727,6 +754,8 @@ Home Page CSS Start
       justify-content: end; }
       .banner-section .container .affiliate.other {
         top: -20px; }
+      .banner-section .container .affiliate a img {
+        width: 150px; }
 
 /** == Banner Section CSS End == **/
 /** == Location Section CSS Start == **/
@@ -791,6 +820,8 @@ Home Page CSS End
       top: -40px; }
       .banner-section .container .affiliate.other {
         top: -40px; }
+      .banner-section .container .affiliate a img {
+        width: 120px; }
 
   .location-section .storage-unit .map-one-img {
     margin-right: 0; }
@@ -846,6 +877,8 @@ Unit Prices Page CSS Start
 .banner-section.unit-prices-banner {
   padding: 40px 0;
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
+  .banner-section.unit-prices-banner .container p {
+    font-size: 20px; }
 
 /** == Banner Section CSS End == **/
 /** == Office Access Times Section CSS Start == **/
@@ -902,11 +935,12 @@ Unit Prices Page CSS Start
   border-radius: 8px; }
   .unit-filter-section .category ul li a {
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border-radius: 8px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
     color: #9d9d9d;
     transition: all 0.3s ease-in; }
     .unit-filter-section .category ul li a.active, .unit-filter-section .category ul li a:hover {
@@ -1118,10 +1152,12 @@ Unit Prices Page CSS Start
         width: 200px; }
     .call-modal .modal-dialog .modal-content .modal-body {
       padding: 20px 10px; }
+      .call-modal .modal-dialog .modal-content .modal-body p {
+        font-size: 18px; }
       .call-modal .modal-dialog .modal-content .modal-body a.u-haul {
         color: #0601ff; }
-    .call-modal .modal-dialog .modal-content .modal-footer .affiliate .u-haul a img {
-      width: 150px; }
+      .call-modal .modal-dialog .modal-content .modal-body .affiliate .u-haul a img {
+        width: 150px; }
     .call-modal .modal-dialog .modal-content .modal-footer .modal-cta button {
       background-color: #0601ff;
       color: white; }
@@ -1161,6 +1197,8 @@ Unit Prices Page CSS End
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section.unit-prices-banner {
     padding: 40px 0; }
+    .banner-section.unit-prices-banner .container p {
+      font-size: 16px; }
 
   .office-time-section .office-time {
     padding: 0px; }
@@ -1208,8 +1246,8 @@ Unit Prices Page CSS End
           padding: 10px 20px;
           font-size: 16px;
           min-width: 85px;
-          color: white;
-          background-color: #9d9d9d; }
+          color: unset;
+          background-color: unset; }
           .unit-filter-section .category-details .single-unit .call-btn a i {
             font-size: 16px; }
       .unit-filter-section .category-details .single-unit.last-unit {
@@ -1286,7 +1324,10 @@ Unit Prices Page CSS End
           margin-top: 20px; }
 
   .checkout-cta-section {
-    padding: 50px 0; } }
+    padding: 50px 0; }
+
+  .call-modal .modal-dialog .modal-content .modal-body p {
+    font-size: 16px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.unit-prices-banner {
     padding: 40px 0; }
@@ -1318,8 +1359,8 @@ Unit Prices Page CSS End
           padding: 7px 15px;
           font-size: 14px;
           min-width: 80px;
-          color: white;
-          background-color: #9d9d9d; }
+          color: unset;
+          background-color: unset; }
           .unit-filter-section .category-details .single-unit .call-btn a i {
             font-size: 14px; }
         .unit-filter-section .category-details .single-unit .common-pl {
@@ -1330,7 +1371,10 @@ Unit Prices Page CSS End
 
   .call-modal .modal-dialog .modal-content .modal-header a img {
     width: 130px; }
-  .call-modal .modal-dialog .modal-content .modal-footer .affiliate .u-haul a img {
+  .call-modal .modal-dialog .modal-content .modal-body .affiliate .u-haul a img {
+    width: 80px; }
+
+  .call-modal .modal-dialog .modal-content .modal-header a img {
     width: 100px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
@@ -1357,6 +1401,11 @@ Size Guide Page CSS Start
           display: inherit; } }
       .storage-calculator-section .category ul li a {
         display: inline-block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 16px;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #f4f3ff; }
@@ -1366,7 +1415,7 @@ Size Guide Page CSS Start
   .storage-calculator-section .category-details {
     overflow-y: auto;
     overflow-x: hidden;
-    height: 400px;
+    height: 380px;
     scrollbar-color: #0601ff #9d9d9d !important;
     /* track thumb */
     scrollbar-width: 10px !important;
@@ -1789,10 +1838,6 @@ Pay Online Page CSS Start
 /** == Online Item Section CSS Start == **/
 .online-item-section .category-details .single-unit .call-btn {
   display: flex; }
-  .online-item-section .category-details .single-unit .call-btn a {
-    background-color: #9d9d9d; }
-    .online-item-section .category-details .single-unit .call-btn a:hover {
-      background-color: #f3b300; }
 .online-item-section .category-details .single-unit .store-size {
   display: flex;
   align-items: center; }
@@ -1902,14 +1947,8 @@ Pay Online Page CSS End
         .online-item-section .category-details .single-unit .call-btn {
           padding-top: 10px;
           display: block; }
-          .online-item-section .category-details .single-unit .call-btn p {
-            display: block;
-            width: 100%;
-            font-weight: 400; }
           .online-item-section .category-details .single-unit .call-btn a {
-            margin-top: 20px;
-            display: block;
-            width: 70px; }
+            margin-top: 20px; }
 
   /** == Online Item Section CSS End == **/ }
 /** ============================ Responsive CSS End ============================ **/
@@ -2013,6 +2052,9 @@ Privacy Policy Page CSS End
       cursor: pointer;
       display: block; }
 
+.unit-filter-section table.dataTable.no-footer {
+  border-bottom: none; }
+
 .dataTable tr th {
   width: unset !important; }
 
@@ -2082,49 +2124,52 @@ table.gms-table.dataTable thead tr th.unit-details-header.sorting::before, table
     left: 60px; }
   .gms-table tr.single-unit th.sorting_desc::before {
     left: 60px; }
-  .gms-table tr.single-unit td.size {
-    font-size: 24px; }
-    .gms-table tr.single-unit td.size .size-desc {
-      font-size: 14px;
-      font-weight: 400;
-      position: relative;
-      margin-top: 15px; }
-      .gms-table tr.single-unit td.size .size-desc::after {
-        position: absolute;
-        content: "";
-        top: -15px;
-        left: 0;
-        width: 100%;
-        height: 1px;
-        background-color: #bfbfbf; }
-  .gms-table tr.single-unit td.unit-details {
-    display: none; }
-  .gms-table tr.single-unit td.price {
-    font-size: 24px;
-    padding-left: 10px; }
-    .gms-table tr.single-unit td.price span {
-      position: relative;
-      display: block; }
-      .gms-table tr.single-unit td.price span::before {
-        position: absolute;
-        content: "";
-        bottom: -12px;
-        left: 0;
-        width: 100%;
-        height: 1px;
-        background-color: #bfbfbf; }
-    .gms-table tr.single-unit td.price a {
-      display: inline-block;
-      font-size: 13px;
-      font-weight: 600; }
-      .gms-table tr.single-unit td.price a i {
-        font-size: 13px; }
-      .gms-table tr.single-unit td.price a.outline-button {
+  .gms-table tr.single-unit td {
+    vertical-align: unset; }
+    .gms-table tr.single-unit td.size {
+      font-size: 24px; }
+      .gms-table tr.single-unit td.size span.dim {
+        display: block;
+        text-align: center; }
+      .gms-table tr.single-unit td.size .size-desc {
+        font-size: 14px;
+        font-weight: 400;
+        position: relative;
+        margin-top: 20px; }
+        .gms-table tr.single-unit td.size .size-desc::after {
+          position: absolute;
+          content: "";
+          top: -16px;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #bfbfbf; }
+    .gms-table tr.single-unit td.unit-details {
+      display: none; }
+    .gms-table tr.single-unit td.price {
+      font-size: 24px;
+      padding-left: 10px; }
+      .gms-table tr.single-unit td.price span {
+        position: relative;
+        display: block;
+        text-align: center; }
+        .gms-table tr.single-unit td.price span::before {
+          position: absolute;
+          content: "";
+          bottom: -5px;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #bfbfbf; }
+      .gms-table tr.single-unit td.price a {
+        display: inline-block;
+        font-size: 13px;
         margin-top: 20px;
-        padding: 5px 10px;
-        max-width: unset; }
-  .gms-table tr.single-unit td.call-btn {
-    display: none; } }
+        font-weight: 600; }
+        .gms-table tr.single-unit td.price a i {
+          font-size: 13px; }
+    .gms-table tr.single-unit td.call-btn {
+      display: none; } }
 /** ========================= 
 U-Haul Page CSS Start 
 ========================= **/

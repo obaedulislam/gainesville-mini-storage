@@ -24,11 +24,8 @@
 
           <div class="row">
             <div class="affiliate other">
-              <div class="affiliate-text">
-                <p class="mt-0">Affiliate by: </p>
-              </div>
               <div class="u-haul ms-2">
-                <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+                <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
               </div>
             </div>
           </div>
@@ -95,7 +92,7 @@
                     </div>
                     <div class="col-md-4 col-12 call-btn">
                         <p class="common-pl">(940) 400-2297</p>
-                        <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank" class="button primary-button ms-md-5 ms-0"><i class="icon-fluent-arrow-right"></i>Pay</a>
+                        <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank" class="button outline-button ms-md-5 ms-0" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Pay</a>
                     </div>
                   </div>
                 </div> 
@@ -103,6 +100,41 @@
 
             </div>
           </div>
+
+                <!-- Modal Part Start Here -->
+        <div class="modal fade call-modal " id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+
+            <div class="modal-content">
+              <div class="modal-header d-flex justify-content-between align-items-center ">
+                <a href="index.php"><img src="images/logo.svg" alt="Gainesville Logo"></a>
+                <button type="button" class="icon-cross" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <p class="text-center">You are about to be redirected to our affiliate website,<a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank" class="u-haul fw-bold"> uhaul.com.</a> </p>
+                <div class="affiliate mt-4 text-center">
+                  <div class="u-haul ms-2">
+                    <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank"><img src="images/home/banner/u-haul.svg" alt="U-haul"></a>
+                  </div>
+                </div>
+                
+              </div> 
+
+              <div class="modal-footer d-block px-0 border-0">
+                <div class="row mx-0 px-0">
+                  <div class=" col-12 px-0 ">
+                    <div class="modal-cta call-btn text-center">
+                      <a href="https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532/" target="_blank" class="button primary-button close-btn"><i class="icon-fluent-arrow-right"></i>Proceed</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      <!-- Modal Part End Here --
         </div>
       </div>
     </section>
