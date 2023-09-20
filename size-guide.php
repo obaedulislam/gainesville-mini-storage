@@ -4,7 +4,22 @@
   <!--|| Bundle File Start ||-->
   <?php include "bundle.php" ?>
   <!--|| Bundle File End ||-->
+  <script>
+  $(document).ready(function() {
+  var screenWidth =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
 
+  if (screenWidth < 768) {
+    $("#cleanSelection").addClass("d-none");
+    $(".category-details").css({
+      "height": "unset",
+    });
+  } 
+});
+
+  </script>
 
 <body>
   <!--|| Header Section Start ||-->
@@ -41,7 +56,7 @@
           <div class="col-md-12 col-12">
 
             <div class="category ">
-              <ul class="nav nav-pills"" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+              <ul class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
                 <li ><a href="#bedroom" class="active" id="tab1-tab" data-bs-toggle="pill" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Bedroom</a></li>
                 <li><a href="#kitchen" id="tab2-tab" data-bs-toggle="pill" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Kitchen</a></li>
                 <li><a href="#living-dining" id="tab3-tab" data-bs-toggle="pill" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Living & Dining</a></li>
@@ -57,8 +72,8 @@
               <div class="col-md-7 order-md-0 order-1">
                 <div class="tab-content" id="v-pills-tabContent">
 
-                  <div class="category-details tab-pane fade show active"  id="bedroom" role="tabpanel" aria-labelledby="tab1-tab">
-                    <div class="single-unit heading">
+                  <div class="category-details tab-pane fade show active no-border"  id="bedroom" role="tabpanel" aria-labelledby="tab1-tab">
+                    <div class="single-unit heading first-unit">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3  col-6 head-size">
                           <p>Size</p>
@@ -429,8 +444,8 @@
                   </div>
                   <!--=======Tab1 Data End=======-->
 
-                  <div class="category-details tab-pane fade"  id="kitchen" role="tabpanel" aria-labelledby="tab2-tab">
-                    <div class="single-unit heading">
+                  <div class="category-details tab-pane fade no-border"  id="kitchen" role="tabpanel" aria-labelledby="tab2-tab">
+                    <div class="single-unit heading first-unit">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3  col-6 head-size">
                           <p>Size</p>
@@ -930,7 +945,7 @@
                     </div>
                     <!--Single Unit Heading End -->
 
-                    <div class="single-unit last-unit">
+                    <div class="single-unit ">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3 col-7 store-size order-md-0 order-0">
                             <div class="size-title">
@@ -962,7 +977,7 @@
                     </div>
                     <!--Single Unit Heading End -->
 
-                    <div class="single-unit ">
+                    <div class="single-unit last-unit">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3 col-7 store-size order-md-0 order-0">
                             <div class="size-title">
@@ -996,8 +1011,8 @@
                   </div>
                   <!--=======Tab2 Data End=======-->
 
-                  <div class="category-details tab-pane fade"  id="living-dining" role="tabpanel" aria-labelledby="tab3-tab">
-                    <div class="single-unit heading">
+                  <div class="category-details tab-pane fade no-border"  id="living-dining" role="tabpanel" aria-labelledby="tab3-tab">
+                    <div class="single-unit heading first-unit">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3  col-6 head-size">
                           <p>Size</p>
@@ -2233,8 +2248,8 @@
                   </div>
                   <!--=======Tab3 Data End=======-->
 
-                  <div class="category-details tab-pane fade"  id="office" role="tabpanel" aria-labelledby="tab4-tab">
-                    <div class="single-unit heading">
+                  <div class="category-details tab-pane fade no-border"  id="office" role="tabpanel" aria-labelledby="tab4-tab">
+                    <div class="single-unit heading first-unit">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3  col-6 head-size">
                           <p>Size</p>
@@ -3502,8 +3517,8 @@
                   </div>
                   <!--=======Tab4 Data End=======-->
 
-                  <div class="category-details tab-pane fade"  id="outdoors" role="tabpanel" aria-labelledby="tab5-tab">
-                    <div class="single-unit heading">
+                  <div class="category-details tab-pane fade no-border"  id="outdoors" role="tabpanel" aria-labelledby="tab5-tab">
+                    <div class="single-unit heading first-unit">
                       <div class="row wrapper">
                         <div class="col-lg-3 col-md-3  col-6 head-size">
                           <p>Size</p>
@@ -3752,7 +3767,9 @@
               <div class="col-md-5 order-md-1 order-0">           
                 <div class="bed-room-content">
                   <h5>Size Suggestion</h5>
-                  <div id="containerImg" class="container-img" style="background-image:url(images/size-guide/storage-calculator/no-dimension.webp)"></div>
+                  <div id="containerImg" class="container-img " style="background-image:url(images/size-guide/storage-calculator/no-dimension.webp)">
+                    <p id="product-initial" class="mt-4">To receive a size suggestion, select the items you wish to store.</p>
+                  </div>
                   <div class="bed-dimension d-flex align-items-center">
                     <h4 class="fw-bold mb-0 "><span id="sizeSuggestion"></span></h4>
                     <p class="fw-bold ms-3"><span id="percentageFullVal"></span></p>
@@ -3765,7 +3782,7 @@
 
             <div class="row">
               <div class="col-md-7">
-                <div class="clean-selection">
+                <div class="clean-selection" id="cleanSelection">
                   <a  class="text-end"  onclick="clearInputFields()"><i class="icon-delete"></i><span>Clean Selection</span></a>
                 </div>
               </div>

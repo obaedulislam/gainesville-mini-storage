@@ -1418,7 +1418,7 @@ Size Guide Page CSS Start
   .storage-calculator-section .category-details {
     overflow-y: auto;
     overflow-x: hidden;
-    height: 380px;
+    height: 385px;
     scrollbar-color: #0601ff #9d9d9d !important;
     /* track thumb */
     scrollbar-width: 10px !important;
@@ -1475,20 +1475,23 @@ Size Guide Page CSS Start
     border-left: 1px solid #bfbfbf;
     border-right: 1px solid #bfbfbf;
     border-bottom: 1px solid #bfbfbf;
-    border-radius: 8px; }
+    border-radius: 8px;
+    min-height: 384px; }
     .storage-calculator-section .bed-room-content h5 {
       font-weight: 600;
       color: #0601ff; }
     .storage-calculator-section .bed-room-content .container-img {
-      margin: 20px 0;
+      margin: 0;
       background-position: center left;
       background-repeat: no-repeat;
       background-size: contain;
-      height: 268px; }
+      height: 200px; }
+      .storage-calculator-section .bed-room-content .container-img p {
+        font-weight: 600; }
     .storage-calculator-section .bed-room-content .bed-dimension h4 {
       color: #0601ff; }
     .storage-calculator-section .bed-room-content .bed-description {
-      margin-top: 20px; }
+      margin-top: 0; }
   .storage-calculator-section .clean-selection {
     margin-top: 20px;
     border: 1px solid #bfbfbf;
@@ -1513,27 +1516,30 @@ Size Guide Page CSS End
 @media (min-width: 0px) and (max-width: 992px) {
   .storage-calculator-section {
     padding-bottom: 50px; }
-    .storage-calculator-section .category-details .single-unit .wrapper {
-      padding: 15px 0; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count {
-      display: grid; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-        font-size: 25px; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
-        margin-left: 0; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-          width: 60px;
-          padding: 5px 10px; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
-        font-size: 14px;
-        font-weight: 500; }
+    .storage-calculator-section .category-details {
+      height: 330px; }
+      .storage-calculator-section .category-details .single-unit .wrapper {
+        padding: 15px 0; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count {
+        display: grid; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+          font-size: 25px; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
+          margin-left: 0; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+            width: 60px;
+            padding: 5px 10px; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
+          font-size: 14px;
+          font-weight: 500; }
     .storage-calculator-section .category ul li {
       margin-right: 10px; }
       .storage-calculator-section .category ul li a {
         padding-left: 15px;
         padding-right: 15px; }
     .storage-calculator-section .bed-room-content {
-      padding: 20px;
+      padding: 15px;
+      min-height: 330px;
       border-top: 1px solid #bfbfbf;
       border-left: 1px solid #bfbfbf;
       border-right: 1px solid #bfbfbf; }
@@ -1547,7 +1553,11 @@ Size Guide Page CSS End
       .storage-calculator-section .bed-room-content .bed-dimension h4 {
         color: #0601ff; }
       .storage-calculator-section .bed-room-content .bed-description {
-        margin-top: 20px; } }
+        margin-top: 20px; }
+    .storage-calculator-section .clean-selection {
+      margin-top: 10px; }
+      .storage-calculator-section .clean-selection a {
+        padding: 10px; } }
 @media (min-width: 0px) and (max-width: 768px) {
   .banner-section.size-guide-banner {
     padding: 40px 0; }
@@ -1564,17 +1574,50 @@ Size Guide Page CSS End
       border-top: 1px solid #bfbfbf;
       border-right: 1px solid #bfbfbf;
       border-left: 1px solid #bfbfbf; }
-      .storage-calculator-section .category-details .single-unit .wrapper {
-        padding: 15px; }
-        .storage-calculator-section .category-details .single-unit .wrapper .store-size {
-          display: block; }
-          .storage-calculator-section .category-details .single-unit .wrapper .store-size p.common-pl {
-            padding-left: 0; }
-          .storage-calculator-section .category-details .single-unit .wrapper .store-size p.unit-details {
-            margin-top: 30px; }
-          .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title {
+      .storage-calculator-section .category-details.no-border {
+        border: none; }
+      .storage-calculator-section .category-details .single-unit {
+        margin-top: 10px; }
+        .storage-calculator-section .category-details .single-unit .wrapper {
+          padding: 10px; }
+          .storage-calculator-section .category-details .single-unit .wrapper .store-size {
+            display: block; }
+            .storage-calculator-section .category-details .single-unit .wrapper .store-size p.common-pl {
+              padding-left: 0; }
+            .storage-calculator-section .category-details .single-unit .wrapper .store-size p.unit-details {
+              margin-top: 10px; }
+            .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title {
+              position: relative; }
+              .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title p::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                left: 0;
+                bottom: -6px;
+                background-color: #bfbfbf; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count {
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count {
+            width: 100%; }
+            .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
+              padding-left: 0; }
+              .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+                font-size: 25px; }
+            .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
+              margin-left: 0; }
+              .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+                width: 70px;
+                padding: 8px 10px; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
+            margin-bottom: 30px;
+            font-size: 16px;
+            width: 100%;
+            display: block;
             position: relative; }
-            .storage-calculator-section .category-details .single-unit .wrapper .store-size .size-title p::after {
+            .storage-calculator-section .category-details .single-unit .unit-price-count .refresh::after {
               content: "";
               position: absolute;
               width: 100%;
@@ -1582,42 +1625,20 @@ Size Guide Page CSS End
               left: 0;
               bottom: -15px;
               background-color: #bfbfbf; }
-      .storage-calculator-section .category-details .single-unit .unit-price-count {
-        display: flex;
-        align-items: center;
-        justify-content: space-between; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count {
-          width: 100%; }
-          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
-            padding-left: 0; }
-            .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-              font-size: 25px; }
-          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
-            margin-left: 0; }
-            .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-              width: 70px;
-              padding: 8px 10px; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
-          margin-bottom: 30px;
-          font-size: 16px;
-          width: 100%;
-          display: block;
-          position: relative; }
-          .storage-calculator-section .category-details .single-unit .unit-price-count .refresh::after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 1px;
-            left: 0;
-            bottom: -15px;
-            background-color: #bfbfbf; }
-      .storage-calculator-section .category-details .single-unit .store-unit-details {
-        display: none !important; }
-      .storage-calculator-section .category-details .single-unit.last-unit {
-        border-bottom: 1px solid #bfbfbf; }
+        .storage-calculator-section .category-details .single-unit .store-unit-details {
+          display: none !important; }
+        .storage-calculator-section .category-details .single-unit.last-unit {
+          border-bottom: 1px solid #bfbfbf; }
+        .storage-calculator-section .category-details .single-unit.first-unit {
+          margin-top: 0;
+          position: sticky;
+          top: 0;
+          background-color: #f9f9f9;
+          z-index: 2; }
     .storage-calculator-section .bed-room-content {
-      margin: 20px 0;
-      padding: 20px;
+      margin: 10px 0;
+      padding: 10px;
+      min-height: unset;
       border-top: 1px solid #bfbfbf;
       border-left: 1px solid #bfbfbf;
       border-right: 1px solid #bfbfbf;
@@ -1625,27 +1646,54 @@ Size Guide Page CSS End
       .storage-calculator-section .bed-room-content h5 {
         font-weight: 600;
         color: #0601ff; }
-      .storage-calculator-section .bed-room-content .bed-room-img {
-        margin: 20px 0; }
       .storage-calculator-section .bed-room-content .bed-dimension h4 {
         color: #0601ff; }
       .storage-calculator-section .bed-room-content .bed-description {
-        margin-top: 20px; } }
+        margin-top: 0; }
+      .storage-calculator-section .bed-room-content .container-img {
+        height: 130px;
+        margin-top: 0px; }
+        .storage-calculator-section .bed-room-content .container-img p {
+          padding-top: 30px; } }
 @media (min-width: 0px) and (max-width: 576px) {
-  .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
-    padding-left: 0; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-      font-size: 23px; }
-  .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
-    margin-left: 0; }
-    .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
-      width: 60px;
-      padding: 8px 10px; }
-  .storage-calculator-section .category-details .bed-room-content {
-    margin: 20px 0;
-    padding: 20px; }
-    .storage-calculator-section .category-details .bed-room-content .bed-room-img {
-      margin: 10px 0; } }
+  .storage-calculator-section .category ul {
+    margin-bottom: 0; }
+  .storage-calculator-section .category-details {
+    height: 280px; }
+    .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
+      padding-left: 0; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+        font-size: 23px; }
+    .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
+      margin-left: 0; }
+      .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
+        width: 60px;
+        padding: 8px 10px; }
+    .storage-calculator-section .category-details .bed-room-content {
+      margin: 20px 0;
+      padding: 20px; }
+      .storage-calculator-section .category-details .bed-room-content .bed-room-img {
+        margin: 10px 0; }
+  .storage-calculator-section .bed-room-content {
+    margin: 10px 0;
+    padding: 10px;
+    min-height: unset;
+    border-top: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf; }
+    .storage-calculator-section .bed-room-content h5 {
+      font-weight: 600;
+      color: #0601ff; }
+    .storage-calculator-section .bed-room-content .bed-dimension h4 {
+      color: #0601ff; }
+    .storage-calculator-section .bed-room-content .bed-description {
+      margin-top: 0; }
+    .storage-calculator-section .bed-room-content .container-img {
+      height: 130px;
+      margin-top: 0px; }
+      .storage-calculator-section .bed-room-content .container-img p {
+        padding-top: 30px; } }
 /** ============================ Responsive CSS Start ============================ **/
 /** ========================= 
 Nearby Page CSS Start 

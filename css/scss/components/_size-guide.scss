@@ -53,7 +53,7 @@ Size Guide Page CSS Start
   .category-details {
     overflow-y: auto;
     overflow-x: hidden;
-    height: 380px;
+    height: 385px;
     scrollbar-color: $blue $gray-normal !important; /* track thumb */
     scrollbar-width: 10px !important; /* none, thin, or auto */
 
@@ -141,16 +141,21 @@ Size Guide Page CSS Start
     border-right: 1px solid $gray-border;
     border-bottom: 1px solid $gray-border;
     border-radius: 8px;
+    min-height: 384px;
+
     h5 {
       font-weight: 600;
       color: $blue;
     }
     .container-img {
-      margin: 20px 0;
+      margin: 0;
       background-position: center left;
       background-repeat: no-repeat;
       background-size: contain;
-      height: 268px;
+      height: 200px;
+      p {
+        font-weight: 600;
+      }
     }
     .bed-dimension {
       h4 {
@@ -158,7 +163,7 @@ Size Guide Page CSS Start
       }
     }
     .bed-description {
-      margin-top: 20px;
+      margin-top: 0;
     }
   }
   // Content for bedroom end
@@ -204,6 +209,7 @@ Size Guide Page CSS End
     padding-bottom: 50px;
 
     .category-details {
+      height: 330px;
       .single-unit {
         .wrapper {
           padding: 15px 0;
@@ -248,7 +254,8 @@ Size Guide Page CSS End
     }
 
     .bed-room-content {
-      padding: 20px;
+      padding: 15px;
+      min-height: 330px;
       border-top: 1px solid $gray-border;
       border-left: 1px solid $gray-border;
       border-right: 1px solid $gray-border;
@@ -269,6 +276,13 @@ Size Guide Page CSS End
       }
       .bed-description {
         margin-top: 20px;
+      }
+    }
+
+    .clean-selection {
+      margin-top: 10px;
+      a {
+        padding: 10px;
       }
     }
   }
@@ -303,9 +317,13 @@ Size Guide Page CSS End
       border-top: 1px solid #bfbfbf;
       border-right: 1px solid #bfbfbf;
       border-left: 1px solid #bfbfbf;
+      &.no-border {
+        border: none;
+      }
       .single-unit {
+        margin-top: 10px;
         .wrapper {
-          padding: 15px;
+          padding: 10px;
           .store-size {
             display: block;
             p {
@@ -314,7 +332,7 @@ Size Guide Page CSS End
               }
 
               &.unit-details {
-                margin-top: 30px;
+                margin-top: 10px;
               }
             }
 
@@ -328,7 +346,7 @@ Size Guide Page CSS End
                   width: 100%;
                   height: 1px;
                   left: 0;
-                  bottom: -15px;
+                  bottom: -6px;
                   background-color: $gray-border;
                 }
               }
@@ -382,14 +400,22 @@ Size Guide Page CSS End
         &.last-unit {
           border-bottom: 1px solid $gray-border;
         }
+        &.first-unit {
+          margin-top: 0;
+          position: sticky;
+          top: 0;
+          background-color: $yellow-gray;
+          z-index: 2;
+        }
       }
       //Unit heading css end
     }
     // Category Details end
 
     .bed-room-content {
-      margin: 20px 0;
-      padding: 20px;
+      margin: 10px 0;
+      padding: 10px;
+      min-height: unset;
       border-top: 1px solid $gray-border;
       border-left: 1px solid $gray-border;
       border-right: 1px solid $gray-border;
@@ -398,16 +424,20 @@ Size Guide Page CSS End
         font-weight: 600;
         color: $blue;
       }
-      .bed-room-img {
-        margin: 20px 0;
-      }
       .bed-dimension {
         h4 {
           color: $blue;
         }
       }
       .bed-description {
-        margin-top: 20px;
+        margin-top: 0;
+      }
+      .container-img {
+        height: 130px;
+        margin-top: 0px;
+        p {
+          padding-top: 30px;
+        }
       }
     }
   }
@@ -419,7 +449,12 @@ Size Guide Page CSS End
   //Banner Section CSS End
 
   .storage-calculator-section {
+    .category ul {
+      margin-bottom: 0;
+    }
+
     .category-details {
+      height: 280px;
       .single-unit {
         .unit-price-count {
           .price-count {
@@ -454,6 +489,34 @@ Size Guide Page CSS End
       // Selected bed room end
     }
 
+    .bed-room-content {
+      margin: 10px 0;
+      padding: 10px;
+      min-height: unset;
+      border-top: 1px solid $gray-border;
+      border-left: 1px solid $gray-border;
+      border-right: 1px solid $gray-border;
+      border-bottom: 1px solid $gray-border;
+      h5 {
+        font-weight: 600;
+        color: $blue;
+      }
+      .bed-dimension {
+        h4 {
+          color: $blue;
+        }
+      }
+      .bed-description {
+        margin-top: 0;
+      }
+      .container-img {
+        height: 130px;
+        margin-top: 0px;
+        p {
+          padding-top: 30px;
+        }
+      }
+    }
     // Storage Calculator Section CSS End
   }
 }

@@ -1,8 +1,13 @@
 $(document).ready(function () {
+  var screenWidth =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
   $(".increase").click(function () {
     //qty input field updating part
     var target = $(this);
-    var sizeValue = target.parent().prev().children(".count").val();
+    var sizeValue = parseInt(target.parent().prev().children(".count").val());
+    console.log(sizeValue);
     var newVal = parseInt(sizeValue) + 1;
     target.parent().prev().children(".count").val(newVal);
 
@@ -25,15 +30,23 @@ $(document).ready(function () {
     var info = sizeSuggestion(furniture_dim);
     $("#sizeSuggestion").html(info.size_suggestion);
     $("#percentageFullVal").html(info.percentage_full + "% full");
+    $("#product-initial").addClass("d-none");
     var imgFileName = info.size_suggestion.replace(/\s/g, "");
     var imgFIleUrl =
       "images/size-guide/storage-calculator/" + imgFileName + ".webp";
     $("#containerImg").css("background-image", "url(" + imgFIleUrl + ")");
+
+    if (screenWidth < 768) {
+      $("#cleanSelection").removeClass("d-none");
+      $(".category-details").css({
+        height: "330px",
+      });
+    }
   });
 
   $(".decrease").click(function () {
     var target = $(this);
-    var sizeValue = target.parent().prev().children(".count").val();
+    var sizeValue = parseInt(target.parent().prev().children(".count").val());
 
     if (sizeValue > 0) {
       var newVal = parseInt(sizeValue) - 1;
@@ -70,8 +83,17 @@ $(document).ready(function () {
           "background-image",
           "url(images/size-guide/storage-calculator/no-dimension.webp)"
         );
-        $("#storage-description").html("");
         $("#storage-description").addClass("d-none");
+        $("#product-initial").removeClass("d-none");
+      }
+    }
+
+    if (sizeValue < 0) {
+      if (screenWidth < 768) {
+        $("#cleanSelection").addClass("d-none");
+        $(".category-details").css({
+          height: "unset",
+        });
       }
     }
   });
@@ -151,4 +173,18 @@ function clearInputFields() {
     "background-image",
     "url(images/size-guide/storage-calculator/no-dimension.webp)"
   );
+}
+
+// Function to detect the type of device
+// Check the screen width to determine the device type
+var screenWidth =
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
+console.log(screenWidth);
+
+if (screenWidth < 768) {
+  $("#cleanSelection").addClass("d-none");
+} else {
+  $("#cleanSelection").removeClass("d-none");
 }
