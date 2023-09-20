@@ -3,12 +3,14 @@ $(document).ready(function () {
     window.innerWidth ||
     document.documentElement.clientWidth ||
     document.body.clientWidth;
+
   $(".increase").click(function () {
     //qty input field updating part
     var target = $(this);
     var sizeValue = parseInt(target.parent().prev().children(".count").val());
     console.log(sizeValue);
     var newVal = parseInt(sizeValue) + 1;
+
     target.parent().prev().children(".count").val(newVal);
 
     // all furniture total dimension size calculation
@@ -27,6 +29,12 @@ $(document).ready(function () {
       }
     });
 
+    // Define screenWidth
+    var screenWidth =
+      window.innerWidth ||
+      document.documentElement.clientWidth ||
+      document.body.clientWidth;
+
     var info = sizeSuggestion(furniture_dim);
     $("#sizeSuggestion").html(info.size_suggestion);
     $("#percentageFullVal").html(info.percentage_full + "% full");
@@ -41,8 +49,31 @@ $(document).ready(function () {
       $(".category-details").css({
         height: "330px",
       });
+      handleClearBtn();
     }
   });
+
+  function handleClearBtn() {
+    var inputs = $(".count");
+    let items = [];
+    for (var i = 0; i < inputs.length; i++) {
+      // console.log($(inputs[i]).val());
+      if (parseInt($(inputs[i]).val()) > 0) {
+        items[i] = $(inputs[i]).val();
+      }
+    }
+    console.log(items.length);
+    if (screenWidth < 768) {
+      if (items.length == 0) {
+        $("#cleanSelection").hide();
+        $(".category-details").css({
+          height: "unset",
+        });
+      } else {
+        $("#cleanSelection").show();
+      }
+    }
+  }
 
   $(".decrease").click(function () {
     var target = $(this);
@@ -88,13 +119,8 @@ $(document).ready(function () {
       }
     }
 
-    if (sizeValue < 0) {
-      if (screenWidth < 768) {
-        $("#cleanSelection").addClass("d-none");
-        $(".category-details").css({
-          height: "unset",
-        });
-      }
+    if (screenWidth < 768) {
+      handleClearBtn();
     }
   });
 });
