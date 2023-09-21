@@ -93,6 +93,7 @@ Size Guide Page CSS Start
           align-items: center;
         }
       }
+
       .unit-price-count {
         display: flex;
         align-items: center;
@@ -128,6 +129,14 @@ Size Guide Page CSS Start
           font-size: 16px;
           font-weight: 500;
         }
+      }
+
+      &.first-unit {
+        margin-top: 0;
+        position: sticky;
+        top: 0;
+        background-color: $yellow-gray;
+        z-index: 2;
       }
     }
   }
@@ -209,7 +218,7 @@ Size Guide Page CSS End
     padding-bottom: 50px;
 
     .category-details {
-      height: 330px;
+      height: 357px;
       .single-unit {
         .wrapper {
           padding: 15px 0;
@@ -218,9 +227,10 @@ Size Guide Page CSS End
           display: grid;
           .price-count {
             .plus-minus {
+              padding-left: 7px;
               a {
                 i {
-                  font-size: 25px;
+                  font-size: 22px;
                 }
               }
             }
@@ -255,10 +265,15 @@ Size Guide Page CSS End
 
     .bed-room-content {
       padding: 15px;
-      min-height: 330px;
+      min-height: 357px;
       border-top: 1px solid $gray-border;
       border-left: 1px solid $gray-border;
       border-right: 1px solid $gray-border;
+
+      .container-img {
+        height: 158px;
+      }
+
       h5 {
         font-weight: 600;
         color: $blue;
@@ -399,13 +414,6 @@ Size Guide Page CSS End
 
         &.last-unit {
           border-bottom: 1px solid $gray-border;
-        }
-        &.first-unit {
-          margin-top: 0;
-          position: sticky;
-          top: 0;
-          background-color: $yellow-gray;
-          z-index: 2;
         }
       }
       //Unit heading css end

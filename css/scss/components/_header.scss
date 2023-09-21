@@ -82,6 +82,7 @@ header {
 //Medium Device CSS start
 @media (min-width: 0px) and (max-width: 992px) {
   header {
+    height: 85px;
     a {
       &.logo {
         img {

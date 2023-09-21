@@ -440,15 +440,17 @@ header {
 
 /** ============================ Responsive CSS Start ============================ **/
 @media (min-width: 0px) and (max-width: 992px) {
-  header a.logo img {
-    height: unset;
-    max-width: 150px; }
-  header .navigation li {
-    margin: 0px 10px; }
-    header .navigation li a {
-      font-size: 14px; }
-    header .navigation li:last-child {
-      margin-right: 0px; } }
+  header {
+    height: 85px; }
+    header a.logo img {
+      height: unset;
+      max-width: 150px; }
+    header .navigation li {
+      margin: 0px 10px; }
+      header .navigation li a {
+        font-size: 14px; }
+      header .navigation li:last-child {
+        margin-right: 0px; } }
 @media (min-width: 0px) and (max-width: 768px) {
   header {
     padding: 10px 0;
@@ -625,7 +627,9 @@ header {
     .feature-section .single-feature .feature-content h5 {
       font-size: 20px; }
     .feature-section .single-feature .g-icon i {
-      font-size: 100px; } }
+      font-size: 100px; }
+  .feature-section.home-feature .mouse {
+    display: none; } }
 @media (min-width: 0px) and (max-width: 768px) {
   .feature-section .single-feature {
     padding: 30px 15px; }
@@ -826,11 +830,11 @@ Home Page CSS End
     .banner-section .container p {
       font-size: 24px; }
     .banner-section .container .affiliate {
-      top: -40px; }
+      top: -30px; }
       .banner-section .container .affiliate.other {
         top: -40px; }
       .banner-section .container .affiliate a img {
-        width: 120px; }
+        width: 100px; }
 
   .location-section .storage-unit .map-one-img {
     margin-right: 0; }
@@ -1485,6 +1489,12 @@ Size Guide Page CSS Start
         .storage-calculator-section .category-details .single-unit .unit-price-count .refresh {
           font-size: 16px;
           font-weight: 500; }
+      .storage-calculator-section .category-details .single-unit.first-unit {
+        margin-top: 0;
+        position: sticky;
+        top: 0;
+        background-color: #f9f9f9;
+        z-index: 2; }
   .storage-calculator-section .bed-room-content {
     padding: 20px;
     border-top: 1px solid #bfbfbf;
@@ -1533,13 +1543,15 @@ Size Guide Page CSS End
   .storage-calculator-section {
     padding-bottom: 50px; }
     .storage-calculator-section .category-details {
-      height: 330px; }
+      height: 357px; }
       .storage-calculator-section .category-details .single-unit .wrapper {
         padding: 15px 0; }
       .storage-calculator-section .category-details .single-unit .unit-price-count {
         display: grid; }
-        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
-          font-size: 25px; }
+        .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus {
+          padding-left: 7px; }
+          .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .plus-minus a i {
+            font-size: 22px; }
         .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count {
           margin-left: 0; }
           .storage-calculator-section .category-details .single-unit .unit-price-count .price-count .input-count input {
@@ -1555,10 +1567,12 @@ Size Guide Page CSS End
         padding-right: 15px; }
     .storage-calculator-section .bed-room-content {
       padding: 15px;
-      min-height: 330px;
+      min-height: 357px;
       border-top: 1px solid #bfbfbf;
       border-left: 1px solid #bfbfbf;
       border-right: 1px solid #bfbfbf; }
+      .storage-calculator-section .bed-room-content .container-img {
+        height: 158px; }
       .storage-calculator-section .bed-room-content h5 {
         font-weight: 600;
         color: #0601ff; }
@@ -1645,12 +1659,6 @@ Size Guide Page CSS End
           display: none !important; }
         .storage-calculator-section .category-details .single-unit.last-unit {
           border-bottom: 1px solid #bfbfbf; }
-        .storage-calculator-section .category-details .single-unit.first-unit {
-          margin-top: 0;
-          position: sticky;
-          top: 0;
-          background-color: #f9f9f9;
-          z-index: 2; }
     .storage-calculator-section .bed-room-content {
       margin: 10px 0;
       padding: 10px;

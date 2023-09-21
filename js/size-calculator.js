@@ -8,7 +8,6 @@ $(document).ready(function () {
     //qty input field updating part
     var target = $(this);
     var sizeValue = parseInt(target.parent().prev().children(".count").val());
-    console.log(sizeValue);
     var newVal = parseInt(sizeValue) + 1;
 
     target.parent().prev().children(".count").val(newVal);
@@ -17,6 +16,7 @@ $(document).ready(function () {
     var furniture_dim = 0;
     $(".count").each(function () {
       var qty = $(this).val();
+      console.log(qty);
       if (qty > 0) {
         $("#storage-description").removeClass("d-none");
         var size = $(this)
@@ -125,6 +125,10 @@ $(document).ready(function () {
   });
 });
 
+$(".count").on("keydown", function (event) {
+  var countValue = ""
+});
+
 function furnitureQFwithWaste(dimension, qty) {
   var total_QF = dimension * qty;
   return total_QF + total_QF * 0.25;
@@ -201,7 +205,6 @@ function clearInputFields() {
   );
 }
 
-// Function to detect the type of device
 // Check the screen width to determine the device type
 var screenWidth =
   window.innerWidth ||
