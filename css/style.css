@@ -830,9 +830,9 @@ Home Page CSS End
     .banner-section .container p {
       font-size: 24px; }
     .banner-section .container .affiliate {
-      top: -30px; }
+      top: -40px; }
       .banner-section .container .affiliate.other {
-        top: -40px; }
+        top: -20px; }
       .banner-section .container .affiliate a img {
         width: 100px; }
 
