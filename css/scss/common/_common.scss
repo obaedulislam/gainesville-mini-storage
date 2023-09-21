@@ -245,8 +245,14 @@ main {
 
   /*Padding CSS*/
   .first-padding {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    &.top-no-padding {
+      padding-top: 0;
+    }
+    &.bottom-no-padding {
+      padding-bottom: 0 !important;
+    }
   }
 
   //Common Margin

@@ -710,13 +710,28 @@ Unit Prices Page CSS End
   //Call Modal End
 
   .checkout-cta-section {
-    padding: 50px 0;
+    padding: 34px 0;
   }
   // CTA CSS End
 
   .call-modal .modal-dialog .modal-content .modal-body p {
     font-size: 16px;
   }
+
+  /** == Driving Direction CSS Start == **/
+  .driving-directions-section {
+    .driving-direction-content {
+      &.top-margin {
+        margin-top: 20px;
+      }
+      p {
+        &.common-margin {
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+  /** == Driving Direction CSS End == **/
 }
 
 //Extra Small Device CSS start

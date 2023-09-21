@@ -101,7 +101,7 @@ FAQs Page CSS End
 
   .faqs-section {
     .accordion-button {
-      font-size: 18px;
+      font-size: 16px;
     }
     .accordion-body {
       p {
@@ -126,12 +126,6 @@ FAQs Page CSS End
 
 //Small Device CSS start
 @media (min-width: 0px) and (max-width: 576px) {
-  .faqs-section {
-    .accordion-button {
-      font-size: 16px;
-    }
-  }
-  //Faqs Content Section CSS End
 }
 
 /** ============================ Responsive CSS End ============================ **/

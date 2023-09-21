@@ -49,7 +49,7 @@
     <!--|| Banner Section End ||-->
 
     <!--|| Office Access Time Section Start ||-->
-    <section class="office-time-section first-padding">
+    <section class="office-time-section first-padding bottom-no-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-12">
@@ -103,7 +103,7 @@
 
 
     <!--|| Unit Filter Section Start ||-->
-    <section class="unit-filter-section first-padding">
+    <section class="unit-filter-section first-padding top-no-padding">
       <div class="container">
         <div class="row">
 
@@ -714,7 +714,7 @@
     <!--|| Feature Section End ||-->
     
     <!--|| Feature Section Mobile Start ||-->
-    <section class="feature-section first-padding d-lg-none d-block"> 
+    <section class="feature-section first-padding d-lg-none d-block top-no-padding"> 
       <div class="container">
 
         <div class="row">
@@ -726,7 +726,7 @@
           </div>
           <!-- Single feature End -->
           
-          <div class="col-lg-9 col-md-12">
+          <div class="col-lg-9 col-md-12 mt-lg-0 mt-3">
             <div class="row">
 
               <div class="col-md-12">
@@ -827,17 +827,16 @@
     <!--|| Feature Section Mobile End ||-->
 
     <!--|| Location Section Start ||-->
-    <section class="location-section location-bg-none first-padding overflow-hidden">
+    <section class="location-section location-bg-none first-padding overflow-hidden top-no-padding">
       <div class="container">
         <div class="row">
             <div class="feature-head text-center">
-              <p class="feature-num">02</p>
               <h3 >Locations</h3>
             </div>
         </div>
         <!--Feature Heading End-->
 
-        <div class="storage-unit first-padding">
+        <div class="storage-unit first-padding bottom-no-padding">
           <div class="row">
             <div class="col-xl-7 col-lg-6 col-md-12">
               <div class="map-one-img">
@@ -863,7 +862,7 @@
     <!--|| Location Section End ||-->
 
     <!--|| Driving Direction Section Start ||-->
-    <section class="driving-directions-section ">
+    <section class="driving-directions-section top-no-padding">
       <div class="container">
         <h5>Driving Directions</h5>
         <div class="row">

@@ -42,14 +42,14 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
             <div class="feature-head ">
               <h3 >Features</h3>
             </div>
           </div>
           <!-- Single feature End -->
 
-          <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-3">
+          <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 mt-lg-0 mt-3">
               <div class="featureSwiper swiper">
                 <div class="swiper-wrapper">
                   <a class="swiper-slide" href ="unit-prices.php">
@@ -105,7 +105,7 @@
     <!--|| Feature Section End ||-->
 
     <!--|| Location Section Start ||-->
-    <section class="location-section first-padding overflow-hidden">
+    <section class="location-section first-padding overflow-hidden top-no-padding">
       <div class="container">
         <div class="row">
             <div class="feature-head text-center">
@@ -136,7 +136,7 @@
         </div>
         <!-- Location End -->
 
-        <div class="storage-unit first-padding">
+        <div class="storage-unit first-padding bottom-no-padding">
           <div class="row">
             <div class="col-xl-5 col-lg-6 col-md-12  d-flex align-items-center order-lg-0 order-1">
               <div class="map-wrapper">

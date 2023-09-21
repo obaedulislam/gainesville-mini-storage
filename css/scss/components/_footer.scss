@@ -100,6 +100,7 @@
 // Small Device CSS start
 @media (min-width: 0px) and (max-width: 768px) {
   .footer-section {
+    padding: 34px 0;
     p {
       font-size: 16px;
       &.copyright-text {
@@ -107,12 +108,12 @@
       }
     }
     .footer-menu {
-      margin-top: 20px;
+      margin-top: 0;
       ul {
         li {
           display: block;
           text-align: left;
-          margin: 7px 0;
+          margin: 0 0;
           &::after {
             display: none;
           }

@@ -43,7 +43,7 @@
         </div>
         <!--Page small description End-->
 
-        <div class="storage-unit first-padding">
+        <div class="storage-unit first-padding bottom-no-padding">
           <div class="row">
             <div class="col-xl-5 col-lg-6 col-md-12 d-flex align-items-center order-lg-0 order-1">
               <div class="map-wrapper">

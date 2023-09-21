@@ -333,8 +333,12 @@ main {
 
   /*Padding CSS*/
   .first-padding {
-    padding-top: 40px;
-    padding-bottom: 40px; }
+    padding-top: 34px;
+    padding-bottom: 34px; }
+    .first-padding.top-no-padding {
+      padding-top: 0; }
+    .first-padding.bottom-no-padding {
+      padding-bottom: 0 !important; }
 
   .common-margin {
     margin-top: 15px; }
@@ -695,34 +699,36 @@ header {
     .footer-section .footer-menu ul li {
       margin: 7px 10px; } }
 @media (min-width: 0px) and (max-width: 768px) {
-  .footer-section p {
-    font-size: 16px; }
-    .footer-section p.copyright-text {
-      text-align: left; }
-  .footer-section .footer-menu {
-    margin-top: 20px; }
-    .footer-section .footer-menu ul li {
-      display: block;
-      text-align: left;
-      margin: 7px 0; }
-      .footer-section .footer-menu ul li::after {
-        display: none; }
-      .footer-section .footer-menu ul li a {
-        position: relative; }
-        .footer-section .footer-menu ul li a::after {
-          content: "";
-          position: absolute;
-          background-color: #bfbfbf;
-          width: 2px;
-          height: 14px;
-          top: 4px;
-          right: -18px; }
-        .footer-section .footer-menu ul li a.home::after, .footer-section .footer-menu ul li a.admin::after {
+  .footer-section {
+    padding: 34px 0; }
+    .footer-section p {
+      font-size: 16px; }
+      .footer-section p.copyright-text {
+        text-align: left; }
+    .footer-section .footer-menu {
+      margin-top: 0; }
+      .footer-section .footer-menu ul li {
+        display: block;
+        text-align: left;
+        margin: 0 0; }
+        .footer-section .footer-menu ul li::after {
           display: none; }
-      .footer-section .footer-menu ul li:last-child::after {
-        display: none; }
-      .footer-section .footer-menu ul li:last-child a {
-        font-weight: 700; } }
+        .footer-section .footer-menu ul li a {
+          position: relative; }
+          .footer-section .footer-menu ul li a::after {
+            content: "";
+            position: absolute;
+            background-color: #bfbfbf;
+            width: 2px;
+            height: 14px;
+            top: 4px;
+            right: -18px; }
+          .footer-section .footer-menu ul li a.home::after, .footer-section .footer-menu ul li a.admin::after {
+            display: none; }
+        .footer-section .footer-menu ul li:last-child::after {
+          display: none; }
+        .footer-section .footer-menu ul li:last-child a {
+          font-weight: 700; } }
 /** ========================= 
 Home Page CSS Start 
 ========================= **/
@@ -852,7 +858,10 @@ Home Page CSS End
       margin-top: 5px;
       font-size: 20px; }
     .banner-section .container .affiliate {
-      display: none; } }
+      display: none; }
+
+  .location-section .storage-unit .map-wrapper .map-content {
+    padding: 30px 20px; } }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section .container {
     min-height: unset; }
@@ -868,7 +877,6 @@ Home Page CSS End
     .location-section .storage-unit .map-wrapper .two i.icon-two {
       font-size: 60px; }
   .location-section .storage-unit .map-wrapper .map-content {
-    padding: 30px 20px;
     margin-top: -15px; }
   .location-section .first-padding {
     padding: 20px 0; } }
@@ -1327,10 +1335,18 @@ Unit Prices Page CSS End
           margin-top: 20px; }
 
   .checkout-cta-section {
-    padding: 50px 0; }
+    padding: 34px 0; }
 
   .call-modal .modal-dialog .modal-content .modal-body p {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  /** == Driving Direction CSS Start == **/
+  .driving-directions-section .driving-direction-content.top-margin {
+    margin-top: 20px; }
+  .driving-directions-section .driving-direction-content p.common-margin {
+    margin-top: 7px; }
+
+  /** == Driving Direction CSS End == **/ }
 @media (min-width: 0px) and (max-width: 576px) {
   .banner-section.unit-prices-banner {
     padding: 40px 0; }
@@ -1773,7 +1789,7 @@ FAQs Page CSS End
     padding: 40px 0; }
 
   .faqs-section .accordion-button {
-    font-size: 18px; }
+    font-size: 16px; }
   .faqs-section .accordion-body p {
     max-width: 100%; }
 
@@ -1784,9 +1800,6 @@ FAQs Page CSS End
 
   .accordion-flush .accordion-item .accordion-button:not(.collapsed)::after {
     background-size: 16px; } }
-@media (min-width: 0px) and (max-width: 576px) {
-  .faqs-section .accordion-button {
-    font-size: 16px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Contact Us Page CSS Start 

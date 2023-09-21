@@ -219,6 +219,17 @@ Home Page CSS End
     }
   }
   //Banner Section CSS End
+
+  .location-section {
+    .storage-unit {
+      .map-wrapper {
+        .map-content {
+          padding: 30px 20px;
+        }
+      }
+    }
+  }
+  //Location Section CSS End
 }
 
 //Extra Small or Mobile Device CSS start
@@ -252,7 +263,6 @@ Home Page CSS End
           }
         }
         .map-content {
-          padding: 30px 20px;
           margin-top: -15px;
         }
       }
