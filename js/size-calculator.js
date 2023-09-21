@@ -123,11 +123,13 @@ $(document).ready(function () {
       handleClearBtn();
     }
   });
+
+  $("body").on("keyup", ".count", function(){
+      getSizeSuggestion();
+  });
 });
 
-$(".count").on("keydown", function (event) {
-  var countValue = ""
-});
+
 
 function furnitureQFwithWaste(dimension, qty) {
   var total_QF = dimension * qty;
@@ -216,4 +218,34 @@ if (screenWidth < 768) {
   $("#cleanSelection").addClass("d-none");
 } else {
   $("#cleanSelection").removeClass("d-none");
+}
+
+
+function getSizeSuggestion(){
+
+    // all furniture total dimension size calculation
+    var furniture_dim = 0;
+    $(".count").each(function () {
+      var qty = $(this).val();
+      console.log(qty);
+      if (qty > 0) {
+        $("#storage-description").removeClass("d-none");
+        var size = $(this)
+          .parent()
+          .next()
+          .children(".increase")
+          .attr("data-size");
+        size = furnitureQFwithWaste(size, qty);
+        furniture_dim = furniture_dim + size;
+      }
+    });
+
+    var info = sizeSuggestion(furniture_dim);
+    $("#sizeSuggestion").html(info.size_suggestion);
+    $("#percentageFullVal").html(info.percentage_full + "% full");
+    $("#product-initial").addClass("d-none");
+    var imgFileName = info.size_suggestion.replace(/\s/g, "");
+    var imgFIleUrl =
+      "images/size-guide/storage-calculator/" + imgFileName + ".webp";
+    $("#containerImg").css("background-image", "url(" + imgFIleUrl + ")");
 }
