@@ -1,19 +1,22 @@
 <?php
     include "contactus_email.php";
-    $name = $_POST['name'];
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $details = $_POST['details'];
+    $facility = $_POST['facility'];
+    $questions = $_POST['questions'];
+    $name = $fname . " " . $lname;
 
-    if(empty($name) || empty($email) || empty($phone) || empty($details)){
+    if(empty($name) || empty($email) || empty($phone) || $facility == "Select Facility" || empty($questions)){
         echo "Please fill up all the fields";
     }else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
         echo "Invalid email format";
     }else{
-        $to = "info@verticaltransport.com";
-        $subject = "Email from vertical transport system website";
+        $to = "faisalreza@hotmail.com";
+        $subject = "Email From Gainesville Mini Storage Website";
 
-        $message = emailHtml($name, $email, $phone, $details);
+        $message = emailHtml($name, $email, $phone, $facility, $questions);
 
         // Always set content-type when sending HTML email
         $headers = "MIME-Version: 1.0" . "\r\n";
