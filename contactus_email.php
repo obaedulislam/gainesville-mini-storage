@@ -1,6 +1,6 @@
 <?php
-    echo emailHtml("Khademul Islam", "khadem.deep@gmail.com", "01671563100", "Hello!!!");
-    function emailHtml($name, $email, $phone, $details){
+    echo emailHtml("Khademul Islam", "khadem.deep@gmail.com", "01671563100", "lorem ipsum", "How are You ?");
+    function emailHtml($name, $email, $phone, $facility, $questions){
         return '<!DOCTYPE html>
         <html lang="en">
         <head>
@@ -15,14 +15,14 @@
         <body style="background-color:#EEEEEE;">
             <table align="center" style="width:700px; background-color:#fff; font-family: Montserrat, sans-serif;">
                 <tr>
-                    <td style="padding:15px 0px; text-align:center;"><img src="http://verticaltransport.com/images/email/contact-form/logo.png"></td>
+                    <td style="padding:15px 0px; text-align:center;"><img src="images/logo.svg"></td>
                 </tr>
                 <tr>
-                    <td style="padding:0px 40px;"><img width="100%" style="width:100%;" src="http://verticaltransport.com/images/email/contact-form/banner.jpg"></td>
+                    <td style="padding:0px 40px;"><img width="100%" style="width:100%;" src="images/email/contact-form/banner.jpg"></td>
                 </tr>
                 <tr>
                     <td style="text-align:center; padding-top:27px; padding-bottom:19px;">
-                        <img src="http://verticaltransport.com/images/email/contact-form/user.png">
+                        <img src="images/email/contact-form/user.png">
                     </td>
                 </tr>
                 <tr>
@@ -32,13 +32,19 @@
                     <td style="color:#676565; text-align:center; font-size: 16px; letter-spacing: 0.025em; line-height: 127.08%; font-weight: 400;">' . $email . '</td>
                 </tr>
                 <tr>
-                    <td style="color:#676565; text-align:center; font-size: 16px; letter-spacing: 0.025em; line-height: 127.08%; font-weight: 400;">' . $phone . '</td>
+                    <td style="color:#676565; text-align:center; font-size: 16px; letter-spacing: 0.025em; line-height: 127.08%; font-weight: 400; padding-top:20px;">
+                        <h3 style="margin:0;">Facility:</h3>
+                        <p style="margin:0;">' . $facility . '</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td style="color:#676565; text-align:justify; font-size: 16px; letter-spacing: 0.025em; line-height:170%; font-weight: 400; padding:30px 40px 70px 40px;">' . $details . '</td>
+                    <td style="color:#676565; text-align:justify; font-size: 16px; letter-spacing: 0.025em; line-height:170%; font-weight: 400; padding:30px 40px 70px 40px; text-align:center;">
+                        <h3 style="margin:0;">Questions:</h3>
+                        <p style="margin:0;">' . $questions . '</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td style="background-color:#88D23A; text-align:center; padding:20px 0px; color:#fff; line-height: 17px; font-size: 14px; font-weight: 400;">Copyright © 2023 verticaltransport.com All Rights Reserved</td>
+                    <td style="background-color:#f4f3ff; text-align:center; padding:20px 0px; color:#545454; line-height: 17px; font-size: 14px; font-weight: 400;">Copyright © 2023 Gainesville Mini Storage All Rights Reserved</td>
                 </tr>
             </table>
         </body>
