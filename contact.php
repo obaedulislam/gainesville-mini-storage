@@ -42,30 +42,36 @@
                     <div class="contact-form">
                         <p>Our team at the office is amazing. No matter what doubts or questions you bring to us, your phone calls will always be answered quickly and with a great attitude. We will be sure to address your concerns in a timely manner, so feel free to send us a message. You can use the contact form on this page at any time. (Se habla español.)</p>
                         <div class="form-section">
-                            <form action="">
+                            <form id="submitGMScontactForm">
+                                <div id="sendContactInfoSuccess" class="success"></div>
+                                <div id="sendContactInfoError" class="error"></div>
                                 <div class="input-field">
                                     <label for="firstName">First Name<span style="color: red;">*</span></label><br>
-                                    <input type="text" name="firstName" id="first-name">
+                                    <input type="text" name="firstName" name="fname">
                                 </div>
                                 <div class="input-field">
                                     <label for="lastName">Last Name<span style="color: red;">*</span></label><br>
-                                    <input type="text" name="lastName" id="last-name">
+                                    <input type="text" name="lastName" name="lname">
                                 </div>
                                 <div class="input-field">
                                     <label for="email">Email<span style="color: red;">*</span></label><br>
-                                    <input type="email" name="email" id="email">
+                                    <input type="email" name="email" name="email">
                                 </div>
                                 <div class="input-field">
                                     <label for="phone">Phone<span style="color: red;">*</span></label><br>
-                                    <input type="text" name="phone" id="phone">
+                                    <input type="text" name="phone" name="phone">
                                 </div>
                                 <div class="input-field">
                                     <label for="facility">Facility<span style="color: red;">*</span></label><br>
-                                    <input type="text" name="facility" id="facility">
+                                    <!-- <input type="text" name="facility" facility="facility"> -->
+                                    <select name="facility" id="" class="form-control">
+                                      <option>Select One</option>
+                                      <option>Gainesville Mini Storage   - 2537 FM 51, Gainesville, TX 76240</option>
+                                    </select>
                                 </div>
                                 <div class="input-field">
                                     <label for="questions">Questions or comments<span style="color: red;">*</span></label><br>
-                                    <input type="text" name="questions" id="questions">
+                                    <input type="text" name="questions" name="questions">
                                 </div>
                             </form>
 

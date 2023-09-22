@@ -127,4 +127,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
   // Filter option end
+
+
+  $("form#submitGMScontactForm").submit(function (event) {
+    event.preventDefault();
+    ajaxSubmitForm("#submitGMScontactForm", "sendContactInfo.php", "Information Send Successfully", "#sendContactInfoSuccess", "#sendContactInfoError", "refresh", "");
+  });
 });
