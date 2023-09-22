@@ -62,12 +62,15 @@
                                     <input type="text" name="phone" name="phone">
                                 </div>
                                 <div class="input-field">
-                                    <label for="facility">Facility<span style="color: red;">*</span></label><br>
-                                    <!-- <input type="text" name="facility" facility="facility"> -->
-                                    <select name="facility" id="" class="form-control">
-                                      <option>Select One</option>
-                                      <option>Gainesville Mini Storage   - 2537 FM 51, Gainesville, TX 76240</option>
-                                    </select>
+                                    <label for="facility">Facility*</label><br>
+                                    <div class="facility-option">
+                                      <span class="arrow"></span>
+                                      <input class="form-control custom-dropdown-value" value="Select Facility" type="text" readonly  >
+                                      <ul class="custom-dropdown">
+                                          <li><a href="javascript:void(0)">Select Facility</a></li>
+                                          <li><a href="javascript:void(0)">Gainesville Mini Storage - 2537, Gainesville, TX 76240</a></li>
+                                      </ul>
+                                    </div>
                                 </div>
                                 <div class="input-field">
                                     <label for="questions">Questions or comments<span style="color: red;">*</span></label><br>
