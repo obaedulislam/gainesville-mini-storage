@@ -1824,7 +1824,8 @@ Contact Us Page CSS Start
   margin-right: -100px;
   background-color: #fffbf2; }
   .contact-form-section .contact-form .form-section {
-    margin-top: 0px; }
+    margin-top: 0px;
+    width: 90%; }
     .contact-form-section .contact-form .form-section .input-field label {
       margin-top: 20px;
       font-weight: 600;
@@ -1836,10 +1837,19 @@ Contact Us Page CSS Start
       background-color: transparent;
       color: #0d0d0d;
       display: "";
-      width: 90%;
+      width: 100%;
       padding: 5px 10px; }
     .contact-form-section .contact-form .form-section .submit-btn {
       margin-top: 20px; }
+  .contact-form-section .contact-form input {
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    background-color: transparent;
+    color: #828282;
+    display: "";
+    padding: 5px 10px; }
   .contact-form-section .contact-form .facility-option {
     position: relative;
     width: 100%;
@@ -1852,13 +1862,13 @@ Contact Us Page CSS Start
       border-top: 2px solid #d9d9d9;
       transform: rotate(135deg);
       position: absolute;
-      top: 12px;
+      top: 10px;
       z-index: 0;
-      right: 105px;
+      right: 15px;
       transition: all 0.5s ease; }
       .contact-form-section .contact-form .facility-option .arrow.rotate {
         position: absolute;
-        top: 20px;
+        top: 15px;
         transform: rotate(-45deg); }
     .contact-form-section .contact-form .facility-option .custom-dropdown-value {
       width: 100%;
@@ -1929,6 +1939,7 @@ Contact Us Page CSS End
     .contact-form-section .contact-form .form-section {
       margin-top: 0; }
       .contact-form-section .contact-form .form-section .input-field input {
+        width: 100%;
         margin-top: 7px;
         padding: 7px 0; }
       .contact-form-section .contact-form .form-section .submit-btn {
@@ -1945,10 +1956,13 @@ Contact Us Page CSS End
         margin-top: 10px; }
       .contact-form-section .contact-form .form-section .input-field input {
         margin-top: 10px;
-        width: 90%;
+        width: 100%;
         padding: 8px; }
       .contact-form-section .contact-form .form-section .submit-btn {
         margin-top: 20px; }
+    .contact-form-section .contact-form .facility-option .arrow {
+      top: 12px;
+      right: 18px; }
   .contact-form-section .contact-info {
     padding: 30px 15px;
     border-radius: 8px; } }
@@ -1961,13 +1975,19 @@ Contact Us Page CSS End
     padding: 30px 15px;
     margin-right: 0;
     border-radius: 8px; }
-    .contact-form-section .contact-form .form-section .input-field input {
+    .contact-form-section .contact-form .form-section {
       width: 100%; }
-    .contact-form-section .contact-form .form-section .submit-btn {
-      margin-top: 20px; }
+      .contact-form-section .contact-form .form-section .input-field input {
+        width: 100%; }
+      .contact-form-section .contact-form .form-section .submit-btn {
+        margin-top: 20px; }
   .contact-form-section .contact-info {
     padding: 20px 15px;
-    border-radius: 8px; } }
+    border-radius: 8px; }
+
+  .facility-option .arrow {
+    top: 14px;
+    right: 20px; } }
 /** ============================ Responsive CSS End ============================ **/
 /** ========================= 
 Pay Online Page CSS Start 

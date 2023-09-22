@@ -25,6 +25,7 @@ Contact Us Page CSS Start
 
     .form-section {
       margin-top: 0px;
+      width: 90%;
       .input-field {
         label {
           margin-top: 20px;
@@ -41,7 +42,7 @@ Contact Us Page CSS Start
             ""
           );
 
-          width: 90%;
+          width: 100%;
           padding: 5px 10px;
         }
       }
@@ -50,7 +51,18 @@ Contact Us Page CSS Start
         margin-top: 20px;
       }
     }
-
+    input {
+      box-shadow: none;
+      border-radius: 0;
+      @include click-focus(
+        1px solid #d9d9d9,
+        none,
+        transparent,
+        $gray-semi,
+        ""
+      );
+      padding: 5px 10px;
+    }
     .facility-option {
       position: relative;
       width: 100%;
@@ -63,14 +75,14 @@ Contact Us Page CSS Start
         border-top: 2px solid #d9d9d9;
         transform: rotate(135deg);
         position: absolute;
-        top: 12px;
+        top: 10px;
         z-index: 0;
-        right: 105px;
+        right: 15px;
         transition: all 0.5s ease;
 
         &.rotate {
           position: absolute;
-          top: 20px;
+          top: 15px;
           transform: rotate(-45deg);
         }
       }
@@ -164,6 +176,7 @@ Contact Us Page CSS End
         margin-top: 0;
         .input-field {
           input {
+            width: 100%;
             margin-top: 7px;
             padding: 7px 0;
           }
@@ -195,13 +208,20 @@ Contact Us Page CSS End
           }
           input {
             margin-top: 10px;
-            width: 90%;
+            width: 100%;
             padding: 8px;
           }
         }
 
         .submit-btn {
           margin-top: 20px;
+        }
+      }
+
+      .facility-option {
+        .arrow {
+          top: 12px;
+          right: 18px;
         }
       }
     }
@@ -231,6 +251,7 @@ Contact Us Page CSS End
       margin-right: 0;
       border-radius: 8px;
       .form-section {
+        width: 100%;
         .input-field {
           input {
             width: 100%;
@@ -247,6 +268,13 @@ Contact Us Page CSS End
     .contact-info {
       padding: 20px 15px;
       border-radius: 8px;
+    }
+  }
+
+  .facility-option {
+    .arrow {
+      top: 14px;
+      right: 20px;
     }
   }
   // Form Section CSS End
