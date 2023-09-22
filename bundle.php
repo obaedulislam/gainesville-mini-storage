@@ -16,10 +16,10 @@
     <!--|| All JS Link Start Here ||-->
     <script src="js/jquery-3.7.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/corefunctions.js"></script>
     <script src="js/swiper.bundle.min.js"></script>
     <script src="js/size-calculator.js"></script>
     <script src="js/dataTables.min.js"></script>
-    <script src="js/corefunctions.js"></script>
     <script src="js/main.js"></script>
     <!--|| All JS Link End Here ||-->
 </head>

@@ -1,4 +1,5 @@
 <?php
+    
     function emailHtml($name, $email, $phone, $facility, $questions){
         return '<!DOCTYPE html>
         <html lang="en">
@@ -14,14 +15,14 @@
         <body style="background-color:#EEEEEE;">
             <table align="center" style="width:700px; background-color:#fff; font-family: Montserrat, sans-serif;">
                 <tr>
-                    <td style="padding:15px 0px; text-align:center;"><img src="images/logo.svg"></td>
+                    <td style="padding:15px 0px; text-align:center;"><img src="https://nowazproperties.com/gms/images/logo.svg"></td>
                 </tr>
                 <tr>
-                    <td style="padding:0px 40px;"><img width="100%" style="width:100%;" src="images/email/contact-form/banner.jpg"></td>
+                    <td style="padding:0px 40px;"><img width="100%" style="width:100%;" src="https://nowazproperties.com/gms/images/email/contact-form/banner.jpg"></td>
                 </tr>
                 <tr>
                     <td style="text-align:center; padding-top:27px; padding-bottom:19px;">
-                        <img src="images/email/contact-form/user.png">
+                        <img src="https://nowazproperties.com/gms/images/email/contact-form/user.png">
                     </td>
                 </tr>
                 <tr>
@@ -49,6 +50,4 @@
         </body>
         </html>';
     }
-
-    
 ?>

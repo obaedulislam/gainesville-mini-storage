@@ -23,6 +23,17 @@ $(document).ready(function () {
       $(".arrow").removeClass("rotate");
     }
   });
+
+  $("#contactFormSubmit").click(function(){
+    $("#realSubmitContact").click();
+  });
+
+  $("form#submitGMScontactForm").submit(function (event) {
+    event.preventDefault();
+    ajaxSubmitForm("#submitGMScontactForm", "sendContactInfo.php", "Information Send Successfully", "#sendContactInfoSuccess", "#sendContactInfoError", "refresh", "");
+  });
+
+
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -127,10 +138,4 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
   // Filter option end
-
-
-  $("form#submitGMScontactForm").submit(function (event) {
-    event.preventDefault();
-    ajaxSubmitForm("#submitGMScontactForm", "sendContactInfo.php", "Information Send Successfully", "#sendContactInfoSuccess", "#sendContactInfoError", "refresh", "");
-  });
 });

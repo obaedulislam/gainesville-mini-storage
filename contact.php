@@ -42,7 +42,7 @@
                     <div class="contact-form">
                         <p>Our team at the office is amazing. No matter what doubts or questions you bring to us, your phone calls will always be answered quickly and with a great attitude. We will be sure to address your concerns in a timely manner, so feel free to send us a message. You can use the contact form on this page at any time. (Se habla español.)</p>
                         <div class="form-section">
-                            <form id="submitGMScontactForm">
+                            <form class="mt-4" id="submitGMScontactForm">
                                 <div id="sendContactInfoSuccess" class="success"></div>
                                 <div id="sendContactInfoError" class="error"></div>
                                 <div class="input-field">
@@ -76,11 +76,13 @@
                                     <label for="questions">Questions or comments<span style="color: red;">*</span></label><br>
                                     <input type="text" name="questions" name="questions">
                                 </div>
+                                <div class="submit-btn">
+                                    <button id="contactFormSubmit" class="button primary-button"><i class="icon-fluent-arrow-right"></i>Submit</button>
+                                    <input id="realSubmitContact" type="submit" class="realSubmit">
+                                </div>
                             </form>
 
-                            <div class="submit-btn">
-                                <button class="button primary-button"><i class="icon-fluent-arrow-right"></i>Submit</button>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

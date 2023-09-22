@@ -16,7 +16,7 @@ $(document).ready(function () {
     var furniture_dim = 0;
     $(".count").each(function () {
       var qty = $(this).val();
-      console.log(qty);
+      // console.log(qty);
       if (qty > 0) {
         $("#storage-description").removeClass("d-none");
         var size = $(this)
@@ -62,7 +62,7 @@ $(document).ready(function () {
         items[i] = $(inputs[i]).val();
       }
     }
-    console.log(items.length);
+    // console.log(items.length);
     if (screenWidth < 768) {
       if (items.length == 0) {
         $("#cleanSelection").hide();
@@ -212,7 +212,7 @@ var screenWidth =
   window.innerWidth ||
   document.documentElement.clientWidth ||
   document.body.clientWidth;
-console.log(screenWidth);
+//console.log(screenWidth);
 
 if (screenWidth < 768) {
   $("#cleanSelection").addClass("d-none");
@@ -227,7 +227,7 @@ function getSizeSuggestion(){
     var furniture_dim = 0;
     $(".count").each(function () {
       var qty = $(this).val();
-      console.log(qty);
+      // console.log(qty);
       if (qty > 0) {
         $("#storage-description").removeClass("d-none");
         var size = $(this)
