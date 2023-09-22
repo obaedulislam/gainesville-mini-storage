@@ -1,5 +1,4 @@
 <?php
-    echo emailHtml("Khademul Islam", "khadem.deep@gmail.com", "01671563100", "lorem ipsum", "How are You ?");
     function emailHtml($name, $email, $phone, $facility, $questions){
         return '<!DOCTYPE html>
         <html lang="en">
