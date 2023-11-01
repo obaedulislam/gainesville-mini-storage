@@ -91,7 +91,7 @@
                         <p class="fw-normal common-pl">TX</p>             
                     </div>
                     <div class="col-md-4 col-12 call-btn">
-                        <p class="common-pl">(940) 400-2297</p>
+                        <p class="common-pl"><a  href="tel:+(940) 300-7610">(940) 300-7610</a></p>
                         <a href="https://www.uhaul.com/Auth/OrderLookUp/" target="_blank" class="button outline-button ms-md-5 ms-0" data-bs-toggle="modal" data-bs-target="#callModal"><i class="icon-fluent-arrow-right"></i>Pay</a>
                     </div>
                   </div>

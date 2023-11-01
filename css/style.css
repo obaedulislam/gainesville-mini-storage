@@ -894,6 +894,8 @@ Unit Prices Page CSS Start
   background-image: linear-gradient(180deg, rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.5)), url("../images/unit-prices/banner/unit-price-banner.webp"); }
   .banner-section.unit-prices-banner .container p {
     font-size: 20px; }
+    .banner-section.unit-prices-banner .container p a {
+      color: #ffffff; }
 
 /** == Banner Section CSS End == **/
 /** == Office Access Times Section CSS Start == **/
@@ -978,6 +980,8 @@ Unit Prices Page CSS Start
       .unit-filter-section .category-details .single-unit p.unit-details {
         font-size: 12px;
         font-weight: 400; }
+      .unit-filter-section .category-details .single-unit p a {
+        color: #828282; }
     .unit-filter-section .category-details .single-unit h5 {
       display: flex;
       justify-content: start;
